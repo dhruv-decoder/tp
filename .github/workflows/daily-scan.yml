@@ -2,7 +2,8 @@ name: Daily source scan
 
 on:
   schedule:
-    - cron: "30 3 * * *"   # 09:00 IST
+    - cron: "30 3 * * *"   # 09:00 IST, daily scan
+    - cron: "30 3 * * 1"   # 09:00 IST Mondays, link check
   workflow_dispatch:
 
 permissions:
@@ -12,6 +13,7 @@ permissions:
 jobs:
   scan:
     runs-on: ubuntu-latest
+    if: github.event.schedule != '30 3 * * 1'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
