@@ -8,7 +8,7 @@ import { StateWindow } from "./StateWindow";
 import type { Jurisdiction } from "@/lib/types";
 import type { PolicyLite } from "@/lib/data";
 import { formatDate, levelFor } from "@/lib/data";
-import { FAMILIES, FAMILY_SHORT, statusGroup, type Family } from "@/lib/taxonomy";
+import { FAMILIES, FAMILY_SHORT, type Family } from "@/lib/taxonomy";
 import { StatusPill, FamilyDot } from "./ui";
 
 interface Props {
@@ -51,7 +51,7 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
       tips[j.code] = {
         name: j.name,
         total: n,
-        line: l ? `Latest: ${l.title} · ${formatDate(l.date, l.date_precision)}` : "No instrument found",
+        line: l ? `Latest: ${l.title} · ${formatDate(l.date, l.date_precision)}` : "None found",
       };
     }
     return { levels, tips, counts };
@@ -94,10 +94,6 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
   }, [selected]);
 
   const states = jurisdictions.filter((j) => j.code !== "IN");
-  const statesWithAny = states.filter((j) => (counts[j.code] ?? 0) > 0).length;
-  const unionCount = counts["IN"] ?? 0;
-  const stateTotal = filtered.filter((p) => p.jurisdiction !== "IN").length;
-  const active = filtered.filter((p) => statusGroup(p.status) === "active").length;
 
   const ranked = useMemo(
     () =>
@@ -119,16 +115,8 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
   return (
     <>
       <section className="mx-auto max-w-[1200px] px-4 sm:px-6">
-        {/* headline numbers */}
-        <div className="grid grid-cols-2 gap-px overflow-hidden rounded-[12px] border border-line bg-line sm:grid-cols-4">
-          <Big value={stateTotal} label="State & UT instruments" />
-          <Big value={`${statesWithAny}/${states.length}`} label="States & UTs with at least one" />
-          <Big value={unionCount} label="Union instruments" onClick={() => setSelected("IN")} cta="Open" />
-          <Big value={active} label="In force or adopted" />
-        </div>
-
         {/* controls */}
-        <div className="mt-5 flex flex-wrap items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <label className="relative">
             <span className="sr-only">Go to a state</span>
             <select
@@ -160,6 +148,13 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
               <path d="M2 3.5 5 6.5 8 3.5" />
             </svg>
           </label>
+          <button
+            type="button"
+            onClick={() => setSelected("IN")}
+            className="h-8 rounded-[8px] border border-line bg-elev px-3 text-[13px] text-ink hover:bg-sunken"
+          >
+            Union (national)
+          </button>
           <span className="mx-1 hidden h-5 w-px bg-line sm:block" />
           <button type="button" className="chip" data-on={fam === "all"} onClick={() => setFam("all")}>
             All types
@@ -201,7 +196,7 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
 
           {/* legend */}
           <div className="pointer-events-none absolute bottom-24 left-6 hidden sm:block">
-            <div className="eyebrow mb-1.5">Instruments</div>
+            <div className="eyebrow mb-1.5">Policies</div>
             <div className="flex items-center gap-1">
               <span className="h-3 w-5 rounded-[2px]" style={{ background: "var(--map-empty)" }} />
               {[1, 2, 3, 4, 5, 6].map((l) => (
@@ -248,7 +243,7 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
                   setPlaying(false);
                   setYear(Number(e.target.value));
                 }}
-                aria-label="Show instruments up to year"
+                aria-label="Show policies up to year"
               />
               <div className="flex justify-between font-mono text-[10.5px] text-ink-3 tnum">
                 <span>≤ {years[0]}</span>
@@ -266,7 +261,7 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
       {/* below the map: who is most active, what happened last */}
       <section className="mx-auto mt-12 grid max-w-[1200px] gap-10 px-4 sm:px-6 lg:grid-cols-2">
         <div>
-          <div className="eyebrow">States by number of instruments</div>
+          <div className="eyebrow">Most policies</div>
           <ol className="mt-3 grid gap-x-6 sm:grid-cols-2">
             {ranked.slice(0, 16).map(({ j, n }) => (
               <li key={j.code}>
@@ -294,7 +289,7 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
         </div>
         <div>
           <div className="flex items-baseline justify-between">
-            <div className="eyebrow">Latest state activity</div>
+            <div className="eyebrow">Latest</div>
             <Link href="/timeline" className="text-[12.5px] text-accent hover:underline">
               Timeline →
             </Link>
@@ -332,34 +327,5 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
         onClose={() => setSelected(null)}
       />
     </>
-  );
-}
-
-function Big({
-  label,
-  value,
-  onClick,
-  cta,
-}: {
-  label: string;
-  value: number | string;
-  onClick?: () => void;
-  cta?: string;
-}) {
-  const body = (
-    <>
-      <div className="font-serif text-[30px] leading-none tnum text-ink">{value}</div>
-      <div className="mt-1.5 flex items-center gap-2 text-[12.5px] text-ink-2">
-        {label}
-        {cta && <span className="text-accent">{cta} →</span>}
-      </div>
-    </>
-  );
-  return onClick ? (
-    <button type="button" onClick={onClick} className="bg-elev px-5 py-4 text-left hover:bg-sunken">
-      {body}
-    </button>
-  ) : (
-    <div className="bg-elev px-5 py-4">{body}</div>
   );
 }

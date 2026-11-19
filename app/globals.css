@@ -8,8 +8,8 @@
   --bg-elev: #ffffff;
   --bg-sunken: #e9ebf0;
   --ink: #151922;
-  --ink-2: #4a5160;
-  --ink-3: #7a8191;
+  --ink-2: #3a4150;
+  --ink-3: #5c6373;
   --line: #d8dce3;
   --line-strong: #b4bac6;
 
@@ -68,8 +68,8 @@
     --bg-elev: #161a21;
     --bg-sunken: #0a0c10;
     --ink: #e7e9ee;
-    --ink-2: #aab1bf;
-    --ink-3: #7a8191;
+    --ink-2: #bcc2ce;
+    --ink-3: #959cab;
     --line: #272c36;
     --line-strong: #3b4252;
 
@@ -119,8 +119,8 @@
   --bg-elev: #161a21;
   --bg-sunken: #0a0c10;
   --ink: #e7e9ee;
-  --ink-2: #aab1bf;
-  --ink-3: #7a8191;
+  --ink-2: #bcc2ce;
+  --ink-3: #959cab;
   --line: #272c36;
   --line-strong: #3b4252;
 
@@ -207,7 +207,7 @@ body {
   color: var(--ink);
   font-family: var(--font-sans);
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-feature-settings: "ss01", "cv05";

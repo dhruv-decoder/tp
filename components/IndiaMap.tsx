@@ -79,7 +79,7 @@ export function IndiaMap({ levels, tips, selected, onSelect, hovered, onHover, c
                 vectorEffect="non-scaling-stroke"
                 role="button"
                 tabIndex={0}
-                aria-label={`${tips[s.code]?.name ?? s.name}: ${tips[s.code]?.total ?? 0} instruments`}
+                aria-label={`${tips[s.code]?.name ?? s.name}: ${tips[s.code]?.total ?? 0} policies`}
                 aria-pressed={isSel}
                 onClick={() => onSelect(isSel ? null : s.code)}
                 onKeyDown={(e) => {

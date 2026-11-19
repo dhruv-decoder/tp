@@ -2,10 +2,9 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { fetchSignals, FEEDS } from "@/lib/signals";
 import { ExternalLink, Eyebrow } from "@/components/ui";
-import { CHANGELOG } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Signals",
+  title: "News feed",
   description: "Official press releases and circulars that mention AI, polled from government feeds.",
 };
 
@@ -15,9 +14,9 @@ async function Feed() {
     <>
       <div className="flex flex-wrap items-baseline justify-between gap-2 text-[12.5px] text-ink-3">
         <span className="tnum">
-          {signals.length} matching items · polled {fetchedAt.slice(0, 16).replace("T", " ")} UTC
+          {signals.length} items · checked {fetchedAt.slice(0, 16).replace("T", " ")} UTC
         </span>
-        {errors.length > 0 && <span className="text-crit">{errors.length} feed(s) unavailable</span>}
+        {errors.length > 0 && <span>{errors.length} source(s) unavailable</span>}
       </div>
       <ol className="mt-3 divide-y divide-line border-y border-line">
         {signals.map((s, i) => (
@@ -31,15 +30,8 @@ async function Feed() {
             </span>
           </li>
         ))}
-        {signals.length === 0 && <li className="py-8 text-center text-[14px] text-ink-3">No AI-related item in the current feed windows.</li>}
+        {signals.length === 0 && <li className="py-8 text-center text-[14px] text-ink-3">Nothing new.</li>}
       </ol>
-      {errors.length > 0 && (
-        <ul className="mt-3 text-[12px] text-ink-3">
-          {errors.map((e) => (
-            <li key={e}>{e}</li>
-          ))}
-        </ul>
-      )}
     </>
   );
 }
@@ -47,45 +39,29 @@ async function Feed() {
 export default function SignalsPage() {
   return (
     <>
-      <section className="mx-auto max-w-[1440px] px-4 pb-5 pt-8 sm:px-6">
-        <h1 className="font-serif text-[30px] font-medium leading-tight text-ink">Signals</h1>
+      <section className="mx-auto max-w-[1200px] px-4 pb-5 pt-8 sm:px-6">
+        <h1 className="font-serif text-[30px] font-medium leading-tight text-ink">News feed</h1>
         <p className="mt-1 max-w-[62ch] text-[14px] text-ink-2">
-          Recent official releases and indexed pages that mention AI. Nothing here is curated yet; items that turn out
-          to be instruments enter the dataset after review.
+          New official releases that mention AI. Not yet reviewed; real policies are added to the map after a check.
         </p>
       </section>
-      <div className="mx-auto grid max-w-[1440px] gap-10 px-4 sm:px-6 lg:grid-cols-[minmax(0,1fr)_320px]">
+      <div className="mx-auto grid max-w-[1200px] gap-10 px-4 sm:px-6 lg:grid-cols-[minmax(0,1fr)_320px]">
         <div className="min-w-0">
-          <Suspense fallback={<div className="py-8 text-[14px] text-ink-3">Polling official feeds…</div>}>
+          <Suspense fallback={<div className="py-8 text-[14px] text-ink-3">Loading…</div>}>
             <Feed />
           </Suspense>
         </div>
         <aside className="min-w-0 lg:border-l lg:border-line lg:pl-8">
-          <Eyebrow>Feeds polled</Eyebrow>
+          <Eyebrow>Sources checked</Eyebrow>
           <ul className="mt-2 flex flex-col gap-1.5 text-[13.5px]">
             {FEEDS.map((f) => (
               <li key={f.url} className="flex items-center gap-2">
                 <ExternalLink href={f.home}>{f.name}</ExternalLink>
-                {f.kind === "index" && <span className="text-[11px] text-ink-3">via Google News index</span>}
+                {f.kind === "index" && <span className="text-[11.5px] text-ink-3">via Google News</span>}
               </li>
             ))}
           </ul>
-          <p className="mt-3 text-[12.5px] leading-relaxed text-ink-3">
-            Feeds are re-read at most once an hour. A daily scan also reads these and other official pages, extracts
-            candidate instruments and opens a review request in the repository.
-          </p>
-          <div className="mt-6">
-            <Eyebrow>Dataset changelog</Eyebrow>
-            <ol className="mt-2 flex flex-col gap-2 text-[13px]">
-              {CHANGELOG.slice(0, 6).map((c) => (
-                <li key={c.version}>
-                  <span className="font-mono text-[12px] tnum text-ink-3">{c.date}</span>
-                  <span className="ml-2 text-ink">{c.version}</span>
-                  <span className="block text-ink-2">{c.summary}</span>
-                </li>
-              ))}
-            </ol>
-          </div>
+          <p className="mt-3 text-[13px] leading-relaxed text-ink-2">Checked every hour.</p>
         </aside>
       </div>
     </>

@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { POLICIES, JURISDICTIONS, DATASET_UPDATED } from "@/lib/data";
+import { POLICIES, JURISDICTIONS } from "@/lib/data";
 import { STATE_SHAPES, MAP_W, MAP_H } from "@/lib/geo";
 
 export const alt = "India AI Policy Atlas";
@@ -30,14 +30,13 @@ export default function OG() {
         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", flex: 1 }}>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ display: "flex", fontSize: 22, color: "#7a8191", letterSpacing: 2, fontFamily: "monospace" }}>INDIA AI POLICY ATLAS</div>
-            <div style={{ display: "flex", fontSize: 56, lineHeight: 1.1, marginTop: 18, maxWidth: 620 }}>Where India regulates AI, and how firmly.</div>
+            <div style={{ display: "flex", fontSize: 56, lineHeight: 1.1, marginTop: 18, maxWidth: 620 }}>AI policy across Indian states</div>
           </div>
           <div style={{ display: "flex", gap: 48 }}>
             {[
-              [POLICIES.length, "instruments"],
+              [POLICIES.length, "policies"],
               [union, "Union"],
               [`${states}/36`, "states & UTs"],
-              [DATASET_UPDATED.slice(0, 7), "updated"],
             ].map(([v, l]) => (
               <div key={String(l)} style={{ display: "flex", flexDirection: "column" }}>
                 <div style={{ display: "flex", fontSize: 44 }}>{v}</div>

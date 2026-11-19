@@ -44,7 +44,7 @@ export function CompareClient({ policies, jurisdictions, themes }: Props) {
   const any = cols.some((c) => c.j);
 
   return (
-    <div className="mx-auto max-w-[1440px] px-4 sm:px-6">
+    <div className="mx-auto max-w-[1200px] px-4 sm:px-6">
       <div className="grid gap-4 md:grid-cols-3">
         {cols.map((c, i) => (
           <div key={i} className="min-w-0">
@@ -53,9 +53,9 @@ export function CompareClient({ policies, jurisdictions, themes }: Props) {
               value={c.code}
               onChange={(e) => setSlot(i, e.target.value)}
               className="h-10 w-full rounded-[6px] border border-line bg-elev px-3 text-[14px] text-ink"
-              aria-label={`Jurisdiction ${i + 1}`}
+              aria-label={`State ${i + 1}`}
             >
-              <option value="">{i === 0 ? "Choose a jurisdiction" : "Add another"}</option>
+              <option value="">{i === 0 ? "Choose a state" : "Add another"}</option>
               {jurisdictions.map((j) => (
                 <option key={j.code} value={j.code}>
                   {j.code === "IN" ? "Union" : j.name}
@@ -67,7 +67,7 @@ export function CompareClient({ policies, jurisdictions, themes }: Props) {
       </div>
 
       {!any ? (
-        <p className="mt-10 text-[14px] text-ink-3">Pick two or three jurisdictions to compare coverage, status and themes.</p>
+        <p className="mt-10 text-[14px] text-ink-3">Pick two or three states to compare.</p>
       ) : (
         <>
           {/* headline numbers */}
@@ -79,7 +79,7 @@ export function CompareClient({ policies, jurisdictions, themes }: Props) {
                     {c.j.code === "IN" ? "Union" : c.j.name}
                   </Link>
                   <div className="mt-3 grid grid-cols-3 gap-2">
-                    <Num v={c.items.length} l="Instruments" />
+                    <Num v={c.items.length} l="Policies" />
                     <Num v={c.items.filter((p) => statusGroup(p.status) === "active").length} l="Active" />
                     <Num v={c.items.filter((p) => p.binding === "binding").length} l="Binding" />
                   </div>
@@ -100,7 +100,7 @@ export function CompareClient({ policies, jurisdictions, themes }: Props) {
                         First {formatDate(c.items[c.items.length - 1].date, "month")} · latest {formatDate(c.items[0].date, "month")}
                       </>
                     ) : (
-                      "No instrument found"
+                      "None found"
                     )}
                   </div>
                 </div>

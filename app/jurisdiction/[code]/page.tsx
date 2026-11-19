@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { JURISDICTIONS, jurisdictionByCode, policiesFor, formatDate, countBy, POLICIES } from "@/lib/data";
+import { JURISDICTIONS, jurisdictionByCode, policiesFor, formatDate, countBy } from "@/lib/data";
 import { familyOf, FAMILIES, FAMILY_LABEL, statusGroup, labelTheme, INSTRUMENT_LABEL } from "@/lib/taxonomy";
-import { StatusPill, ConfidenceMark, FamilyDot, Eyebrow, Stat } from "@/components/ui";
+import { StatusPill, ConfidenceMark, Eyebrow, Stat } from "@/components/ui";
 import { StateThumb } from "@/components/StateThumb";
 
 export function generateStaticParams() {
@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ code: str
   const n = policiesFor(code).length;
   return {
     title: j.code === "IN" ? "Union of India" : j.name,
-    description: `${n} AI policy instruments for ${j.name}, with sources.`,
+    description: `${n} AI policies for ${j.name}, with sources.`,
   };
 }
 
@@ -36,16 +36,11 @@ export default async function JurisdictionPage({ params }: { params: Promise<{ c
   const earliest = list.length ? list[list.length - 1] : null;
   const latest = list.length ? list[0] : null;
 
-  // neighbours by count for context
-  const ranks = JURISDICTIONS.filter((x) => x.code !== "IN")
-    .map((x) => ({ code: x.code, name: x.name, n: POLICIES.filter((p) => p.jurisdiction === x.code).length }))
-    .sort((a, b) => b.n - a.n);
-  const rank = ranks.findIndex((r) => r.code === code) + 1;
 
   return (
-    <article className="mx-auto max-w-[1440px] px-4 pb-10 pt-8 sm:px-6">
+    <article className="mx-auto max-w-[1200px] px-4 pb-10 pt-8 sm:px-6">
       <nav className="text-[12.5px] text-ink-3" aria-label="Breadcrumb">
-        <Link href="/" className="hover:text-ink">Atlas</Link>
+        <Link href="/" className="hover:text-ink">Map</Link>
         <span className="mx-1.5">/</span>
         <span>{j.code === "IN" ? "Union" : j.type === "ut" ? "Union territory" : "State"}</span>
       </nav>
@@ -57,12 +52,9 @@ export default async function JurisdictionPage({ params }: { params: Promise<{ c
           </h1>
           <div className="mt-1 text-[13.5px] text-ink-2">
             {j.code === "IN" ? "Central ministries, regulators, Parliament and courts" : `${j.region} · ${j.capital}`}
-            {j.code !== "IN" && rank > 0 && list.length > 0 && (
-              <span className="text-ink-3"> · ranked {rank} of {ranks.length} by instrument count</span>
-            )}
           </div>
           <div className="mt-6 grid grid-cols-2 gap-6 sm:grid-cols-4">
-            <Stat label="Instruments" value={list.length} />
+            <Stat label="Policies" value={list.length} />
             <Stat label="Active" value={active} hint={pending ? `${pending} pending` : undefined} />
             <Stat label="Binding" value={binding} />
             <Stat
@@ -77,9 +69,7 @@ export default async function JurisdictionPage({ params }: { params: Promise<{ c
 
       {list.length === 0 ? (
         <p className="mt-8 max-w-[60ch] text-[15px] text-ink-2">
-          No AI-specific instrument found for {j.name} in official sources as of the current dataset. General IT or
-          startup policies that do not address AI are out of scope. If you know of one,{" "}
-          <Link href="/method#contribute" className="text-accent">report it</Link>.
+          No AI policy found for {j.name}.
         </p>
       ) : (
         <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(0,1fr)_300px]">
@@ -139,16 +129,12 @@ export default async function JurisdictionPage({ params }: { params: Promise<{ c
             <div className="mt-6">
               <Eyebrow>Download</Eyebrow>
               <p className="mt-1 flex gap-3 text-[13px]">
-                <Link href={`/api/policies?j=${j.code}`} className="text-accent hover:underline">JSON</Link>
                 <Link href={`/api/policies.csv?j=${j.code}`} className="text-accent hover:underline">CSV</Link>
               </p>
             </div>
           </aside>
         </div>
       )}
-      <div className="mt-6 sr-only">
-        <FamilyDot family="law" />
-      </div>
     </article>
   );
 }

@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { POLICIES, policyById, jurisdictionByCode, formatDate, hostOf, DATASET_VERSION } from "@/lib/data";
+import { POLICIES, policyById, jurisdictionByCode, formatDate, hostOf } from "@/lib/data";
 import {
   familyOf,
   FAMILY_LABEL,
   INSTRUMENT_LABEL,
-  CONFIDENCE_HELP,
   labelTheme,
   labelSector,
 } from "@/lib/taxonomy";
@@ -33,12 +32,12 @@ export default async function PolicyPage({ params }: { params: Promise<{ id: str
   const related = p.related.map((r) => policyById(r)).filter((x): x is NonNullable<typeof x> => Boolean(x));
   const siblings = POLICIES.filter((x) => x.jurisdiction === p.jurisdiction && x.id !== p.id).slice(0, 5);
   const timeline = p.timeline.slice().sort((a, b) => (a.date < b.date ? -1 : 1));
-  const citation = `${p.issuing_body}. "${p.title}" (${formatDate(p.date, p.date_precision)}). India AI Policy Atlas, ${DATASET_VERSION}, entry ${p.id}. ${p.source_url}`;
+  const citation = `${p.issuing_body}. "${p.title}" (${formatDate(p.date, p.date_precision)}). ${p.source_url}`;
 
   return (
-    <article className="mx-auto max-w-[1440px] px-4 pb-10 pt-8 sm:px-6">
+    <article className="mx-auto max-w-[1200px] px-4 pb-10 pt-8 sm:px-6">
       <nav className="text-[12.5px] text-ink-3" aria-label="Breadcrumb">
-        <Link href="/explore" className="hover:text-ink">Explore</Link>
+        <Link href="/explore" className="hover:text-ink">Policies</Link>
         <span className="mx-1.5">/</span>
         <Link href={`/jurisdiction/${p.jurisdiction}`} className="hover:text-ink">{p.jurisdiction_name}</Link>
       </nav>
@@ -105,7 +104,9 @@ export default async function PolicyPage({ params }: { params: Promise<{ id: str
               <li className="flex flex-wrap items-baseline gap-2">
                 <ExternalLink href={p.source_url}>{hostOf(p.source_url)}</ExternalLink>
                 <span className="chip">{p.source_type}</span>
-                <span className="text-[12px] text-ink-3">{p.source_type === "news" || p.source_type === "secondary" ? "best available; primary document not located" : "primary"}</span>
+                {(p.source_type === "news" || p.source_type === "secondary") && (
+                  <span className="text-[12.5px] text-ink-3">official document not found</span>
+                )}
               </li>
               {p.secondary_sources.map((s) => (
                 <li key={s}>
@@ -120,8 +121,7 @@ export default async function PolicyPage({ params }: { params: Promise<{ id: str
               <ConfidenceMark level={p.confidence} />
               <span className="font-mono text-[11.5px] tnum text-ink-3">verified {p.last_verified}</span>
             </div>
-            <p className="mt-2 text-[13.5px] leading-relaxed text-ink-2">{CONFIDENCE_HELP[p.confidence]}</p>
-            {p.confidence_note && <p className="mt-1 text-[13.5px] leading-relaxed text-ink">{p.confidence_note}</p>}
+            {p.confidence_note && <p className="mt-2 text-[14px] leading-relaxed text-ink">{p.confidence_note}</p>}
             <p className="mt-3 text-[12.5px] text-ink-3">
               Spotted an error?{" "}
               <a
@@ -202,9 +202,6 @@ export default async function PolicyPage({ params }: { params: Promise<{ id: str
             <p className="mt-2 break-words rounded-[6px] bg-sunken p-3 font-mono text-[11.5px] leading-relaxed text-ink-2">{citation}</p>
             <div className="mt-2 flex items-center gap-3 text-[12.5px]">
               <CopyButton text={citation} label="Copy citation" />
-              <Link href={`/api/policies/${p.id}`} className="text-accent hover:underline">
-                JSON
-              </Link>
             </div>
           </section>
         </aside>

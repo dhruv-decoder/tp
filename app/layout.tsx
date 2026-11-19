@@ -3,7 +3,6 @@ import { IBM_Plex_Sans, IBM_Plex_Serif, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import { SiteNav } from "@/components/SiteNav";
 import { SiteFooter } from "@/components/SiteFooter";
-import { DATASET_VERSION } from "@/lib/data";
 
 const plexSans = IBM_Plex_Sans({
   variable: "--font-plex-sans",
@@ -33,10 +32,10 @@ export const metadata: Metadata = {
     template: "%s · India AI Policy Atlas",
   },
   description:
-    "Every AI policy instrument in India, Union and state, with primary sources, status, and confidence. Updated continuously.",
+    "AI policies of Indian states and the Union, with sources and status.",
   openGraph: {
     title: "India AI Policy Atlas",
-    description: "Union and state AI policy in India, mapped and sourced.",
+    description: "AI policies of Indian states and the Union, with sources and status.",
     type: "website",
     siteName: "India AI Policy Atlas",
   },
@@ -56,7 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body className="min-h-full flex flex-col">
-        <SiteNav version={DATASET_VERSION} />
+        <SiteNav />
         <main className="flex-1">{children}</main>
         <SiteFooter />
       </body>

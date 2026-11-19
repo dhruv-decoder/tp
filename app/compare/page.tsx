@@ -14,7 +14,7 @@ export default function ComparePage() {
     .map(([t]) => t);
   return (
     <>
-      <section className="mx-auto max-w-[1440px] px-4 pb-5 pt-8 sm:px-6">
+      <section className="mx-auto max-w-[1200px] px-4 pb-5 pt-8 sm:px-6">
         <h1 className="font-serif text-[30px] font-medium leading-tight text-ink">Compare</h1>
       </section>
       <Suspense fallback={null}>

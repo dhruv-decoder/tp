@@ -5,25 +5,20 @@ import { usePathname } from "next/navigation";
 import { ThemeToggle } from "./ThemeToggle";
 
 const LINKS = [
-  { href: "/", label: "Atlas" },
-  { href: "/explore", label: "Explore" },
+  { href: "/", label: "Map" },
+  { href: "/explore", label: "Policies" },
   { href: "/timeline", label: "Timeline" },
-  { href: "/matrix", label: "Matrix" },
   { href: "/compare", label: "Compare" },
-  { href: "/signals", label: "Signals" },
-  { href: "/method", label: "Method" },
+  { href: "/signals", label: "News feed" },
 ];
 
-export function SiteNav({ version }: { version: string }) {
+export function SiteNav() {
   const path = usePathname();
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-bg/85 backdrop-blur supports-[backdrop-filter]:bg-bg/70">
-      <div className="mx-auto flex h-14 max-w-[1440px] items-center gap-6 px-4 sm:px-6">
-        <Link href="/" className="flex items-baseline gap-2 no-underline">
-          <span className="font-serif text-[17px] font-medium tracking-tight text-ink">
-            India AI Policy Atlas
-          </span>
-          <span className="hidden font-mono text-[11px] text-ink-3 sm:inline">{version}</span>
+      <div className="mx-auto flex h-14 max-w-[1200px] items-center gap-6 px-4 sm:px-6">
+        <Link href="/" className="font-serif text-[17px] font-medium tracking-tight text-ink no-underline">
+          India AI Policy Atlas
         </Link>
         <nav className="ml-auto hidden items-center gap-1 md:flex" aria-label="Primary">
           {LINKS.map((l) => {

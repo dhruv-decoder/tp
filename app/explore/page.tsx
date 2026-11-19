@@ -4,8 +4,8 @@ import { ExploreClient } from "@/components/ExploreClient";
 import { JURISDICTIONS, POLICIES, toLite, countBy } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Explore",
-  description: "Filter and download every AI policy instrument in India.",
+  title: "Policies",
+  description: "Search and filter AI policies of Indian states and the Union.",
 };
 
 export default function ExplorePage() {
@@ -20,10 +20,10 @@ export default function ExplorePage() {
 
   return (
     <>
-      <section className="mx-auto max-w-[1440px] px-4 pb-5 pt-8 sm:px-6">
-        <h1 className="font-serif text-[30px] font-medium leading-tight text-ink">Explore</h1>
+      <section className="mx-auto max-w-[920px] px-4 pb-5 pt-8 sm:px-6">
+        <h1 className="font-serif text-[30px] font-medium leading-tight text-ink">Policies</h1>
       </section>
-      <Suspense fallback={<div className="mx-auto max-w-[1440px] px-4 text-ink-3 sm:px-6">Loading…</div>}>
+      <Suspense fallback={<div className="mx-auto max-w-[1200px] px-4 text-ink-3 sm:px-6">Loading…</div>}>
         <ExploreClient policies={lite} jurisdictions={jurisdictions} themes={themes} sectors={sectors} />
       </Suspense>
     </>

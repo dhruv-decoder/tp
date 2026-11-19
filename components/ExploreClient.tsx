@@ -8,7 +8,7 @@ import type { PolicyLite } from "@/lib/data";
 import { formatDate } from "@/lib/data";
 import {
   FAMILIES,
-  FAMILY_SHORT,
+  FAMILY_LABEL,
   INSTRUMENT_LABEL,
   STATUS_GROUP_LABEL,
   statusGroup,
@@ -18,7 +18,7 @@ import {
   type Family,
   type StatusGroup,
 } from "@/lib/taxonomy";
-import { StatusPill, FamilyDot, ConfidenceMark } from "./ui";
+import { StatusPill, ConfidenceMark } from "./ui";
 
 interface Props {
   policies: PolicyLite[];
@@ -27,7 +27,8 @@ interface Props {
   sectors: string[];
 }
 
-type SortKey = "date" | "title" | "jurisdiction" | "status";
+type SortKey = "new" | "old" | "state";
+const PAGE = 30;
 
 export function ExploreClient({ policies, jurisdictions, themes, sectors }: Props) {
   const router = useRouter();
@@ -35,7 +36,6 @@ export function ExploreClient({ policies, jurisdictions, themes, sectors }: Prop
   const sp = useSearchParams();
 
   const q = sp.get("q") ?? "";
-  const level = sp.get("level") ?? "all"; // all | union | state
   const jur = sp.get("j") ?? "";
   const fam = (sp.get("family") ?? "") as Family | "";
   const status = (sp.get("status") ?? "") as StatusGroup | "";
@@ -43,31 +43,29 @@ export function ExploreClient({ policies, jurisdictions, themes, sectors }: Prop
   const sector = sp.get("sector") ?? "";
   const conf = sp.get("confidence") ?? "";
   const binding = sp.get("binding") ?? "";
-  const from = Number(sp.get("from") ?? 0) || 0;
-  const to = Number(sp.get("to") ?? 0) || 0;
-  const sort = (sp.get("sort") ?? "date") as SortKey;
-  const dir = sp.get("dir") === "asc" ? "asc" : "desc";
+  const sort = (sp.get("sort") ?? "new") as SortKey;
+
+  const [qLocal, setQLocal] = useState(q);
+  const [more, setMore] = useState(Boolean(theme || sector || conf || binding));
+  const [shown, setShown] = useState(PAGE);
 
   const set = useCallback(
     (patch: Record<string, string | null>) => {
       const next = new URLSearchParams(sp.toString());
       for (const [k, v] of Object.entries(patch)) {
-        if (v === null || v === "" || v === "all") next.delete(k);
+        if (v === null || v === "") next.delete(k);
         else next.set(k, v);
       }
       const s = next.toString();
+      setShown(PAGE);
       router.replace(s ? `${pathname}?${s}` : pathname, { scroll: false });
     },
     [sp, router, pathname],
   );
 
-  const [qLocal, setQLocal] = useState(q);
-
   const rows = useMemo(() => {
     const needle = q.trim().toLowerCase();
-    let out = policies.filter((p) => {
-      if (level === "union" && p.jurisdiction !== "IN") return false;
-      if (level === "state" && p.jurisdiction === "IN") return false;
+    const out = policies.filter((p) => {
       if (jur && p.jurisdiction !== jur) return false;
       if (fam && p.family !== fam) return false;
       if (status && statusGroup(p.status) !== status) return false;
@@ -75,295 +73,228 @@ export function ExploreClient({ policies, jurisdictions, themes, sectors }: Prop
       if (sector && !p.sectors.includes(sector)) return false;
       if (conf && p.confidence !== conf) return false;
       if (binding && p.binding !== binding) return false;
-      const y = Number(p.date.slice(0, 4));
-      if (from && y < from) return false;
-      if (to && y > to) return false;
       if (needle) {
-        const hay = `${p.title} ${p.issuing_body} ${p.jurisdiction_name} ${p.summary} ${p.themes.join(" ")}`.toLowerCase();
+        const hay = `${p.title} ${p.issuing_body} ${p.jurisdiction_name} ${p.summary}`.toLowerCase();
         if (!hay.includes(needle)) return false;
       }
       return true;
     });
-    const m = dir === "asc" ? 1 : -1;
-    out = out.slice().sort((a, b) => {
-      switch (sort) {
-        case "title":
-          return m * a.title.localeCompare(b.title);
-        case "jurisdiction":
-          return m * a.jurisdiction_name.localeCompare(b.jurisdiction_name) || (a.date < b.date ? 1 : -1);
-        case "status":
-          return m * statusGroup(a.status).localeCompare(statusGroup(b.status)) || (a.date < b.date ? 1 : -1);
-        default:
-          return m * (a.date < b.date ? -1 : a.date > b.date ? 1 : 0);
-      }
+    return out.sort((a, b) => {
+      if (sort === "state") return a.jurisdiction_name.localeCompare(b.jurisdiction_name) || (a.date < b.date ? 1 : -1);
+      const d = a.date < b.date ? -1 : a.date > b.date ? 1 : 0;
+      return sort === "old" ? d : -d;
     });
-    return out;
-  }, [policies, q, level, jur, fam, status, theme, sector, conf, binding, from, to, sort, dir]);
+  }, [policies, q, jur, fam, status, theme, sector, conf, binding, sort]);
 
-  const activeFilters = [level !== "all", jur, fam, status, theme, sector, conf, binding, from, to, q].filter(Boolean).length;
-
-  function th(label: string, key: SortKey, extra = "") {
-    const on = sort === key;
-    return (
-      <th className={extra}>
-        <button
-          type="button"
-          onClick={() => set({ sort: key, dir: on && dir === "desc" ? "asc" : "desc" })}
-          className={`inline-flex items-center gap-1 ${on ? "text-ink" : ""}`}
-        >
-          {label}
-          <span className="font-mono text-[10px]">{on ? (dir === "asc" ? "↑" : "↓") : ""}</span>
-        </button>
-      </th>
-    );
-  }
-
+  const activeFilters = [jur, fam, status, theme, sector, conf, binding, q].filter(Boolean).length;
+  const visible = rows.slice(0, shown);
+  const groupOf = (p: PolicyLite) => (sort === "state" ? p.jurisdiction_name : p.date.slice(0, 4));
   const exportHref = `/api/policies.csv${rows.length !== policies.length ? `?ids=${rows.map((r) => r.id).join(",")}` : ""}`;
 
   return (
-    <div className="mx-auto max-w-[1440px] px-4 sm:px-6">
-      {/* filter bar */}
-      <div className="flex flex-col gap-3 border-b border-line pb-4">
-        <div className="flex flex-wrap items-center gap-2">
-          <form
-            className="relative min-w-[220px] flex-1 sm:max-w-[360px]"
-            onSubmit={(e) => {
-              e.preventDefault();
-              set({ q: qLocal });
+    <div className="mx-auto max-w-[920px] px-4 sm:px-6">
+      {/* search */}
+      <form
+        className="relative"
+        onSubmit={(e) => {
+          e.preventDefault();
+          set({ q: qLocal });
+        }}
+      >
+        <svg
+          className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-ink-3"
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.6"
+          aria-hidden
+        >
+          <circle cx="7" cy="7" r="5" />
+          <path d="m11 11 3.5 3.5" />
+        </svg>
+        <input
+          type="search"
+          value={qLocal}
+          onChange={(e) => {
+            setQLocal(e.target.value);
+            if (e.target.value === "") set({ q: null });
+          }}
+          placeholder="Search policies, e.g. deepfake, Karnataka, data centre"
+          aria-label="Search policies"
+          className="h-11 w-full rounded-[10px] border border-line bg-elev pl-10 pr-24 text-[15px] text-ink placeholder:text-ink-3"
+        />
+        <button
+          type="submit"
+          className="absolute right-1.5 top-1.5 h-8 rounded-[7px] bg-ink px-3 text-[13px] text-bg hover:opacity-90"
+        >
+          Search
+        </button>
+      </form>
+
+      {/* filters */}
+      <div className="mt-3 flex flex-wrap items-center gap-2">
+        <Select
+          value={jur}
+          onChange={(v) => set({ j: v })}
+          label="All states"
+          options={jurisdictions.map((j) => [j.code, j.code === "IN" ? "Union (national)" : j.name])}
+        />
+        <Select
+          value={fam}
+          onChange={(v) => set({ family: v })}
+          label="All types"
+          options={FAMILIES.map((f) => [f, FAMILY_LABEL[f]])}
+        />
+        <Select
+          value={status}
+          onChange={(v) => set({ status: v })}
+          label="Any status"
+          options={(Object.keys(STATUS_GROUP_LABEL) as StatusGroup[]).map((s) => [s, STATUS_GROUP_LABEL[s]])}
+        />
+        <button
+          type="button"
+          onClick={() => setMore((m) => !m)}
+          aria-expanded={more}
+          className="h-9 rounded-[8px] px-2 text-[13px] text-ink-2 hover:text-ink"
+        >
+          {more ? "Fewer filters" : "More filters"}
+        </button>
+        {activeFilters > 0 && (
+          <button
+            type="button"
+            onClick={() => {
+              setQLocal("");
+              setShown(PAGE);
+              router.replace(pathname, { scroll: false });
             }}
+            className="h-9 px-2 text-[13px] text-accent hover:underline"
           >
-            <input
-              id="explore-q"
-              type="search"
-              value={qLocal}
-              onChange={(e) => {
-                setQLocal(e.target.value);
-                if (e.target.value === "") set({ q: null });
-              }}
-              placeholder="Search title, body, summary"
-              className="h-9 w-full rounded-[6px] border border-line bg-elev pl-3 pr-16 text-[13.5px] text-ink placeholder:text-ink-3"
-            />
-            <button
-              type="submit"
-              className="absolute right-1 top-1 h-7 rounded-[4px] bg-sunken px-2 text-[12px] text-ink-2 hover:text-ink"
-            >
-              Search
-            </button>
-          </form>
-
-          <Seg
-            value={level}
-            onChange={(v) => set({ level: v, j: null })}
-            options={[
-              ["all", "All"],
-              ["union", "Union"],
-              ["state", "States & UTs"],
-            ]}
-          />
-
+            Clear all
+          </button>
+        )}
+      </div>
+      {more && (
+        <div className="mt-2 flex flex-wrap items-center gap-2">
+          <Select value={theme} onChange={(v) => set({ theme: v })} label="Any theme" options={themes.map((t) => [t, labelTheme(t)])} />
+          <Select value={sector} onChange={(v) => set({ sector: v })} label="Any sector" options={sectors.map((s) => [s, labelSector(s)])} />
           <Select
-            id="f-j"
-            value={jur}
-            onChange={(v) => set({ j: v })}
-            label="Jurisdiction"
-            options={jurisdictions.filter((j) => level !== "union" || j.code === "IN").map((j) => [j.code, j.name])}
-          />
-          <Select
-            id="f-family"
-            value={fam}
-            onChange={(v) => set({ family: v })}
-            label="Family"
-            options={FAMILIES.map((f) => [f, FAMILY_SHORT[f]])}
-          />
-          <Select
-            id="f-status"
-            value={status}
-            onChange={(v) => set({ status: v })}
-            label="Status"
-            options={(Object.keys(STATUS_GROUP_LABEL) as StatusGroup[]).map((s) => [s, STATUS_GROUP_LABEL[s]])}
-          />
-          <Select
-            id="f-theme"
-            value={theme}
-            onChange={(v) => set({ theme: v })}
-            label="Theme"
-            options={themes.map((t) => [t, labelTheme(t)])}
-          />
-          <Select
-            id="f-sector"
-            value={sector}
-            onChange={(v) => set({ sector: v })}
-            label="Sector"
-            options={sectors.map((s) => [s, labelSector(s)])}
-          />
-          <Select
-            id="f-binding"
             value={binding}
             onChange={(v) => set({ binding: v })}
-            label="Binding"
+            label="Binding or not"
             options={[
               ["binding", "Binding"],
               ["non-binding", "Non-binding"],
-              ["mixed", "Mixed"],
+              ["mixed", "Partly binding"],
             ]}
           />
           <Select
-            id="f-conf"
             value={conf}
             onChange={(v) => set({ confidence: v })}
-            label="Confidence"
+            label="Any confidence"
             options={(["high", "medium", "low"] as const).map((c) => [c, CONFIDENCE_LABEL[c]])}
           />
-          {activeFilters > 0 && (
-            <button
-              type="button"
-              onClick={() => {
-                setQLocal("");
-                router.replace(pathname, { scroll: false });
-              }}
-              className="text-[12.5px] text-accent hover:underline"
+        </div>
+      )}
+
+      {/* result bar */}
+      <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-b border-line-strong pb-3">
+        <div className="text-[14px] text-ink-2 tnum">
+          <span className="font-medium text-ink">{rows.length}</span> {rows.length === 1 ? "policy" : "policies"}
+        </div>
+        <div className="flex items-center gap-4 text-[13px]">
+          <label className="flex items-center gap-2 text-ink-2">
+            Sort
+            <select
+              value={sort}
+              onChange={(e) => set({ sort: e.target.value === "new" ? null : e.target.value })}
+              className="h-8 rounded-[7px] border border-line bg-elev px-2 text-[13px] text-ink"
             >
-              Clear {activeFilters}
-            </button>
-          )}
-        </div>
-        <div className="flex flex-wrap items-center justify-between gap-2 text-[12.5px] text-ink-2">
-          <div className="tnum">
-            <span className="font-medium text-ink">{rows.length}</span> of {policies.length} instruments
-          </div>
-          <div className="flex items-center gap-3">
-            <a href={exportHref} className="text-accent hover:underline">
-              Download CSV
-            </a>
-            <Link href="/api/policies" className="text-accent hover:underline">
-              JSON
-            </Link>
-          </div>
+              <option value="new">Newest first</option>
+              <option value="old">Oldest first</option>
+              <option value="state">By state</option>
+            </select>
+          </label>
+          <a href={exportHref} className="text-accent hover:underline">
+            Download CSV
+          </a>
         </div>
       </div>
 
-      {/* table */}
-      <div className="overflow-x-auto">
-        <table className="data-table">
-          <thead>
-            <tr>
-              {th("Date", "date", "w-[110px]")}
-              {th("Instrument", "title")}
-              {th("Jurisdiction", "jurisdiction", "w-[150px]")}
-              <th className="w-[130px]">Type</th>
-              {th("Status", "status", "w-[130px]")}
-              <th className="w-[200px]">Themes</th>
-              <th className="w-[70px]">Confidence</th>
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map((p) => (
-              <tr key={p.id}>
-                <td className="font-mono text-[12.5px] tnum text-ink-2 whitespace-nowrap">
-                  {formatDate(p.date, p.date_precision)}
-                </td>
-                <td>
-                  <Link href={`/policy/${p.id}`} className="block font-medium text-ink hover:text-accent">
-                    {p.title}
-                  </Link>
-                  <div className="mt-0.5 text-[12px] text-ink-3">{p.issuing_body}</div>
-                </td>
-                <td className="text-ink-2">
-                  <Link href={`/jurisdiction/${p.jurisdiction}`} className="hover:text-ink">
-                    {p.jurisdiction_name}
-                  </Link>
-                </td>
-                <td>
-                  <span className="inline-flex items-center gap-1.5 text-ink-2">
-                    <FamilyDot family={p.family} />
+      {/* list */}
+      {rows.length === 0 ? (
+        <p className="py-16 text-center text-[15px] text-ink-2">No policies match. Try fewer filters.</p>
+      ) : (
+        <ol>
+          {visible.map((p, i) => {
+            const g = groupOf(p);
+            const newGroup = i === 0 || groupOf(visible[i - 1]) !== g;
+            return (
+              <li key={p.id}>
+                {newGroup && (
+                  <h2 className="sticky top-14 z-[1] -mx-1 bg-bg/95 px-1 pb-2 pt-6 font-serif text-[20px] text-ink backdrop-blur">
+                    {g}
+                  </h2>
+                )}
+                <Link
+                  href={`/policy/${p.id}`}
+                  className={`group fam-${p.family} relative block rounded-[10px] border border-transparent px-4 py-4 no-underline hover:border-line hover:bg-elev`}
+                >
+                  <span className="absolute left-0 top-5 h-5 w-[3px] rounded-r-[3px]" style={{ background: "var(--fam)" }} aria-hidden />
+                  <div className="text-[13px] text-ink-2">
+                    {p.jurisdiction === "IN" ? "Union" : p.jurisdiction_name}
+                    <span className="mx-1.5 text-ink-3">·</span>
                     {INSTRUMENT_LABEL[p.instrument_type]}
-                  </span>
-                </td>
-                <td>
-                  <StatusPill status={p.status} />
-                </td>
-                <td>
-                  <div className="flex flex-wrap gap-1">
-                    {p.themes.slice(0, 3).map((t) => (
-                      <button
-                        key={t}
-                        type="button"
-                        onClick={() => set({ theme: t })}
-                        className="rounded-[3px] bg-sunken px-1.5 py-0.5 text-[11.5px] text-ink-2 hover:text-ink"
-                      >
-                        {labelTheme(t)}
-                      </button>
-                    ))}
-                    {p.themes.length > 3 && <span className="text-[11.5px] text-ink-3">+{p.themes.length - 3}</span>}
+                    <span className="mx-1.5 text-ink-3">·</span>
+                    <span className="font-mono text-[12.5px] tnum">{formatDate(p.date, p.date_precision)}</span>
                   </div>
-                </td>
-                <td>
-                  <ConfidenceMark level={p.confidence} withLabel={false} />
-                </td>
-              </tr>
-            ))}
-            {rows.length === 0 && (
-              <tr>
-                <td colSpan={7} className="py-10 text-center text-ink-3">
-                  Nothing matches. Clear a filter or broaden the search.
-                </td>
-              </tr>
-            )}
-          </tbody>
-        </table>
-      </div>
-    </div>
-  );
-}
-
-function Seg({
-  value,
-  onChange,
-  options,
-}: {
-  value: string;
-  onChange: (v: string) => void;
-  options: [string, string][];
-}) {
-  return (
-    <div className="flex h-9 overflow-hidden rounded-[6px] border border-line text-[12.5px]">
-      {options.map(([v, l]) => (
-        <button
-          key={v}
-          type="button"
-          onClick={() => onChange(v)}
-          aria-pressed={value === v}
-          className={`px-3 ${value === v ? "bg-ink text-bg" : "text-ink-2 hover:bg-sunken"}`}
-        >
-          {l}
-        </button>
-      ))}
+                  <div className="mt-1 text-[16.5px] font-medium leading-snug text-ink group-hover:text-accent">{p.title}</div>
+                  <p className="mt-1.5 line-clamp-2 max-w-[72ch] text-[14.5px] leading-relaxed text-ink-2">{p.summary}</p>
+                  <div className="mt-2.5 flex flex-wrap items-center gap-x-3 gap-y-1.5">
+                    <StatusPill status={p.status} />
+                    <ConfidenceMark level={p.confidence} />
+                  </div>
+                </Link>
+              </li>
+            );
+          })}
+        </ol>
+      )}
+      {shown < rows.length && (
+        <div className="mt-6 flex justify-center">
+          <button
+            type="button"
+            onClick={() => setShown((s) => s + PAGE)}
+            className="h-10 rounded-[8px] border border-line bg-elev px-5 text-[14px] text-ink hover:bg-sunken"
+          >
+            Show more ({rows.length - shown} left)
+          </button>
+        </div>
+      )}
     </div>
   );
 }
 
 function Select({
-  id,
   value,
   onChange,
   label,
   options,
 }: {
-  id: string;
   value: string;
   onChange: (v: string) => void;
   label: string;
   options: [string, string][];
 }) {
   return (
-    <label className="relative inline-flex h-9 items-center" htmlFor={id}>
+    <label className="relative inline-flex h-9 items-center">
       <span className="sr-only">{label}</span>
       <select
-        id={id}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className={`h-9 appearance-none rounded-[6px] border bg-elev pl-3 pr-7 text-[12.5px] ${
-          value ? "border-ink text-ink" : "border-line text-ink-2"
+        className={`h-9 appearance-none rounded-[8px] border bg-elev pl-3 pr-8 text-[13.5px] ${
+          value ? "border-ink font-medium text-ink" : "border-line text-ink-2"
         }`}
       >
         <option value="">{label}</option>
@@ -374,7 +305,7 @@ function Select({
         ))}
       </select>
       <svg
-        className="pointer-events-none absolute right-2 text-ink-3"
+        className="pointer-events-none absolute right-2.5 text-ink-3"
         width="10"
         height="10"
         viewBox="0 0 10 10"

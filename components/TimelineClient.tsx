@@ -90,7 +90,7 @@ export function TimelineClient({ policies, years }: Props) {
   );
 
   return (
-    <div className="mx-auto max-w-[1440px] px-4 sm:px-6">
+    <div className="mx-auto max-w-[1200px] px-4 sm:px-6">
       <div className="flex flex-wrap items-center gap-1.5 border-b border-line pb-3">
         <button type="button" className="chip" data-on={fam === "all"} onClick={() => setFam("all")}>
           All
@@ -144,8 +144,8 @@ export function TimelineClient({ policies, years }: Props) {
 
       {/* strip plot */}
       <div className="mt-10 overflow-x-auto">
-        <div className="eyebrow">Every instrument by date</div>
-        <svg viewBox={`0 0 ${W} ${H}`} className="mt-2 h-auto w-full min-w-[900px]" role="img" aria-label="Timeline of instruments by lane">
+        <div className="eyebrow">Every policy by date</div>
+        <svg viewBox={`0 0 ${W} ${H}`} className="mt-2 h-auto w-full min-w-[900px]" role="img" aria-label="Timeline of policies">
           {yearList.map((y) => {
             const gx = x(`${y}-01-01`);
             return (
@@ -209,7 +209,7 @@ export function TimelineClient({ policies, years }: Props) {
       {/* list */}
       <div className="mt-10">
         <div className="flex items-baseline justify-between">
-          <div className="eyebrow">{selYear ? `${selYear} · ${listed.length} instruments` : "Most recent 40"}</div>
+          <div className="eyebrow">{selYear ? `${selYear} · ${listed.length} policies` : "Most recent 40"}</div>
           {selYear && (
             <button type="button" onClick={() => setSelYear(null)} className="text-[12.5px] text-accent hover:underline">
               Show all years

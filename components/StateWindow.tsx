@@ -90,7 +90,7 @@ export function StateWindow({ jurisdiction, policies, year, latestYear, onClose 
                 </button>
               </div>
               <div className="mt-4 grid grid-cols-3 gap-4">
-                <Num value={policies.length} label="instruments" />
+                <Num value={policies.length} label="policies" />
                 <Num value={active} label="in force / adopted" />
                 <Num value={pending} label="draft / proposed" />
               </div>
@@ -105,13 +105,7 @@ export function StateWindow({ jurisdiction, policies, year, latestYear, onClose 
             <div className="min-h-0 flex-1 overflow-y-auto px-6 py-5 sm:px-8">
               {top.length === 0 ? (
                 <p className="py-6 text-[14px] leading-relaxed text-ink-2">
-                  No AI-specific instrument found
-                  {year < latestYear ? ` up to ${year}` : ""}. Absence here means we found nothing official, not that
-                  nothing exists.{" "}
-                  <Link href="/method#contribute" className="text-accent">
-                    Report one
-                  </Link>
-                  .
+                  No AI policy found{year < latestYear ? ` up to ${year}` : ""}.
                 </p>
               ) : (
                 <>
@@ -170,7 +164,7 @@ export function StateWindow({ jurisdiction, policies, year, latestYear, onClose 
               animate={{ opacity: 1 }}
               transition={{ delay: 0.12 + top.length * 0.09 }}
             >
-              <span className="text-[12px] text-ink-3">Esc to close</span>
+              <span />
               <Link
                 href={`/jurisdiction/${jurisdiction.code}`}
                 className="inline-flex items-center gap-2 rounded-[8px] bg-ink px-4 py-2 text-[13.5px] font-medium text-bg no-underline hover:opacity-90"
