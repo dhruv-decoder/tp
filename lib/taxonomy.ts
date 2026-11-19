@@ -85,7 +85,7 @@ export const INSTRUMENT_LABEL: Record<InstrumentType, string> = {
   "executive-order": "Executive order",
   procurement: "Procurement rule",
   curriculum: "Curriculum",
-  other: "Other",
+  other: "Programme / announcement",
 };
 
 export type StatusGroup = "active" | "pending" | "inactive" | "litigation";

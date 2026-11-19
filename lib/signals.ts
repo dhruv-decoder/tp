@@ -10,12 +10,17 @@ export interface Signal {
 }
 
 /** Official feeds polled on each visit (cached for an hour on the server). */
-export const FEEDS: { name: string; url: string; home: string }[] = [
-  { name: "PIB · Press Information Bureau", url: "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3", home: "https://pib.gov.in" },
-  { name: "RBI · Press releases", url: "https://www.rbi.org.in/pressreleases_rss.xml", home: "https://rbi.org.in" },
-  { name: "RBI · Notifications", url: "https://www.rbi.org.in/notifications_rss.xml", home: "https://rbi.org.in" },
-  { name: "SEBI", url: "https://www.sebi.gov.in/sebirss.xml", home: "https://sebi.gov.in" },
-  { name: "TRAI", url: "https://www.trai.gov.in/rss.xml", home: "https://trai.gov.in" },
+export const FEEDS: { name: string; url: string; home: string; kind: "official" | "index" }[] = [
+  { name: "PIB · Press Information Bureau", url: "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3", home: "https://pib.gov.in", kind: "official" },
+  { name: "RBI · Press releases", url: "https://www.rbi.org.in/pressreleases_rss.xml", home: "https://rbi.org.in", kind: "official" },
+  { name: "RBI · Notifications", url: "https://www.rbi.org.in/notifications_rss.xml", home: "https://rbi.org.in", kind: "official" },
+  { name: "SEBI", url: "https://www.sebi.gov.in/sebirss.xml", home: "https://sebi.gov.in", kind: "official" },
+  { name: "TRAI", url: "https://www.trai.gov.in/rss.xml", home: "https://trai.gov.in", kind: "official" },
+  // Google News indexes of official domains: used because several .gov.in hosts refuse automated requests from cloud IPs.
+  { name: "PIB (indexed)", url: "https://news.google.com/rss/search?q=(AI+OR+%22artificial+intelligence%22+OR+deepfake)+site:pib.gov.in&hl=en-IN&gl=IN&ceid=IN:en", home: "https://pib.gov.in", kind: "index" },
+  { name: "MeitY / IndiaAI (indexed)", url: "https://news.google.com/rss/search?q=(site:meity.gov.in+OR+site:indiaai.gov.in)&hl=en-IN&gl=IN&ceid=IN:en", home: "https://meity.gov.in", kind: "index" },
+  { name: "Regulators (indexed)", url: "https://news.google.com/rss/search?q=%22artificial+intelligence%22+(site:rbi.org.in+OR+site:sebi.gov.in+OR+site:trai.gov.in+OR+site:eci.gov.in+OR+site:irdai.gov.in+OR+site:cci.gov.in)&hl=en-IN&gl=IN&ceid=IN:en", home: "https://rbi.org.in", kind: "index" },
+  { name: "State AI policy (press)", url: "https://news.google.com/rss/search?q=%22AI+policy%22+(state+OR+cabinet)+India+when:14d&hl=en-IN&gl=IN&ceid=IN:en", home: "https://news.google.com", kind: "index" },
 ];
 
 export const AI_PATTERN =
@@ -72,10 +77,21 @@ export async function fetchSignals(): Promise<{ signals: Signal[]; errors: strin
           out.push({ ...it, source: f.name, sourceUrl: f.home });
         }
       } catch (e) {
-        errors.push(`${f.name}: ${(e as Error).message}`);
+        const msg = (e as Error).message;
+        errors.push(`${f.name}: ${msg === "HTTP 403" ? "refuses automated requests from cloud servers (HTTP 403)" : msg}`);
       }
     }),
   );
-  out.sort((a, b) => (a.date && b.date ? (a.date < b.date ? 1 : -1) : a.date ? -1 : 1));
+  // dedupe by title, newest first
+  const seen = new Set<string>();
+  const dedup = out.filter((s) => {
+    const k = s.title.toLowerCase().replace(/\s+/g, " ").slice(0, 80);
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+  dedup.sort((a, b) => (a.date && b.date ? (a.date < b.date ? 1 : -1) : a.date ? -1 : 1));
+  out.length = 0;
+  out.push(...dedup.slice(0, 80));
   return { signals: out, errors, fetchedAt: new Date().toISOString() };
 }

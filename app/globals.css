@@ -414,6 +414,12 @@ input[type="range"].scrub {
   height: 24px;
   background: transparent;
 }
+input[type="range"].scrub:focus-visible {
+  outline: none;
+}
+input[type="range"].scrub:focus-visible::-webkit-slider-thumb {
+  box-shadow: 0 0 0 1px var(--accent), 0 0 0 5px var(--accent-soft);
+}
 input[type="range"].scrub::-webkit-slider-runnable-track {
   height: 2px;
   background: var(--line-strong);

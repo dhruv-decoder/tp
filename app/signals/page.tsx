@@ -50,8 +50,8 @@ export default function SignalsPage() {
       <section className="mx-auto max-w-[1440px] px-4 pb-5 pt-8 sm:px-6">
         <h1 className="font-serif text-[30px] font-medium leading-tight text-ink">Signals</h1>
         <p className="mt-1 max-w-[62ch] text-[14px] text-ink-2">
-          Raw official releases that mention AI, straight from government feeds. Nothing here is curated yet. Items that
-          turn out to be instruments are added to the dataset after review.
+          Recent official releases and indexed pages that mention AI. Nothing here is curated yet; items that turn out
+          to be instruments enter the dataset after review.
         </p>
       </section>
       <div className="mx-auto grid max-w-[1440px] gap-10 px-4 sm:px-6 lg:grid-cols-[minmax(0,1fr)_320px]">
@@ -64,8 +64,9 @@ export default function SignalsPage() {
           <Eyebrow>Feeds polled</Eyebrow>
           <ul className="mt-2 flex flex-col gap-1.5 text-[13.5px]">
             {FEEDS.map((f) => (
-              <li key={f.url}>
+              <li key={f.url} className="flex items-center gap-2">
                 <ExternalLink href={f.home}>{f.name}</ExternalLink>
+                {f.kind === "index" && <span className="text-[11px] text-ink-3">via Google News index</span>}
               </li>
             ))}
           </ul>

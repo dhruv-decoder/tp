@@ -1,9 +1,23 @@
 central-meity-subcommittee-report-ai-governance-2025: banned marketing word in text
 central-standing-committee-cit-27th-report-ai-2026: banned marketing word in text
 central-nha-sahi-strategy-ai-healthcare-2026: banned marketing word in text
+or-odisha-it-policy-2025: source was a Google News query; confidence forced to low
+or-odisha-dhe-ai-curriculum-2026: source was a Google News query; confidence forced to low
 as-assam-ai-it-policy-2025-proposed: banned marketing word in text
+sk-sikkim-ai-centre-of-excellence-nielit-2026: source was a Google News query; confidence forced to low
+sk-sikkim-ai-funzone-schools-2026: source was a Google News query; confidence forced to low
+mh-data-centre-policy-draft-2026: source was a Google News query; confidence forced to low
+ct-ai-mission-2026: source was a Google News query; confidence forced to low
 ct-ai-digital-governance-roadmap-2026: banned marketing word in text
 up-ai-mission-2026: banned marketing word in text
+up-ai-city-lucknow: source was a Google News query; confidence forced to low
+up-ai-pragya-2025: source was a Google News query; confidence forced to low
+up-digital-media-policy-2024: source was a Google News query; confidence forced to low
+dl-ai-centres-of-excellence-2026: source was a Google News query; confidence forced to low
+dl-ai-grievance-platform-2025: source was a Google News query; confidence forced to low
+pb-ai-integration-mohali-hub-2026: source was a Google News query; confidence forced to low
+hp-state-innovation-policy-2026: source was a Google News query; confidence forced to low
+ch-ai-innovation-governance-hub-2026: source was a Google News query; confidence forced to low
 REVIEW possible duplicate: "MeitY advisory to intermediaries on deepfakes (7 November 2023)" (central-meity-advisory-deepfakes-2023-11) ~ "MeitY Advisory to Intermediaries on Deepfakes and Misinformation (26 December 2023)" (central-meity-deepfake-advisory-2023) sim=0.56
 MERGED "MeitY Advisory to Intermediaries on Deepfakes and Misinformation (26 December 2023)" (central-meity-deepfake-advisory-2023) into "MeitY advisory on deepfakes and misinformation (26 December 2023)" (central-meity-advisory-deepfakes-2023-12) sim=0.88
 REVIEW possible duplicate: "MeitY advisory on deployment of under-testing AI models (1 March 2024)" (central-meity-advisory-ai-models-2024-03-01) ~ "MeitY Advisory on Deployment of AI Models and Deepfakes (1 March 2024, revised 15 March 2024)" (central-meity-ai-model-advisory-2024) sim=0.58

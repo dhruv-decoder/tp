@@ -154,6 +154,16 @@ function normalise(raw, file) {
     entry.confidence = "low";
     if (entry.secondary_sources[0]) entry.source_url = entry.secondary_sources[0];
   }
+  // a Google News query is not a source; promote a real URL from the secondary list when one exists
+  if (/news\.google\.com/.test(entry.source_url)) {
+    const real = entry.secondary_sources.find((u) => !/news\.google\.com/.test(u));
+    if (real) {
+      entry.secondary_sources = [entry.source_url, ...entry.secondary_sources.filter((u) => u !== real)];
+      entry.source_url = real;
+    }
+    entry.confidence = "low";
+    warn(entry.id, "source was a Google News query; confidence forced to low");
+  }
   if (!entry.summary) warn(entry.id, "empty summary");
   if (BANNED.test(entry.summary) || entry.key_provisions.some((k) => BANNED.test(k))) warn(entry.id, `banned marketing word in text`);
   return entry;

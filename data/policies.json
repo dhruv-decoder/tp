@@ -2145,12 +2145,12 @@
       "education",
       "startups-industry"
     ],
-    "source_url": "https://news.google.com/rss/search?q=Chhattisgarh+cabinet+%22AI+Mission%22+500+crore&hl=en-IN&gl=IN&ceid=IN:en",
+    "source_url": "https://egov.eletsonline.com/2026/07/chhattisgarh-unveils-ai-and-digital-governance-roadmap-to-drive-innovation-and-public-services/",
     "source_type": "news",
     "secondary_sources": [
-      "https://egov.eletsonline.com/2026/07/chhattisgarh-unveils-ai-and-digital-governance-roadmap-to-drive-innovation-and-public-services/"
+      "https://news.google.com/rss/search?q=Chhattisgarh+cabinet+%22AI+Mission%22+500+crore&hl=en-IN&gl=IN&ceid=IN:en"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "confidence_note": "Six outlets (TNIE, ET Government, Hindustan Times, ETV Bharat, GK Today, Rediff) agree on date and figures; article bodies and the cabinet note were not retrievable, so the implementing department is inferred from the July 2026 roadmap.",
     "related": [
       "ct-ai-digital-governance-roadmap-2026",
@@ -7467,10 +7467,10 @@
     "sectors": [
       "startups-industry"
     ],
-    "source_url": "https://news.google.com/rss/search?q=Odisha+cabinet+%22IT+Policy%22+OR+%22Data+Centre+Policy%22+OR+%22ESDM%22+August+2025&hl=en-IN&gl=IN&ceid=IN:en",
+    "source_url": "https://sambadenglish.com/latest-news/odisha-govt-approves-gcc-policy-2025-to-attract-global-investments-and-create-50000-jobs-10799601/amp",
     "source_type": "news",
     "secondary_sources": [
-      "https://sambadenglish.com/latest-news/odisha-govt-approves-gcc-policy-2025-to-attract-global-investments-and-create-50000-jobs-10799601/amp"
+      "https://news.google.com/rss/search?q=Odisha+cabinet+%22IT+Policy%22+OR+%22Data+Centre+Policy%22+OR+%22ESDM%22+August+2025&hl=en-IN&gl=IN&ceid=IN:en"
     ],
     "confidence": "low",
     "confidence_note": "Only headlines (New Indian Express, Deccan Chronicle, 26 Aug 2025) confirm approval; policy text not accessed. Listed because the brief names it and the GCC policy references it.",
