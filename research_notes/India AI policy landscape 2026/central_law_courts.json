@@ -1,0 +1,1755 @@
+[
+  {
+    "id": "central-dpdp-act-2023",
+    "title": "Digital Personal Data Protection Act, 2023",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Parliament of India / Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "act",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2023-08-11",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2023-08-07", "event": "Bill passed by Lok Sabha" },
+      { "date": "2023-08-09", "event": "Bill passed by Rajya Sabha" },
+      { "date": "2023-08-11", "event": "Presidential assent; published as Act No. 22 of 2023" },
+      { "date": "2025-11-13", "event": "Provisions establishing the Data Protection Board (ss. 18-26) and related sections commenced alongside notification of the DPDP Rules, 2025" },
+      { "date": "2027-05-13", "event": "Remaining substantive obligations scheduled to commence (18 months from Rules notification)" }
+    ],
+    "summary": "Consent-based statute governing processing of digital personal data by data fiduciaries, with a Data Protection Board as adjudicator. It applies to automated and AI-driven processing because 'processing' is defined to include wholly or partly automated operations.",
+    "key_provisions": [
+      "Processing permitted only on consent (s. 6) or for 'certain legitimate uses' (s. 7); consent notice must state purpose and withdrawal mechanism",
+      "Children's data (under 18): verifiable parental consent required; tracking, behavioural monitoring and targeted advertising directed at children prohibited (s. 9)",
+      "Significant Data Fiduciaries (s. 10) must appoint a Data Protection Officer and independent data auditor and conduct periodic Data Protection Impact Assessments",
+      "Data principals have rights of access, correction, erasure and grievance redressal (ss. 11-13); no explicit right against solely automated decisions",
+      "Penalties up to Rs 250 crore per instance for failure to take reasonable security safeguards (Schedule)",
+      "Section 44(3) amends the RTI Act, 2005 to exempt personal information from disclosure"
+    ],
+    "themes": ["data-protection", "privacy", "children", "accountability-liability"],
+    "sectors": ["cross-sector"],
+    "source_url": "https://prsindia.org/billtrack/digital-personal-data-protection-bill-2023",
+    "source_type": "legislature",
+    "secondary_sources": [
+      "https://www.medianama.com/2025/11/223-india-notifies-dpdp-rules-2025-dpbi-activation/",
+      "https://en.wikipedia.org/wiki/Digital_Personal_Data_Protection_Act,_2023"
+    ],
+    "confidence": "high",
+    "confidence_note": "Act text and dates are well established; phased commencement confirmed by MediaNama reporting of the 13 Nov 2025 notification. Exact S.O. numbers for the commencement notifications were not retrieved.",
+    "related": ["central-dpdp-rules-2025", "central-data-protection-board-of-india", "central-dpdp-removal-of-difficulties-order-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-dpdp-rules-2025",
+    "title": "Digital Personal Data Protection Rules, 2025",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "rules",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2025-11-13",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-01-03", "event": "Draft DPDP Rules published for public consultation (comments to 18 Feb 2025, later extended to 5 Mar 2025)" },
+      { "date": "2025-11-13", "event": "Final Rules notified as G.S.R. 846(E); Rules 1, 2 and 17-21 (Board constitution and functioning) in force immediately" },
+      { "date": "2026-10-05", "event": "DPDP (Removal of Difficulties) Order, 2026 reportedly issued correcting wording in ss. 9 and 10 of the Act" },
+      { "date": "2026-11-13", "event": "Rule 4 and First Schedule (Consent Manager registration) in force" },
+      { "date": "2026-11-14", "event": "Data Protection Board portal dpbi.gov.in opened for Consent Manager applications" },
+      { "date": "2027-05-13", "event": "Rules 3, 5-16, 22-23 (notice, security safeguards, breach notification, children's data, SDF obligations, rights) scheduled to commence" }
+    ],
+    "summary": "Subordinate rules operationalising the DPDP Act in three phases over 18 months. They prescribe consent notice formats, breach notification, children's data verification, Consent Manager registration and additional due diligence for Significant Data Fiduciaries including algorithmic software checks.",
+    "key_provisions": [
+      "Three-phase commencement: 13 Nov 2025 (Board), 13 Nov 2026 (Consent Managers, Rule 4), 13 May 2027 (all remaining obligations)",
+      "Rule 13: Significant Data Fiduciaries must verify that algorithmic software used for processing 'does not pose a risk' to data principals' rights and must conduct annual DPIA and audit",
+      "Rule 10: verifiable parental consent for children's data via reliable identity/age details or virtual tokens; exemptions for health, education and child-care providers listed in Fourth Schedule",
+      "Rule 7: personal data breach must be notified to affected data principals without delay and to the Board within 72 hours with details",
+      "Rule 4 / First Schedule: Consent Managers must be Indian companies with net worth of at least Rs 2 crore, registered with the Board",
+      "Chairperson of Data Protection Board to receive Rs 4.5 lakh per month; Board to function as a digital office"
+    ],
+    "themes": ["data-protection", "privacy", "children", "accountability-liability", "transparency"],
+    "sectors": ["cross-sector"],
+    "source_url": "https://www.meity.gov.in/data-protection-framework",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://dpdpa.dcomply.in/rules/",
+      "https://www.medianama.com/2025/11/223-india-notifies-dpdp-rules-2025-dpbi-activation/",
+      "https://www.india-briefing.com/news/india-dpdp-consent-manager-registration-47884.html",
+      "https://consentos.in/learn/dpdp-rules-notification-status/"
+    ],
+    "confidence": "high",
+    "confidence_note": "Gazette number G.S.R. 846(E) and phase dates taken from a rule-by-rule tracker citing the gazette and corroborated by MediaNama and India Briefing; the MeitY framework page was not fetched in this session. Some trackers state the Rule 4 date as 14 Nov 2026 (portal launch) rather than 13 Nov 2026.",
+    "related": ["central-dpdp-act-2023", "central-data-protection-board-of-india", "central-dpdp-removal-of-difficulties-order-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-dpdp-removal-of-difficulties-order-2026",
+    "title": "Digital Personal Data Protection (Removal of Difficulties) Order, 2026",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "notification",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2026-10-05",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-10-05", "event": "Order S.O. 5458(E) reportedly issued under the Act's removal-of-difficulties power" }
+    ],
+    "summary": "A removal-of-difficulties order reportedly correcting the wording of section 9(1) and section 10(2)(c)(ii) of the DPDP Act. It is described as a textual fix and not as changing any obligation or commencement date.",
+    "key_provisions": [
+      "Reported S.O. number 5458(E) dated 5 October 2026",
+      "Reported to correct wording in s. 9(1) (children's data) and s. 10(2)(c)(ii) (SDF obligations)",
+      "Reported not to alter the 13 May 2027 commencement of substantive obligations"
+    ],
+    "themes": ["data-protection", "children"],
+    "sectors": ["cross-sector"],
+    "source_url": "https://indiaairulebook.com/this-week",
+    "source_type": "secondary",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Single secondary tracker source; gazette text not located. Treat as unverified until the e-Gazette entry is checked.",
+    "related": ["central-dpdp-act-2023", "central-dpdp-rules-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-data-protection-board-of-india",
+    "title": "Data Protection Board of India",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "institution",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2025-11-13",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-11-13", "event": "Sections 18-26 of the DPDP Act commenced; Board legally established as a digital office" },
+      { "date": "2026-05-06", "event": "Government sought nominations for Chairperson and Members" },
+      { "date": "2026-06-06", "event": "Recruitment advertisement for Chairperson and four Members published in Employment News" },
+      { "date": "2026-11-14", "event": "Board portal dpbi.gov.in launched for Consent Manager registration" }
+    ],
+    "summary": "The adjudicatory body under the DPDP Act, empowered to inquire into breaches and impose penalties. As of November 2026 it exists in law and has a portal but no Chairperson or Members have been appointed.",
+    "key_provisions": [
+      "Composition fixed at a Chairperson and four Members under the Rules (Rules 17-21 in force from 13 Nov 2025)",
+      "Powers of a civil court for inquiries; may impose penalties up to Rs 250 crore under the Schedule to the Act",
+      "Appeals lie to the Telecom Disputes Settlement and Appellate Tribunal (TDSAT)",
+      "No Chairperson or Member appointed as of 1 Nov 2026 despite June 2026 recruitment advertisement",
+      "Registration of Consent Managers opened 13-14 Nov 2026 via dpbi.gov.in"
+    ],
+    "themes": ["data-protection", "institution-building", "accountability-liability"],
+    "sectors": ["cross-sector"],
+    "source_url": "https://www.meity.gov.in/data-protection-framework",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.livelaw.in/articles/india-data-protection-board-established-law-543751",
+      "https://ppc.land/a-year-after-india-fixed-its-data-board-at-4-members-none-are-appointed/",
+      "https://indiadatalaw.org/is-the-board-operational/",
+      "https://dpdpa.dcomply.in/board/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Non-appointment status is reported consistently by LiveLaw and two trackers through November 2026; one blog (dpdpguard.ai) claims leadership was appointed, which is contradicted by the others and not corroborated by any official release.",
+    "related": ["central-dpdp-act-2023", "central-dpdp-rules-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-it-act-2000",
+    "title": "Information Technology Act, 2000",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Parliament of India / MeitY",
+    "instrument_type": "act",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2000-06-09",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2000-06-09", "event": "Assent; Act No. 21 of 2000" },
+      { "date": "2009-02-05", "event": "IT (Amendment) Act, 2008 assented, adding ss. 66A-66F, 67A-67B, 69A, 79 safe harbour" },
+      { "date": "2015-03-24", "event": "Supreme Court in Shreya Singhal struck down s. 66A and read down s. 79(3)(b)" },
+      { "date": "2025-09-24", "event": "Karnataka High Court in X Corp v Union upheld use of s. 79(3)(b) notices via the Sahyog portal" }
+    ],
+    "summary": "The principal statute for cyber offences, intermediary liability and government blocking powers. It is technology-neutral and is the legal basis for the 2021 Intermediary Rules and the 2026 synthetic-media amendments; the Government's stated position is that it already applies to AI systems.",
+    "key_provisions": [
+      "s. 66C identity theft and s. 66D cheating by personation using a computer resource (up to 3 years and Rs 1 lakh fine) used against deepfake impersonation",
+      "s. 66E violation of privacy (capturing/publishing private-area images), s. 67/67A/67B obscene, sexually explicit and child sexual abuse material",
+      "s. 69A blocking of public access to information, with the 2009 Blocking Rules",
+      "s. 79 safe harbour for intermediaries conditional on due diligence; s. 79(3)(b) loss of immunity on failure to act on 'actual knowledge' via government or court notice",
+      "s. 87 rule-making power used for the IT Rules 2021 and the 2026 SGI amendments"
+    ],
+    "themes": ["content-moderation", "synthetic-media", "cybersecurity", "accountability-liability"],
+    "sectors": ["cross-sector"],
+    "source_url": "https://www.indiacode.nic.in/handle/123456789/1999",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://globalfreedomofexpression.columbia.edu/cases/x-v-union-of-india-sahyog-portal",
+      "https://www.medianama.com/wp-content/uploads/2026/03/pdfName.pdf"
+    ],
+    "confidence": "high",
+    "confidence_note": "Statute well known; the 27th Standing Committee report (Mar 2026) records MeitY's position that the IT Act is technology-neutral and applies to AI.",
+    "related": ["central-it-rules-2021", "central-it-rules-sgi-amendment-2026", "central-karnataka-hc-x-corp-sahyog-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-it-rules-2021",
+    "title": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "rules",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2021-02-25",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2021-02-25", "event": "Rules notified, superseding the 2011 Intermediary Guidelines" },
+      { "date": "2022-10-28", "event": "Amendment creating Grievance Appellate Committees and requiring intermediaries to 'ensure' user compliance" },
+      { "date": "2023-04-06", "event": "Amendment adding Fact Check Unit provision and online gaming rules" },
+      { "date": "2025-10-22", "event": "Amendment tightening who may issue s. 79(3)(b) takedown notices (per Standing Committee record)" },
+      { "date": "2026-02-10", "event": "Synthetically generated information amendment notified (G.S.R. 120(E)), in force 20 Feb 2026" },
+      { "date": "2026-03-30", "event": "Draft Second Amendment Rules, 2026 released for consultation" }
+    ],
+    "summary": "Due-diligence rules that intermediaries must follow to retain safe harbour under s. 79 of the IT Act, plus a code of ethics for digital news publishers and OTT platforms. All deepfake and AI-content obligations on platforms have been inserted into these Rules by amendment.",
+    "key_provisions": [
+      "Rule 3(1)(b): intermediaries must inform users not to host listed unlawful content categories and make reasonable efforts to prevent it",
+      "Rule 3(2)(b): removal within 24 hours (reduced to 2 hours in 2026) of non-consensual intimate or morphed imagery on complaint",
+      "Rule 4: additional obligations for Significant Social Media Intermediaries (50 lakh registered users), including Chief Compliance Officer, nodal contact, resident grievance officer, monthly compliance reports and first-originator traceability for messaging services",
+      "Part III: Code of Ethics and three-tier grievance mechanism for digital news publishers and OTT curated content",
+      "Rule 7: non-compliance removes the s. 79(1) exemption"
+    ],
+    "themes": ["content-moderation", "synthetic-media", "accountability-liability", "transparency"],
+    "sectors": ["media", "cross-sector"],
+    "source_url": "https://www.meity.gov.in/static/uploads/2026/04/93820275c4f00a64fd82884731b6dec4.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://en.wikipedia.org/wiki/Information_Technology_Rules,_2021",
+      "https://www.medianama.com/wp-content/uploads/2026/03/pdfName.pdf"
+    ],
+    "confidence": "high",
+    "confidence_note": "Amendment dates (28 Oct 2022, 6 Apr 2023, 22 Oct 2025) are recorded in the 27th Standing Committee report. The MeitY PDF listed as source_url appears to be the consolidated Rules as amended in 2026 but returned HTTP 403 when fetched.",
+    "related": ["central-it-act-2000", "central-it-rules-amendment-2023", "central-it-rules-amendment-oct-2025", "central-it-rules-sgi-amendment-2026", "central-it-rules-second-amendment-draft-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-it-rules-amendment-2023",
+    "title": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2023",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "amendment",
+    "status": "under-litigation",
+    "binding": "mixed",
+    "date": "2023-04-06",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2023-04-06", "event": "Amendment notified: Fact Check Unit (FCU) clause in Rule 3(1)(b)(v) and online gaming framework" },
+      { "date": "2024-03-20", "event": "FCU notified via PIB; Supreme Court stayed the notification the next day" },
+      { "date": "2024-09-20", "event": "Bombay High Court (tie-breaker opinion of Justice A.S. Chandurkar) struck down the FCU clause as ultra vires Arts 14, 19(1)(a), 19(1)(g) and s. 79 (Kunal Kamra v Union of India)" },
+      { "date": "2026-03-01", "event": "Supreme Court issued notice on the Union's appeal but declined to stay the Bombay HC judgment" }
+    ],
+    "summary": "Amendment that would have required intermediaries to remove content about the Central Government identified as 'fake or misleading' by a government Fact Check Unit, and that introduced self-regulatory bodies for online real-money gaming. The FCU clause was struck down by the Bombay High Court and the Union's appeal is pending in the Supreme Court.",
+    "key_provisions": [
+      "Rule 3(1)(b)(v) extended to information 'in respect of any business of the Central Government' flagged by a notified Fact Check Unit",
+      "Online gaming: self-regulatory bodies to verify 'permissible online real money games'; KYC obligations for gaming intermediaries",
+      "FCU clause held unconstitutional by Bombay HC on 20 Sep 2024; FCU never operationalised",
+      "Supreme Court appeal (Union v Kunal Kamra) pending; notice issued March 2026, no stay"
+    ],
+    "themes": ["content-moderation", "transparency", "governance"],
+    "sectors": ["media", "cross-sector"],
+    "source_url": "https://www.scobserver.in/cases/challenge-to-the-it-rules-2023/",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://internetfreedom.in/supreme-court-of-india-issued-notice-but-refused-any-stay-in-union-of-indias-challenge-to-the-bombay-high-court-judgement-holding-fact-check-unit-to-be-ultra-vires/",
+      "https://en.wikipedia.org/wiki/Kunal_Kamra_v._Union_of_India",
+      "https://lawbeat.in/top-stories/clear-guidelines-needed-centre-tells-supreme-court-on-challenge-to-bombay-hc-striking-down-fact-check-units-1571190"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Gazette text not fetched; dates from Supreme Court Observer, IFF and news. Exact March 2026 date of SC notice not confirmed (month precision for that milestone).",
+    "related": ["central-it-rules-2021", "central-standing-committee-cit-22nd-report-fake-news-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-deepfake-advisory-2023",
+    "title": "MeitY Advisory to Intermediaries on Deepfakes and Misinformation (26 December 2023)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "advisory",
+    "status": "superseded",
+    "binding": "non-binding",
+    "date": "2023-12-26",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2023-11-07", "event": "MeitY advisory after the Rashmika Mandanna deepfake, reminding platforms of Rule 3(2)(b) 24-hour takedown" },
+      { "date": "2023-12-26", "event": "Advisory requiring platforms to communicate prohibited content categories clearly and to act on deepfakes under Rule 3(1)(b); 7 days given for action-taken report" },
+      { "date": "2026-02-20", "event": "Substantive deepfake obligations placed in the Rules themselves by the 2026 amendment" }
+    ],
+    "summary": "An executive advisory under the IT Rules 2021 directing intermediaries to inform users about the eleven prohibited content categories in Rule 3(1)(b), with specific reference to deepfakes, and to report compliance within a week. It had no independent legal force and was followed by advisories in March 2024 and binding rule changes in 2026.",
+    "key_provisions": [
+      "Platforms to communicate Rule 3(1)(b) prohibitions to users in clear language at registration, login and upload",
+      "Users to be informed of penal consequences under IPC and IT Act for deepfake-related offences",
+      "Action-taken-cum-status report sought from intermediaries within 7 days",
+      "Described by MeitY as a precursor to amending the IT Rules on deepfakes"
+    ],
+    "themes": ["synthetic-media", "content-moderation"],
+    "sectors": ["media", "cross-sector"],
+    "source_url": "https://www.jsalaw.com/newsletters-and-updates/meitys-advisory-on-deployment-of-ai-models/",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://iapp.org/news/a/indias-foray-into-regulating-ai",
+      "https://www.businesstoday.in/tech-today/news/story/new-advisory-of-meity-ai-platforms-dont-need-government-permission-focus-on-deepfakes-421703-2024-03-16"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Advisory text is unpublished on meity.gov.in; content reconstructed from law-firm notes and press. The 7 Nov 2023 precursor advisory date is from recall and press, not a fetched primary.",
+    "related": ["central-it-rules-2021", "central-meity-ai-model-advisory-2024", "central-it-rules-sgi-amendment-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-ai-model-advisory-2024",
+    "title": "MeitY Advisory on Deployment of AI Models and Deepfakes (1 March 2024, revised 15 March 2024)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "advisory",
+    "status": "superseded",
+    "binding": "non-binding",
+    "date": "2024-03-15",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2024-03-01", "event": "Advisory issued requiring 'explicit permission' of Government before deploying under-tested or unreliable AI models to Indian users; action-taken report in 15 days" },
+      { "date": "2024-03-04", "event": "Minister of State clarified advisory aimed at 'significant platforms', not startups" },
+      { "date": "2024-03-15", "event": "Revised advisory removed the prior-permission requirement and the 15-day reporting; kept labelling and consent-popup expectations" },
+      { "date": "2026-02-20", "event": "Labelling/metadata expectations converted into binding Rule 3(3) obligations" }
+    ],
+    "summary": "A pair of advisories to intermediaries under the IT Rules 2021 on generative AI. The 1 March 2024 version required government permission before deploying under-tested models; after industry objection the 15 March version replaced this with user notification, labelling of unreliability and metadata for AI-generated media.",
+    "key_provisions": [
+      "AI models must not permit users to host or generate unlawful content under Rule 3(1)(b) or threaten electoral integrity",
+      "Under-tested/unreliable models to be made available only after labelling 'possible and inherent fallibility' and with consent pop-ups to users",
+      "Synthetic audio/visual content that may be used as deepfakes to be labelled or embedded with a permanent unique identifier/metadata identifying the creator or first originator",
+      "1 March version's 'explicit permission of the Government of India' requirement withdrawn on 15 March 2024"
+    ],
+    "themes": ["synthetic-media", "models", "transparency", "elections"],
+    "sectors": ["cross-sector"],
+    "source_url": "https://www.jsalaw.com/newsletters-and-updates/revised-meity-advisory-on-deployment-of-ai-models/",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://www.azbpartners.com/bank/meity-liberalizes-ai-advisory-dated-march-1-2024-following-industry-concerns-and-issues-revised-advisory-on-march-15-2024/",
+      "https://ssrana.in/articles/meity-approval-companies-ai-generative-models/",
+      "https://www.businesstoday.in/tech-today/news/story/new-advisory-of-meity-ai-platforms-dont-need-government-permission-focus-on-deepfakes-421703-2024-03-16"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Advisories were circulated to platforms rather than gazetted; content corroborated by three law-firm summaries and press.",
+    "related": ["central-meity-deepfake-advisory-2023", "central-it-rules-sgi-amendment-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-it-rules-amendment-oct-2025",
+    "title": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2025 (22 October 2025)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "amendment",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2025-10-22",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-09-24", "event": "Karnataka HC upheld s. 79(3)(b) notices via Sahyog portal, prompting procedural tightening" },
+      { "date": "2025-10-22", "event": "Amendment notified (date recorded by Standing Committee); reported to take effect 15 Nov 2025" }
+    ],
+    "summary": "An amendment to Rule 3(1)(d) reported to restrict issuance of s. 79(3)(b) 'actual knowledge' takedown notices to senior officers (Joint Secretary rank or equivalent, DIG rank for police) acting by reasoned written order, with periodic review. The 27th Standing Committee report lists 22 October 2025 as an amendment date of the IT Rules.",
+    "key_provisions": [
+      "Rule 3(1)(d) notices to be issued only by an authorised officer not below Joint Secretary (or DIG for police), by reasoned intimation specifying legal basis and URL (as reported)",
+      "Monthly review of notices by a Secretary-level officer (as reported)",
+      "Amendment date 22 Oct 2025 confirmed in Standing Committee on Communications and IT 27th Report, para 7"
+    ],
+    "themes": ["content-moderation", "accountability-liability", "transparency"],
+    "sectors": ["cross-sector"],
+    "source_url": "https://www.medianama.com/wp-content/uploads/2026/03/pdfName.pdf",
+    "source_type": "legislature",
+    "secondary_sources": [
+      "https://www.livelaw.in/articles/ai-generated-content-deepfakes-524064"
+    ],
+    "confidence": "low",
+    "confidence_note": "Existence and date confirmed only via the Standing Committee's list of amendment dates; the substantive content (officer rank, reasoned orders, review) is from the researcher's recall and a LiveLaw reference to 'Joint Secretary rank or above' and was not verified against the gazette in this session.",
+    "related": ["central-it-rules-2021", "central-karnataka-hc-x-corp-sahyog-2025", "central-it-rules-sgi-amendment-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-it-rules-sgi-draft-amendment-2025",
+    "title": "Draft IT (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2025 on Synthetically Generated Information",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "consultation",
+    "status": "superseded",
+    "binding": "non-binding",
+    "date": "2025-10-22",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-10-22", "event": "Draft amendment and FAQ published for comments" },
+      { "date": "2025-11-06", "event": "Original comment deadline (reported extension to 13 Nov 2025)" },
+      { "date": "2026-02-10", "event": "Final amendment notified with changes" }
+    ],
+    "summary": "Draft rules proposing a definition of 'synthetically generated information' and requiring platforms that create or host it to label it with a visible mark covering at least 10 percent of the visual surface (or the first 10 percent of audio), embed permanent metadata, and obtain user declarations. The 10 percent size rule was dropped in the final version.",
+    "key_provisions": [
+      "Proposed Rule 2(1)(wa) definition of SGI as information artificially or algorithmically created or altered to appear real",
+      "Proposed Rule 3(3): label covering at least 10% of visual display or initial 10% of audio duration; permanent metadata/unique identifier; no removal of labels",
+      "Proposed Rule 4(1A): SSMIs to obtain user declaration whether uploads are SGI and verify by technical means",
+      "Comments invited to 6 Nov 2025; MeitY FAQ published alongside"
+    ],
+    "themes": ["synthetic-media", "content-moderation", "transparency"],
+    "sectors": ["media", "cross-sector"],
+    "source_url": "https://www.meity.gov.in/static/uploads/2025/10/065b6deb585441b5ccdf8be42502a49c.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.medianama.com/wp-content/uploads/2026/03/pdfName.pdf",
+      "https://blog.ipleaders.in/it-rules-2026/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "MeitY FAQ PDF located via search but not opened; the 10% rule and its later removal are reported by iPleaders and by the ECI's parallel adoption of the 10% figure. Comment-deadline extension date is from recall.",
+    "related": ["central-it-rules-sgi-amendment-2026", "central-eci-advisory-ai-labelling-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-it-rules-sgi-amendment-2026",
+    "title": "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2026",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "amendment",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2026-02-10",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-10-22", "event": "Draft published for consultation" },
+      { "date": "2026-02-10", "event": "Notified as G.S.R. 120(E)" },
+      { "date": "2026-02-20", "event": "Came into force" },
+      { "date": "2026-04-01", "event": "Gujarat High Court PIL seeks enforcement; intermediaries directed to onboard Sahyog portal" },
+      { "date": "2026-09-12", "event": "Supreme Court stayed Gujarat HC proceedings pending transfer" }
+    ],
+    "summary": "India's first binding AI-specific obligations. The amendment defines 'synthetically generated information' (SGI), requires platforms that enable its creation to label it prominently and embed permanent provenance metadata, requires SSMIs to collect user declarations and verify them technically, and cuts takedown timelines to 3 hours for government or court notices and 2 hours for non-consensual intimate imagery.",
+    "key_provisions": [
+      "New Rule 2(1)(wa): SGI is audio, visual or audio-visual information artificially or algorithmically created, generated, modified or altered using a computer resource so as to appear real, authentic or true; text-only output, routine editing, accessibility improvements and document creation are excluded",
+      "Rule 3(3): intermediaries offering SGI tools must ensure SGI is prominently labelled and embedded with permanent metadata or a technical provenance mechanism including a unique identifier, and must not permit removal or suppression of labels/metadata; the draft's 10% size requirement was replaced with a qualitative 'prominent' standard",
+      "Rule 4(1A): SSMIs must obtain a user declaration on whether content is SGI, deploy appropriate technical measures including automated tools to verify, and display a label on confirmed SGI; 'endeavour to deploy' changed to 'deploy'",
+      "Rule 3(1)(d): removal within 3 hours (down from 36) of a court order or reasoned notification from an authorised government officer; Rule 3(1)(b) general categories 36 hours (down from 72)",
+      "Rule 3(2)(b): removal within 2 hours (down from 24) of complaints about nudity, sexual acts or impersonation including morphed and deepfake imagery",
+      "Grievance resolution shortened from 15 to 7 days; removal of SGI by automated tools deemed not to breach s. 79(2)(a)/(b) conditions; non-compliance forfeits s. 79 safe harbour"
+    ],
+    "themes": ["synthetic-media", "content-moderation", "transparency", "accountability-liability", "children"],
+    "sectors": ["media", "cross-sector"],
+    "source_url": "https://www.meity.gov.in/static/uploads/2026/04/93820275c4f00a64fd82884731b6dec4.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.medianama.com/wp-content/uploads/2026/03/pdfName.pdf",
+      "https://www.legal500.com/intelligence/india/media-telecoms-it-entertainment/government-notifies-information-technology-amendment-rules-2026",
+      "https://blog.ipleaders.in/it-rules-2026/",
+      "https://www.livelaw.in/articles/ai-generated-content-deepfakes-524064",
+      "https://digitalpolicyalert.org/event/37705-ministry-of-electronics-and-information-technology-adopted-information-technology-intermediary-guidelines-and-digital-media-ethics-code-amendment-rules-2026-addressing-synthetically-generated-information"
+    ],
+    "confidence": "high",
+    "confidence_note": "Gazette number G.S.R. 120(E), notification date 10 Feb 2026 and commencement 20 Feb 2026 are stated verbatim in the Standing Committee's 27th Report (official text, hosted by MediaNama). Rule-level detail is from Legal500, iPleaders and LiveLaw and is consistent across them. The MeitY PDF returned HTTP 403 and was not read directly. One tracker (indiaairulebook.com) lists a 6 Oct 2026 commencement, which conflicts with the official record and is treated as an error.",
+    "related": ["central-it-rules-2021", "central-it-rules-sgi-draft-amendment-2025", "central-standing-committee-cit-27th-report-ai-2026", "central-sc-gujarat-deepfake-pil-transfer-2026", "central-eci-ai-directions-2026-assembly-elections"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-it-rules-second-amendment-draft-2026",
+    "title": "Draft Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Second Amendment Rules, 2026",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "consultation",
+    "status": "consultation",
+    "binding": "non-binding",
+    "date": "2026-03-30",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-03-30", "event": "Draft released; 15-day comment window to 14 Apr 2026" },
+      { "date": "2026-04-29", "event": "Comment deadline extended (reports give 29 Apr or 7 May 2026)" },
+      { "date": "2026-11-19", "event": "No final notification located" }
+    ],
+    "summary": "A second 2026 draft amendment that would make MeitY advisories, SOPs and codes of practice binding conditions of safe harbour, extend the Part III news code to high-follower individual users ('significant user-publishers of news and current affairs'), and expand Inter-Departmental Committee powers. It remains un-notified as of November 2026.",
+    "key_provisions": [
+      "Proposed Rule 3(4): intermediaries must comply with any clarification, advisory, order, SOP, code of practice or guideline issued by MeitY to retain safe harbour",
+      "Proposed new category of significant user-publishers of news and current affairs subject to Part III Code of Ethics, defined by follower threshold",
+      "Proposed Rules 3(1)(g)-(h): IT Rules data-retention duties to operate alongside DPDP Act obligations",
+      "Proposed Rules 14(2) and 14(5): Inter-Departmental Committee may take up 'matters' referred by MeitY, not only complaints",
+      "Comments to itrules.consultation@meity.gov.in; MeitY stated comments would be held in fiduciary capacity and not published"
+    ],
+    "themes": ["content-moderation", "governance", "accountability-liability"],
+    "sectors": ["media", "cross-sector"],
+    "source_url": "https://www.meity.gov.in/static/uploads/2026/03/30591fc6e322dcbcc9dae84a0f02e9e7.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://sflc.in/it-rules-second-draft-amendments-2026-submit-your-comments-now/",
+      "https://theprint.in/india/governance/comply-or-lose-safe-harbour-meitys-draft-amendment-to-it-rules-lets-govt-give-platforms-binding-orders/2892174/",
+      "https://www.khaitanco.com/sites/default/files/2026-04/ERGO%20-%20IT%20Rules%20(Proposed%20Second%20Amendment)%20-%208%20April%202026.pdf",
+      "https://internetfreedom.in/iff-writes-to-meity-seeking-public-consultations-in-line-with-the-pre-legislative-consultative-policy-2014-on-proposed-amendments/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "MeitY PDF located but returned HTTP 403; content from SFLC.in, ThePrint and Khaitan. Sources differ on the extended deadline (29 Apr vs 7 May 2026). No gazette notification found through 19 Nov 2026.",
+    "related": ["central-it-rules-2021", "central-it-rules-sgi-amendment-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-karnataka-hc-x-corp-sahyog-2025",
+    "title": "X Corp v Union of India (Sahyog portal), Karnataka High Court, W.P. No. 7405 of 2025",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Karnataka High Court (appeal pending; Supreme Court seized of transfer)",
+    "instrument_type": "court-ruling",
+    "status": "under-litigation",
+    "binding": "binding",
+    "date": "2025-09-24",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2024-03-13", "event": "I4C designated as agency under s. 79(3)(b)" },
+      { "date": "2024-10-01", "event": "MHA launched Sahyog portal for routing takedown notices to intermediaries" },
+      { "date": "2025-09-24", "event": "Justice M. Nagaprasanna dismissed X Corp's petition in a 351-page judgment" },
+      { "date": "2026-03-01", "event": "Division Bench (CJ Vibhu Bakhru and Justice C.M. Poonacha) issued notice on X Corp's appeal; listed 11 June 2026" },
+      { "date": "2026-07-22", "event": "Supreme Court stayed all High Court proceedings on the portal pending the Union's transfer petitions" }
+    ],
+    "summary": "Single-judge ruling upholding the Government's practice of issuing content-removal notices under s. 79(3)(b) of the IT Act through the Sahyog portal, rejecting X Corp's argument that blocking may occur only under s. 69A with Shreya Singhal safeguards. The portal is the channel through which 3-hour SGI takedown notices under the 2026 Rules are routed.",
+    "key_provisions": [
+      "Held s. 79(3)(b) independently empowers authorised agencies to notify unlawful content; failure to act forfeits safe harbour",
+      "Held Shreya Singhal did not confine takedowns to s. 69A, only required a court or government order",
+      "Described the Sahyog portal as 'an instrument of public good'; rejected X Corp's standing to assert Art. 19 rights as a foreign company",
+      "Appeal pending before Karnataka HC Division Bench; Supreme Court stayed related HC cases on 22 July 2026 while considering transfer"
+    ],
+    "themes": ["content-moderation", "accountability-liability", "governance"],
+    "sectors": ["media", "cross-sector"],
+    "source_url": "https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-x-sahyog-portal-centre-blocking-orders-304983",
+    "source_type": "court",
+    "secondary_sources": [
+      "https://globalfreedomofexpression.columbia.edu/cases/x-v-union-of-india-sahyog-portal",
+      "https://sflc.in/xcorp-judgment-analysis/",
+      "https://www.medianama.com/2026/03/223-karnataka-hc-centre-response-x-challenge-sahyog-portal/",
+      "https://theleaflet.in/digital-rights/law-and-technology/an-exhaustive-takedown-of-karnataka-hcs-decision-upholding-sahyog-portal-in-x-corp-v-union-of-india"
+    ],
+    "confidence": "high",
+    "confidence_note": "Judgment date, case number and holdings corroborated by LiveLaw, Columbia Global Freedom of Expression and SFLC.in. The 22 July 2026 Supreme Court stay is from a single search summary and should be checked against the SC order.",
+    "related": ["central-it-act-2000", "central-it-rules-amendment-oct-2025", "central-sc-gujarat-deepfake-pil-transfer-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-digital-india-act-proposed",
+    "title": "Digital India Act (proposed replacement for the IT Act, 2000)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "bill",
+    "status": "proposed",
+    "binding": "non-binding",
+    "date": "2023-03-09",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2023-03-09", "event": "MeitY pre-draft consultation presentation (Bengaluru) proposing risk-based regulation of high-risk AI and review of safe harbour" },
+      { "date": "2023-05-23", "event": "Second consultation (Mumbai); draft promised for mid-2023 but never released" },
+      { "date": "2025-12-17", "event": "MeitY Secretary S. Krishnan: no standalone AI law planned; DIA described as stalled" },
+      { "date": "2026-03-30", "event": "Standing Committee 27th Report records MeitY submission that DIA is 'currently under formulation'" },
+      { "date": "2026-07-09", "event": "Krishnan says MeitY will start stakeholder discussions and 'a process of drafting' on AI regulation" },
+      { "date": "2026-10-08", "event": "Minister Vaishnaw announces an AI-regulation consultation paper within a month" }
+    ],
+    "summary": "A long-promised statute to replace the IT Act 2000 with risk-based rules for digital platforms, intermediaries and 'high-risk' AI. No bill or public draft has been introduced in Parliament as of November 2026; the Government has instead amended the IT Rules and signalled a separate AI consultation paper.",
+    "key_provisions": [
+      "2023 consultation deck proposed regulating 'high-risk AI systems' through algorithmic accountability, risk assessment and vulnerability review",
+      "Proposed reconsidering blanket safe harbour for all intermediaries and classifying intermediaries by function",
+      "No draft text published since 2023; no bill introduced in Parliament through the Winter Session 2025 or Monsoon Session 2026",
+      "MeitY told the Standing Committee in 2026 that DIA is 'under formulation to replace the IT Act and introduce new central legal framework to deal with emerging issues of AI'"
+    ],
+    "themes": ["governance", "risk-management", "accountability-liability", "content-moderation"],
+    "sectors": ["cross-sector"],
+    "source_url": "https://www.medianama.com/wp-content/uploads/2026/03/pdfName.pdf",
+    "source_type": "legislature",
+    "secondary_sources": [
+      "https://www.medianama.com/2025/12/223-india-ai-law-digital-india-act-stalled/",
+      "https://www.medianama.com/2026/07/223-meity-start-stakeholder-discussions-separate-law-ai-regulation-s-krishnan/",
+      "https://indiaairulebook.com/learn/platforms-internet/digital-india-act",
+      "https://kluwerlawonline.com/journalarticle/Global+Privacy+Law+Review/5.1/GPLR2024002"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Status (no bill, no draft) consistent across MediaNama (Dec 2025, Jul 2026) and the Standing Committee record. The 2023 consultation dates are from recall of MeitY presentations and press, not re-verified this session.",
+    "related": ["central-it-act-2000", "central-meity-ai-law-consultation-paper-2026", "central-standing-committee-cit-27th-report-ai-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-ai-law-consultation-paper-2026",
+    "title": "MeitY consultation paper on a standalone AI law (announced October 2026)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "consultation",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2026-10-08",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-12-17", "event": "MeitY Secretary says no standalone AI law is planned" },
+      { "date": "2026-06-01", "event": "Minister Vaishnaw says Ministry is discussing a new AI law with industry (month precision)" },
+      { "date": "2026-07-09", "event": "Secretary Krishnan announces stakeholder consultations and drafting process at CII GCC Summit" },
+      { "date": "2026-10-08", "event": "Minister Vaishnaw says a consultation paper on AI regulation will be released within a month" },
+      { "date": "2026-11-19", "event": "No published consultation paper located on meity.gov.in" }
+    ],
+    "summary": "An announced but, as of 19 November 2026, unpublished MeitY consultation paper intended to found a statute on AI. Ministerial statements say it will cover safety, a 'human-first' approach, skilling, inclusion, deepfakes and psychological harms, with sector-specific guidance for regulators such as banking and securities.",
+    "key_provisions": [
+      "Four stated pillars: safety, human-first approach, skilling, 'no person left behind'",
+      "Expected to address deepfakes, psychological harms from AI use and startup compliance burden",
+      "Reported design questions: limits on agentic-AI autonomy, consent for synthetic use of likeness or voice, model liability allocation, regulatory sandboxes",
+      "Industry reportedly pressing for sector-wise rules and clarity on safe harbour for 'AI intermediaries'; MeitY reported to be weighing a separate 'AI intermediary' definition",
+      "Release status unconfirmed as of 1 Nov 2026 per independent tracker and not located by this research as of 19 Nov 2026"
+    ],
+    "themes": ["governance", "safety", "synthetic-media", "accountability-liability"],
+    "sectors": ["cross-sector"],
+    "source_url": "https://www.medianama.com/2026/10/223-india-ai-regulation-consultation-paper-vaishnaw/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.medianama.com/2026/10/223-meity-consultation-paper-ai-regulation/",
+      "https://theprint.in/india/governance/india-steps-up-ai-regulation-push-with-consultation-paper-likely-next-month-deepfakes-safety-in-focus/3065386/",
+      "https://cio.eletsonline.com/artificial-intelligence/india-ai-intermediary-definition-meity-ai-law-safe-harbour-big-tech-sector-rules/76497/",
+      "https://indiaairulebook.com/this-week"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Announcement well reported (MediaNama, ThePrint, Outlook Business). Whether the paper was released between 1 and 19 Nov 2026 could not be confirmed because the web-search budget was exhausted; treat as 'announced, not yet published'.",
+    "related": ["central-digital-india-act-proposed", "central-standing-committee-cit-27th-report-ai-2026", "central-meity-ai-governance-guidelines-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-bns-2023",
+    "title": "Bharatiya Nyaya Sanhita, 2023 (provisions applied to deepfakes and AI-generated content)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Parliament of India / Ministry of Home Affairs",
+    "instrument_type": "act",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2023-12-25",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2023-12-21", "event": "Bharatiya Nyaya (Second) Sanhita Bill passed by Parliament" },
+      { "date": "2023-12-25", "event": "Presidential assent; Act No. 45 of 2023" },
+      { "date": "2024-07-01", "event": "Came into force, replacing the Indian Penal Code" }
+    ],
+    "summary": "The general criminal code. It contains no deepfake-specific offence; prosecutions of AI-generated impersonation, sexual deepfakes and defamatory synthetic media rely on general offences (forgery of electronic records, cheating by personation, defamation, voyeurism, obscenity, criminal intimidation) read with IT Act offences.",
+    "key_provisions": [
+      "s. 336 forgery, including false electronic records (up to 2 years; s. 336(3)-(4) higher terms for forgery to cheat or harm reputation)",
+      "s. 319 cheating by personation and s. 318 cheating; s. 351 criminal intimidation",
+      "s. 356 defamation (up to 2 years simple imprisonment or fine)",
+      "s. 77 voyeurism, s. 78 stalking, s. 79 word/gesture insulting modesty of a woman, s. 294 sale/circulation of obscene material including electronic form",
+      "s. 111 organised crime and s. 112 petty organised crime invoked against deepfake fraud networks",
+      "No standalone deepfake, synthetic media or AI offence; Rajya Sabha Home Affairs Committee (Aug 2025) and private members' bills seek one"
+    ],
+    "themes": ["synthetic-media", "accountability-liability", "cybersecurity"],
+    "sectors": ["law-enforcement", "cross-sector"],
+    "source_url": "https://prsindia.org/billtrack/the-bharatiya-nyaya-second-sanhita-2023",
+    "source_type": "legislature",
+    "secondary_sources": [
+      "https://www.legalserviceindia.com/Legal-Articles/ai-deepfakes-right-to-privacy-india/",
+      "https://lawfullegal.in/ai-generated-deepfakes-and-criminal-liability-is-indias-legal-framework-adequate/",
+      "https://en.wikipedia.org/wiki/Bharatiya_Nyaya_Sanhita,_2023"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Section numbers for forgery (336) and defamation (356) confirmed by secondary legal commentary; other section mappings (77, 78, 79, 294, 318, 319, 351) are from the researcher's knowledge of the BNS and should be spot-checked against India Code.",
+    "related": ["central-bsa-2023", "central-it-act-2000", "central-standing-committee-home-affairs-254th-report-cybercrime-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-bsa-2023",
+    "title": "Bharatiya Sakshya Adhiniyam, 2023 (electronic evidence provisions)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Parliament of India / Ministry of Home Affairs",
+    "instrument_type": "act",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2023-12-25",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2023-12-25", "event": "Presidential assent; Act No. 47 of 2023" },
+      { "date": "2024-07-01", "event": "Came into force, replacing the Indian Evidence Act, 1872" }
+    ],
+    "summary": "The evidence code. Section 63 governs admissibility of electronic records (including a certificate from the person in charge of the device and an expert), relevant to proving or rebutting AI-generated audio-visual material; it does not itself address authenticity of synthetic content.",
+    "key_provisions": [
+      "s. 61: electronic or digital records are not denied admissibility merely for being electronic",
+      "s. 63: conditions for admissibility of electronic records; certificate in the prescribed Schedule form signed by the person in charge and by an expert",
+      "s. 39: opinions of experts (including forensic examiners) relevant, used by courts to test alleged deepfakes",
+      "Commentators note s. 63 proves a record was produced by a computer resource but not that its content is genuine, leaving a gap for AI-manipulated media"
+    ],
+    "themes": ["synthetic-media", "accountability-liability"],
+    "sectors": ["judiciary", "law-enforcement"],
+    "source_url": "https://prsindia.org/billtrack/the-bharatiya-sakshya-second-bill-2023",
+    "source_type": "legislature",
+    "secondary_sources": [
+      "https://taxguru.in/corporate-law/cloud-ai-manipulated-electronic-evidence-bsa-2023-admissibility-deepfake-risks.html",
+      "https://www.legalserviceindia.com/Legal-Articles/deepfake-evidence-indian-courts-admissibility-authentication-burden-proof/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Section numbers 39 and 63 confirmed by two secondary legal sources; statute text not fetched.",
+    "related": ["central-bns-2023", "central-sc-draft-ai-regulations-courts-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-dpiit-ai-copyright-committee-working-paper-2025",
+    "title": "DPIIT Committee on Generative AI and Copyright: Working Paper Part 1 ('One Nation One License One Payment')",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry",
+    "instrument_type": "committee-report",
+    "status": "consultation",
+    "binding": "non-binding",
+    "date": "2025-12-08",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-04-01", "event": "DPIIT constitutes expert committee on AI and copyright (press reports give April or May 2025; month precision)" },
+      { "date": "2025-12-08", "event": "Working Paper Part 1 released for comments (some reports give 9 Dec)" },
+      { "date": "2026-01-07", "event": "Original comment deadline" },
+      { "date": "2026-02-06", "event": "Extended comment deadline closed" },
+      { "date": "2026-06-01", "event": "Committee last met (per members quoted by Hindustan Times; month precision)" },
+      { "date": "2026-07-01", "event": "IP academics write to DPIIT asking for publication of a reportedly advanced Copyright Act amendment draft (month precision)" }
+    ],
+    "summary": "A government committee's proposal for a 'hybrid model' under which all lawfully accessed copyrighted works may be used for AI training under a mandatory blanket licence with statutory remuneration, with no opt-out for rightsholders and royalties collected by a new collective. Part 2 (copyright in AI outputs) has not been published and no Copyright Act amendment has been introduced.",
+    "key_provisions": [
+      "Mandatory blanket licence for AI training on lawfully accessed works; rightsholders cannot withhold works (no opt-out)",
+      "Statutory remuneration via a Copyright Royalties Collective for AI Training (CRCAT), a non-profit of CMO representatives; royalties as a flat revenue share payable on commercialisation, set by a government Rate Setting Committee revised every three years",
+      "Creators must register works to receive payouts; unregistered works may still be used for training",
+      "Rejects both a free TDM exception and pure voluntary licensing; Nasscom dissented in favour of a TDM exception with machine-readable opt-out",
+      "Part 2 on copyrightability of AI outputs deferred; committee reported not to have met since June 2026",
+      "Reports in July 2026 of a Copyright Act amendment 'at an advanced stage' are unconfirmed; no draft published"
+    ],
+    "themes": ["copyright-ip", "datasets", "models"],
+    "sectors": ["media", "startups-industry"],
+    "source_url": "https://www.dpiit.gov.in/static/uploads/2025/12/ff266bbeed10c48e3479c941484f3525.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.medianama.com/2025/12/223-dpiit-committee-mandatory-ai-licensing-model-royalties-no-opt-out-creators/",
+      "https://www.ikigailaw.com/article/655/exploring-the-dpiits-working-paper-on-generative-ai-and-copyright",
+      "https://spicyip.com/2026/01/the-jugaad-of-blanket-licensing-while-ignoring-copyright-law.html",
+      "https://dig.watch/updates/india-ai-copyright-committee-second-working-paper",
+      "https://www.bananaip.com/intellepedia/generative-artificial-intelligence-copyright-india/"
+    ],
+    "confidence": "high",
+    "confidence_note": "Official PDF located on dpiit.gov.in (HTTP 403 on fetch); content consistent across MediaNama, Ikigai Law and SpicyIP. Committee constitution date conflicts (April vs May 2025) and chair/membership were not confirmed. Status of a Copyright Act amendment is unverified (single HT-derived report).",
+    "related": ["central-delhi-hc-ani-v-openai-2026", "central-copyright-act-1957"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-copyright-act-1957",
+    "title": "Copyright Act, 1957 (as applied to AI training and outputs)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Parliament of India / DPIIT",
+    "instrument_type": "act",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "1957-06-04",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2012-06-07", "event": "Copyright (Amendment) Act, 2012 in force (statutory licensing ss. 31C-31D, s. 52 fair dealing expanded)" },
+      { "date": "2024-11-19", "event": "ANI v OpenAI filed in Delhi HC, first Indian suit on AI training" },
+      { "date": "2025-12-08", "event": "DPIIT committee proposes amendments for a mandatory licensing regime" },
+      { "date": "2026-07-24", "event": "Delhi HC holds prima facie that training-stage storage is fair dealing under s. 52(1)(a)(i)" }
+    ],
+    "summary": "The copyright statute, with no AI-specific provision. Section 52(1)(a)(i) (fair dealing for private or personal use including research) was held prima facie to cover LLM training in ANI v OpenAI; s. 2(d)(vi) treats the person who causes a computer-generated work to be created as its author. Amendment proposals from the DPIIT committee are pending.",
+    "key_provisions": [
+      "s. 2(d)(vi): author of a computer-generated literary, dramatic, musical or artistic work is 'the person who causes the work to be created'",
+      "s. 52(1)(a)(i): fair dealing for private or personal use including research; relied on by Delhi HC (interim) for training-stage copying",
+      "s. 14 and s. 51: reproduction and storage rights; infringement",
+      "ss. 31C-31D statutory licences cited by DPIIT committee as model for an AI-training licence",
+      "No amendment introduced in Parliament as of Nov 2026 despite July 2026 reports of a draft"
+    ],
+    "themes": ["copyright-ip", "datasets"],
+    "sectors": ["media", "cross-sector"],
+    "source_url": "https://copyright.gov.in/documents/copyrightrules1957.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-rejects-ani-copyright-suit-open-ai-chatgpt-542736",
+      "https://www.ikigailaw.com/article/655/exploring-the-dpiits-working-paper-on-generative-ai-and-copyright"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Statutory provisions from standard knowledge of the Act; the copyright.gov.in URL is the standard location of the Act text but was not fetched this session.",
+    "related": ["central-dpiit-ai-copyright-committee-working-paper-2025", "central-delhi-hc-ani-v-openai-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-delhi-hc-ani-v-openai-2026",
+    "title": "ANI Media Pvt Ltd v OpenAI OpCo LLC & Anr, Delhi High Court (interim order, 24 July 2026)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Delhi High Court (Justice Amit Bansal)",
+    "instrument_type": "court-ruling",
+    "status": "under-litigation",
+    "binding": "binding",
+    "date": "2026-07-24",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2024-11-19", "event": "Suit filed; summons issued; amici curiae appointed (Dr Arul George Scaria and Adv. Adarsh Ramanujan)" },
+      { "date": "2025-01-01", "event": "Interventions by DNPA, Indian Music Industry, Federation of Indian Publishers (for ANI) and Broadband India Forum, Flux Labs, IGPP (for OpenAI) (month precision)" },
+      { "date": "2026-03-27", "event": "Judgment reserved after 32 hearings" },
+      { "date": "2026-07-24", "event": "Interim injunction refused in 135-page judgment; suit continues" }
+    ],
+    "summary": "The first Indian judicial finding on LLM training. The court refused ANI an interim injunction, holding prima facie that OpenAI's storage of ANI articles for training falls within fair dealing under s. 52(1)(a)(i) of the Copyright Act, that ChatGPT outputs were not substantially similar to ANI's works, that ANI failed to prove memorisation/regurgitation, and that an injunction would harm the public at large. The main suit remains pending.",
+    "key_provisions": [
+      "Citation 2026 LiveLaw (Del) 687; CS(COMM) suit filed Nov 2024",
+      "Training-stage copying held prima facie protected by s. 52(1)(a)(i) fair dealing (research/private use)",
+      "Outputs held not substantially similar under s. 51; no proof of regurgitation",
+      "Delhi HC held it had territorial jurisdiction despite servers abroad",
+      "Six interveners across news, music and publishing industries; findings expressly preliminary and not binding at trial",
+      "First substantive Indian ruling applying fair dealing to AI training; relevant to DPIIT licensing proposal"
+    ],
+    "themes": ["copyright-ip", "models", "datasets"],
+    "sectors": ["media"],
+    "source_url": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-rejects-ani-copyright-suit-open-ai-chatgpt-542736",
+    "source_type": "court",
+    "secondary_sources": [
+      "https://cms.law/en/int/publication/artificial-intelligence-and-copyright-case-tracker/ani-media-pvt-ltd-v.-openai-opco-llc",
+      "https://corporate.cyrilamarchandblogs.com/2026/07/ani-v-open-ai-delhi-high-court-refuses-interim-injunction-in-landmark-ai-copyright-dispute/",
+      "https://www.legal500.com/intelligence/india/intellectual-property/no-injunction-against-the-machine-the-delhi-high-courts-interim-ruling-in-ani-media-v-openai-and-where-it-sits-in-the-global-ai-copyright-landscape/",
+      "https://www.livelaw.in/articles/narrow-escape-openai-544856"
+    ],
+    "confidence": "high",
+    "confidence_note": "Date, judge and holdings consistent across LiveLaw, CMS tracker, Cyril Amarchand and Legal500. Judgment PDF on delhihighcourt.nic.in not retrieved; the exact CS(COMM) number was not captured.",
+    "related": ["central-copyright-act-1957", "central-dpiit-ai-copyright-committee-working-paper-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-pmb-deepfake-prevention-criminalisation-bill-2023",
+    "title": "Deepfake Prevention and Criminalisation Bill, 2023 (Private Member's Bill, Rajya Sabha)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Rajya Sabha (Mausam B. Noor, AITC)",
+    "instrument_type": "bill",
+    "status": "proposed",
+    "binding": "non-binding",
+    "date": "2025-02-07",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-02-07", "event": "Introduced in Rajya Sabha among about 50 private members' bills" }
+    ],
+    "summary": "A private member's bill to prevent and criminalise the creation, dissemination and use of deepfake content without the depicted person's consent or without a digital watermark. Like nearly all private members' bills it has not been taken up for discussion.",
+    "key_provisions": [
+      "Criminalises creation and dissemination of deepfake content without consent of the person depicted",
+      "Requires a digital watermark on permitted deepfake content",
+      "Introduced 7 Feb 2025 by Mausam B. Noor (Trinamool Congress) alongside her Artificial Intelligence (Protection of Rights of Employees) Bill, 2023",
+      "Pending; not listed for consideration as of Nov 2026"
+    ],
+    "themes": ["synthetic-media", "accountability-liability"],
+    "sectors": ["cross-sector"],
+    "source_url": "https://www.newsonair.gov.in/rajya-sabha-debates-pocso-amendment-bill-mps-introduce-ai-deepfake-regulation-bills",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://www.business-standard.com/india-news/workers-rights-to-deepfake-nearly-50-pvt-members-bills-introduced-in-rs-125020701139_1.html"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Introduction confirmed by All India Radio (newsonair.gov.in) and Business Standard; bill text on sansad.in not retrieved, so penalty quanta are unknown.",
+    "related": ["central-pmb-ai-protection-rights-employees-bill-2023", "central-pmb-regulation-of-deepfake-bill-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-pmb-ai-protection-rights-employees-bill-2023",
+    "title": "Artificial Intelligence (Protection of Rights of Employees) Bill, 2023 (Private Member's Bill, Rajya Sabha)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Rajya Sabha (Mausam B. Noor, AITC)",
+    "instrument_type": "bill",
+    "status": "proposed",
+    "binding": "non-binding",
+    "date": "2025-02-07",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-02-07", "event": "Introduced in Rajya Sabha" }
+    ],
+    "summary": "A private member's bill to protect employees' rights in relation to the use of AI at workplaces and to regulate and ensure transparency in deployment of AI technologies by employers. Not taken up for debate.",
+    "key_provisions": [
+      "Seeks to regulate use of AI at workplaces and require transparency in its implementation",
+      "Introduced with the Deepfake Prevention and Criminalisation Bill, 2023 on 7 Feb 2025",
+      "Pending in Rajya Sabha; no further action"
+    ],
+    "themes": ["employment-labour", "transparency"],
+    "sectors": ["employment"],
+    "source_url": "https://www.newsonair.gov.in/rajya-sabha-debates-pocso-amendment-bill-mps-introduce-ai-deepfake-regulation-bills",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://www.latestly.com/agency-news/india-news-private-members-bill-listed-in-rajya-sabha-to-ensure-rights-of-workers-in-view-of-ai-6144506.html/amp",
+      "https://www.business-standard.com/india-news/workers-rights-to-deepfake-nearly-50-pvt-members-bills-introduced-in-rs-125020701139_1.html"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Introduction confirmed by AIR and Business Standard; bill text not retrieved.",
+    "related": ["central-pmb-deepfake-prevention-criminalisation-bill-2023"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-pmb-ai-ethics-accountability-bill-2025",
+    "title": "Artificial Intelligence (Ethics and Accountability) Bill, 2025 (Private Member's Bill, Lok Sabha)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Lok Sabha (Bharti Pardhi, BJP, Balaghat)",
+    "instrument_type": "bill",
+    "status": "proposed",
+    "binding": "non-binding",
+    "date": "2025-12-05",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-12-05", "event": "Introduced in Lok Sabha during Winter Session 2025" }
+    ],
+    "summary": "A private member's bill to establish an ethics and accountability framework for AI, with a centrally funded Ethics Committee for AI, mandatory transparency about purpose, limits and training data, bias audits, and stricter review of AI in law enforcement, credit and employment.",
+    "key_provisions": [
+      "Creates a centrally funded Ethics Committee for AI with a chairperson and representatives of academia, industry, civil society, government and experts in law, data science and human rights",
+      "Developers must disclose an AI system's purpose, limitations, training data sources and methodologies",
+      "Regular audits for algorithmic bias; systems showing significant bias to be withdrawn until corrected; diverse training datasets required",
+      "AI in law enforcement, financial credit and employment subject to 'stringent ethical reviews' and non-discrimination on race, religion and gender",
+      "Complaint mechanism for harm from AI with investigative powers for the committee"
+    ],
+    "themes": ["ethics", "fairness-bias", "accountability-liability", "transparency"],
+    "sectors": ["cross-sector", "law-enforcement", "finance", "employment"],
+    "source_url": "https://www.medianama.com/2025/12/223-private-members-ai-ethics-bill-algorithmic-bias-copyright-data-ownership/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://techjacksolutions.com/ai-governance-india/ethics-bill-tracker/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "MediaNama reviewed the bill text; sansad.in bill page not retrieved.",
+    "related": ["central-pmb-regulation-of-deepfake-bill-2025", "central-pmb-ai-human-health-medical-education-bill-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-pmb-regulation-of-deepfake-bill-2025",
+    "title": "Regulation of Deepfake Bill, 2025 (Private Member's Bill, Lok Sabha)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Lok Sabha (Dr Shrikant Shinde, Shiv Sena, Kalyan)",
+    "instrument_type": "bill",
+    "status": "proposed",
+    "binding": "non-binding",
+    "date": "2025-12-05",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-12-05", "event": "Introduced in Lok Sabha (reported 5/6 Dec 2025; private members' business is on Fridays, 5 Dec 2025)" }
+    ],
+    "summary": "A private member's bill proposing a legal framework for creation, distribution and use of deepfakes, requiring prior consent of depicted individuals, penalties for malicious creation or dissemination, a Deepfake Task Force and a detection-technology fund.",
+    "key_provisions": [
+      "Mandates prior consent from individuals depicted in deepfake content",
+      "Penalties for creating or disseminating deepfakes with malicious intent",
+      "Establishes a Deepfake Task Force to assess national-security, privacy, civic-participation and election-interference risks and to work with academia and industry on detection",
+      "Creates a fund for public and private detection and deterrence initiatives"
+    ],
+    "themes": ["synthetic-media", "elections", "accountability-liability"],
+    "sectors": ["cross-sector", "elections"],
+    "source_url": "https://www.business-standard.com/india-news/shiv-sena-s-shrikant-shinde-introduces-bill-to-regulate-deepfakes-in-ls-125120600316_1.html",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.siasat.com/bill-to-regulate-deepfakes-tabled-in-lok-sabha-3309150/",
+      "https://assamtribune.com/national/private-members-bill-seeks-legal-framework-to-regulate-deepfakes-in-india-1600321",
+      "https://telanganatoday.com/bill-to-regulate-deepfakes-tabled-in-lok-sabha"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Four news reports agree on content; one gives the date as Friday 6 Dec 2025, which is a calendar error (Friday was 5 Dec 2025). Bill text not retrieved. Note: a 'Deepfake Prevention and Criminalisation Bill' also appears in some 2026 summaries, apparently conflating this bill with the 2023 Rajya Sabha bill.",
+    "related": ["central-pmb-deepfake-prevention-criminalisation-bill-2023", "central-pmb-ai-ethics-accountability-bill-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-pmb-ai-human-health-medical-education-bill-2026",
+    "title": "Artificial Intelligence (Human Health and Medical Education) Regulation Bill, 2026 (Private Member's Bill, Rajya Sabha)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Rajya Sabha (member not identified)",
+    "instrument_type": "bill",
+    "status": "proposed",
+    "binding": "non-binding",
+    "date": "2026-02-06",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-02-06", "event": "Introduced in Rajya Sabha among 36 private members' bills" }
+    ],
+    "summary": "A private member's bill proposing a statutory framework and regulatory authority for the use of AI in human health, clinical research and medical education, permitting hospitals, research institutions and medical colleges to use AI for patient outcomes, prescription safety, clinical trials and drug discovery subject to human oversight.",
+    "key_provisions": [
+      "Establishes a statutory regulatory authority for AI in health and medical education",
+      "Permits AI use in public and private hospitals, research institutions and medical colleges under 'rigorous human oversight'",
+      "Emphasises patient safety, data protection, accountability and transparency"
+    ],
+    "themes": ["sectoral-regulation", "safety", "accountability-liability"],
+    "sectors": ["health", "education"],
+    "source_url": "https://www.scconline.com/blog/post/2026/02/10/private-members-bills-introduced-rajya-sabha-2026/",
+    "source_type": "secondary",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Single secondary source (SCC Online); introducing member and bill number not identified.",
+    "related": ["central-pmb-ai-ethics-accountability-bill-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-standing-committee-cit-22nd-report-fake-news-2025",
+    "title": "Standing Committee on Communications and IT, 22nd Report: 'Review of Mechanism to Curb Fake News'",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Parliamentary Standing Committee on Communications and Information Technology (18th Lok Sabha)",
+    "instrument_type": "committee-report",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-12-02",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-09-01", "event": "Draft report circulated; press reports on recommendations (month precision)" },
+      { "date": "2025-12-02", "event": "Report presented to Lok Sabha" },
+      { "date": "2026-08-06", "event": "Action Taken Report (28th Report) presented" }
+    ],
+    "summary": "Committee report on fake news and misinformation under the Ministry of Information and Broadcasting. It recommends a statutory definition of fake news, a review of s. 79 safe harbour where platforms amplify misinformation, AI-based tools to detect deepfakes and synthetic media, mandatory labelling of AI content and exploring licensing of AI content creators.",
+    "key_provisions": [
+      "Define 'fake news' in law and create a unified national complaints portal; statutory backing for PIB Fact Check Unit; strengthen Press Council of India",
+      "Review s. 79 IT Act safe harbour where intermediaries actively amplify misinformation",
+      "Deploy AI-based tools to detect and verify deepfakes and synthetic media in coordination with MeitY",
+      "Explore feasibility of licensing requirements for AI content creators and mandatory labelling of AI-generated videos",
+      "Mandatory fact-checking systems and internal ombudsmen for news organisations; closer MIB-MeitY coordination",
+      "Government accepted 9 of 12 recommendations per the Aug 2026 ATR; no uniform penalty framework adopted"
+    ],
+    "themes": ["synthetic-media", "content-moderation", "accountability-liability", "governance"],
+    "sectors": ["media"],
+    "source_url": "https://www.medianama.com/wp-content/uploads/2025/12/lsscommittee_Communications-and-Information-Technology_18_Communications_and_Information_Technology_22.pdf",
+    "source_type": "legislature",
+    "secondary_sources": [
+      "https://prsindia.org/policy/report-summaries/review-of-mechanism-to-curb-fake-news",
+      "https://www.medianama.com/2025/12/223-fake-news-report-that-penalties-definitions-lok-sabha/",
+      "https://www.theweek.in/news/india/2025/12/02/fake-news-parliament-panel-seeks-stronger-press-council-of-india-and-statutory-backing-for-pib-fact-check-team.html",
+      "https://www.storyboard18.com/digital/fake-news-report-tabled-in-parliament-calls-for-stronger-laws-and-big-tech-accountability-85210.htm"
+    ],
+    "confidence": "high",
+    "confidence_note": "Official report PDF (Lok Sabha Secretariat) hosted by MediaNama; PRS summary corroborates. Sansad.in URL not captured.",
+    "related": ["central-standing-committee-cit-28th-report-atr-fake-news-2026", "central-it-rules-sgi-amendment-2026", "central-it-rules-amendment-2023"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-standing-committee-cit-27th-report-ai-2026",
+    "title": "Standing Committee on Communications and IT, 27th Report: 'Impact of Emergence of Artificial Intelligence and Related Issues'",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Parliamentary Standing Committee on Communications and Information Technology (18th Lok Sabha)",
+    "instrument_type": "committee-report",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-03-30",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2024-09-26", "event": "Committee (2024-25) constituted and subject selected" },
+      { "date": "2026-03-30", "event": "Report presented to Lok Sabha and laid in Rajya Sabha" }
+    ],
+    "summary": "A 266-page report (CCIT No. 439) reviewing AI adoption across MeitY, Finance, Home Affairs, Defence, Power, Law, Agriculture and Tourism. It records MeitY's position that the IT Act is technology-neutral, documents the 2026 SGI amendment, and urges the Government to 'explore the possibility of a comprehensive legislation to prevent the misuse of AI' and to consider age restrictions for certain platforms.",
+    "key_provisions": [
+      "Recommends Government 'explore the possibility of a comprehensive legislation to prevent the misuse of AI', noting other countries have 'stringent and binding laws', and explore age restrictions for certain platforms",
+      "Records MeitY submission that the Digital India Act is 'under formulation to replace the IT Act and introduce new central legal framework to deal with emerging issues of AI'; Committee hopes it 'will soon be passed'",
+      "Documents G.S.R. 120(E) of 10 Feb 2026 (in force 20 Feb 2026) and lists IT Rules amendment dates 28 Oct 2022, 6 Apr 2023 and 22 Oct 2025",
+      "Records DPDP Act applicability to AI developers and operators as data fiduciaries, with penalties up to Rs 250 crore",
+      "Recommends AI scholarships, fellowships and PhDs, data centres and AI labs across the country; notes MeitY received 762 AI use-case suggestions from ministries",
+      "Reviews CERT-In, I4C and RBI FREE-AI committee measures against AI-enabled fraud and deepfakes"
+    ],
+    "themes": ["governance", "synthetic-media", "safety", "skilling", "public-sector-use"],
+    "sectors": ["cross-sector", "public-services"],
+    "source_url": "https://www.medianama.com/wp-content/uploads/2026/03/pdfName.pdf",
+    "source_type": "legislature",
+    "secondary_sources": [
+      "https://www.storyboard18.com/digital/india-parliamentary-panel-warns-on-deepfakes-seeks-stronger-ai-regulation-framework-93808.htm",
+      "https://www.goodreturns.in/news/india-parliament-panel-to-review-social-media-ai-deepfakes-and-cybersecurity-2026-27-011-1543775.html"
+    ],
+    "confidence": "high",
+    "confidence_note": "Full report PDF read directly (Lok Sabha Secretariat text hosted by MediaNama). Quotations above are from the report's Part II observations.",
+    "related": ["central-it-rules-sgi-amendment-2026", "central-digital-india-act-proposed", "central-meity-ai-law-consultation-paper-2026", "central-dpdp-act-2023"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-standing-committee-cit-28th-report-atr-fake-news-2026",
+    "title": "Standing Committee on Communications and IT, 28th Report: Action Taken on 'Review of Mechanism to Curb Fake News'",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Parliamentary Standing Committee on Communications and Information Technology (18th Lok Sabha)",
+    "instrument_type": "committee-report",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-08-06",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-08-06", "event": "Action Taken Report presented to Parliament" }
+    ],
+    "summary": "Action-taken report tracking the Government's response to the December 2025 fake-news report. It records acceptance of 9 of 12 recommendations, MeitY's labelling and metadata rules for AI-generated content, and that no uniform penalty framework or statutory definition of fake news has been adopted.",
+    "key_provisions": [
+      "Government accepted 9 of 12 recommendations",
+      "MeitY cited the SGI rules requiring labels and metadata (10% of visual content in the draft) as the response on synthetic content",
+      "MIB still 'examining feasibility' of defining fake news while distinguishing deception from opinion, satire, error and criticism",
+      "No dedicated fake-news or deepfake statute; reliance on IT Rules amendments and existing laws"
+    ],
+    "themes": ["synthetic-media", "content-moderation", "governance"],
+    "sectors": ["media"],
+    "source_url": "https://www.policyedge.in/p/parliamentary-review-tracks-action-on-fake-news-deepfakes-and-platform-accountability",
+    "source_type": "secondary",
+    "secondary_sources": [],
+    "confidence": "medium",
+    "confidence_note": "Based on one detailed secondary summary (The Policy Edge); report PDF on sansad.in not retrieved.",
+    "related": ["central-standing-committee-cit-22nd-report-fake-news-2025", "central-it-rules-sgi-amendment-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-standing-committee-home-affairs-254th-report-cybercrime-2025",
+    "title": "Rajya Sabha Standing Committee on Home Affairs, 254th Report: 'Cyber Crime - Ramifications, Protection and Prevention'",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Department-related Parliamentary Standing Committee on Home Affairs (Rajya Sabha)",
+    "instrument_type": "committee-report",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-08-20",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-08-20", "event": "Report tabled in Parliament" }
+    ],
+    "summary": "Committee report on cybercrime recommending specific legal provisions for synthetic media, mandatory digital watermarking of media to establish provenance, CERT-In as a central deepfake-alert body, and graded penalties including service suspension for platforms that fail to remove unlawful content.",
+    "key_provisions": [
+      "Urges 'specific legal provisions to govern synthetic media', noting current law does not distinguish user-generated from AI-produced content",
+      "Mandate digital watermarks on all media (photos, videos, graphics) to establish provenance",
+      "CERT-In to act as central monitoring body issuing deepfake alerts",
+      "Amend IT Act 2000 to add graded penalties, including fines and suspension of services, for platforms failing to remove unlawful content",
+      "Flags 'crime-as-a-service', AI voice clones and deepfake sextortion as priority threats"
+    ],
+    "themes": ["synthetic-media", "cybersecurity", "accountability-liability"],
+    "sectors": ["law-enforcement"],
+    "source_url": "https://www.storyboard18.com/digital/parliament-panel-sounds-alarm-on-ai-deepfakes-crime-as-a-service-urges-tougher-regulation-for-otts-social-media-79969.htm",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.indiatvnews.com/technology/news/parliamentary-panel-calls-for-new-laws-and-tech-to-combat-ai-generated-fake-news-2025-09-14-1008144"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Report number, title and date from Storyboard18; sansad.in PDF not retrieved; committee chair not identified.",
+    "related": ["central-bns-2023", "central-it-act-2000", "central-standing-committee-cit-22nd-report-fake-news-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-delhi-hc-deepfake-regulation-petitions-rohilla-sharma",
+    "title": "Chaitanya Rohilla v Union of India and Rajat Sharma v Union of India (Delhi High Court directions on deepfake regulation)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Delhi High Court (Division Bench, CJ D.K. Upadhyaya and Justice Tushar Rao Gedela)",
+    "instrument_type": "court-ruling",
+    "status": "under-litigation",
+    "binding": "binding",
+    "date": "2024-11-20",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2023-12-04", "event": "Rohilla PIL seeking deepfake regulation first heard; court sought Centre's response" },
+      { "date": "2024-05-01", "event": "Court asked Bar body to make representation to ECI on election deepfakes (month precision)" },
+      { "date": "2024-11-20", "event": "MeitY constitutes nine-member committee on deepfakes after court direction; three months given to report" },
+      { "date": "2025-03-24", "event": "Status report: two meetings held; committee seeks three more months; next hearing 21 Jul 2025" },
+      { "date": "2025-07-21", "event": "Further status report; MeitY cites consultations with MIB and intermediaries" },
+      { "date": "2026-02-20", "event": "SGI amendment in force, addressing part of the relief sought" }
+    ],
+    "summary": "Writ petitions by advocate Chaitanya Rohilla, journalist Rajat Sharma and model Kanchan Nagar asking the court to direct a regulatory framework for deepfakes. The court directed the Union to constitute a committee, which MeitY formed on 20 November 2024; the committee's status reports stressed mandatory AI content disclosure, labelling and grievance redressal, and the 2026 IT Rules amendment followed.",
+    "key_provisions": [
+      "Court directed Centre to nominate members to a committee to examine deepfake regulation and consult intermediaries including Meta and X",
+      "MeitY nine-member committee formed 20 Nov 2024; reports to court by status report",
+      "MeitY status report recommended mandatory AI content disclosure, labelling standards and grievance redressal, focusing on malicious actors rather than creative uses",
+      "Matter remained pending as the SGI amendment was notified in Feb 2026"
+    ],
+    "themes": ["synthetic-media", "governance", "accountability-liability"],
+    "sectors": ["cross-sector"],
+    "source_url": "https://lawchakra.in/high-court/panel-granted-3months-deepfakes/",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://indialegallive.com/constitutional-law-news/courts-news/delhi-high-court-directs-centre-to-conduct-meeting-with-all-stakeholders-on-regulation-of-deepfakes/",
+      "https://lawstreet.co/judiciary/delhi-high-court-directs-formation-of-committee-to-address-deepfake-concerns-sets-three-months-deadline-for-report",
+      "https://vajiramandravi.com/current-affairs/govt-report-to-delhi-hc-stresses-deepfake-content-disclosure-labeling/",
+      "https://www.tribuneindia.com/news/delhi/misuse-of-deepfake-during-lok-sabha-polls-delhi-high-court-asks-lawyers-body-to-give-representation-to-ec-617106/amp"
+    ],
+    "confidence": "medium",
+    "confidence_note": "W.P.(C) numbers not captured; orders not read on delhihighcourt.nic.in. Dec 2023 first-hearing date and the Jul 2025 status report are from recall/press. Final disposal status after Feb 2026 unknown.",
+    "related": ["central-it-rules-sgi-amendment-2026", "central-eci-advisory-deepfakes-2024", "central-delhi-hc-personality-rights-2025-cluster"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-delhi-hc-anil-kapoor-personality-rights-2023",
+    "title": "Anil Kapoor v Simply Life India & Ors, Delhi High Court (CS(COMM) 652/2023)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Delhi High Court (Justice Prathiba M. Singh)",
+    "instrument_type": "court-ruling",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2023-09-20",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2022-11-25", "event": "Amitabh Bachchan v Rajat Nagi: Delhi HC ex parte injunction protecting name, voice and likeness (precedent)" },
+      { "date": "2023-09-20", "event": "Ex parte ad-interim injunction for Anil Kapoor covering AI, deepfakes, morphing and GIFs" },
+      { "date": "2024-05-15", "event": "Jackie Shroff v Peppy Store: similar order including AI chatbots using his persona" },
+      { "date": "2026-11-05", "event": "Amitabh Bachchan suit decreed with permanent injunction (Justice Purushaindra Kumar Kaurav)" }
+    ],
+    "summary": "The first Indian order expressly restraining use of AI, deepfakes, face-morphing and voice cloning to misuse a celebrity's persona, name, voice and catchphrase ('jhakaas'). It established the template of John Doe injunctions with takedown directions to platforms and domain registrars that later personality-rights cases followed.",
+    "key_provisions": [
+      "Restrained defendants from using Anil Kapoor's name, likeness, image, voice or persona 'using AI, face morphing, GIFs, deepfakes' for commercial gain",
+      "Directed domain blocking and takedown by intermediaries; John Doe (Ashok Kumar) defendants included",
+      "Recognised dilution and tarnishment of persona including sexually explicit deepfakes as actionable",
+      "Followed in Jackie Shroff (May 2024), Arijit Singh (Bombay HC, 2024) and the 2025 cluster of orders"
+    ],
+    "themes": ["synthetic-media", "privacy", "copyright-ip"],
+    "sectors": ["media"],
+    "source_url": "https://www.medianama.com/2026/09/223-personality-rights-indian-courts/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://blog.ipleaders.in/personality-rights-in-india/",
+      "https://www.medianama.com/2026/11/223-amitabh-bachchan-permanent-injunction-personality-rights/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Dates and holdings widely reported; the Indian Kanoon order was not fetched this session. Case number from recall.",
+    "related": ["central-delhi-hc-personality-rights-2025-cluster", "central-bombay-hc-voice-cloning-orders-arijit-singh-asha-bhosle", "central-delhi-hc-personality-rights-framework-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-delhi-hc-personality-rights-2025-cluster",
+    "title": "Delhi High Court interim injunctions on AI/deepfake misuse of persona, 2025 (Aishwarya Rai Bachchan, Abhishek Bachchan, Karan Johar, Nagarjuna, Sri Sri Ravi Shankar and others)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Delhi High Court (Justice Tejas Karia and other single judges)",
+    "instrument_type": "court-ruling",
+    "status": "under-litigation",
+    "binding": "binding",
+    "date": "2025-09-09",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-08-26", "event": "Sri Sri Ravi Shankar: injunction against deepfakes using AI voice cloning and facial manipulation" },
+      { "date": "2025-09-09", "event": "Aishwarya Rai Bachchan v Aishwaryaworld.com & Ors, CS(COMM) 956/2025: ex parte interim injunction; takedown within 72 hours" },
+      { "date": "2025-09-10", "event": "Abhishek Bachchan, CS(COMM) 960/2025: similar relief against AI videos and merchandise" },
+      { "date": "2025-09-12", "event": "Karan Johar, CS(COMM) 974/2025: protection of name, 'KJo' nickname; 'toodles' catchphrase reserved" },
+      { "date": "2025-09-25", "event": "Akkineni Nagarjuna, CS(COMM) 1023/2025: restraint on AI-based exploitation" }
+    ],
+    "summary": "A wave of 2025 ex parte interim injunctions by the Delhi High Court restraining unauthorised use of celebrities' names, images, voices and likenesses including through AI-generated content and deepfakes, with directions to platforms to take down URLs and to MeitY/DoT to block domains.",
+    "key_provisions": [
+      "Orders restrain creation and dissemination of AI-generated and deepfake content, including sexually explicit material, using the plaintiffs' persona",
+      "Platforms (Google/YouTube, Meta, X) directed to remove identified URLs, in Aishwarya Rai's case within 72 hours, and to disclose uploader details",
+      "John Doe defendants and dynamic injunction features allow addition of new URLs",
+      "Relief grounded in common-law publicity rights, passing off and Art. 21 privacy/dignity, not a statute",
+      "By September 2026 Justice Bhambhani was questioning 'blanket injunctions' and consolidating cases to frame limits"
+    ],
+    "themes": ["synthetic-media", "privacy", "copyright-ip"],
+    "sectors": ["media"],
+    "source_url": "https://www.medianama.com/2025/09/223-karan-johar-aishwarya-abhishek-personality-rights-delhi-hc/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://iprmentlaw.com/2025/10/06/personality-rights-and-bollywood-when-identity-meets-the-law/",
+      "https://www.medianama.com/2026/09/223-personality-rights-indian-courts/",
+      "https://gulfnews.com/entertainment/aishwarya-rai-bachchan-moves-delhi-high-court-over-misuse-of-her-image-by-ai-1.500262186"
+    ],
+    "confidence": "high",
+    "confidence_note": "Case numbers and dates from IPRMENTLAW's case-by-case note, consistent with MediaNama. Karan Johar's Delhi HC date (12 Sep 2025) is from recall; IPRMENTLAW gives only '2025'. Kumar Sanu and Suniel Shetty orders (reported Oct 2025) were not located in fetched sources.",
+    "related": ["central-delhi-hc-anil-kapoor-personality-rights-2023", "central-bombay-hc-voice-cloning-orders-arijit-singh-asha-bhosle", "central-delhi-hc-personality-rights-framework-2026", "central-it-rules-sgi-amendment-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-bombay-hc-voice-cloning-orders-arijit-singh-asha-bhosle",
+    "title": "Bombay High Court orders on AI voice cloning: Arijit Singh v Codible Ventures (2024) and Asha Bhosle v John Doe (COMIP 30262/2025)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Bombay High Court (Justice R.I. Chagla; Justice Arif S. Doctor)",
+    "instrument_type": "court-ruling",
+    "status": "under-litigation",
+    "binding": "binding",
+    "date": "2025-09-29",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2024-07-26", "event": "Arijit Singh: ad-interim injunction against AI platforms offering voice-conversion tools cloning his voice (tracker dates it Aug 2024)" },
+      { "date": "2025-09-29", "event": "Asha Bhosle: ad-interim injunction against AI platforms creating voice models replicating her vocal style (some reports date the order to October 2025)" }
+    ],
+    "summary": "Bombay High Court orders extending personality rights to the voice, restraining AI platforms from offering tools that convert or synthesise the plaintiffs' voices without consent. The Arijit Singh order was the first Indian order directed at AI voice-cloning tools; Asha Bhosle's followed in 2025.",
+    "key_provisions": [
+      "Held that making AI tools available to clone a performer's voice is a violation of personality rights and 'facilitates unauthorised appropriation'",
+      "Restrained named AI platforms and John Doe defendants from creating voice models or synthetic recordings",
+      "Directed takedown of listed URLs and disclosure of defendant identities by platforms",
+      "No statutory voice right exists; relief is interim and based on common law and Art. 21"
+    ],
+    "themes": ["synthetic-media", "privacy", "copyright-ip"],
+    "sectors": ["media"],
+    "source_url": "https://iprmentlaw.com/2025/10/06/personality-rights-and-bollywood-when-identity-meets-the-law/",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://www.medianama.com/2026/09/223-personality-rights-indian-courts/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Sources conflict on exact dates (Arijit Singh July vs Aug 2024; Asha Bhosle 29 Sep vs Oct 2025). Judge for the Asha Bhosle order is from recall. Orders not fetched from bombayhighcourt.nic.in.",
+    "related": ["central-delhi-hc-personality-rights-2025-cluster", "central-delhi-hc-anil-kapoor-personality-rights-2023"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-delhi-hc-personality-rights-framework-2026",
+    "title": "Delhi High Court consolidated hearing to define personality rights (Vivek Oberoi, Janhvi Kapoor, Aaradhya Bachchan suits) and Amitabh Bachchan permanent injunction, 2026",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Delhi High Court (Justice Anup Jairam Bhambhani; Justice Purushaindra Kumar Kaurav)",
+    "instrument_type": "court-ruling",
+    "status": "under-litigation",
+    "binding": "binding",
+    "date": "2026-09-30",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-02-01", "event": "Baba Ramdev: limited (not blanket) injunction against AI deepfakes (month precision)" },
+      { "date": "2026-05-01", "event": "Shashi Tharoor: limited deepfake injunction (month precision)" },
+      { "date": "2026-08-01", "event": "Alakh Pandey and Janhvi Kapoor: limited injunctions (month precision)" },
+      { "date": "2026-09-30", "event": "Justice Bhambhani begins consolidated hearing of three suits with amicus curiae to frame limits of personality rights" },
+      { "date": "2026-11-05", "event": "Amitabh Bachchan v Rajat Nagi & Ors decreed: permanent injunction against unauthorised commercial use of name, image, voice and likeness, including John Doe defendants" }
+    ],
+    "summary": "In 2026 the Delhi High Court shifted from granting sweeping ex parte orders to framing the limits of personality rights. Justice Bhambhani consolidated three suits, stated he is 'against granting blanket injunctions on personality rights' and framed five issues (commercial exploitation, sexual deepfakes, impersonation vs fan content, satire/parody, who qualifies). Separately, the 2022 Amitabh Bachchan suit was decreed with a permanent injunction on 5 November 2026.",
+    "key_provisions": [
+      "Five issues framed: whether commercial exploitation must be shown; whether sexually explicit deepfakes should be categorically removed; impersonation vs fan accounts; satire and parody; who may claim personality rights",
+      "Amicus proposed differentiated treatment of commercial-exploitation claims and privacy/dignity-based claims",
+      "Since Feb 2026, injunctions for Ramdev, Tharoor, Pandey, Janhvi Kapoor, Shruti Haasan (Bombay HC) and Meenakshi Chaudhary have been 'limited' rather than blanket",
+      "Amitabh Bachchan decree (5 Nov 2026) relies on Titan Industries v Ramkumar Jewellers for publicity-rights standard; four settling defendants and John Doe defendants permanently restrained",
+      "A tracker counts 37 personality-rights orders between Nov 2022 and Sep 2026"
+    ],
+    "themes": ["synthetic-media", "privacy", "copyright-ip", "content-moderation"],
+    "sectors": ["media"],
+    "source_url": "https://www.medianama.com/2026/09/223-delhi-hc-define-personality-rights/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.medianama.com/2026/09/223-personality-rights-indian-courts/",
+      "https://www.medianama.com/2026/11/223-amitabh-bachchan-permanent-injunction-personality-rights/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "All from MediaNama reporting; no judgment text read. Outcome of the consolidated hearing was not available as of 19 Nov 2026.",
+    "related": ["central-delhi-hc-personality-rights-2025-cluster", "central-delhi-hc-anil-kapoor-personality-rights-2023", "central-it-rules-sgi-amendment-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-kerala-hc-ai-policy-district-judiciary-2025",
+    "title": "Kerala High Court: Policy Regarding Use of Artificial Intelligence Tools in District Judiciary",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "High Court of Kerala",
+    "instrument_type": "guidelines",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2025-07-19",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-07-19", "event": "Policy issued by the High Court and circulated to district judiciary" },
+      { "date": "2026-06-03", "event": "Supreme Court AI Committee releases draft national Regulations for Use of AI in Courts, 2026" }
+    ],
+    "summary": "The first binding court-issued policy in India restricting AI use by judges and court staff. It bars using AI to arrive at findings, reliefs, orders or judgments, limits AI to assistive tasks under human verification, prohibits unapproved cloud tools, requires logging and audits, and makes violations a disciplinary matter.",
+    "key_provisions": [
+      "Applies to all district judges, judicial officers, staff, interns and law clerks in Kerala, on any device",
+      "AI tools 'shall not be used to arrive at any findings, reliefs, orders or judgments under any circumstances'",
+      "Only approved tools permitted; cloud-based AI tools (e.g. ChatGPT) barred unless approved; translation and research outputs must be verified by a human",
+      "All AI use to be logged; errors reported to the Principal District Court and High Court IT Department; periodic audits",
+      "Violations attract disciplinary action under Kerala Civil Services rules; training on AI ethics mandated",
+      "Note: this is a High Court instrument but included here because it governs AI in the judiciary at state level and preceded the Supreme Court's national draft"
+    ],
+    "themes": ["public-sector-use", "governance", "transparency", "accountability-liability"],
+    "sectors": ["judiciary"],
+    "source_url": "https://images.assettype.com/theleaflet/2025-07-22/mt4bw6n7/Kerala_HC_AI_Guidelines.pdf",
+    "source_type": "court",
+    "secondary_sources": [
+      "https://ssrana.in/articles/kerala-high-courts-new-ai-guidelines-set-national-standard-for-judicial-integrity/",
+      "https://www.indiatvnews.com/news/india/kerala-high-court-bans-ai-use-in-judicial-decisions-issues-landmark-guidelines-for-district-judiciary-artificial-intelligence-2025-07-20-999676",
+      "https://www.indicpacific.com/india-ai-regulation-101-landscape/policy-regarding-use-of-artificial-intelligence-tools-in-district-judiciary"
+    ],
+    "confidence": "high",
+    "confidence_note": "Policy PDF hosted by The Leaflet (copy of the official circular); content corroborated by S.S. Rana and press. Official hckerala.gov.in URL not captured.",
+    "related": ["central-sc-draft-ai-regulations-courts-2026", "central-sc-pooja-ramesh-singh-ai-hallucination-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-sc-draft-ai-regulations-courts-2026",
+    "title": "Supreme Court of India: Draft Regulations for Use of Artificial Intelligence (AI) in Courts, 2026",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Supreme Court of India (AI Committee)",
+    "instrument_type": "consultation",
+    "status": "draft",
+    "binding": "non-binding",
+    "date": "2026-06-03",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-06-03", "event": "Preliminary draft released for public comment" },
+      { "date": "2026-06-20", "event": "Comment deadline (office.regcc@sci.nic.in)" },
+      { "date": "2026-08-13", "event": "CJI Surya Kant tells a petitioner the Supreme Court has 'very effective guidelines' on AI" }
+    ],
+    "summary": "A draft national framework of ten chapters and 57 regulations governing AI across the Supreme Court, High Courts and district courts. It confines AI to assistive uses, prohibits AI-determined outcomes, risk scoring, profiling and sentencing without human oversight, requires disclosure of AI use by courts and litigants, and proposes an Apex Body at the Supreme Court to approve AI systems.",
+    "key_provisions": [
+      "AI may act only in an assistive capacity subordinate to human judicial authority; opaque or unexplainable systems barred from court processes",
+      "Prohibited: AI determination of judicial outcomes, risk scoring for bail or recidivism, credibility assessment, predictive profiling, undisclosed AI-generated evidence, surveillance of judges, lawyers or litigants",
+      "Mandatory disclosure of AI use in court-initiated processes and in AI-assisted filings by litigants and counsel",
+      "Permitted: scheduling, case management, legal research, translation and transcription (SUVAS/SUPACE-type tools), litigant chatbots, accessibility, fraud detection, performance analytics",
+      "Data protection principles of purpose limitation, data minimisation and privacy by design, aligned to the DPDP Act; cybersecurity audits",
+      "Institutional structure: permanent Apex Body at the Supreme Court, High Court AI committees, secretariats and technical oversight teams"
+    ],
+    "themes": ["public-sector-use", "governance", "transparency", "accountability-liability", "data-protection"],
+    "sectors": ["judiciary"],
+    "source_url": "https://www.scconline.com/blog/post/2026/06/05/sc-issues-draft-ai-regulations-for-courts/",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://www.business-standard.com/india-news/supreme-court-releases-draft-rules-on-use-of-ai-in-courts-126060400496_1.html",
+      "https://www.scobserver.in/journal/order-in-the-digital-court-artificial-intelligence-regulations-supreme-court/amp/",
+      "https://www.mondaq.com/india/technology/1815706/human-primacy-in-the-age-of-algorithms-the-supreme-courts-draft-ai-regulations-for-courts-2026",
+      "https://www.legal500.com/intelligence/india/technology/use-of-artificial-intelligence-(ai)-in-courts"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Draft widely reported (SCC Online, Business Standard, SC Observer); sci.gov.in URL not captured. Whether a final version has been adopted after the June 2026 consultation could not be confirmed.",
+    "related": ["central-kerala-hc-ai-policy-district-judiciary-2025", "central-sc-pooja-ramesh-singh-ai-hallucination-2026", "central-sc-ai-surveillance-plea-declined-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-sc-pooja-ramesh-singh-ai-hallucination-2026",
+    "title": "Pooja Ramesh Singh v Jammu and Kashmir Bank Ltd, Supreme Court (2 July 2026) - AI-fabricated precedents",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Supreme Court of India (bench led by Justice P.S. Narasimha)",
+    "instrument_type": "court-ruling",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2026-07-02",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-07-02", "event": "Judgment setting aside NCLT and NCLAT orders that relied on non-existent, AI-generated judgments" }
+    ],
+    "summary": "The Supreme Court set aside orders of the NCLT and the appellate tribunal after finding they relied on precedents fabricated by an AI tool, declared 'zero tolerance' for decisions resting on hallucinated material, required a human in the loop at every stage of adjudication and directed the Bar Council of India to frame guidelines and disciplinary consequences for AI-generated false citations.",
+    "key_provisions": [
+      "A decision resting on fabricated (AI-hallucinated) authorities is 'no decision in the eyes of the law'",
+      "Direction to the Bar Council of India to frame guidelines and disciplinary consequences for advocates filing AI-generated fake citations",
+      "Human must remain in the loop at every stage of adjudication",
+      "First Supreme Court ruling addressing generative-AI misuse in litigation"
+    ],
+    "themes": ["public-sector-use", "accountability-liability", "transparency"],
+    "sectors": ["judiciary"],
+    "source_url": "https://www.impriindia.com/centres/center-for-ict-for-development/the-supreme-court-just-caught-ai/",
+    "source_type": "secondary",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Single secondary source (IMPRI commentary); judgment not located on sci.gov.in or LiveLaw within this session. Bench composition beyond Justice Narasimha not confirmed.",
+    "related": ["central-sc-draft-ai-regulations-courts-2026", "central-kerala-hc-ai-policy-district-judiciary-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-sc-gujarat-deepfake-pil-transfer-2026",
+    "title": "Supreme Court stay of Gujarat High Court deepfake PIL and Union transfer petition (12 September 2026)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Supreme Court of India (CJI Surya Kant, Justices Joymalya Bagchi and V. Mohana)",
+    "instrument_type": "court-ruling",
+    "status": "under-litigation",
+    "binding": "binding",
+    "date": "2026-09-12",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-04-01", "event": "Gujarat HC issues notice to X, Meta, Google, Reddit and others on implementation of IT Rules and directs onboarding to Sahyog portal (month precision)" },
+      { "date": "2026-07-22", "event": "Supreme Court stays High Court cases on Sahyog portal pending transfer petitions" },
+      { "date": "2026-09-12", "event": "Supreme Court stays Gujarat HC deepfake PIL; notice on Union's transfer petition" },
+      { "date": "2026-10-05", "event": "Transfer petition returnable" }
+    ],
+    "summary": "The Supreme Court stayed a Gujarat High Court PIL seeking a regulatory framework against AI deepfakes (in which the High Court had directed intermediaries to onboard the Sahyog portal) and issued notice on the Union's plea to transfer it, consolidating deepfake and Sahyog-portal litigation in the Supreme Court.",
+    "key_provisions": [
+      "Gujarat HC had sought platform responses on IT Rules 2021 compliance and directed Sahyog onboarding for swift takedowns",
+      "Union (through Adv. Zoheb Hossain) argued parallel High Court proceedings had already been interdicted and should be heard together",
+      "Supreme Court stayed HC proceedings and issued notice; transfer petition returnable 5 Oct 2026",
+      "Outcome of 5 Oct 2026 hearing not located"
+    ],
+    "themes": ["synthetic-media", "content-moderation", "governance"],
+    "sectors": ["media", "cross-sector"],
+    "source_url": "https://www.livelaw.in/top-stories/supreme-court-stays-pil-proceedings-before-gujarat-high-court-deepfake-content-artificial-intelligence-sahyog-portal-union-plea-to-transfer-549809",
+    "source_type": "court",
+    "secondary_sources": [
+      "https://www.barandbench.com/news/litigation/supreme-court-stays-gujarat-hc-case-on-ai-deepfakes-after-centre-seeks-transfer-of-matter-to-sc",
+      "https://techobserver.in/news/egov/supreme-court-stays-gujarat-hc-deepfake-pil-329195/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "LiveLaw and Bar & Bench agree on the 12 Sep 2026 order; Gujarat HC petitioner and case number not identified; post-October status unknown.",
+    "related": ["central-karnataka-hc-x-corp-sahyog-2025", "central-it-rules-sgi-amendment-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-sc-ai-surveillance-plea-declined-2026",
+    "title": "Supreme Court declines PIL seeking guidelines on AI ethics, surveillance and algorithmic audits (13 August 2026)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Supreme Court of India (CJI Surya Kant, Justices Joymalya Bagchi and V. Mohana)",
+    "instrument_type": "court-ruling",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2026-08-13",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-08-13", "event": "Writ petition by Adv. Narendra Kumar Goswami declined; petitioner told to send it as a representation to Government" }
+    ],
+    "summary": "The Supreme Court refused to entertain a petition seeking binding guidelines on AI ethics, disclosure of high-risk government AI systems (welfare, policing, facial recognition, content moderation), an expert committee for algorithmic impact assessments and bias audits, and parliamentary legislation, holding the matter is a 'highly technical issue' in the 'policy domain'.",
+    "key_provisions": [
+      "Court: 'We are not the experts. It is a highly technical issue and it is in policy domain'",
+      "Petition sought disclosure of all existing and proposed high-risk state AI systems and independent bias audits",
+      "CJI stated the Supreme Court itself has 'very effective guidelines' on AI",
+      "Signals judicial deference to the executive and Parliament on general AI regulation, in contrast to case-specific deepfake and personality-rights relief"
+    ],
+    "themes": ["governance", "fairness-bias", "public-sector-use", "privacy"],
+    "sectors": ["law-enforcement", "public-services"],
+    "source_url": "https://lawbeat.in/amp/top-stories/supreme-court-declines-plea-seeking-guidelines-on-ethics-transparency-in-ai-based-surveillance-1621986",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "medium",
+    "confidence_note": "Single legal-news report (LawBeat) with direct quotations; order not located on sci.gov.in.",
+    "related": ["central-sc-draft-ai-regulations-courts-2026", "central-sc-gujarat-deepfake-pil-transfer-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-eci-advisory-deepfakes-2024",
+    "title": "Election Commission of India advisory to political parties on deepfakes and misinformation (6 May 2024)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Election Commission of India (ECI)",
+    "instrument_type": "advisory",
+    "status": "superseded",
+    "binding": "non-binding",
+    "date": "2024-05-06",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2024-05-06", "event": "Letter to all recognised national and state parties during the 2024 Lok Sabha election" },
+      { "date": "2025-01-16", "event": "Advisory for Delhi assembly election requiring labelling and disclaimers for AI-generated campaign content (date from recall)" },
+      { "date": "2025-10-24", "event": "Replaced by detailed labelling advisory for Bihar election" }
+    ],
+    "summary": "An ECI letter issued after a Delhi High Court nudge, warning political parties against using AI deepfakes and distorted content and directing them to remove fake content from their social media handles within three hours of notice and report unlawful content and impersonating accounts to platforms.",
+    "key_provisions": [
+      "Parties to remove deepfakes or fake content within 3 hours of it being brought to notice",
+      "Parties to identify and warn responsible persons and report fake/impersonating accounts to platforms",
+      "Reiterates Model Code of Conduct and s. 126 Representation of the People Act, 1951 restrictions",
+      "Issued after the Delhi High Court asked a Bar body to make a representation to ECI on election deepfakes"
+    ],
+    "themes": ["elections", "synthetic-media"],
+    "sectors": ["elections"],
+    "source_url": "https://www.newsonair.gov.in/election-commission-directs-parties-on-responsible-social-media-use-during-campaigns",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://www.nationalheraldindia.com/national/remove-fake-content-within-3-hours-ec-to-political-parties",
+      "https://techcrunch.com/2024/05/07/india-urges-political-parties-to-avoid-using-deepfakes-in-election-campaigns",
+      "https://internetfreedom.in/eci-actions-in-the-2024-general-election/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Date and content from AIR and press; eci.gov.in PDF not retrieved. The 16 Jan 2025 Delhi-election advisory date is from recall and MediaNama's reference to 'January 2025'.",
+    "related": ["central-eci-advisory-ai-labelling-2025", "central-eci-ai-directions-2026-assembly-elections", "central-delhi-hc-deepfake-regulation-petitions-rohilla-sharma"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-eci-advisory-ai-labelling-2025",
+    "title": "Election Commission of India advisory on labelling and disclosure of AI-generated campaign content (24 October 2025)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Election Commission of India (ECI)",
+    "instrument_type": "advisory",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2025-10-24",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-10-22", "event": "MeitY publishes draft SGI rules with the same 10% label standard" },
+      { "date": "2025-10-24", "event": "ECI advisory issued ahead of Bihar assembly election (polling 6 and 11 Nov 2025)" },
+      { "date": "2026-04-22", "event": "Reinforced by ECI direction on 3-hour takedown for 2026 assembly elections" }
+    ],
+    "summary": "ECI advisory requiring political parties and candidates to label AI-generated or AI-altered campaign images, audio and video with 'AI-Generated', 'Digitally Enhanced' or 'Synthetic Content' covering at least 10 percent of the visual area or the first 10 percent of audio, to disclose the generating entity, keep records, and remove violating content within three hours.",
+    "key_provisions": [
+      "Label must be clear, prominent and legible near the top of the screen covering at least 10% of visible area, or the first 10% of audio duration",
+      "Disclose the entity responsible for generating the content in metadata or caption",
+      "Prohibits content that misrepresents a person's identity without consent in a way likely to mislead voters",
+      "Parties must maintain internal records of AI campaign material with creator details and timestamps for ECI verification",
+      "Flagged violating content to be removed within 3 hours; parties to report fake accounts and unlawful content to platforms"
+    ],
+    "themes": ["elections", "synthetic-media", "transparency"],
+    "sectors": ["elections"],
+    "source_url": "https://indiaai.gov.in/article/election-commission-of-india-embraces-ai-ethics-in-campaigning-advisory-on-labelling-ai-generated-content",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.medianama.com/2025/10/223-election-commission-deepfakes-advisory-bihar-elections/",
+      "https://www.storyboard18.com/advertising/eci-cracks-down-on-deepfakes-mandates-labeling-of-ai-generated-election-campaign-83130.htm",
+      "https://www.newsonair.gov.in/bulletins-detail/midday-news-579/"
+    ],
+    "confidence": "high",
+    "confidence_note": "Content consistent across IndiaAI (gov.in), MediaNama, Storyboard18 and AIR. ECI letter number and eci.gov.in PDF not captured.",
+    "related": ["central-eci-advisory-deepfakes-2024", "central-eci-ai-directions-2026-assembly-elections", "central-it-rules-sgi-draft-amendment-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-eci-ai-directions-2026-assembly-elections",
+    "title": "Election Commission of India directions on AI-generated content and 3-hour takedown for the 2026 assembly elections (Assam, Kerala, Puducherry, Tamil Nadu, West Bengal)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Election Commission of India (ECI)",
+    "instrument_type": "advisory",
+    "status": "adopted",
+    "binding": "mixed",
+    "date": "2026-04-22",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-03-11", "event": "ECI meeting with social media platforms on misinformation and deepfakes" },
+      { "date": "2026-03-15", "event": "Schedule announced for five assembly elections; CEC Gyanesh Kumar warns against AI deepfakes and announces AI-content labelling requirements" },
+      { "date": "2026-04-22", "event": "ECI directs platforms to act on unlawful or misleading content including AI content within 3 hours of a user report" },
+      { "date": "2026-05-01", "event": "ECI reports over 11,000 posts/URLs removed and FIRs registered since 15 Mar 2026 (month precision)" }
+    ],
+    "summary": "For the April-May 2026 elections covering about 17.4 crore electors, ECI required labelling of AI-generated campaign content and disclosure of the originating entity, record-keeping by parties, and directed social media platforms to remove or act on unlawful or misleading content including AI-generated material within three hours of a user report, enforced through state IT nodal officers.",
+    "key_provisions": [
+      "Platforms to remove or act on unlawful/misleading content including AI-generated material within 3 hours of a user report",
+      "Parties and candidates to label synthetic or AI-altered content 'AI-Generated', 'Digitally Enhanced' or 'Synthetic Content' and disclose the originating entity",
+      "Record-keeping of AI campaign material; enforcement via state IT nodal officers and district machinery",
+      "Legal basis cited: IT Act 2000 and IT Rules 2021 (as amended Feb 2026), s. 126 Representation of the People Act 1951 silence period",
+      "Over 11,000 posts/URLs removed and FIRs registered between 15 Mar 2026 and early May 2026"
+    ],
+    "themes": ["elections", "synthetic-media", "content-moderation"],
+    "sectors": ["elections"],
+    "source_url": "https://www.medianama.com/2026/04/223-eci-orders-3-hour-takedown-rule-ai-fake-content-elections/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://telanganatoday.com/ec-warns-against-ai-deepfakes-while-announcing-assembly-poll-dates-for-five-states",
+      "https://www.storyboard18.com/brand-makers/election-commission-to-discuss-misinformation-deepfakes-with-social-media-platforms-on-march-11-91346.htm",
+      "https://nenow.in/national/election-commission-warns-against-ai-deepfakes-in-election-campaign.html"
+    ],
+    "confidence": "medium",
+    "confidence_note": "MediaNama and regional press agree on dates and requirements; eci.gov.in instruction not retrieved. Removal statistics are from press summaries.",
+    "related": ["central-eci-advisory-ai-labelling-2025", "central-it-rules-sgi-amendment-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-cci-ai-market-study-2025",
+    "title": "Competition Commission of India: Market Study on Artificial Intelligence and Competition",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Competition Commission of India (CCI), study conducted through Management Development Institute Society",
+    "instrument_type": "committee-report",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-10-06",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2024-04-01", "event": "CCI commissions market study on AI (month precision)" },
+      { "date": "2025-10-06", "event": "Report released; CCI Press Release No. 68 of 2025" }
+    ],
+    "summary": "CCI's first study of AI markets. It maps the AI stack, finds Indian startups concentrated at the model/application layer while compute, cloud and foundation-model layers are dominated by Alphabet, Amazon, Meta, Microsoft, OpenAI and NVIDIA, identifies risks of concentration, algorithmic collusion, self-preferencing and opacity, and recommends a voluntary self-audit framework rather than new regulation.",
+    "key_provisions": [
+      "Identifies competition risks: market concentration in compute/cloud/models, algorithmic collusion, self-preferencing, opaque decision systems, data access barriers",
+      "Recommends a self-audit framework for firms to assess AI systems for competition-law risk; no new rules proposed ('light touch')",
+      "Calls for transparency where algorithms influence market outcomes and consumer welfare",
+      "Recommends CCI capacity-building, a dedicated AI/digital markets unit and inter-regulator coordination",
+      "Notes Indian startups 'largely present in the AI model layer but not in the upstream AI stack'"
+    ],
+    "themes": ["competition", "transparency", "compute"],
+    "sectors": ["startups-industry", "cross-sector"],
+    "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2175607",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://cci.gov.in/images/pressrelease/en/press-release1759756192.pdf",
+      "https://www.medianama.com/wp-content/uploads/2025/10/market-study-on-artificial-intelligence-and-competition1759752172.pdf",
+      "https://www.medianama.com/2025/10/223-india-competition-regulator-ai-driven-market-concentration/",
+      "https://www.concurrences.com/en/bulletin/news-issues/october-2025-v/the-indian-competition-authority-publishes-market-study-on-artificial"
+    ],
+    "confidence": "high",
+    "confidence_note": "PIB release and CCI press release located; report PDF hosted by MediaNama. No follow-up regulation by CCI located through Nov 2026.",
+    "related": ["central-meity-ai-law-consultation-paper-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-bis-litd30-ai-standards",
+    "title": "Bureau of Indian Standards LITD 30 (Artificial Intelligence) standards, including IS/ISO/IEC 42001:2023",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Bureau of Indian Standards (BIS), Electronics and IT Division Council, Sectional Committee LITD 30",
+    "instrument_type": "standard",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2018-01-01",
+    "date_precision": "year",
+    "timeline": [
+      { "date": "2018-01-01", "event": "LITD 30 constituted as national mirror committee to ISO/IEC JTC 1/SC 42 (year precision)" },
+      { "date": "2022-01-01", "event": "Adoption of IS/ISO/IEC 22989:2022 (AI concepts and terminology) and IS/ISO/IEC 23053 (ML framework) (year precision)" },
+      { "date": "2024-09-04", "event": "BIS AI standards handbook lists 61 published/under-consideration standards and IS/ISO/IEC 42001:2023 as adopted" },
+      { "date": "2026-03-01", "event": "Press reports BIS notified standards on cloud computing, data-centre performance and 'ethical AI' (month precision)" }
+    ],
+    "summary": "BIS's AI committee adopts ISO/IEC SC 42 standards as Indian Standards. Adopted standards include IS/ISO/IEC 22989 (terminology), 23053 (ML framework), 23894 (AI risk management) and 42001:2023 (AI management system). All are voluntary unless referenced in a Quality Control Order or regulation, which has not happened for AI.",
+    "key_provisions": [
+      "LITD 30 set up in 2018; members from industry, academia, MeitY, NITI Aayog; mirrors ISO/IEC JTC 1/SC 42",
+      "IS/ISO/IEC 42001:2023 adopted as the Indian AI management-system standard (certifiable, voluntary)",
+      "Foundational standards adopted: IS/ISO/IEC 22989:2022, IS/ISO/IEC 23053:2022; risk management IS/ISO/IEC 23894",
+      "BIS 2024 handbook counts 61 standards published or under consideration across foundational, data, trustworthiness and governance themes; other sources cite 22 published",
+      "No AI standard made mandatory via Quality Control Order as of Nov 2026",
+      "MeitY's Nov 2025 governance guidelines reference BIS/TEC standards as voluntary compliance tools"
+    ],
+    "themes": ["standards", "risk-management", "governance"],
+    "sectors": ["cross-sector"],
+    "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/03/news_2024-09-09.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://standards.bis.gov.in/website/technical-departments/program-of-work?id=eyJpdiI6IjRFUm9oSjhWcm1JajU2QW0yclFLWGc9PSIsInZhbHVlIjoiZit2am9PVDF4RWQ2RStETEE3ZjBNQT09IiwibWFjIjoiNTNhZmI4MWI2NGM4YmY5ZDM2NTU0NjllMmFlODMyMDQ3Yzc2MTMyMmJjMjA4MTcyYTY1NzlhM2I2YWM1NWY2NiIsInRhZyI6IiJ9",
+      "https://www.insightsonindia.com/2026/03/04/indias-new-standards-for-cloud-data-centre-and-ethical-ai/",
+      "https://techjacksolutions.com/ai-governance-india/iso-42001-india/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "BIS handbook PDF (Sept 2024) read via text extraction and confirms LITD 30 (2018), 42001 adoption and '61 standards'. Counts differ between sources (22 vs 61). The March 2026 'ethical AI' standards report is a single secondary source without standard numbers; no 2026 'National Standard for AI' from MeitY was located.",
+    "related": ["central-tec-ai-fairness-standard-2023", "central-meity-ai-governance-guidelines-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-tec-ai-fairness-standard-2023",
+    "title": "TEC Standard 57050:2023 - Fairness Assessment and Rating of Artificial Intelligence Systems",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Telecommunication Engineering Centre (TEC), Department of Telecommunications",
+    "instrument_type": "standard",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2023-07-01",
+    "date_precision": "month",
+    "timeline": [
+      { "date": "2023-07-01", "event": "Standard released (month precision; 2023 edition)" },
+      { "date": "2026-01-30", "event": "Updated edition reported" }
+    ],
+    "summary": "A voluntary TEC standard providing a procedure to assess and rate the fairness of AI systems, aimed at telecom and ICT deployments but drafted to be sector-agnostic. It uses a three-step method: bias risk assessment across the AI lifecycle, selection of fairness metrics and thresholds, and quantitative bias testing producing a Bias Index and Fairness Score.",
+    "key_provisions": [
+      "Step 1: survey-based bias risk assessment across seven lifecycle stages on a five-point scale",
+      "Step 2: questionnaire to fix system intent, protected attributes, stakeholders and mandatory fairness metrics with threshold values",
+      "Step 3: group fairness metrics (statistical parity difference, disparate impact, equal opportunity difference, average odds difference, equalised odds) aggregated into a Bias Index and Fairness Score/rating",
+      "Voluntary; cited by MeitY's 2025 AI governance guidelines and the Standing Committee as an available assurance tool",
+      "TEC has also issued related work on AI robustness assessment (not verified in this session)"
+    ],
+    "themes": ["standards", "fairness-bias", "risk-management"],
+    "sectors": ["telecom", "cross-sector"],
+    "source_url": "https://www.emergentmind.com/topics/telecommunication-engineering-centre-tec-standard",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://arxiv.org/pdf/2504.07516",
+      "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025115685601.pdf"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Standard number and method confirmed by two secondary sources; tec.gov.in PDF URL not retrieved. One secondary source describes compliance as a 'prerequisite for deployment' in telecom, which conflicts with the generally voluntary character of TEC standards; treated as voluntary absent a DoT mandate. Release month approximate.",
+    "related": ["central-bis-litd30-ai-standards"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-bombay-hc-kunal-kamra-fcu-ruling-2024",
+    "title": "Kunal Kamra v Union of India, Bombay High Court (Fact Check Unit struck down, 20 September 2024)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Bombay High Court (Justice A.S. Chandurkar, tie-breaker; Justices G.S. Patel and Neela Gokhale split)",
+    "instrument_type": "court-ruling",
+    "status": "under-litigation",
+    "binding": "binding",
+    "date": "2024-09-20",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2023-04-06", "event": "FCU amendment notified" },
+      { "date": "2024-01-31", "event": "Division Bench delivers split verdict" },
+      { "date": "2024-03-21", "event": "Supreme Court stays FCU notification pending Bombay HC tie-breaker" },
+      { "date": "2024-09-20", "event": "Tie-breaker judge holds Rule 3(1)(b)(v) FCU clause unconstitutional" },
+      { "date": "2026-03-01", "event": "Supreme Court issues notice on Union appeal, no stay (month precision)" }
+    ],
+    "summary": "Ruling striking down the 2023 IT Rules clause that would have obliged intermediaries to remove content about Central Government business flagged as fake by a government Fact Check Unit. The court found it vague, chilling of speech and beyond s. 79 of the IT Act. Relevant to AI because it limits the Government's ability to use the IT Rules to designate truth without statutory backing, a constraint on future misinformation and synthetic-media regimes.",
+    "key_provisions": [
+      "Rule 3(1)(b)(v) (as amended 2023) held ultra vires Arts 14, 19(1)(a), 19(1)(g) and s. 79 IT Act",
+      "'Fake, false or misleading' held vague; Government cannot be arbiter of truth about itself",
+      "FCU never operationalised; Union appeal pending in Supreme Court with notice issued March 2026"
+    ],
+    "themes": ["content-moderation", "transparency", "governance"],
+    "sectors": ["media"],
+    "source_url": "https://www.scobserver.in/cases/challenge-to-the-it-rules-2023/",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://en.wikipedia.org/wiki/Kunal_Kamra_v._Union_of_India",
+      "https://internetfreedom.in/supreme-court-of-india-issued-notice-but-refused-any-stay-in-union-of-indias-challenge-to-the-bombay-high-court-judgement-holding-fact-check-unit-to-be-ultra-vires/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Dates from Supreme Court Observer and IFF; judgment not read. March 2026 SC notice date is month precision.",
+    "related": ["central-it-rules-amendment-2023", "central-standing-committee-cit-22nd-report-fake-news-2025"],
+    "last_verified": "2026-11-19"
+  }
+]

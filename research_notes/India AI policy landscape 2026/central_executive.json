@@ -1,0 +1,2213 @@
+[
+  {
+    "id": "central-meity-ai-governance-guidelines-2025",
+    "title": "India AI Governance Guidelines",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "guidelines",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-11-05",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2023-11-09",
+        "event": "Subcommittee on AI governance constituted under PSA-chaired Advisory Group"
+      },
+      {
+        "date": "2025-01-06",
+        "event": "Report on AI Governance Guidelines Development released for comment"
+      },
+      {
+        "date": "2025-02-27",
+        "event": "Extended comment deadline closes; 2,500+ submissions"
+      },
+      {
+        "date": "2025-07-01",
+        "event": "Drafting committee chaired by Prof. Balaraman Ravindran constituted by MeitY"
+      },
+      {
+        "date": "2025-11-05",
+        "event": "Final guidelines released"
+      },
+      {
+        "date": "2026-04-13",
+        "event": "AIGEG constituted as the coordinating body recommended by the guidelines"
+      }
+    ],
+    "summary": "Voluntary framework setting principles, recommendations and an action plan for AI governance across sectors; relies on existing laws, voluntary measures and techno-legal tools rather than a new AI statute.",
+    "key_provisions": [
+      "Seven sutras adapted from RBI's FREE-AI report: Trust is the Foundation; People First; Innovation over Restraint; Fairness & Equity; Accountability; Understandable by Design; Safety, Resilience & Sustainability",
+      "Six pillars: Infrastructure, Capacity Building, Policy & Regulation, Risk Mitigation, Accountability (graded liability), Institutions",
+      "States that 'at this stage, a separate law to regulate AI is not needed'; recommends targeted amendments to the IT Act and copyright law to enable large-scale AI training",
+      "Recommends an AI Governance Group (suggested chair: Principal Scientific Adviser), a Technology & Policy Expert Committee, and a resourced AI Safety Institute operating hub-and-spoke",
+      "Action plan: short term establish AIGG/TPEC, India-specific risk classification, voluntary frameworks, master circular, groundwork for AI incidents database; medium term amend laws, operationalise incident reporting, sandboxes; long term draft new laws if needed",
+      "Industry expectations: comply with Indian law, adopt voluntary frameworks, publish transparency reports, provide grievance redressal, use techno-legal mitigations"
+    ],
+    "themes": [
+      "governance",
+      "risk-management",
+      "accountability-liability",
+      "institution-building",
+      "incident-reporting"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025115685601.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.dsci.in/resource/content/summary-india-ai-governance-guidelines",
+      "https://www.medianama.com/2025/11/223-meity-ai-governance-liability-regulation-innovation/",
+      "https://chambers.com/articles/meity-unveils-india-s-approach-towards-regulating-artificial-intelligence"
+    ],
+    "confidence": "high",
+    "confidence_note": "Full text read from the PIB-hosted PDF of the guidelines. Drafting committee month (July 2025) from the document's executive summary.",
+    "related": [
+      "central-meity-subcommittee-report-ai-governance-2025",
+      "central-meity-aigeg-2026",
+      "central-meity-tpec-2026",
+      "central-indiaai-safety-institute-2025",
+      "central-meity-depa-ai-training-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-subcommittee-report-ai-governance-2025",
+    "title": "Report on AI Governance Guidelines Development",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Subcommittee on AI Governance and Guidelines Development, Advisory Group on AI (chaired by the Principal Scientific Adviser), MeitY",
+    "instrument_type": "committee-report",
+    "status": "superseded",
+    "binding": "non-binding",
+    "date": "2025-01-06",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2023-11-09",
+        "event": "Subcommittee constituted by MeitY"
+      },
+      {
+        "date": "2025-01-06",
+        "event": "Report released for public comment"
+      },
+      {
+        "date": "2025-02-27",
+        "event": "Extended comment deadline"
+      },
+      {
+        "date": "2025-11-05",
+        "event": "Superseded by final India AI Governance Guidelines"
+      }
+    ],
+    "summary": "Consultation draft analysing gaps in India's AI governance and recommending a whole-of-government, techno-legal approach; it preceded the November 2025 guidelines.",
+    "key_provisions": [
+      "Recommended a whole-of-government approach with an Inter-Ministerial AI Coordination Committee / Governance Group",
+      "Proposed a Technical Secretariat housed in MeitY to support the committee",
+      "Proposed a national AI incident database, not to be used as an enforcement tool",
+      "Proposed voluntary transparency commitments by AI developers and deployers",
+      "Adopted a lifecycle and ecosystem view of AI actors and recommended gap analysis of existing law on deepfakes, cybersecurity and IP",
+      "Listed eight principles including transparency, accountability, safety/reliability/robustness, privacy/security, fairness, human-centred values, inclusive innovation and digital-by-design governance"
+    ],
+    "themes": [
+      "governance",
+      "incident-reporting",
+      "transparency",
+      "risk-management"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://indiaai.s3.ap-south-1.amazonaws.com/docs/subcommittee-report-dec26.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.medianama.com/2025/01/223-analysing-meitys-report-on-development-of-ai-governance-guidelines/",
+      "https://www.internetgovernance.org/2025/02/24/indias-report-on-ai-governance-guidelines-development/",
+      "https://www.storyboard18.com/how-it-works/meity-extends-deadline-for-public-comments-on-report-on-ai-governance-guidelines-development-54566.htm",
+      "https://cis-india.org/internet-governance/blog/cis-comments-and-recommendations-to-report-on-ai-governance-guidelines-development"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Release date, constitution date and comment deadline confirmed by multiple sources; the S3 PDF URL is from prior knowledge and was not re-fetched this session. Content summarised from contemporaneous analyses.",
+    "related": [
+      "central-meity-ai-governance-guidelines-2025",
+      "central-psa-advisory-group-ai-2023"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-psa-advisory-group-ai-2023",
+    "title": "Advisory Group on AI for an India-specific Regulatory Framework",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "MeitY; chaired by the Principal Scientific Adviser to the Government of India",
+    "instrument_type": "institution",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2023-11-01",
+    "date_precision": "month",
+    "timeline": [
+      {
+        "date": "2023-11-01",
+        "event": "Advisory Group on AI formed under PSA chair (informed to Parliament by MeitY)"
+      },
+      {
+        "date": "2023-11-09",
+        "event": "Subcommittee on AI Governance and Guidelines Development constituted"
+      },
+      {
+        "date": "2025-01-06",
+        "event": "Subcommittee report released"
+      }
+    ],
+    "summary": "Multi-stakeholder advisory group under the PSA that commissioned the January 2025 subcommittee report; the PSA later became a member of the AIGEG.",
+    "key_provisions": [
+      "Chaired by the Principal Scientific Adviser (Prof. Ajay Kumar Sood)",
+      "Members from government, academia and industry; Prof. Balaraman Ravindran among members",
+      "Constituted the subcommittee on AI governance guidelines development on 9 Nov 2023",
+      "Its subcommittee report became the consultation draft for the 2025 guidelines"
+    ],
+    "themes": [
+      "governance",
+      "institution-building"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://www.medianama.com/2025/01/223-analysing-meitys-report-on-development-of-ai-governance-guidelines/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://wsai.iitm.ac.in/~ravi/about/",
+      "https://indian.substack.com/p/on-government-of-indias-principal"
+    ],
+    "confidence": "low",
+    "confidence_note": "Existence and PSA chairmanship reported via MeitY parliamentary reply (as cited by MediaNama); no constituting order located. Month of formation approximate.",
+    "related": [
+      "central-meity-subcommittee-report-ai-governance-2025",
+      "central-meity-aigeg-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-advisory-deepfakes-2023-11",
+    "title": "MeitY advisory to intermediaries on deepfakes (7 November 2023)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "advisory",
+    "status": "superseded",
+    "binding": "non-binding",
+    "date": "2023-11-07",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2023-11-07",
+        "event": "Advisory issued to significant social media intermediaries on deepfakes"
+      },
+      {
+        "date": "2023-12-26",
+        "event": "Follow-up advisory issued"
+      }
+    ],
+    "summary": "Advisory reminding intermediaries of due-diligence obligations under the IT Rules 2021 regarding deepfake impersonation content, including 36-hour removal on complaint.",
+    "key_provisions": [
+      "Cites Rule 3(1)(b)(vii) of the IT Rules 2021 on impersonation content",
+      "Reminds platforms of the 36-hour takedown timeline for reported content",
+      "References Section 66D of the IT Act (cheating by personation using computer resources)",
+      "Issued after a viral deepfake incident in November 2023"
+    ],
+    "themes": [
+      "synthetic-media",
+      "content-moderation"
+    ],
+    "sectors": [
+      "media"
+    ],
+    "source_url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1975445",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://elplaw.in/leadership/navigating-ai-regulation-in-india-unpacking-the-meity-advisory-on-ai-in-a-global-context/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Date and content from prior knowledge consistent with legal commentary fetched this session; PIB PRID from memory, not re-fetched (pib.gov.in returned 403).",
+    "related": [
+      "central-meity-advisory-deepfakes-2023-12",
+      "central-it-rules-synthetic-media-amendment-2025"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-advisory-deepfakes-2023-12",
+    "title": "MeitY advisory on deepfakes and misinformation (26 December 2023)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "advisory",
+    "status": "superseded",
+    "binding": "non-binding",
+    "date": "2023-12-26",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2023-12-26",
+        "event": "Advisory issued to all intermediaries"
+      },
+      {
+        "date": "2024-03-01",
+        "event": "Followed by advisory on AI models"
+      }
+    ],
+    "summary": "Advisory directing all intermediaries to clearly communicate prohibited content categories under Rule 3(1)(b) of the IT Rules 2021 to users and to act against deepfakes.",
+    "key_provisions": [
+      "Intermediaries to communicate the 11 prohibited content categories in Rule 3(1)(b) in plain language in terms of service and at sign-up/login/upload",
+      "Users to be informed of penal consequences under the IPC and IT Act",
+      "Platforms to identify and disable access to misinformation and deepfakes",
+      "Non-compliance to attract loss of safe harbour under Section 79 IT Act"
+    ],
+    "themes": [
+      "synthetic-media",
+      "content-moderation",
+      "transparency"
+    ],
+    "sectors": [
+      "media"
+    ],
+    "source_url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1990542",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://www.legal500.com/intelligence/india/technology/revised-meity-advisory-on-deployment-of-ai-models",
+      "https://elplaw.in/leadership/navigating-ai-regulation-in-india-unpacking-the-meity-advisory-on-ai-in-a-global-context/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Date consistent across legal sources; PIB PRID from memory and not re-fetched.",
+    "related": [
+      "central-meity-advisory-deepfakes-2023-11",
+      "central-meity-advisory-ai-models-2024-03-01"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-advisory-ai-models-2024-03-01",
+    "title": "MeitY advisory on deployment of under-testing AI models (1 March 2024)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "advisory",
+    "status": "superseded",
+    "binding": "non-binding",
+    "date": "2024-03-01",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2024-03-01",
+        "event": "Advisory issued; 15-day action-taken report sought"
+      },
+      {
+        "date": "2024-03-04",
+        "event": "Minister clarifies advisory aimed at large platforms, not startups"
+      },
+      {
+        "date": "2024-03-15",
+        "event": "Revised advisory replaces it"
+      }
+    ],
+    "summary": "Advisory requiring intermediaries to seek explicit government permission before deploying under-testing or unreliable AI models to Indian users and to label AI outputs; withdrawn and replaced within two weeks.",
+    "key_provisions": [
+      "Under-testing or unreliable AI models/LLMs/generative AI to be made available only with explicit permission of the Government of India",
+      "Outputs to be labelled on 'possible and inherent fallibility or unreliability'; consent pop-up mechanisms",
+      "AI tools not to permit bias, discrimination or threats to electoral integrity",
+      "Metadata/unique identifiers for synthetic content to allow identification of the originator",
+      "Action-taken-cum-status report within 15 days"
+    ],
+    "themes": [
+      "models",
+      "synthetic-media",
+      "elections",
+      "content-moderation"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://elplaw.in/leadership/navigating-ai-regulation-in-india-unpacking-the-meity-advisory-on-ai-in-a-global-context/",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://indian.substack.com/p/the-meity-advisory-on-approving-ai",
+      "https://www.legal500.com/intelligence/india/technology/revised-meity-advisory-on-deployment-of-ai-models"
+    ],
+    "confidence": "medium",
+    "confidence_note": "The advisory was never published on meity.gov.in as a numbered document; content from legal analyses that reproduce its text.",
+    "related": [
+      "central-meity-advisory-ai-models-2024-03-15",
+      "central-meity-advisory-deepfakes-2023-12"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-advisory-ai-models-2024-03-15",
+    "title": "Revised MeitY advisory on AI models and synthetic content (15 March 2024)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "advisory",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2024-03-15",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2024-03-15",
+        "event": "Revised advisory issued, superseding 1 March 2024 advisory"
+      }
+    ],
+    "summary": "Revised advisory that removed the government-permission requirement for under-testing AI models while retaining labelling, consent pop-up and metadata expectations under the IT Rules 2021.",
+    "key_provisions": [
+      "Drops the requirement to obtain explicit government permission before deploying AI models",
+      "Under-testing/unreliable models to be deployed only after labelling possible fallibility and with consent pop-ups",
+      "Synthetic content capable of being used as misinformation/deepfake to be labelled or embedded with permanent unique metadata/identifier",
+      "Intermediaries to ensure AI models do not enable unlawful content under Rule 3(1)(b) or threaten electoral integrity",
+      "No action-taken-report deadline in the revised version"
+    ],
+    "themes": [
+      "models",
+      "synthetic-media",
+      "transparency",
+      "elections"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://www.legal500.com/intelligence/india/technology/revised-meity-advisory-on-deployment-of-ai-models",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://elplaw.in/leadership/navigating-ai-regulation-in-india-unpacking-the-meity-advisory-on-ai-in-a-global-context/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Content from legal analyses; official PDF URL not located this session.",
+    "related": [
+      "central-meity-advisory-ai-models-2024-03-01",
+      "central-it-rules-synthetic-media-amendment-2025"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-cabinet-indiaai-mission-2024",
+    "title": "IndiaAI Mission",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Union Cabinet; implemented by MeitY through IndiaAI Independent Business Division, Digital India Corporation",
+    "instrument_type": "mission",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2024-03-07",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2024-03-07",
+        "event": "Cabinet approves ₹10,371.92 crore outlay over five years"
+      },
+      {
+        "date": "2024-08-16",
+        "event": "RFE for GPU cloud empanelment issued"
+      },
+      {
+        "date": "2025-01-30",
+        "event": "18,000+ GPUs, foundation-model call, AI Safety Institute announced"
+      },
+      {
+        "date": "2025-03-06",
+        "event": "IndiaAI Compute Portal and AIKosh launched"
+      },
+      {
+        "date": "2026-02-01",
+        "event": "FY27 budget allocation ₹1,000 crore (BE)"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "45,000+ GPUs onboarded"
+      }
+    ],
+    "summary": "Cabinet-approved umbrella programme financing compute, datasets, foundation models, applications, skilling, startup finance and AI safety work over five years.",
+    "key_provisions": [
+      "Outlay ₹10,371.92 crore over five years from FY2023-24",
+      "Seven pillars: IndiaAI Compute Capacity, IndiaAI Innovation Centre, IndiaAI Datasets Platform (AIKosh), IndiaAI Application Development Initiative, IndiaAI FutureSkills, IndiaAI Startup Financing, Safe & Trusted AI",
+      "Compute target of 10,000+ GPUs via public-private partnership, exceeded (38,000 by Mar 2026; 45,000+ by Jun 2026)",
+      "Budget allocations: ₹551.75 crore (FY25), ₹2,000 crore BE (FY26, ~₹800 crore utilised), ₹1,000 crore BE (FY27)",
+      "Reported proposal to expand outlay to ~₹20,000 crore not approved as of Nov 2026",
+      "FutureSkills: 200+ PhD fellowships by July 2025; 31 Data & AI Labs launched with NIELIT by Feb 2026"
+    ],
+    "themes": [
+      "compute",
+      "datasets",
+      "models",
+      "skilling",
+      "startups-innovation"
+    ],
+    "sectors": [
+      "cross-sector",
+      "startups-industry"
+    ],
+    "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2012375",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026210784401.pdf",
+      "https://indiaai.gov.in/article/union-budget-2024-25-allocates-over-550-crores-to-the-indiaai-mission",
+      "https://theprint.in/economy/budget-2026-allocates-rs-1000-crore-for-indiaai-mission-pushes-data-centres-and-ai-upskilling/2842947/",
+      "https://www.outlookbusiness.com/deeptech/explained-how-indias-20000-crore-ai-mission-could-be-a-game-changer-in-the-countrys-global-tech-leadership"
+    ],
+    "confidence": "high",
+    "confidence_note": "Cabinet approval date, outlay and pillars confirmed by PIB release title and the Feb 2026 PIB backgrounder (read in full).",
+    "related": [
+      "central-indiaai-compute-portal-2025",
+      "central-indiaai-aikosh-2025",
+      "central-indiaai-foundation-models-2025",
+      "central-indiaai-safe-trusted-ai-projects-2024",
+      "central-indiaai-safety-institute-2025",
+      "central-budget-2026-27-ai-provisions"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-indiaai-compute-portal-2025",
+    "title": "IndiaAI Compute Portal (common GPU compute facility)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "IndiaAI Mission, MeitY",
+    "instrument_type": "scheme",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2025-03-06",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2024-08-16",
+        "event": "RFE for empanelment of AI cloud providers issued"
+      },
+      {
+        "date": "2025-01-22",
+        "event": "Financial bids opened"
+      },
+      {
+        "date": "2025-01-30",
+        "event": "18,000+ GPUs announced via empanelment"
+      },
+      {
+        "date": "2025-03-06",
+        "event": "Compute portal launched"
+      },
+      {
+        "date": "2026-02-17",
+        "event": "20,000 additional GPUs announced at AI Impact Summit"
+      },
+      {
+        "date": "2026-03-30",
+        "event": "38,000+ GPUs onboarded"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "45,000+ GPUs onboarded"
+      },
+      {
+        "date": "2026-08-01",
+        "event": "93.18 lakh subsidised GPU hours consumed"
+      }
+    ],
+    "summary": "Subsidised GPU access for startups, researchers and academia through empanelled cloud providers under the IndiaAI Mission compute pillar.",
+    "key_provisions": [
+      "GPUs onboarded: 18,693 (Jan 2025), 38,000+ (Mar 2026), 45,000+ (Jun 2026), mostly NVIDIA H100/H200",
+      "Subsidised rate around ₹65 per GPU-hour (average ~₹67 with up to 40% subsidy)",
+      "93.18 lakh GPU hours consumed by Aug 2026",
+      "Official target stated of ~100,000 GPUs by end-2026",
+      "Industry reports of under-utilisation by empanelled providers"
+    ],
+    "themes": [
+      "compute",
+      "infrastructure",
+      "startups-innovation"
+    ],
+    "sectors": [
+      "cross-sector",
+      "startups-industry"
+    ],
+    "source_url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=156786&lang=1&reg=3",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026210784401.pdf",
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295477",
+      "https://www.careerindia.com/news/indiaai-mission-2026-access-subsidized-gpus-boost-ai-careers-scale-startups-011-66885.html",
+      "https://www.communicationstoday.co.in/38000-gpus-one-big-problem-indias-ai-mission-cant-find-enough-users/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Feb 2026 figures from official PIB backgrounder; June/Aug 2026 figures from PIB release snippet and secondary summaries (PIB page itself returned 403).",
+    "related": [
+      "central-cabinet-indiaai-mission-2024",
+      "central-india-ai-impact-summit-domestic-announcements-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-indiaai-aikosh-2025",
+    "title": "AIKosh (IndiaAI Datasets Platform)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "IndiaAI Mission, MeitY",
+    "instrument_type": "scheme",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2025-03-06",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-03-06",
+        "event": "AIKosh launched"
+      },
+      {
+        "date": "2026-02-10",
+        "event": "7,541 datasets, 273 models across 20 sectors"
+      },
+      {
+        "date": "2026-08-20",
+        "event": "15,000+ datasets, 300 models, 30 toolkits; AIKosh workshop"
+      }
+    ],
+    "summary": "National platform aggregating government and non-government datasets, models and toolkits for AI development under the IndiaAI datasets pillar.",
+    "key_provisions": [
+      "Single national repository of AI-ready datasets and models with sandbox tools",
+      "7,541 datasets and 273 models in Feb 2026; 15,000+ datasets and 300 models by Aug 2026",
+      "Covers 20 sectors; integrates data.gov.in sources",
+      "Operated by IndiaAI IBD under Digital India Corporation"
+    ],
+    "themes": [
+      "datasets",
+      "infrastructure"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://aikosh.indiaai.gov.in/home",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026210784401.pdf",
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2301666&reg=48&lang=2"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Feb 2026 figures from official PIB backgrounder; Aug 2026 figures from PIB release title and a secondary summary.",
+    "related": [
+      "central-cabinet-indiaai-mission-2024"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-indiaai-foundation-models-2025",
+    "title": "IndiaAI Foundation Models programme (sovereign LLM selections)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "IndiaAI Mission, MeitY",
+    "instrument_type": "scheme",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2025-01-30",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-01-30",
+        "event": "Call for proposals for indigenous foundation models opened"
+      },
+      {
+        "date": "2025-04-26",
+        "event": "Sarvam AI selected (first)"
+      },
+      {
+        "date": "2025-05-30",
+        "event": "Soket AI Labs, Gnani.ai and Gan.ai selected"
+      },
+      {
+        "date": "2025-09-12",
+        "event": "Eight more selected (BharatGen, Tech Mahindra, Fractal, Avataar, ZenteiQ, Genloop, IntelliHealth/NeuroDX, Shodh AI)"
+      },
+      {
+        "date": "2026-02-17",
+        "event": "Sarvam 30B/105B, BharatGen Param2 17B and Gnani Vachana unveiled at AI Impact Summit"
+      }
+    ],
+    "summary": "Government-funded programme selecting Indian firms and consortia to build foundation models trained on Indian data and languages, with subsidised compute.",
+    "key_provisions": [
+      "500+ proposals received; 12 selections across two phases",
+      "Phase 1: Sarvam AI (from 67 applicants), Soket AI, Gnani AI, Gan AI; Phase 2 (Sept 2025): eight more including IIT Bombay-led BharatGen",
+      "Support via subsidised GPU compute at ₹65/hour and funding under the Mission",
+      "Models released Feb 2026: Sarvam 30B 'Vikram' (32k context) and 105B (128k context); BharatGen Param2 17B MoE across 22 scheduled languages; Gnani Vachana voice stack",
+      "No third selection round located as of Nov 2026"
+    ],
+    "themes": [
+      "models",
+      "compute",
+      "startups-innovation"
+    ],
+    "sectors": [
+      "cross-sector",
+      "startups-industry"
+    ],
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026210784401.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2177598",
+      "https://analyticsindiamag.com/ai-features/here-are-the-8-new-tech-firms-scaling-under-indiaai-missions-phase-2",
+      "https://indiaai.gov.in/article/call-for-proposals-for-building-india-s-foundational-ai-models-date-extended-30th-april-2025",
+      "https://www.freepressjournal.in/tech/ai-summit-2026-meet-the-3-sovereign-ai-llm-models-that-were-unveiled-in-delhi-to-rival-global-tech-giants"
+    ],
+    "confidence": "medium",
+    "confidence_note": "List of 12 and proposal count from official PIB backgrounder; exact selection dates for Sarvam (26 Apr 2025) and the May/Sept 2025 batches from prior knowledge and secondary reporting; Sept date approximate to the day.",
+    "related": [
+      "central-cabinet-indiaai-mission-2024",
+      "central-indiaai-compute-portal-2025"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-indiaai-safe-trusted-ai-projects-2024",
+    "title": "IndiaAI Safe & Trusted AI pillar: Expressions of Interest and funded projects",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "IndiaAI Mission, MeitY",
+    "instrument_type": "scheme",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2024-10-01",
+    "date_precision": "month",
+    "timeline": [
+      {
+        "date": "2024-10-01",
+        "event": "First EoI: eight Responsible AI projects selected from 2,000+ proposals"
+      },
+      {
+        "date": "2024-12-10",
+        "event": "Second EoI call published"
+      },
+      {
+        "date": "2025-01-30",
+        "event": "Second EoI themes announced with AISI launch (watermarking, ethical frameworks, risk assessment, stress testing, deepfake detection)"
+      },
+      {
+        "date": "2025-10-07",
+        "event": "Five projects selected under second EoI from 400+ proposals"
+      },
+      {
+        "date": "2026-07-27",
+        "event": "13 projects approved in total"
+      }
+    ],
+    "summary": "Competitive grant rounds funding Indian institutions and startups to build AI safety tools (deepfake detection, bias mitigation, machine unlearning, privacy, explainability, penetration testing).",
+    "key_provisions": [
+      "Round 1 (2024): eight projects on machine unlearning, synthetic data, bias mitigation, explainable AI, privacy preservation, ethical certification, algorithmic auditing, LLM transparency",
+      "Round 2 themes: watermarking & labelling, ethical AI frameworks, AI risk assessment & management, stress-testing tools, deepfake detection",
+      "Round 2 selections (Oct 2025): Saakshya (IIT Jodhpur/IIT Madras), AI Vishleshak (IIT Mandi/HP Directorate of Forensic Services), real-time voice deepfake detection (IIT Kharagpur), gender-bias evaluation of agri LLMs (Digital Futures Lab/Karya), penetration testing (Globals ITES/IIIT Dharwad)",
+      "13 projects approved by July 2026, including NIT Raipur healthcare bias, IIT Delhi/IIIT Delhi/IIT Dharwad federated learning, DIAT explainable AI",
+      "Projects are described as overseen by the IndiaAI Safety Institute"
+    ],
+    "themes": [
+      "safety",
+      "synthetic-media",
+      "fairness-bias",
+      "research-funding"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://psa.gov.in/CMS/web/sites/default/files/publication/India%20Takes%20the%20Lead%20Establishing%20the%20IndiaAI%20Safety%20Institute%20for%20Responsible%20AI%20Innovation.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://ddnews.gov.in/en/indiaai-missions-safe-trusted-ai-pillar-advances-responsible-ai-13-projects-approved-to-tackle-deepfakes-and-bias/",
+      "https://yourstory.com/2025/10/indiaai-bolsters-safe-ai-push-solutions-deepfake-detection",
+      "https://www.etvbharat.com/en/!technology/indiaai-selects-5-projects-to-advance-safe-and-trusted-ai-in-country-enn25100704740",
+      "https://www.medianama.com/2026/07/223-meity-india-ai-safety-institute-director-hiring/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Round 2 themes and round 1 count from the IndiaAI article (official); round 1 month and the 13-project total from news/DD News. Funding amounts per project not published.",
+    "related": [
+      "central-indiaai-safety-institute-2025",
+      "central-cabinet-indiaai-mission-2024"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-indiaai-safety-institute-2025",
+    "title": "IndiaAI Safety Institute (AISI)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "MeitY / IndiaAI Mission (Digital India Corporation)",
+    "instrument_type": "institution",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2025-01-30",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2024-10-01",
+        "event": "MeitY consultation on establishing an AI Safety Institute"
+      },
+      {
+        "date": "2025-01-30",
+        "event": "Minister Vaishnaw announces IndiaAI Safety Institute under Safe & Trusted pillar"
+      },
+      {
+        "date": "2025-11-05",
+        "event": "AI Governance Guidelines assign AISI evaluation, standards and international-network functions"
+      },
+      {
+        "date": "2026-02-17",
+        "event": "PM Modi describes AISI as dedicated body for safe AI deployment"
+      },
+      {
+        "date": "2026-05-19",
+        "event": "Digital India Corporation advertises post of Director, AISI (deadline 2 Jun 2026)"
+      },
+      {
+        "date": "2026-07-27",
+        "event": "13 Safe & Trusted projects reported under AISI oversight"
+      }
+    ],
+    "summary": "AI safety research and evaluation body incubated inside the IndiaAI Mission on a hub-and-spoke model; it funds projects and is referenced in official policy but was still recruiting its first Director in mid-2026.",
+    "key_provisions": [
+      "Hub-and-spoke model with academic institutions and private partners taking up Safe & Trusted AI projects",
+      "Guidelines-assigned functions: test and evaluate AI systems, draft guidelines/codes/standards and evaluation metrics, forecasting research, represent India in the International Network of AI Safety Institutes, support TPEC and AIGG",
+      "Director post (contract; 20 years' experience) reports to IndiaAI COO; responsibilities include red-teaming, risk taxonomy and model evaluation programmes",
+      "No separate statute, budget line or premises published; operates under IndiaAI IBD",
+      "Oversees 13 funded Safe & Trusted projects as of July 2026"
+    ],
+    "themes": [
+      "safety",
+      "institution-building",
+      "standards",
+      "international"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://indiaai.gov.in/article/india-takes-the-lead-establishing-the-indiaai-safety-institute-for-responsible-ai-innovation",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://psa.gov.in/CMS/web/sites/default/files/publication/India%20Takes%20the%20Lead%20Establishing%20the%20IndiaAI%20Safety%20Institute%20for%20Responsible%20AI%20Innovation.pdf",
+      "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025115685601.pdf",
+      "https://www.medianama.com/2026/07/223-meity-india-ai-safety-institute-director-hiring/",
+      "https://thenewsmill.com/2026/02/indiaai-safety-institute-established-for-ethical-and-safe-ai-deployment/",
+      "https://x.com/OfficialINDIAai/status/2061410038212853946"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Announcement and functions verified from official text; operational status inferred from the May 2026 Director advertisement. No confirmation of a Director appointment or of published evaluations as of 19 Nov 2026. Status set to 'announced' rather than 'in-force' for that reason.",
+    "related": [
+      "central-indiaai-safe-trusted-ai-projects-2024",
+      "central-meity-ai-governance-guidelines-2025",
+      "central-meity-aigeg-2026",
+      "central-meity-tpec-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-aigeg-2026",
+    "title": "AI Governance and Economic Group (AIGEG)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY), Office Memorandum No. ET/9/2023-ET-(Part I)",
+    "instrument_type": "institution",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2026-04-13",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-11-05",
+        "event": "Guidelines recommend an AI Governance Group chaired by the PSA"
+      },
+      {
+        "date": "2026-04-13",
+        "event": "MeitY OM constitutes AIGEG chaired by the Minister of Electronics & IT"
+      },
+      {
+        "date": "2026-04-18",
+        "event": "TPEC constituted to support AIGEG"
+      }
+    ],
+    "summary": "Inter-ministerial body created by MeitY office memorandum to coordinate AI policy across ministries and regulators, oversee national AI governance initiatives and plan for labour-market impacts of AI.",
+    "key_provisions": [
+      "Chairperson: Minister of Electronics & IT; Vice-Chairperson: MoS Electronics & IT; Member-Convener: Secretary MeitY",
+      "Members: Principal Scientific Adviser, Chief Economic Adviser, CEO NITI Aayog, Secretaries of DoT, DEA and DST, representative of the National Security Council Secretariat",
+      "ToR: coordinate policy across ministries, departments and sectoral regulators; issue guidelines to hold firms accountable for compliance with local laws; oversee national AI governance initiatives; study emerging risks, regulatory gaps and need for legal amendments",
+      "ToR: develop with industry a roadmap for AI deployment over the next decade including job profiles affected and extent of automation; classify AI use cases as 'deploy', 'pilot' or 'defer'; assess labour-market impacts and prepare transition plans",
+      "Excludes the sectoral regulators (TRAI, CCI, DPB, RBI, SEBI, ICMR, UGC) suggested in the Guidelines",
+      "Signed by Deputy Secretary Ashma Gandhi with approval of the Minister"
+    ],
+    "themes": [
+      "governance",
+      "institution-building",
+      "employment-labour"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://d12aarmt01l54a.cloudfront.net/cms/files/constitution-of-aigeg/1776346498.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.medianama.com/2026/04/223-aigeg-meitys-ai-governance-body-excludes-regulators-recommended-ai-guidelines/",
+      "https://negd.gov.in/press_release/government-constitutes-technology-and-policy-expert-committee-tpec-to-provide-expert-advisory-support-to-indias-ai-governance-architecture/"
+    ],
+    "confidence": "high",
+    "confidence_note": "Scanned copy of the MeitY OM (hosted on MediaNama's CDN) read via text extraction; file number, date, composition and ToR taken from the OM. No meeting records or outputs located as of Nov 2026.",
+    "related": [
+      "central-meity-ai-governance-guidelines-2025",
+      "central-meity-tpec-2026",
+      "central-indiaai-safety-institute-2025"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-tpec-2026",
+    "title": "Technology and Policy Expert Committee (TPEC)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "institution",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2026-04-18",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-04-13",
+        "event": "AIGEG constituted"
+      },
+      {
+        "date": "2026-04-18",
+        "event": "TPEC constitution announced"
+      }
+    ],
+    "summary": "Standing expert advisory committee under MeitY that supplies technical, policy and strategic inputs to the AIGEG.",
+    "key_provisions": [
+      "Chaired by the Secretary, MeitY",
+      "Members reported to include Prof. B. Ravindran (IIT Madras), Prof. Rajat Moona, and representatives of NASSCOM, DSCI and MAIT",
+      "Functions: brief AIGEG on AI policy priorities, assess emerging capabilities, identify risks and regulatory gaps, track global AI governance developments, support India's international engagements",
+      "Implements the Guidelines' short-term action item to constitute a TPEC"
+    ],
+    "themes": [
+      "governance",
+      "institution-building"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://negd.gov.in/press_release/government-constitutes-technology-and-policy-expert-committee-tpec-to-provide-expert-advisory-support-to-indias-ai-governance-architecture/",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://www.etvbharat.com/en/technology/govt-sets-up-committee-for-expert-advisory-support-to-indias-ai-governance-architecture-enn26041805883",
+      "https://techobserver.in/news/egov/meity-tpec-ai-governance-expert-committee-323061/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Official NeGD release confirms constitution and purpose; the order text was not located. Press reports date it to 18 Apr 2026, while the NeGD page displays 12 May 2026; 18 Apr used.",
+    "related": [
+      "central-meity-aigeg-2026",
+      "central-meity-ai-governance-guidelines-2025"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-depa-ai-training-2026",
+    "title": "DEPA for AI Training: Handbook / Draft for Discussion",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY), with iSPIRT Foundation",
+    "instrument_type": "consultation",
+    "status": "draft",
+    "binding": "non-binding",
+    "date": "2026-10-31",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-11-05",
+        "event": "AI Governance Guidelines cite DEPA for AI Training as a techno-legal example"
+      },
+      {
+        "date": "2026-10-31",
+        "event": "Handbook released by Secretary MeitY at Bengaluru roundtable; draft for discussion published"
+      }
+    ],
+    "summary": "Draft techno-legal framework allowing AI developers to train models on sensitive data inside secure 'sealed room' environments with machine-readable consent contracts and pre-deployment fitness checks.",
+    "key_provisions": [
+      "Confidential clean-room / 'sealed room' compute in which raw data is never exposed to the model trainer",
+      "Machine-readable electronic contracts governing permitted uses; Data Collabs act as intermediaries aggregating data from multiple providers",
+      "Differential-privacy protections and documented data provenance",
+      "Models trained under the framework to be verified 'fit for use' (validation, bias, security, explainability) per guidelines of a competent government authority before pilot and scaling",
+      "Participation voluntary; document described as not legally binding; consultations expected in following weeks",
+      "Pilots cited in banking and healthcare; claims potential $500 billion AI-driven GDP value by 2030"
+    ],
+    "themes": [
+      "data-protection",
+      "privacy",
+      "models",
+      "governance"
+    ],
+    "sectors": [
+      "cross-sector",
+      "finance",
+      "health"
+    ],
+    "source_url": "https://www.meity.gov.in/static/uploads/2026/10/02d8224e4cd6c8c29be5a5198e795158.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2330756&reg=48&lang=2",
+      "https://cio.eletsonline.com/artificial-intelligence/meity-depa-ai-training-framework-sealed-rooms-sensitive-data-ispirt/76548/",
+      "https://the420.in/meity-ai-training-framework-model-vetting-approval/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "PIB release title and MeitY PDF location confirmed; PDF itself returned 403 so provisions are from two news analyses of the document. Comment deadline not found.",
+    "related": [
+      "central-meity-ai-governance-guidelines-2025",
+      "central-dpdp-act-2023"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-ai-regulation-consultation-paper-2026",
+    "title": "MeitY consultation paper on AI regulation (announced)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "consultation",
+    "status": "proposed",
+    "binding": "non-binding",
+    "date": "2026-10-08",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-12-01",
+        "event": "Secretary Krishnan: no dedicated AI law planned"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Minister Vaishnaw (PTI): 'there is a requirement for a new law'"
+      },
+      {
+        "date": "2026-07-09",
+        "event": "Secretary Krishnan: stakeholder discussions to begin, 'we will start a process of drafting'"
+      },
+      {
+        "date": "2026-10-08",
+        "event": "Minister announces regulation-focused consultation paper within a month"
+      },
+      {
+        "date": "2026-10-26",
+        "event": "Minister: paper 'in the coming weeks'; 'risks of AI have crossed a threshold'"
+      },
+      {
+        "date": "2026-11-19",
+        "event": "No published paper located"
+      }
+    ],
+    "summary": "Promised consultation paper intended as the base for future AI regulation, built on a techno-legal approach; announced in October 2026 but not published as of 19 November 2026.",
+    "key_provisions": [
+      "Stated pillars: safety (priority), human-first approach and human control over models, scaling AI, inclusivity ('no person left behind'), societal harms including deepfakes and psychological harms",
+      "Minister: 'AI and technologies cannot be regulated just by having a law. We have to bring a techno-legal solution'; bulk of regulation to be carried by industry",
+      "Described as 'probably (the) base for the regulation which has to come'; Minister says a new law is needed because the IT Act dates from 2000",
+      "Reported to be drafted with sector-specific guidance (banking, securities) urging regulators to act",
+      "Inputs to be sought from civil society, citizens and industry (banking, manufacturing, finance, insurance)"
+    ],
+    "themes": [
+      "governance",
+      "safety",
+      "synthetic-media"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://www.medianama.com/2026/10/223-meity-consultation-paper-ai-regulation/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://theprint.in/india/governance/india-steps-up-ai-regulation-push-with-consultation-paper-likely-next-month-deepfakes-safety-in-focus/3065386/",
+      "https://www.medianama.com/2026/10/223-india-ai-regulation-consultation-paper-vaishnaw/",
+      "https://www.medianama.com/2026/06/223-vaishnaw-new-ai-law-contradicting-meitys-position-2023-parliamentary-reply/",
+      "https://www.medianama.com/2026/07/223-meity-start-stakeholder-discussions-separate-law-ai-regulation-s-krishnan/",
+      "https://www.business-standard.com/amp/technology/artificial-intelligence/govt-to-release-draft-ai-regulation-paper-within-30-days-ashwini-vaishnaw-126100801183_1.html",
+      "https://www.newsbytesapp.com/news/science/meity-drafting-sector-specific-ai-consultation-paper-urging-regulator-action/tldr"
+    ],
+    "confidence": "low",
+    "confidence_note": "Only ministerial statements exist; no document, title or comment window published as of 19 Nov 2026 (MeitY site inaccessible; MediaNama November listings show nothing). Status 'proposed'.",
+    "related": [
+      "central-meity-ai-governance-guidelines-2025",
+      "central-meity-depa-ai-training-2026",
+      "central-digital-india-act-draft"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-indiaai-startups-global-acceleration-2025",
+    "title": "IndiaAI Startups Global Acceleration Programme",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "IndiaAI Mission, MeitY (with Station F and HEC Paris)",
+    "instrument_type": "scheme",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2026-04-01",
+    "date_precision": "month",
+    "timeline": [
+      {
+        "date": "2025-09-01",
+        "event": "Cohort I of 10 startups (approximate)"
+      },
+      {
+        "date": "2026-04-01",
+        "event": "Cohort II of 10 startups announced"
+      }
+    ],
+    "summary": "Startup Financing pillar programme sending cohorts of ten Indian AI startups to a Paris-based acceleration track with Station F and HEC Paris.",
+    "key_provisions": [
+      "Ten startups per cohort; Cohort II: AI Health Highway, Awiros, Cognecto, Flaunt, GreenFi.ai, Infiheal, InLustro, PredCo, SkyServe, TestAIng",
+      "Partners: Station F and HEC Paris",
+      "Sectors: healthtech, climate tech, edtech, satellite intelligence, AI testing",
+      "Funded under the IndiaAI Startup Financing pillar"
+    ],
+    "themes": [
+      "startups-innovation",
+      "international"
+    ],
+    "sectors": [
+      "startups-industry"
+    ],
+    "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2252858",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://yourstory.com/2026/04/indiaai-mission-selects-10-startups-second-cohort",
+      "https://inc42.com/buzz/meet-the-10-startups-selected-for-second-cohort-of-indiaai-startups-programme/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Cohort II confirmed by PIB release title and two outlets; Cohort I date approximate.",
+    "related": [
+      "central-cabinet-indiaai-mission-2024"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-psa-white-paper-techno-legal-ai-governance",
+    "title": "India's AI Policy Priorities White Paper Series: Strengthening AI Governance (Techno-Legal)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Office of the Principal Scientific Adviser to the Government of India",
+    "instrument_type": "policy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-01-01",
+    "date_precision": "year",
+    "timeline": [
+      {
+        "date": "2025-01-01",
+        "event": "White paper published on psa.gov.in (year approximate)"
+      }
+    ],
+    "summary": "PSA-office white paper articulating a techno-legal approach to AI governance, part of a series on India's AI policy priorities.",
+    "key_provisions": [
+      "Advocates embedding legal requirements into technical architectures (techno-legal regulation)",
+      "Forms part of the PSA office's 'India's AI Policy Priorities' white paper series",
+      "Approach later adopted in the Nov 2025 Guidelines and the DEPA for AI Training draft"
+    ],
+    "themes": [
+      "governance",
+      "standards"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://psa.gov.in/CMS/web/sites/default/files/publication/AI-WP_TechnoLegal.pdf",
+    "source_type": "official",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "PDF exists on psa.gov.in but exceeded the fetch size limit; title from the document's search listing; publication date, authorship and detailed contents unverified.",
+    "related": [
+      "central-meity-ai-governance-guidelines-2025",
+      "central-meity-depa-ai-training-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-niti-national-strategy-ai-2018",
+    "title": "National Strategy for Artificial Intelligence #AIforAll",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "NITI Aayog",
+    "instrument_type": "strategy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2018-06-04",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2018-02-01",
+        "event": "Budget 2018-19 tasks NITI Aayog with a national AI programme"
+      },
+      {
+        "date": "2018-06-04",
+        "event": "Discussion paper released"
+      }
+    ],
+    "summary": "Discussion paper identifying five priority sectors for AI and proposing a research-institution network and policy enablers.",
+    "key_provisions": [
+      "Five focus sectors: healthcare, agriculture, education, smart cities and infrastructure, smart mobility and transportation",
+      "Proposed Centres of Research Excellence (COREs) and International Centres of Transformational AI (ICTAIs)",
+      "Identified barriers: data ecosystems, compute, skills, IP and privacy; proposed a national AI marketplace",
+      "Framed India as an 'AI garage' for developing-country solutions"
+    ],
+    "themes": [
+      "governance",
+      "research-funding",
+      "skilling"
+    ],
+    "sectors": [
+      "health",
+      "agriculture",
+      "education",
+      "transport",
+      "public-services"
+    ],
+    "source_url": "https://www.niti.gov.in/sites/default/files/2023-03/National-Strategy-for-Artificial-Intelligence.pdf",
+    "source_type": "official",
+    "secondary_sources": [],
+    "confidence": "medium",
+    "confidence_note": "Document and date well established; URL from prior knowledge, not re-fetched this session.",
+    "related": [
+      "central-niti-responsible-ai-part1-2021"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-niti-responsible-ai-part1-2021",
+    "title": "Responsible AI for All: Approach Document for India, Part 1 – Principles for Responsible AI",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "NITI Aayog",
+    "instrument_type": "policy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2021-02-22",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2020-07-01",
+        "event": "Draft working document released for consultation"
+      },
+      {
+        "date": "2021-02-22",
+        "event": "Part 1 released"
+      }
+    ],
+    "summary": "Sets out seven principles for responsible AI in India derived from constitutional values.",
+    "key_provisions": [
+      "Seven principles: safety and reliability; equality; inclusivity and non-discrimination; privacy and security; transparency; accountability; protection and reinforcement of positive human values",
+      "Distinguishes system considerations from societal considerations",
+      "Anchors principles in Article 14 and 21 jurisprudence"
+    ],
+    "themes": [
+      "ethics",
+      "fairness-bias",
+      "transparency",
+      "accountability-liability"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://www.niti.gov.in/sites/default/files/2021-02/Responsible-AI-22022021.pdf",
+    "source_type": "official",
+    "secondary_sources": [],
+    "confidence": "medium",
+    "confidence_note": "URL and date from prior knowledge (filename encodes 22 Feb 2021); not re-fetched.",
+    "related": [
+      "central-niti-responsible-ai-part2-2021",
+      "central-niti-responsible-ai-frt-2022"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-niti-responsible-ai-part2-2021",
+    "title": "Responsible AI for All: Approach Document for India, Part 2 – Operationalizing Principles for Responsible AI",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "NITI Aayog",
+    "instrument_type": "policy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2021-08-12",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2021-08-12",
+        "event": "Part 2 released"
+      }
+    ],
+    "summary": "Proposes mechanisms for government and private sector to operationalise the Part 1 principles.",
+    "key_provisions": [
+      "Recommends a Council for Ethics and Technology / advisory body on AI ethics",
+      "Sectoral regulators to issue domain-specific guidance; self-assessment and third-party audits for private sector",
+      "Procurement standards and ethics-by-design for public AI systems",
+      "Capacity building for government officials and awareness for citizens"
+    ],
+    "themes": [
+      "ethics",
+      "governance",
+      "procurement",
+      "public-sector-use"
+    ],
+    "sectors": [
+      "cross-sector",
+      "public-services"
+    ],
+    "source_url": "https://www.niti.gov.in/sites/default/files/2021-08/Part2-Responsible-AI-12082021.pdf",
+    "source_type": "official",
+    "secondary_sources": [],
+    "confidence": "medium",
+    "confidence_note": "URL and date from prior knowledge; not re-fetched.",
+    "related": [
+      "central-niti-responsible-ai-part1-2021"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-niti-responsible-ai-frt-2022",
+    "title": "Responsible AI for All: Adopting the Framework – A Use Case Approach on Facial Recognition Technology",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "NITI Aayog",
+    "instrument_type": "policy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2022-11-02",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2022-11-02",
+        "event": "Paper released"
+      }
+    ],
+    "summary": "Applies the Responsible AI principles to facial recognition technology, using DigiYatra as the illustrative case.",
+    "key_provisions": [
+      "Distinguishes verification (1:1) from identification (1:N) uses and their risk profiles",
+      "Recommends legal basis, purpose limitation, accuracy testing and grievance redress for FRT deployments",
+      "Uses the DigiYatra airport system as the worked example",
+      "Calls for a dedicated FRT governance framework and oversight"
+    ],
+    "themes": [
+      "privacy",
+      "fairness-bias",
+      "public-sector-use",
+      "ethics"
+    ],
+    "sectors": [
+      "transport",
+      "law-enforcement",
+      "public-services"
+    ],
+    "source_url": "https://www.niti.gov.in/sites/default/files/2022-11/Ai_for_All_2022_02112022_0.pdf",
+    "source_type": "official",
+    "secondary_sources": [],
+    "confidence": "medium",
+    "confidence_note": "URL and date from prior knowledge; not re-fetched.",
+    "related": [
+      "central-niti-responsible-ai-part2-2021"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-niti-ai-viksit-bharat-roadmap-2025",
+    "title": "AI for Viksit Bharat: The Opportunity for Accelerated Economic Growth (Roadmap)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "NITI Aayog, Frontier Tech Hub (with McKinsey & Company)",
+    "instrument_type": "strategy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-09-15",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-09-15",
+        "event": "Launched by Finance Minister Sitharaman and Minister Vaishnaw with the Frontier Tech Repository"
+      }
+    ],
+    "summary": "Roadmap on using AI to raise productivity across industries and transform R&D, with workforce and institutional targets to 2035.",
+    "key_provisions": [
+      "Two levers: AI adoption across industries and generative-AI-enabled R&D",
+      "Technology services sector projected at $750–850 billion annual revenue by 2035 (7–8% of GDP)",
+      "Targets: train 5 million+ students and professionals; AI Open University with Skill India Digital; programmes for 100,000 biopharma scientists and 30,000 software-defined-vehicle engineers",
+      "Launched alongside a Frontier Tech Repository"
+    ],
+    "themes": [
+      "skilling",
+      "startups-innovation",
+      "research-funding"
+    ],
+    "sectors": [
+      "cross-sector",
+      "startups-industry"
+    ],
+    "source_url": "https://niti.gov.in/sites/default/files/2025-09/AI-for-Viksit-Bharat-the-opportunity-for-accelerated-economic-growth.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2166867&reg=48&lang=2",
+      "https://www.icsi.edu/media/webmodules/infocapsule/Info_Capsule_16092025.pdf"
+    ],
+    "confidence": "medium",
+    "confidence_note": "PDF location and PIB release confirmed; launch date inferred from ICSI capsule of 16 Sept 2025 reporting the launch (day may be 15 or 16 Sept).",
+    "related": [
+      "central-niti-roadmap-job-creation-ai-economy-2025",
+      "central-niti-roadmap-ai-inclusive-societal-development-2025"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-niti-roadmap-job-creation-ai-economy-2025",
+    "title": "Roadmap for Job Creation in the AI Economy",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "NITI Aayog, Frontier Tech Hub (with NASSCOM and BCG)",
+    "instrument_type": "strategy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-10-10",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-10-10",
+        "event": "Released by NITI Aayog CEO B.V.R. Subrahmanyam"
+      },
+      {
+        "date": "2026-01-01",
+        "event": "Featured in NITI Sandhan January 2026 research newsletter"
+      }
+    ],
+    "summary": "Roadmap analysing AI's effect on India's technology-services and customer-experience workforce and proposing a National AI Talent Mission.",
+    "key_provisions": [
+      "Recommends a National AI Talent Mission to make India the 'AI workforce capital'",
+      "Projects up to 4 million new jobs over five years in the $245 billion tech and CX sectors with skilling investment",
+      "Proposes embedding AI in curricula and an AI skilling engine for reskilling",
+      "Framed through work, worker and workforce lenses; expert council from IBM, Infosys, Tech Mahindra, LTIMindtree, Teleperformance"
+    ],
+    "themes": [
+      "employment-labour",
+      "skilling"
+    ],
+    "sectors": [
+      "employment",
+      "startups-industry"
+    ],
+    "source_url": "https://niti.gov.in/sites/default/files/2025-10/Roadmap_for_Job_Creation_in_the_AI_Economy.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2177440&reg=48&lang=2",
+      "https://x.com/NITIAayog/status/1976647737383772470",
+      "https://www.niti.gov.in/sites/default/files/2026-01/NITI_Sandhan_January_2026.pdf"
+    ],
+    "confidence": "high",
+    "confidence_note": "PDF, PIB release and NITI's own post confirm release; date from the X post timestamp (10 Oct 2025).",
+    "related": [
+      "central-niti-ai-viksit-bharat-roadmap-2025",
+      "central-mol-taskforce-ai-future-of-work-2024",
+      "central-budget-2026-27-ai-provisions"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-niti-roadmap-ai-inclusive-societal-development-2025",
+    "title": "Roadmap on AI for Inclusive Societal Development",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "NITI Aayog, Frontier Tech Hub",
+    "instrument_type": "strategy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-10-01",
+    "date_precision": "month",
+    "timeline": [
+      {
+        "date": "2025-10-01",
+        "event": "Roadmap published on niti.gov.in"
+      }
+    ],
+    "summary": "Roadmap on applying AI to inclusion outcomes (health, education, agriculture, welfare delivery) as part of the Viksit Bharat 2047 agenda.",
+    "key_provisions": [
+      "Companion to the economic-growth and job-creation roadmaps from the Frontier Tech Hub",
+      "Focuses on AI for public-service delivery and inclusion of underserved groups",
+      "Cited by Labour-market and education analyses in 2026"
+    ],
+    "themes": [
+      "public-sector-use",
+      "skilling"
+    ],
+    "sectors": [
+      "public-services",
+      "health",
+      "education",
+      "agriculture"
+    ],
+    "source_url": "https://www.niti.gov.in/sites/default/files/2025-10/Roadmap_On_AI_for_Inclusive_Societal_Development.pdf",
+    "source_type": "official",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "PDF exists on niti.gov.in (Oct 2025 upload path) but was not read; launch event date not found. Provisions summarised at a general level.",
+    "related": [
+      "central-niti-ai-viksit-bharat-roadmap-2025"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-niti-technology-services-reimagination-2026",
+    "title": "India's Technology Services: Reimagination Ahead",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "NITI Aayog, Frontier Tech Hub",
+    "instrument_type": "strategy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-02-01",
+    "date_precision": "month",
+    "timeline": [
+      {
+        "date": "2026-02-01",
+        "event": "Report published"
+      }
+    ],
+    "summary": "Frontier Tech Hub report on restructuring India's technology-services industry around AI, including compute-infrastructure recommendations.",
+    "key_provisions": [
+      "Recommends GPU-enabled data centres, raising GPU share of compute from ~3–4% to ~15–20%",
+      "Positions AI-led services as central to the 10% global services share goal",
+      "Follows the Sept 2025 Viksit Bharat and Oct 2025 job-creation roadmaps"
+    ],
+    "themes": [
+      "compute",
+      "infrastructure",
+      "employment-labour"
+    ],
+    "sectors": [
+      "startups-industry",
+      "employment"
+    ],
+    "source_url": "https://www.niti.gov.in/sites/default/files/2026-02/Technology-Services-Reimagination-Ahead.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.niti.gov.in/sites/default/files/2026-05/Annual%20Report%20of%20NITI%20Aayog%202025-26%20(English).pdf"
+    ],
+    "confidence": "low",
+    "confidence_note": "PDF located via search; not read in full; exact release day unknown.",
+    "related": [
+      "central-niti-roadmap-job-creation-ai-economy-2025"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-india-ai-impact-summit-new-delhi-declaration-2026",
+    "title": "New Delhi Declaration on AI Impact (India AI Impact Summit 2026)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Government of India (MeitY as host); adopted by summit participants",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-02-20",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-02-16",
+        "event": "Summit opens in New Delhi (16–20 Feb)"
+      },
+      {
+        "date": "2026-02-19",
+        "event": "PM Modi inaugurates leaders' segment"
+      },
+      {
+        "date": "2026-02-20",
+        "event": "New Delhi Declaration adopted; summit concludes"
+      }
+    ],
+    "summary": "Outcome declaration of the fourth global AI summit, hosted by India, committing endorsers to shared benefits of AI under the principle 'Sarvajan Hitaya, Sarvajan Sukhaya'.",
+    "key_provisions": [
+      "Endorsed by 88 countries and international organisations per AIR/PIB (some reports say 92)",
+      "Seven 'chakras': human capital, broadened access, trustworthiness, energy efficiency, AI in science, democratising AI resources, AI for growth and social good",
+      "Accompanying outcome documents: Charter for Democratic Diffusion of AI; a Collaborative Platform for exchange; Voluntary Guiding Principles on Resilient, Innovative and Efficient AI",
+      "Voluntary Guiding Principles for Reskilling in the Age of AI endorsed by 24 countries",
+      "118 countries participated; about 6 lakh in-person attendees"
+    ],
+    "themes": [
+      "international",
+      "governance"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231208",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://www.newsonair.gov.in/india-ai-impact-summit-2026-adopts-new-delhi-declaration",
+      "https://www.outlookbusiness.com/news/ai-impact-summit-2026-concludes-with-88-nations-organisations-adopting-new-delhi-declaration",
+      "https://www.techuk.org/resource/key-outcomes-from-the-2026-ai-impact-summit-with-techuk.html",
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238195&reg=3&lang=1"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Official AIR report read; PIB page confirmed by title only. Endorsement count conflicts (88 vs 92). International researcher covers declaration text in depth.",
+    "related": [
+      "central-india-ai-impact-summit-domestic-announcements-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-india-ai-impact-summit-domestic-announcements-2026",
+    "title": "Government of India domestic announcements at the India AI Impact Summit 2026",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "MeitY / IndiaAI Mission; Prime Minister's Office",
+    "instrument_type": "other",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2026-02-17",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-02-10",
+        "event": "PIB backgrounder 'Democratising AI in India' published"
+      },
+      {
+        "date": "2026-02-17",
+        "event": "Minister announces 20,000 additional GPUs; sovereign models unveiled"
+      },
+      {
+        "date": "2026-02-19",
+        "event": "PM inaugurates summit; IndiaAI Data & AI Labs dedicated"
+      }
+    ],
+    "summary": "Bundle of domestic programme announcements made by the Union government during the summit week, expanding IndiaAI Mission compute, labs and model deployments.",
+    "key_provisions": [
+      "20,000 additional GPUs to be added to the 38,000 already on the compute portal",
+      "30 IndiaAI Data & AI Labs dedicated as first phase of a 570-lab network (27 with NIELIT in Tier 2/3 cities; 3 with Intel at Mokokchung, Mhow, Mohali)",
+      "Unveiling of IndiaAI-funded models: Sarvam 30B and 105B, BharatGen Param2 17B, Gnani Vachana",
+      "'Whole-of-nation' strategy framed as frugal, sovereign and scalable AI",
+      "Guinness record of 250,946 AI-responsibility pledges in 24 hours with Intel India",
+      "Investment pledges exceeding $200 billion reported across the five days (private commitments, not government spending)"
+    ],
+    "themes": [
+      "compute",
+      "models",
+      "skilling",
+      "infrastructure"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026210784401.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.pmindia.gov.in/en/news_updates/pm-inaugurates-india-ai-impact-summit-2026/",
+      "https://en.wikipedia.org/wiki/India_AI_Impact_Summit_2026",
+      "https://startupfeed.in/india-ai-impact-summit-2026-the-complete-highlights/",
+      "https://www.freepressjournal.in/tech/ai-summit-2026-meet-the-3-sovereign-ai-llm-models-that-were-unveiled-in-delhi-to-rival-global-tech-giants"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Pre-summit figures from official backgrounder; summit-week announcements from secondary summaries. Some outlets attribute the Budget 2025-26 ₹10,000 crore Fund of Funds to the summit; that is not a new summit instrument.",
+    "related": [
+      "central-india-ai-impact-summit-new-delhi-declaration-2026",
+      "central-indiaai-compute-portal-2025",
+      "central-indiaai-foundation-models-2025"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-moe-ai-centres-of-excellence-2024",
+    "title": "Centres of Excellence in AI for Healthcare, Agriculture and Sustainable Cities",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Education (announced in Union Budget 2023-24)",
+    "instrument_type": "scheme",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2024-10-15",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2023-02-01",
+        "event": "Budget 2023-24 announces three AI Centres of Excellence"
+      },
+      {
+        "date": "2024-10-15",
+        "event": "Education Minister announces lead institutions and ₹990 crore outlay"
+      }
+    ],
+    "summary": "Three consortium-led AI research centres funded by the Ministry of Education under the 'Make AI in India, Make AI work for India' vision.",
+    "key_provisions": [
+      "Total outlay ₹990 crore over FY2023-24 to FY2027-28",
+      "Healthcare CoE led by AIIMS New Delhi and IIT Delhi (early disease prediction, diagnostics, pandemic tracking)",
+      "Agriculture CoE led by IIT Ropar (crop, weather and local-condition data)",
+      "Sustainable Cities CoE led by IIT Kanpur (planning, traffic, resource distribution)",
+      "Apex committee co-chaired by the Education Minister and Prof. Sridhar Vembu; consortia with industry and startups"
+    ],
+    "themes": [
+      "research-funding",
+      "institution-building"
+    ],
+    "sectors": [
+      "health",
+      "agriculture",
+      "public-services"
+    ],
+    "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2064990&reg=48&lang=2",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://aninews.in/news/business/dharmendra-pradhan-announces-3-centres-of-excellence-in-ai-for-healthcare-agriculture-and-sustainable-cities20241015173837/",
+      "https://news.careers360.com/govt-selects-aiims-iit-delhi-kanpur-ropar-four-premier-institutes-lead-ai-centers-of-excellence"
+    ],
+    "confidence": "medium",
+    "confidence_note": "PIB release title and ANI report agree on date, institutions and outlay; apex-committee detail from prior knowledge.",
+    "related": [
+      "central-budget-2025-26-ai-provisions"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-budget-2024-25-ai-provisions",
+    "title": "Union Budget 2024-25: AI provisions",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Finance",
+    "instrument_type": "other",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2024-07-23",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2024-02-01",
+        "event": "Interim Budget: ₹1 lakh crore research and innovation corpus announced"
+      },
+      {
+        "date": "2024-07-23",
+        "event": "Full Budget 2024-25 presented; ₹551.75 crore for IndiaAI Mission"
+      }
+    ],
+    "summary": "First budget after Cabinet approval of the IndiaAI Mission, providing its initial annual allocation.",
+    "key_provisions": [
+      "₹551.75 crore allocated to the IndiaAI Mission for FY2024-25",
+      "Interim Budget (Feb 2024) announced a ₹1 lakh crore corpus for long-term research and innovation financing (not AI-specific)",
+      "Anusandhan National Research Foundation operationalisation funded"
+    ],
+    "themes": [
+      "research-funding",
+      "compute"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://indiaai.gov.in/article/union-budget-2024-25-allocates-over-550-crores-to-the-indiaai-mission",
+    "source_type": "official",
+    "secondary_sources": [],
+    "confidence": "medium",
+    "confidence_note": "Allocation figure from IndiaAI's own article; expenditure-budget document not fetched.",
+    "related": [
+      "central-cabinet-indiaai-mission-2024",
+      "central-budget-2025-26-ai-provisions"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-budget-2025-26-ai-provisions",
+    "title": "Union Budget 2025-26: AI provisions (CoE in AI for Education and IndiaAI allocation)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Finance",
+    "instrument_type": "other",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-02-01",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-02-01",
+        "event": "Budget 2025-26 presented"
+      }
+    ],
+    "summary": "Budget creating a Centre of Excellence in AI for Education and raising the IndiaAI Mission allocation.",
+    "key_provisions": [
+      "₹500 crore for a Centre of Excellence in Artificial Intelligence for Education",
+      "₹2,000 crore budget estimate for the IndiaAI Mission (later revised down; ~₹800 crore utilised)",
+      "₹10,000 crore Fund of Funds for startups and a Deep Tech Fund of Funds announced",
+      "50,000 Atal Tinkering Labs in government schools over five years"
+    ],
+    "themes": [
+      "research-funding",
+      "skilling",
+      "startups-innovation"
+    ],
+    "sectors": [
+      "education",
+      "startups-industry"
+    ],
+    "source_url": "https://www.indiabudget.gov.in/budget2025-26/doc/budget_speech.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://indiaai.gov.in/news/union-budget-2025-26-centre-allocates-500-crore-for-ai-centre-of-excellence-in-education",
+      "https://cerai.substack.com/p/announcements-on-ai-in-the-2025-26"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Speech URL from prior knowledge; CoE figure confirmed by IndiaAI article; IndiaAI allocation and utilisation from ThePrint/Business Today reporting on Budget 2026-27.",
+    "related": [
+      "central-moe-ai-centres-of-excellence-2024",
+      "central-budget-2026-27-ai-provisions",
+      "central-cabinet-indiaai-mission-2024"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-budget-2026-27-ai-provisions",
+    "title": "Union Budget 2026-27: AI provisions",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Finance",
+    "instrument_type": "other",
+    "status": "adopted",
+    "binding": "mixed",
+    "date": "2026-02-01",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-02-01",
+        "event": "Budget 2026-27 presented; AI mentioned 11 times in speech"
+      }
+    ],
+    "summary": "Budget speech and allocations for FY2026-27 covering the IndiaAI Mission line, a standing committee on AI and jobs, an AI agricultural advisory tool and data-centre tax incentives.",
+    "key_provisions": [
+      "Para 48: 'AI Mission' listed with National Quantum Mission, ANRF and RDI Fund as supported technology programmes; IndiaAI BE ₹1,000 crore (down from ₹2,000 crore)",
+      "Para 51: High-Powered 'Education to Employment and Enterprise' Standing Committee; ToR include assessing AI's impact on jobs and skills, embedding AI in school curricula and SCERT teacher training, upskilling engineers in AI, AI-enabled job matching",
+      "Para 83: Bharat-VISTAAR multilingual AI tool integrating AgriStack portals and ICAR practices for farmer advisory",
+      "Para 130: tax holiday till 2047 for foreign companies providing cloud services globally from Indian data centres (via Indian reseller for domestic customers)",
+      "Para 131: 15% cost-plus safe harbour for related-party data-centre services; India Semiconductor Mission 2.0 provision ₹1,000 crore",
+      "Secondary reports cite ₹500 crore for AI Centres of Excellence and 80 IndiaAI Labs; not found in the speech text"
+    ],
+    "themes": [
+      "research-funding",
+      "employment-labour",
+      "infrastructure",
+      "skilling"
+    ],
+    "sectors": [
+      "cross-sector",
+      "agriculture",
+      "employment"
+    ],
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc202621775901.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.indiabudget.gov.in/doc/budget_speech.pdf",
+      "https://theprint.in/economy/budget-2026-allocates-rs-1000-crore-for-indiaai-mission-pushes-data-centres-and-ai-upskilling/2842947/",
+      "https://www.businesstoday.in/union-budget/news/story/union-budget-2026-bets-big-on-ai-as-indiaai-mission-gets-rs-1000-crore-push-514018-2026-02-01",
+      "https://aninews.in/news/business/budget-2026-govt-to-set-up-high-powered-education-to-employment-panel-to-assess-ai-impact-on-jobs20260201120507/",
+      "https://www.angelone.in/news/economy/union-budget-2026-india-allocates-1-000-crore-to-bolster-ai-via-indiaai-mission"
+    ],
+    "confidence": "high",
+    "confidence_note": "Speech text read from PIB copy (paragraph numbers quoted). The ₹1,000 crore IndiaAI figure is from expenditure documents as reported by press, not the speech. Tax provisions are binding once enacted via the Finance Act; policy items are not.",
+    "related": [
+      "central-cabinet-indiaai-mission-2024",
+      "central-budget-2025-26-ai-provisions",
+      "central-niti-roadmap-job-creation-ai-economy-2025",
+      "central-cbse-ct-ai-curriculum-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-cbse-ct-ai-curriculum-2026",
+    "title": "CBSE Curriculum on Computational Thinking and Artificial Intelligence for Classes III–VIII",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Central Board of Secondary Education, Ministry of Education",
+    "instrument_type": "curriculum",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2026-04-01",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-10-01",
+        "event": "CBSE constitutes expert committee (IIT Madras-led) to draft CT and AI curriculum"
+      },
+      {
+        "date": "2026-04-01",
+        "event": "Curriculum launched by Education Minister Dharmendra Pradhan at Vigyan Bhawan"
+      },
+      {
+        "date": "2026-04-01",
+        "event": "Implementation from academic session 2026-27"
+      }
+    ],
+    "summary": "Mandatory, non-board-examined curriculum introducing computational thinking and AI concepts from Class 3 in CBSE schools from 2026-27.",
+    "key_provisions": [
+      "Applies to Classes III–VIII in CBSE-affiliated schools from session 2026-27",
+      "Developed by an expert committee led by Prof. Karthik Raman (IIT Madras) with Azim Premji University and school educators; aligned to NEP 2020 and NCF-SE 2023",
+      "Phased emphasis: computational thinking first, AI concepts and ethical use expanding in higher classes",
+      "Includes structured modules, teacher handbooks and an assessment framework; not board-examined",
+      "Theme: 'AI for Education, AI in Education'"
+    ],
+    "themes": [
+      "skilling",
+      "children"
+    ],
+    "sectors": [
+      "education"
+    ],
+    "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247963&reg=48&lang=2",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://www.business-standard.com/education/news/cbse-launches-ai-computational-thinking-curriculum-classes-3-8-126040101366_1.html",
+      "https://news.careers360.com/cbse-syllabus-computational-thinking-ai-artificial-intelligence-class-3-8-ncert-scert-iit-madras-gandhinagar-pisa-semiconductor"
+    ],
+    "confidence": "medium",
+    "confidence_note": "PIB release and two national outlets agree on date and scope; CBSE circular number not retrieved.",
+    "related": [
+      "central-cbse-ai-skill-subject-2019",
+      "central-budget-2026-27-ai-provisions"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-cbse-ai-skill-subject-2019",
+    "title": "CBSE Artificial Intelligence skill subject (Classes VIII–XII)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Central Board of Secondary Education, Ministry of Education",
+    "instrument_type": "curriculum",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2019-04-01",
+    "date_precision": "month",
+    "timeline": [
+      {
+        "date": "2019-04-01",
+        "event": "AI introduced as optional skill subject (code 417) for Class IX and as module for Class VIII from 2019-20"
+      },
+      {
+        "date": "2020-04-01",
+        "event": "Extended to Class XI as skill subject (code 843)"
+      }
+    ],
+    "summary": "Optional AI skill subjects offered by CBSE at secondary and senior-secondary levels, developed with Intel.",
+    "key_provisions": [
+      "Class IX–X AI skill subject (code 417) from 2019-20; Class XI–XII (code 843) from 2020-21",
+      "12-hour inspire module for Class VIII",
+      "Curriculum and facilitator handbooks developed with Intel India",
+      "Optional for schools; thousands of affiliated schools offer it"
+    ],
+    "themes": [
+      "skilling",
+      "children"
+    ],
+    "sectors": [
+      "education"
+    ],
+    "source_url": "https://cbseacademic.nic.in/ai.html",
+    "source_type": "official",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "From prior knowledge; not re-verified this session. Included for completeness as the predecessor to the 2026 curriculum.",
+    "related": [
+      "central-cbse-ct-ai-curriculum-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-mod-defence-ai-council-daipa-2019",
+    "title": "Defence AI Council (DAIC) and Defence AI Project Agency (DAIPA)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Defence (executive order)",
+    "instrument_type": "institution",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2019-02-08",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2018-06-30",
+        "event": "AI Task Force (chair N. Chandrasekaran) submits report to MoD"
+      },
+      {
+        "date": "2019-02-08",
+        "event": "Executive order creates DAIC and DAIPA"
+      },
+      {
+        "date": "2022-07-11",
+        "event": "75 AI products launched at 'AI in Defence' symposium; AI roadmap for DPSUs"
+      },
+      {
+        "date": "2026-03-10",
+        "event": "Defence Forces Vision 2047 released (references advanced technologies)"
+      }
+    ],
+    "summary": "Apex council chaired by the Defence Minister and an implementing agency under Secretary (Defence Production) to steer AI adoption across the armed forces and defence PSUs.",
+    "key_provisions": [
+      "DAIC chaired by the Raksha Mantri; DAIPA headed ex officio by Secretary (Defence Production)",
+      "Created by MoD executive order dated 8 Feb 2019 implementing the 2018 AI Task Force recommendations",
+      "AI roadmaps for each DPSU; PIB reports 61 projects under DPSUs with 30 completed",
+      "Annual AI budget earmarked for defence AI projects (reported as ₹100 crore per year for DPSUs over five years)",
+      "AI groups embedded in DRDO laboratories"
+    ],
+    "themes": [
+      "public-sector-use",
+      "institution-building",
+      "procurement"
+    ],
+    "sectors": [
+      "defence"
+    ],
+    "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1810442",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://csdronline.com/wp-content/uploads/2026/02/CSDR_Feb-26_Indias-Approach-to-Military-AI-1.pdf",
+      "https://www.newsonair.gov.in/defence-minister-rajnath-singh-releases-defence-forces-vision-2047-in-new-delhi/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Executive order date and structure confirmed via PIB snippet and CSDR paper; the annual budget figure varies across sources (₹100 crore/yr vs ₹1,000 crore corpus) and is flagged as uncertain.",
+    "related": [],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-mha-i4c-advisory-ai-deepfake-fraud-2026",
+    "title": "I4C/NCTAU advisory on AI-enabled deepfake and synthetic-identity fraud",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Home Affairs, Indian Cyber Crime Coordination Centre (I4C), National Cybercrime Threat Analytics Unit",
+    "instrument_type": "advisory",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2026-06-11",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-06-11",
+        "event": "Advisory issued warning of AI deepfakes defeating identity verification"
+      },
+      {
+        "date": "2026-10-19",
+        "event": "NCTAU flags deepfake ads impersonating PM and chief ministers promoting fake welfare schemes"
+      }
+    ],
+    "summary": "MHA advisory warning financial institutions and citizens that AI-generated deepfakes and synthetic identities are being used to bypass facial authentication, liveness checks and video-KYC.",
+    "key_provisions": [
+      "Warns that deepfake video and synthetic identities can defeat face authentication, liveness verification, video-KYC and account-recovery flows",
+      "Asks institutions to add deepfake-detection mechanisms to customer onboarding and strengthen identity-verification safeguards",
+      "Advises citizens to lock biometric profiles, monitor login alerts, watch for SIM-swap signs and report via the National Cyber Crime Reporting Portal",
+      "I4C's SAHYOG portal used to transmit takedown requests to intermediaries"
+    ],
+    "themes": [
+      "synthetic-media",
+      "cybersecurity"
+    ],
+    "sectors": [
+      "finance",
+      "law-enforcement"
+    ],
+    "source_url": "https://ianslive.in/ai-deepfakes-emerging-as-new-threat-to-financial-systems-warns-centre--20260611134210",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.taxheal.com/mha-warns-of-rising-ai-driven-deepfake-frauds-targeting-financial-digital-systems.html",
+      "https://madhyamamonline.com/india/centre-warns-of-rising-ai-deepfake-threat-financial-security-1527770"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Three outlets report the same IANS text; advisory not located on mha.gov.in or cybercrime.gov.in this session.",
+    "related": [
+      "central-meity-advisory-deepfakes-2023-12"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-mol-taskforce-ai-future-of-work-2024",
+    "title": "Ministry of Labour task force on the impact of AI on the future of work",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Labour and Employment",
+    "instrument_type": "institution",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2024-07-05",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2024-07-05",
+        "event": "Labour Secretary Sumita Dawra announces task force at CII-EFI event, Hyderabad"
+      },
+      {
+        "date": "2026-02-01",
+        "event": "Budget 2026-27 creates Education to Employment and Enterprise Standing Committee with AI-and-jobs mandate"
+      }
+    ],
+    "summary": "Task force announced by the Labour Secretary to study AI's effect on employment; no composition, order or report has been published.",
+    "key_provisions": [
+      "Mandate: study the impact of AI on the future of work; Secretary noted 'more research is required'",
+      "Context: gig workforce projected to grow from 10 million to 24 million by 2030",
+      "No constituting order, membership or output located as of Nov 2026"
+    ],
+    "themes": [
+      "employment-labour"
+    ],
+    "sectors": [
+      "employment"
+    ],
+    "source_url": "https://inc42.com/buzz/labour-ministry-constitutes-taskforce-to-study-impact-of-ai-on-future-of-work/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.mediamahima.com/post/strong-air-cargo-demand-continues-in-may"
+    ],
+    "confidence": "low",
+    "confidence_note": "Single primary news report of a verbal announcement; no official document found.",
+    "related": [
+      "central-budget-2026-27-ai-provisions",
+      "central-niti-roadmap-job-creation-ai-economy-2025",
+      "central-meity-aigeg-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-dst-nm-icps-2018",
+    "title": "National Mission on Interdisciplinary Cyber-Physical Systems (NM-ICPS)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Union Cabinet; Department of Science and Technology",
+    "instrument_type": "mission",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2018-12-06",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2018-12-06",
+        "event": "Cabinet approves NM-ICPS with ₹3,660 crore outlay over five years"
+      },
+      {
+        "date": "2020-01-01",
+        "event": "25 Technology Innovation Hubs established, including AI hubs"
+      }
+    ],
+    "summary": "DST mission funding 25 Technology Innovation Hubs at academic institutions in cyber-physical technologies including AI and machine learning.",
+    "key_provisions": [
+      "Outlay ₹3,660 crore over five years",
+      "25 Technology Innovation Hubs (TIHs) as Section 8 companies, several AI-focused (e.g. iHub Drishti at IIT Jodhpur for computer vision/AR-VR; TIH at IIT Kharagpur for AI in agriculture)",
+      "Covers technology development, HRD and skills, innovation and start-ups, and international collaboration",
+      "Hubs later partner in IndiaAI Safe & Trusted projects"
+    ],
+    "themes": [
+      "research-funding",
+      "institution-building",
+      "startups-innovation"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://pib.gov.in/newsite/PrintRelease.aspx?relid=186123",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://ihub-drishti.ai/administration/hub-governing-body"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Cabinet date and outlay from prior knowledge of the PIB release; URL not re-fetched this session.",
+    "related": [
+      "central-indiaai-safe-trusted-ai-projects-2024"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-indiaai-data-ai-labs-2025",
+    "title": "IndiaAI Data and AI Labs (NIELIT) network",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "IndiaAI Mission, MeitY, with NIELIT",
+    "instrument_type": "scheme",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2025-01-30",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-01-30",
+        "event": "FutureSkills pillar expansion announced with 18,000 GPUs"
+      },
+      {
+        "date": "2026-02-10",
+        "event": "31 labs launched with NIELIT and industry partners"
+      },
+      {
+        "date": "2026-02-19",
+        "event": "30 labs dedicated during Summit as first phase of 570-lab network"
+      }
+    ],
+    "summary": "FutureSkills-pillar programme establishing Data and AI laboratories in Tier 2 and Tier 3 cities for foundation-level AI skilling.",
+    "key_provisions": [
+      "Target network of 570 labs; 30 dedicated in Feb 2026 (27 with NIELIT, 3 with Intel at Mokokchung, Mhow and Mohali)",
+      "31 labs operational with NIELIT by Feb 2026 per PIB backgrounder",
+      "Complements IndiaAI Fellowships: 200+ PhD fellows across 73 institutes by July 2025",
+      "Budget 2026-27 coverage reports an '80 IndiaAI Labs' target for FY27 (unverified in speech)"
+    ],
+    "themes": [
+      "skilling",
+      "infrastructure"
+    ],
+    "sectors": [
+      "education"
+    ],
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026210784401.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://startupfeed.in/india-ai-impact-summit-2026-the-complete-highlights/",
+      "https://www.angelone.in/news/economy/union-budget-2026-india-allocates-1-000-crore-to-bolster-ai-via-indiaai-mission"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Lab counts from official backgrounder; 570-lab target from secondary summit coverage.",
+    "related": [
+      "central-cabinet-indiaai-mission-2024",
+      "central-india-ai-impact-summit-domestic-announcements-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-aisi-consultation-2024",
+    "title": "MeitY consultation on establishing the IndiaAI Safety Institute",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "consultation",
+    "status": "superseded",
+    "binding": "non-binding",
+    "date": "2024-10-07",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2024-10-07",
+        "event": "Secretary MeitY chairs consultation with industry, academia and civil society on AISI design"
+      },
+      {
+        "date": "2025-01-30",
+        "event": "AISI announced"
+      }
+    ],
+    "summary": "Stakeholder consultation held by MeitY under the Safe & Trusted pillar to design an India AI Safety Institute, preceding the January 2025 announcement.",
+    "key_provisions": [
+      "Chaired by Secretary MeitY S. Krishnan with industry, academia and civil society",
+      "Proposed functions discussed: safety research, risk assessment, testing, standards, evaluation methods, capacity building, coordination with regulators",
+      "Positioned AISI within the International Network of AI Safety Institutes"
+    ],
+    "themes": [
+      "safety",
+      "institution-building"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://indiaai.gov.in/news/meity-hosts-consultation-for-establishing-india-ai-safety-institute-under-indiaai-mission-s-safe-and-trusted-pillar",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.iasgyan.in/daily-current-affairs/designing-indias-ai-safety-institute-aisi"
+    ],
+    "confidence": "low",
+    "confidence_note": "IndiaAI news page exists but content was truncated on fetch; date from prior knowledge (early October 2024) and may be off by days.",
+    "related": [
+      "central-indiaai-safety-institute-2025"
+    ],
+    "last_verified": "2026-11-19"
+  }
+]

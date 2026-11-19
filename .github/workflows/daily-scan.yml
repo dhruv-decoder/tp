@@ -1,0 +1,58 @@
+name: Daily source scan
+
+on:
+  schedule:
+    - cron: "30 3 * * *"   # 09:00 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Scan official feeds and draft candidate entries
+        id: scan
+        working-directory: app
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/scan-sources.mjs --days 3 --max 40
+      - name: Validate dataset
+        working-directory: app
+        run: node scripts/validate-data.mjs
+      - name: Open review PR when there are new candidates
+        if: steps.scan.outputs.new != '0'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: scan/candidates
+          title: "Review ${{ steps.scan.outputs.new }} candidate instrument(s) from the daily scan"
+          commit-message: "scan: new candidate instruments ${{ steps.scan.outputs.summary }}"
+          body: |
+            The daily scan found feed items that mention AI and are not yet in the dataset.
+            Open `app/data/candidates.json`, read each linked source, and either:
+            - move a drafted `entry` into `app/data/policies.json` (fix dates, add the official URL, set confidence), or
+            - delete the item.
+            Summary: `${{ steps.scan.outputs.summary }}`
+          labels: data-review
+
+  links:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 3 * * 1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check primary source links
+        working-directory: app
+        run: node scripts/check-links.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: link-report
+          path: app/data/link-report.json

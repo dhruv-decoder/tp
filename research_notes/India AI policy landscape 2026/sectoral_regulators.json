@@ -1,0 +1,1843 @@
+[
+  {
+    "id": "central-rbi-free-ai-committee-report-2025",
+    "title": "Report of the Committee on Framework for Responsible and Ethical Enablement of Artificial Intelligence (FREE-AI) in the Financial Sector",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Reserve Bank of India (RBI)",
+    "instrument_type": "committee-report",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-08-13",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2024-12-06", "event": "RBI Statement on Developmental and Regulatory Policies announces a committee to develop a FREE-AI framework" },
+      { "date": "2024-12-26", "event": "Committee constituted by RBI" },
+      { "date": "2025-08-13", "event": "Report released on RBI website with 7 sutras and 26 recommendations" },
+      { "date": "2026-06-24", "event": "RBI issues draft Guidance on Regulatory Principles for Model Risk Management, the first follow-on regulatory text covering AI/ML models" }
+    ],
+    "summary": "Committee report setting out a voluntary framework for AI adoption by RBI-regulated entities, organised around seven principles ('sutras') and six pillars, with 26 recommendations addressed to RBI, regulated entities and government.",
+    "key_provisions": [
+      "Seven sutras: Trust is the Foundation; People First; Innovation over Restraint; Fairness and Equity; Accountability; Understandable by Design; Safety, Resilience and Sustainability",
+      "26 recommendations grouped under six pillars: Infrastructure, Policy, Capacity (innovation enablement) and Governance, Protection, Assurance (risk mitigation)",
+      "Recommends shared financial-sector data and compute infrastructure, an AI innovation sandbox and indigenous financial-sector AI models",
+      "Recommends board-approved AI policies at regulated entities, an AI incident reporting mechanism, consumer protection and liability measures, and an AI audit framework",
+      "Report is recommendatory; it creates no obligations on regulated entities by itself"
+    ],
+    "themes": ["governance", "sectoral-regulation", "risk-management", "accountability-liability", "incident-reporting"],
+    "sectors": ["finance"],
+    "source_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61018",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://rbidocs.rbi.org.in/rdocs/PublicationReport/Pdfs/FREEAIR130820250A24FF2D4578453F824C72ED9F5D5851.PDF",
+      "https://rbi.org.in/scripts/PublicationReportDetails.aspx?ID=1306",
+      "https://dvararesearch.com/summary-of-the-rbi-free-ai-committee-report/",
+      "https://kpmg.com/in/en/insights/2025/09/rbis-free-ai-committee-report-in-the-financial-sector.html"
+    ],
+    "confidence": "high",
+    "confidence_note": "RBI press release read; report PDF located on rbidocs but its full text (including committee chair and the individual recommendation wording) was not read in this session. Sutras and pillars confirmed by two secondary summaries.",
+    "related": ["central-rbi-draft-model-risk-management-guidance-2026", "central-rbih-mulehunter-ai-2024", "central-meity-ai-governance-guidelines-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-rbi-draft-model-risk-management-guidance-2026",
+    "title": "Draft Guidance on Regulatory Principles for Model Risk Management, 2026",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Reserve Bank of India (RBI), Department of Regulation",
+    "instrument_type": "guidelines",
+    "status": "consultation",
+    "binding": "non-binding",
+    "date": "2026-06-24",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-06-24", "event": "Draft guidance released for public comment" },
+      { "date": "2026-07-24", "event": "Comment window closes (via 'Connect 2 Regulate' or email to Operational Risk Group, Department of Regulation)" }
+    ],
+    "summary": "Draft RBI guidance proposing lifecycle governance requirements for all models used by regulated entities, expressly including third-party models and models using AI/ML. Final version not traced as of 19 November 2026.",
+    "key_provisions": [
+      "Applies to 11 classes of regulated entities: commercial banks, small finance banks, payments banks, local area banks, regional rural banks, urban and rural co-operative banks, all-India financial institutions, NBFCs, asset reconstruction companies and credit information companies",
+      "Scope covers 'all models used by regulated entities, including third party models and models employing AI / ML'",
+      "Requires a board-approved Model Risk Management Framework, a model inventory (no model to be used unless inventoried) and risk-based tiering of models",
+      "Higher-tier models require independent validation, closer monitoring and approval by the board's Risk Management Committee (per secondary summaries)",
+      "Regulated entities remain accountable for third-party model outcomes; due diligence, documentation access, audit rights and exit arrangements expected",
+      "Comments invited until 24 July 2026"
+    ],
+    "themes": ["risk-management", "governance", "sectoral-regulation", "accountability-liability", "transparency"],
+    "sectors": ["finance"],
+    "source_url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63006",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://community.nasscom.in/communities/public-policy/analysis-rbis-draft-guidance-regulatory-principles-model-risk-management",
+      "https://vinodkothari.com/2026/06/rbi-draft-model-risk-management-guidelines-2026/",
+      "https://www.lexology.com/library/detail.aspx?g=3ca3573e-7f9b-4ba3-9aff-97c7073b20bf"
+    ],
+    "confidence": "high",
+    "confidence_note": "RBI press release read (date, scope, deadline). Detailed requirements (tiering, third-party clauses) taken from law-firm and industry summaries of the draft. No final guidance located as of 19 Nov 2026; status remains consultation (closed).",
+    "related": ["central-rbi-free-ai-committee-report-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-rbih-mulehunter-ai-2024",
+    "title": "MuleHunter.AI (Reserve Bank Innovation Hub)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Reserve Bank of India (RBI) / Reserve Bank Innovation Hub (RBIH)",
+    "instrument_type": "other",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2024-12-06",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2024-12-06", "event": "RBI Governor's statement announces MuleHunter.AI pilot with two public sector banks and encourages banks to collaborate with RBIH" },
+      { "date": "2026-01-01", "event": "Reported as deployed across 31 banks (date approximate; reported by industry sources)" }
+    ],
+    "summary": "An AI/ML model developed by the Reserve Bank Innovation Hub to detect mule accounts used to launder fraud proceeds; RBI encouraged (but did not mandate) banks to adopt it.",
+    "key_provisions": [
+      "Built on analysis of 19 patterns of mule-account behaviour identified with partner banks",
+      "Piloted with two large public sector banks in late 2024; later reported live at 31 banks",
+      "Offered to banks as a supervisory-encouraged tool, not a regulatory mandate",
+      "Positioned alongside RBI's Digital Payments Intelligence Platform workstream on fraud"
+    ],
+    "themes": ["cybersecurity", "public-sector-use", "sectoral-regulation"],
+    "sectors": ["finance"],
+    "source_url": "https://docs.rbihub.in/mule-hunter",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.business-standard.com/finance/news/what-is-mulehunter-ai-rbi-s-latest-tool-against-financial-fraud-explained-124120600865_1.html",
+      "https://rmaindia.org/mulehunter-ai-rbis-ai-fraud-detection-system-now-live-across-31-banks/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "RBIH documentation page and press coverage of the 6 Dec 2024 Governor's statement agree. '31 banks' figure from a single industry source and not verified against RBI.",
+    "related": ["central-rbi-free-ai-committee-report-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-sebi-ai-ml-reporting-circulars-2019",
+    "title": "Reporting for Artificial Intelligence (AI) and Machine Learning (ML) applications and systems offered and used by market intermediaries / MIIs / mutual funds",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Securities and Exchange Board of India (SEBI)",
+    "instrument_type": "notification",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2019-01-04",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2019-01-04", "event": "Circular SEBI/HO/MIRSD/DOS2/CIR/P/2019/10 for market intermediaries" },
+      { "date": "2019-01-31", "event": "Parallel circular for market infrastructure institutions (reported)" },
+      { "date": "2019-05-09", "event": "Circular extending quarterly AI/ML reporting to mutual funds" }
+    ],
+    "summary": "SEBI circulars requiring intermediaries, exchanges/depositories and mutual funds to file a quarterly AI/ML reporting form describing AI/ML systems offered to investors or used internally.",
+    "key_provisions": [
+      "Quarterly AI/ML Reporting Form to be submitted within 15 days of quarter end (via exchanges/depositories for intermediaries)",
+      "Covers applications offered to investors or used internally for investing, trading, advice dissemination and all fintech/regtech initiatives using AI/ML",
+      "Stated objectives: inventory AI/ML use, confirm compliance with SEBI cyber security framework, and record safeguards against data breach and system failure",
+      "Still the only SEBI AI-specific obligation in force as of November 2026; a wider framework is pending (see 2025 consultation)"
+    ],
+    "themes": ["transparency", "sectoral-regulation", "cybersecurity"],
+    "sectors": ["finance"],
+    "source_url": "https://nsdl.co.in/downloadables/pdf/2019-0016-Policy-SEBI%20Circular%20on%20reporting%20for%20AI%20and%20ML%20applications%20and%20systems%20offered%20and%20used%20by%20market%20intermediaries.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://taxguru.in/sebi/reporting-artificial-intelligence-aimachine-learning-mlapplications-systems-offered-market-intermediaries.html",
+      "https://www.business-standard.com/article/pti-stories/mutual-funds-to-submit-details-about-artificial-intelligence-based-systems-on-quarterly-basis-sebi-119050900602_1.html",
+      "https://www.mondaq.com/india/fin-tech/1690566/sebis-artificial-intelligence-ai-and-machine-learning-ml-reporting-framework-evolution-and-harmonisation-across-indian-stock-exchanges"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Circular text read via NSDL-hosted copy (not sebi.gov.in). MII circular date of 31 Jan 2019 is from memory of secondary coverage and should be checked.",
+    "related": ["central-sebi-consultation-responsible-ai-ml-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-sebi-retail-algo-trading-framework-2025",
+    "title": "Safer participation of retail investors in Algorithmic trading (SEBI circular)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Securities and Exchange Board of India (SEBI)",
+    "instrument_type": "notification",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2025-02-04",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2024-12-13", "event": "Consultation paper on retail algo trading released (reported)" },
+      { "date": "2025-02-04", "event": "Circular SEBI/HO/MIRSD/MIRSD-PoD/P/CIR/2025/0000013 issued; original effective date 1 Aug 2025" },
+      { "date": "2025-07-29", "event": "Circular extends implementation to 1 Oct 2025" },
+      { "date": "2025-10-01", "event": "Framework takes effect" }
+    ],
+    "summary": "SEBI framework under which retail investors may use algorithmic trading only through registered brokers, with each algo approved by the exchange, APIs tagged, and algo providers empanelled; relevant to AI-driven trading strategies.",
+    "key_provisions": [
+      "Retail investors may access algos only via registered stock brokers; brokers need exchange permission for each algo",
+      "Algo providers act as agents of brokers (principal-agent relationship); exchanges to empanel algo providers",
+      "All algo orders tagged with a unique identifier; API access via static IP and secure authentication",
+      "Retail investors developing their own algos above an order-per-second threshold must register the algo through the broker (threshold set by exchanges)",
+      "Effective 1 October 2025 after extension from 1 August 2025"
+    ],
+    "themes": ["sectoral-regulation", "risk-management", "accountability-liability"],
+    "sectors": ["finance"],
+    "source_url": "https://www.cse-india.com/upload/upload/Feb_042025.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.cse-india.com/upload/upload/Sep_302025.pdf",
+      "https://www.finseclaw.com/article/finsec-tracker-on-sebi-issues-guidelines-on-retail-participation-in-algorithmic-trading",
+      "https://www.legalitysimplified.com/safer-participation-of-retail-investors-in-algorithmic-trading/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Circular number, date and extension confirmed from an exchange-hosted copy and legal summaries; sebi.gov.in URL not captured. Order-per-second threshold detail from secondary sources.",
+    "related": ["central-sebi-consultation-responsible-ai-ml-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-sebi-consultation-responsible-ai-ml-2025",
+    "title": "Consultation Paper on Guidelines for Responsible Usage of AI/ML in Indian Securities Markets",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Securities and Exchange Board of India (SEBI)",
+    "instrument_type": "consultation",
+    "status": "consultation",
+    "binding": "non-binding",
+    "date": "2025-06-20",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-06-20", "event": "Consultation paper released" },
+      { "date": "2025-07-11", "event": "Comment window closes" },
+      { "date": "2026-11-16", "event": "SEBI Chairman says detailed AI/ML guidelines will be issued, built on disclosure, accountability and human-in-the-loop; no final circular yet" }
+    ],
+    "summary": "SEBI proposal for principle-based guidelines on AI/ML use by market participants, with five pillars and tiered obligations depending on whether the AI affects clients. Final guidelines were still pending as of 16 November 2026.",
+    "key_provisions": [
+      "Five guiding principles: model governance; investor protection and disclosure; testing framework; fairness and bias; data privacy and cyber security",
+      "Participants to maintain internal technical teams to monitor models, document development and handle exceptions; senior management oversight and independent audit",
+      "Disclosure to clients where AI/ML directly affects them (algo trading, advisory, portfolio management), covering purpose, risks, accuracy and limitations",
+      "Pre-deployment testing in simulated environments and continuous monitoring; input/output logs and documentation retained for at least five years",
+      "Models must not discriminate between client segments; technical glitches and data breaches to be reported to SEBI",
+      "Responsibility for third-party AI remains with the regulated participant"
+    ],
+    "themes": ["governance", "transparency", "fairness-bias", "data-protection", "sectoral-regulation"],
+    "sectors": ["finance"],
+    "source_url": "https://www.independentdirectorsdatabank.in/img/newsletter/2025/68765aa8d7e00.pdf",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://taxguru.in/sebi/sebi-proposes-guidelines-responsible-usage-ai-ml-indian-securities-markets.html",
+      "https://www.medianama.com/2026/11/223-sebi-ai-disclosure-human-oversight-rules/",
+      "https://clovelegal.com/2025/07/29/sebis-approach-to-ai-and-ml-exploring-sebis-ai-ml-consultation-paper/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Consultation content confirmed by several secondary sources and a hosted copy of the paper; sebi.gov.in URL not captured in this session. Status (final still pending) confirmed by MediaNama report of the Chairman's 16 Nov 2026 remarks.",
+    "related": ["central-sebi-ai-ml-reporting-circulars-2019", "central-sebi-retail-algo-trading-framework-2025", "central-sebi-advisory-ai-vulnerability-detection-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-sebi-advisory-ai-vulnerability-detection-2026",
+    "title": "Advisory on emerging advanced Artificial Intelligence (AI) tools for vulnerability detection (and constitution of the cyber-suraksha.ai task force)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Securities and Exchange Board of India (SEBI), Information Technology Department",
+    "instrument_type": "advisory",
+    "status": "in-force",
+    "binding": "mixed",
+    "date": "2026-05-05",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-05-05", "event": "Advisory HO/13/19/12(1)2026-ITD-1_CIMGI/10873/2026 issued; task force constituted" }
+    ],
+    "summary": "SEBI advisory alerting regulated entities to AI tools capable of rapid vulnerability discovery, requiring software bills of materials for critical applications and constituting a cross-industry 'cyber-suraksha.ai' task force.",
+    "key_provisions": [
+      "Regulated entities to maintain current Software Bills of Materials for all critical applications, including open-source components",
+      "Constitutes a 'cyber-suraksha.ai' task force of MIIs, qualified RTAs and qualified regulated entities to devise uniform mitigation strategies, share threat intelligence, prioritise incident reporting and review third-party vendor security posture",
+      "Reinforces obligations under SEBI's Cybersecurity and Cyber Resilience Framework (CSCRF)",
+      "Contact point: project-cyber-suraksha.ai@sebi.gov.in"
+    ],
+    "themes": ["cybersecurity", "sectoral-regulation", "incident-reporting"],
+    "sectors": ["finance"],
+    "source_url": "https://www.sebi.gov.in/legal/circulars/may-2026/advisory-on-emerging-advanced-artificial-intelligence-ai-tools-for-vulnerability-detection_101270.html",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://safeguard.sh/resources/blog/sebi-ai-cyber-task-force-cyber-suraksha-cscrf-software-supply-chain"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Official SEBI page located (circular number and date read); substantive content taken from a single security-industry summary. Binding effect is mixed: SBOM maintenance reads as an expectation under CSCRF, task-force participation is organisational.",
+    "related": ["central-sebi-consultation-responsible-ai-ml-2025", "central-ifsca-advisory-frontier-ai-cyber-risks-2026", "central-cert-in-blueprint-ai-assisted-cyber-threats-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-irdai-working-group-ai-2026",
+    "title": "Working Group on Artificial Intelligence (WG-AI) for the insurance sector",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Insurance Regulatory and Development Authority of India (IRDAI)",
+    "instrument_type": "other",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2026-06-17",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-06-17", "event": "Office Order IRDAI/GA&HR/ORD/MISC/90/06/2026 constitutes seven-member working group" },
+      { "date": "2026-09-17", "event": "Three-month deadline for recommendations to Member (F&I); report not public as of 19 Nov 2026" }
+    ],
+    "summary": "IRDAI office order constituting a working group to recommend an AI governance framework for insurers and intermediaries; no IRDAI AI-specific rule exists yet.",
+    "key_provisions": [
+      "Chair: Prof. Sandeep K. Shukla (Director, IIIT Hyderabad); members from ReBIT (former CEO), CERT-In, SBI Life, Star Health, ICICI Lombard; IRDAI CISO as convener",
+      "Terms of reference: assess AI adoption and governance maturity, review global approaches, propose a framework for ethical, transparent and explainable AI (including claims and fraud prevention), AI-driven cyber risk, stress-testing, audit standards and capacity building",
+      "Recommendations due within three months of constitution",
+      "No binding obligations created; outcome expected to feed a future IRDAI framework"
+    ],
+    "themes": ["governance", "sectoral-regulation", "ethics", "institution-building"],
+    "sectors": ["finance"],
+    "source_url": "https://irdai.gov.in/department/it",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://taxguru.in/corporate-law/irdai-forms-ai-working-group-strengthen-governance-insurance-sector.html",
+      "https://www.insurancebusinessmag.com/asia/news/technology/indias-insurance-regulator-steps-in-to-govern-ai-adoption-579846.aspx"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Order number, date, composition and ToR reproduced by TaxGuru and trade press; the IRDAI order PDF itself was not retrieved. Whether the group has reported is unverified.",
+    "related": ["central-irdai-information-cyber-security-guidelines-2026", "central-rbi-free-ai-committee-report-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-irdai-information-cyber-security-guidelines-2026",
+    "title": "IRDAI Information and Cyber Security Guidelines, 2026",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Insurance Regulatory and Development Authority of India (IRDAI)",
+    "instrument_type": "guidelines",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2026-04-06",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2023-04-24", "event": "Previous Information and Cyber Security Guidelines 2023 (superseded)" },
+      { "date": "2026-04-06", "event": "Circular IRDAI/GA&HR/CIR/MISC/51/4/2026 issues revised guidelines, compliance from FY 2026-27" }
+    ],
+    "summary": "Revised binding cyber security guidelines for insurers, intermediaries, foreign reinsurance branches and the Insurance Information Bureau; relevant as the compliance baseline onto which the IRDAI AI working group's framework is expected to be added.",
+    "key_provisions": [
+      "Applies to all insurers, every class of intermediary (brokers, corporate agents, TPAs, web aggregators, repositories, marketing firms), foreign reinsurance branches and IIB",
+      "Compliance required from the current financial year (FY 2026-27) with no stated transition period",
+      "Expanded controls on cloud security, third-party and supply-chain risk, incident response and data protection; industry summaries cite 24 domain policies and 347 audit controls",
+      "AI-specific content is limited: one compliance vendor states the guidelines contain no AI governance domain; other sources claim an AI cyber-readiness reporting ask by 22 May 2026 (unverified)"
+    ],
+    "themes": ["cybersecurity", "sectoral-regulation", "risk-management"],
+    "sectors": ["finance"],
+    "source_url": "https://www.medianama.com/wp-content/uploads/2026/04/IRDAI-Information-Cyber-Security-Guidelines-2026.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://teamleaseregtech.com/updates/article/54551/irdai-issued-the-revised-guidelines-on-information-and-cyber-security-/",
+      "https://www.bitscore.in/resources/irdai-cyber-security-guidelines-2026",
+      "https://www.whalesbook.com/news/English/insurance/IRDAI-Mandates-AI-Cyber-Readiness-for-Insurers-by-May-22-2026/6a0b20edcfe07c0307e67756"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Circular number and date agree across sources; the 175-page PDF is hosted by MediaNama/caalley rather than retrieved from irdai.gov.in. Sources conflict on whether there is an AI-specific reporting requirement.",
+    "related": ["central-irdai-working-group-ai-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-ifsca-advisory-frontier-ai-cyber-risks-2026",
+    "title": "Advisory on Heightened Cyber Security Risks arising from Frontier Artificial Intelligence (AI) Models",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "International Financial Services Centres Authority (IFSCA), Division of Cyber Security",
+    "instrument_type": "advisory",
+    "status": "in-force",
+    "binding": "mixed",
+    "date": "2026-06-04",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-06-04", "event": "Circular IFSCA-CSD/MSC/3/2026-DCS issued to all regulated entities and MIIs in IFSCs, effective immediately" }
+    ],
+    "summary": "IFSCA circular directing GIFT City regulated entities to treat frontier-AI-enabled cyber attacks as a specific risk scenario, with board review, vendor assurance and governance of internal AI tool use.",
+    "key_provisions": [
+      "Regulated entities to include frontier-AI cyber risk as a specific scenario in cyber risk assessments, with periodic Board review",
+      "Treat newly disclosed critical vulnerabilities as exploitable within hours; prepare for rapid 'patch waves'",
+      "Critical service providers must assess frontier-AI risks and evidence preparedness for faster exploit timelines",
+      "Entities using AI-assisted vulnerability detection must obtain authorisation, avoid sharing sensitive data externally and ensure human oversight before deployment",
+      "To be read with IFSCA's existing cyber security and cyber resilience guidelines; proportionality principle applies"
+    ],
+    "themes": ["cybersecurity", "sectoral-regulation", "governance"],
+    "sectors": ["finance"],
+    "source_url": "https://www.adi.international/ifsca-advisory-on-heightened-cyber-security-risks-arising-from-frontier-artificial-intelligence-ai-models/",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://csatwork.in/ifsca-ai-cyber-security-advisory-compliance-guide-ifsc-entities/",
+      "https://www.giftcfo.com/post/ifsca-cybersecurity-advisory-frontier-ai-risks-gift-ifsc",
+      "https://smeaccountant.in/ifsca-issues-urgent-advisory-on-cyber-security-risks-from-frontier-ai-models/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Three independent secondary summaries agree on date, reference number and content; the ifsca.gov.in circular PDF was not located. Binding nature is mixed: issued as a circular with 'expectations' rather than numbered obligations.",
+    "related": ["central-sebi-advisory-ai-vulnerability-detection-2026", "central-cert-in-blueprint-ai-assisted-cyber-threats-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-pfrda-pension-sahayak-ai-portal-2026",
+    "title": "Pension Sahayak AI-enabled grievance portal (PFRDA)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Pension Fund Regulatory and Development Authority (PFRDA)",
+    "instrument_type": "other",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-06-22",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-06-22", "event": "Pension Sahayak launched, replacing the Central Grievance Management System" }
+    ],
+    "summary": "PFRDA's AI-driven grievance redressal platform for NPS/APY subscribers; recorded here because no PFRDA circular or guideline governing AI use by pension intermediaries was found.",
+    "key_provisions": [
+      "Omnichannel (web, mobile, WhatsApp) AI-assisted grievance handling replacing CGMS",
+      "No PFRDA AI governance circular, consultation or committee located as of 19 Nov 2026"
+    ],
+    "themes": ["public-sector-use", "sectoral-regulation"],
+    "sectors": ["finance", "public-services"],
+    "source_url": "https://www.govtemployeeshub.com/2026/06/pfrda-launches-ai-powered-pension.html",
+    "source_type": "secondary",
+    "secondary_sources": ["https://pfrda.org.in/regulatory-framework/master-circulars/archived-master-circulars"],
+    "confidence": "low",
+    "confidence_note": "Single secondary source for the launch; PFRDA press release not located. Included mainly to record the absence of a PFRDA AI rule.",
+    "related": ["central-rbi-free-ai-committee-report-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-icmr-ethical-guidelines-ai-healthcare-2023",
+    "title": "Ethical Guidelines for Application of Artificial Intelligence in Biomedical Research and Healthcare",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Indian Council of Medical Research (ICMR), Department of Health Research",
+    "instrument_type": "guidelines",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2023-03-01",
+    "date_precision": "month",
+    "timeline": [
+      { "date": "2023-03-01", "event": "Guidelines released (ISBN 978-93-5811-343-3); described as a living document" }
+    ],
+    "summary": "ICMR's first ethical framework for AI in health research and care, addressed to developers, researchers, clinicians, ethics committees, sponsors and funders.",
+    "key_provisions": [
+      "Ten patient-centric principles including autonomy, safety and risk minimisation, trustworthiness, data privacy, accountability and liability, optimisation of data quality, accessibility and equity, collaboration, non-discrimination and fairness, validity",
+      "Requires ethics committee review of AI health research and clinical/field validation of AI tools before deployment",
+      "Addresses informed consent, data governance and sharing, and human oversight in diagnostic and prognostic AI",
+      "Non-binding guidance; enforcement operates through institutional ethics committees and ICMR funding conditions"
+    ],
+    "themes": ["ethics", "fairness-bias", "data-protection", "accountability-liability", "sectoral-regulation"],
+    "sectors": ["health"],
+    "source_url": "https://www.icmr.gov.in/icmrobject/custom_data/pdf/Ethical-guidelines/Ethical_Guidelines_AI_Healthcare_2023.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.icmr.gov.in/ethical-guidelines-for-application-of-artificial-intelligence-in-biomedical-research-and-healthcare",
+      "https://www.medianama.com/2023/05/223-icmr-ai-guidelines-summary-key-ideas/",
+      "https://www.thehitavada.com/Encyc/2023/3/27/ICMR-comes-up-with-first-ethical-guidelines-for-application-of-AI-in-healthcare-research.amp.html"
+    ],
+    "confidence": "high",
+    "confidence_note": "ICMR page read and official PDF located; exact day of release not shown on the ICMR page (press coverage dated 27 March 2023). Principle list from MediaNama summary.",
+    "related": ["central-cdsco-guidance-medical-device-software-2026", "central-nha-sahi-strategy-ai-healthcare-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-cdsco-draft-guidance-medical-device-software-2025",
+    "title": "Draft Guidance Document on Medical Device Software (CDSCO)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Central Drugs Standard Control Organisation (CDSCO), Medical Devices Division",
+    "instrument_type": "consultation",
+    "status": "superseded",
+    "binding": "non-binding",
+    "date": "2025-10-21",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-10-21", "event": "Draft guidance on medical device software released for stakeholder comment" },
+      { "date": "2026-07-21", "event": "Superseded by final Guidance Document CDSCO/MD/GD/MDSW/01/2026" }
+    ],
+    "summary": "Draft CDSCO guidance clarifying how software, including AI/ML-based software, is regulated as a medical device under the Medical Devices Rules, 2017.",
+    "key_provisions": [
+      "Proposed that software with a medical purpose (standalone or embedded) is a medical device under MDR 2017 and classified in Classes A to D",
+      "Set out expectations on software lifecycle, cybersecurity, interoperability and post-market obligations",
+      "Introduced AI/ML-specific considerations later carried into the final guidance"
+    ],
+    "themes": ["safety", "sectoral-regulation", "standards"],
+    "sectors": ["health"],
+    "source_url": "https://www.india-briefing.com/news/cdsco-draft-guidance-medical-software-40691.html/",
+    "source_type": "secondary",
+    "secondary_sources": ["https://natlawreview.com/article/code-compliance-decoding-indias-medical-device-software-guidance"],
+    "confidence": "medium",
+    "confidence_note": "Draft date confirmed by two secondary sources; the draft PDF on cdsco.gov.in was not retrieved.",
+    "related": ["central-cdsco-guidance-medical-device-software-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-cdsco-guidance-medical-device-software-2026",
+    "title": "Guidance Document on Medical Device Software (CDSCO/MD/GD/MDSW/01/2026)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Central Drugs Standard Control Organisation (CDSCO), Medical Devices & IVD Division",
+    "instrument_type": "guidelines",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-07-21",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-10-21", "event": "Draft guidance released" },
+      { "date": "2026-07-21", "event": "Final guidance issued under circular F. No. MED-16028/2/2025-eoffice" }
+    ],
+    "summary": "CDSCO guidance on how software, expressly including AI/ML-enabled software with a medical purpose, is regulated under the Medical Devices Rules, 2017, including an Algorithm Change Protocol for AI model updates.",
+    "key_provisions": [
+      "AI/ML software with a medical purpose is a medical device; classified in Classes A-D under MDR 2017 based on significance of information and severity of the healthcare situation (no separate AI class)",
+      "Algorithm Change Protocol with five components: data management plan, performance evaluation and monitoring plan, retraining plan, software update plan and rollback plan",
+      "Major changes still require approval and minor changes notification to the licensing authority; the protocol does not remove filing",
+      "Technical documentation must disclose composition and source of training, validation and test datasets; models trained on non-Indian data need justification of applicability to Indian clinical settings",
+      "Bias to be documented in the risk management file; post-market monitoring for performance drift; Software Bill of Materials expected",
+      "Guidance states it is for awareness and not for legal purposes; obligations flow from the Drugs and Cosmetics Act and MDR 2017"
+    ],
+    "themes": ["safety", "sectoral-regulation", "standards", "fairness-bias", "datasets"],
+    "sectors": ["health"],
+    "source_url": "https://cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/Guidance-document-on-Medical-Device-Software-under-MDR-2017.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://natlawreview.com/article/code-compliance-decoding-indias-medical-device-software-guidance",
+      "https://www.theleveragedyears.com/ai-regulation-news/india-cdsco-medical-device-software-guidance-algorithm-change-protocol-2026",
+      "https://www.digitalhealthnews.com/cdsco-unveils-final-medical-device-software-guidance-bringing-greater-regulatory-clarity-for-digital-health-innovators"
+    ],
+    "confidence": "high",
+    "confidence_note": "Official PDF retrieved (document number and disclaimer read). Circular date of 21 July 2026 per National Law Review; one trade outlet gives 23 July 2026.",
+    "related": ["central-cdsco-draft-guidance-medical-device-software-2025", "central-icmr-ethical-guidelines-ai-healthcare-2023"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-nmc-ethical-advertising-guidelines-2026",
+    "title": "Guidelines on Ethical Advertising and Public Communication by Hospitals/Medical Institutions and Registered Medical Practitioners",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "National Medical Commission (NMC), Ethics and Medical Registration Board",
+    "instrument_type": "guidelines",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2026-10-06",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-10-06", "event": "Public Notice No. R-13014/01/2024-Ethics issues guidelines with immediate effect" }
+    ],
+    "summary": "NMC guidelines regulating medical advertising, with specific prohibitions on AI-generated testimonials, synthetic patient imagery and misleading AI-assisted claims, enforceable through disciplinary action against registered practitioners.",
+    "key_provisions": [
+      "AI must not be used to create or manipulate a patient's image, voice, testimonial or clinical outcome, or a synthetic endorsement",
+      "Section 7.2: AI-generated or AI-assisted content must not create misleading impressions, deceptive outcomes or exaggerated treatment claims",
+      "Where AI alteration could affect audience understanding, disclosure is required; permitted AI-generated promotional material must be marked as AI-generated",
+      "Graduated penalties (Section 10): warning and ethics training; censure and monetary penalty; 3-6 month suspension; 6-12 months for cure claims or inducements; 1-3 year removal for repeat violations",
+      "Issued following proceedings in W.P.(C) 1160/2023 before the Supreme Court; effective immediately"
+    ],
+    "themes": ["synthetic-media", "transparency", "sectoral-regulation", "content-moderation"],
+    "sectors": ["health", "media"],
+    "source_url": "https://www.doclogbook.com/help/nmc-guidelines-2026-new-advertising-social-media-and-ai-rules-every-doctor-in-india-should-know",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://www.inkl.com/news/national-medical-commission-bans-doctors-hospitals-from-using-ai-generated-patient-testimonials-fake-cure-claims-in-medical-ads",
+      "https://thesouthfirst.com/health/doctors-on-instagram-nmc-says-no-to-patient-testimonials-paid-ads-ai-promotions-and-guaranteed-claims/",
+      "https://medvyn.in/nmc-ethical-advertising-guidelines-hospitals-doctors/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Date, notice number and AI clauses agree across several secondary sources quoting the notice; the nmc.org.in PDF was not retrieved.",
+    "related": ["central-icmr-ethical-guidelines-ai-healthcare-2023", "central-mib-advisory-ai-tv-news-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-nha-sahi-strategy-ai-healthcare-2026",
+    "title": "Strategy for Artificial Intelligence in Healthcare for India (SAHI) and BODH benchmarking platform",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Health and Family Welfare / National Health Authority (NHA)",
+    "instrument_type": "strategy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-02-01",
+    "date_precision": "month",
+    "timeline": [
+      { "date": "2026-02-01", "event": "SAHI and BODH launched by the Union Health Minister at the India AI Impact Summit, New Delhi" },
+      { "date": "2026-03-05", "event": "PIB backgrounder describes SAHI as a recommendatory national framework" },
+      { "date": "2026-11-03", "event": "NHA reported to be finalising an implementation roadmap with lead agencies, timelines and resources" },
+      { "date": "2026-11-10", "event": "Government announces AI-led upgrade of Ayushman Bharat PM-JAY (claims automation, fraud detection, AI voice scribe linked to ABHA)" }
+    ],
+    "summary": "National recommendatory strategy for AI in the health system with 32 recommendations across five pillars, accompanied by BODH, an NHA/IIT Kanpur platform for benchmarking health AI models on anonymised Indian data under ABDM.",
+    "key_provisions": [
+      "32 recommendations across five pillars: governance, regulation and trust; health data and digital infrastructure; workforce and institutional capacity; research, innovation and evidence; ecosystem enablement and global leadership",
+      "BODH (Benchmarking Open Data Platform for Health AI) recognised as a digital public good under ABDM; allows model testing against anonymised Indian health data without data leaving source",
+      "Framework is expressly recommendatory; accountability mechanisms to come via the NHA implementation roadmap under preparation (Nov 2026)",
+      "Builds on the National Health Stack and ABDM; AI voice scribe outputs require doctor approval before linking to ABHA records"
+    ],
+    "themes": ["governance", "datasets", "standards", "public-sector-use", "sectoral-regulation"],
+    "sectors": ["health"],
+    "source_url": "https://abdm.gov.in/sahi",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc202635810601.pdf",
+      "https://ehealth.eletsonline.com/2026/11/sahi-ai-healthcare-roadmap/",
+      "https://www.impriindia.com/insights/policy-update/sahi-and-bodh-ai-public-healthcare/",
+      "https://www.businesstoday.in/latest/economy/story/ayushman-bharat-set-for-ai-overhaul-faster-claims-fraud-detection-and-digital-medical-records-566641-2026-11-10"
+    ],
+    "confidence": "medium",
+    "confidence_note": "PIB backgrounder (official) read in part and confirms recommendatory status, five pillars and BODH; the SAHI document on abdm.gov.in was not itself read. Exact launch day within the February 2026 summit not confirmed.",
+    "related": ["central-icmr-ethical-guidelines-ai-healthcare-2023", "central-cdsco-guidance-medical-device-software-2026", "central-indiaai-impact-summit-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-trai-recommendations-ai-big-data-telecom-2023",
+    "title": "Recommendations on Leveraging Artificial Intelligence and Big Data in Telecommunication Sector",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Telecom Regulatory Authority of India (TRAI)",
+    "instrument_type": "other",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2023-07-20",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2022-08-05", "event": "Consultation paper released (August 2022)" },
+      { "date": "2023-07-20", "event": "Recommendations sent to DoT (Press Release No. 62/2023)" }
+    ],
+    "summary": "TRAI's statutory recommendations to DoT under NDCP 2018 para 2.2(g), proposing a cross-sector AI regulator (AIDAI), a risk-based framework and telecom-specific AI uses. No formal DoT acceptance was traced.",
+    "key_provisions": [
+      "Proposes an independent statutory Artificial Intelligence and Data Authority of India (AIDAI) with a multi-stakeholder advisory body",
+      "Recommends a risk-based regulatory framework with legally binding obligations for high-risk AI use cases affecting people",
+      "Telecom use cases: AI/ML for duplicate-SIM detection (ASTRA), spam call/message filtering, grievance dashboards for the DoT Public Grievance Unit",
+      "Recommendations are advisory to DoT under section 11 of the TRAI Act; DoT response not located"
+    ],
+    "themes": ["governance", "institution-building", "sectoral-regulation", "risk-management"],
+    "sectors": ["telecom", "cross-sector"],
+    "source_url": "https://www.trai.gov.in/sites/default/files/2024-08/PR_No.62of2023.pdf",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://www.medianama.com/2023/07/223-trai-ai-big-data-use-telecom-sector/",
+      "https://oecd.ai/en/dashboards/policy-initiatives/leveraging-artificial-intelligence-and-big-data-in-telecommunication-sector-7887"
+    ],
+    "confidence": "high",
+    "confidence_note": "TRAI press release URL located; content confirmed by MediaNama summary. DoT's formal response (acceptance/back-reference) could not be found.",
+    "related": ["central-trai-draft-guidelines-responsible-ai-telecom-2026", "central-trai-tcccpr-amendment-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-trai-tcccpr-amendment-2025",
+    "title": "Telecom Commercial Communications Customer Preference (Amendment) Regulations, 2025",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Telecom Regulatory Authority of India (TRAI)",
+    "instrument_type": "amendment",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2025-02-01",
+    "date_precision": "month",
+    "timeline": [
+      { "date": "2023-06-01", "event": "TRAI direction requires access providers to deploy AI/ML-based unsolicited commercial communication detection systems (reported)" },
+      { "date": "2025-02-01", "event": "TCCCPR 2018 amended (February 2025) to mandate proactive monitoring and tighter thresholds" }
+    ],
+    "summary": "Amendment to the 2018 spam regulations requiring access providers to proactively detect and act on spam, including through AI/ML systems and honeypots, with shorter complaint and action windows.",
+    "key_provisions": [
+      "Complaint window extended from 3 to 7 days; action threshold reduced to 5 complaints in 10 days (from 10 in 7); action within 5 days (from 30)",
+      "Mandates proactive, AI/ML-based detection of unregistered senders, spoofed headers and abnormal sending patterns, supported by honeypot numbers (per legal summaries)",
+      "Commercial communications restricted to 140 (promotional) and 1600 (transactional/service) series; registered headers mandatory",
+      "Access providers empowered to suspend telecom resources of violators; graded financial disincentives on providers"
+    ],
+    "themes": ["sectoral-regulation", "content-moderation", "cybersecurity"],
+    "sectors": ["telecom"],
+    "source_url": "https://www.barandbench.com/view-point/trais-crackdown-on-spam-calls-and-ai-driven-telemarketing",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://www.legal500.com/intelligence/india/media-telecoms-it-entertainment/trais-crackdown-on-spam-calls-and-ai-driven-telemarketing",
+      "https://smsgatewayprovider.com/resources/trai-announcements/trai-tcccpr-february-2025-amendment-140-1600-series-ai-spam/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Exact gazette date and the June 2023 direction date were not confirmed against trai.gov.in in this session; the AI/ML detection mandate is reported by industry sources rather than quoted from the regulation text.",
+    "related": ["central-trai-direction-ai-flagged-spam-sharing-2026", "central-trai-consultation-tcccpr-third-amendment-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-trai-direction-ai-flagged-spam-sharing-2026",
+    "title": "TRAI Direction on sharing of AI-flagged suspected spammer details among access providers",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Telecom Regulatory Authority of India (TRAI)",
+    "instrument_type": "notification",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2026-02-27",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-02-27", "event": "Direction issued under TCCCPR framework" },
+      { "date": "2026-03-29", "event": "30-day compliance deadline" }
+    ],
+    "summary": "Binding TRAI direction requiring telecom operators to share identifiers of numbers flagged by their AI/ML spam-detection systems with all other operators within two hours over the DLT platform, with KYC identifiers within one business day.",
+    "key_provisions": [
+      "Flagging based on behavioural parameters (call volume, duration, velocity, recipient diversity)",
+      "Suspected-spam identifiers to be shared with other networks within two hours via the blockchain-based DLT platform",
+      "Sender's unique KYC identifiers to be shared within one business day; other operators to identify further numbers held by the same person",
+      "Enforcement triggers when five or more numbers of the same person are flagged within ten days across networks",
+      "Compliance within 30 days of issue"
+    ],
+    "themes": ["sectoral-regulation", "cybersecurity", "data-protection"],
+    "sectors": ["telecom"],
+    "source_url": "https://www.medianama.com/2026/03/223-trai-telecom-operators-share-spam-data-ai/",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "medium",
+    "confidence_note": "Single detailed news source (MediaNama) describing a TRAI direction; trai.gov.in direction PDF not located in this session.",
+    "related": ["central-trai-tcccpr-amendment-2025", "central-trai-consultation-tcccpr-third-amendment-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-trai-consultation-tcccpr-third-amendment-2026",
+    "title": "Consultation on Draft Telecom Commercial Communications Customer Preference (Third Amendment) Regulations, 2026",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Telecom Regulatory Authority of India (TRAI), Quality of Service Division",
+    "instrument_type": "consultation",
+    "status": "consultation",
+    "binding": "non-binding",
+    "date": "2026-03-13",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-03-13", "event": "Draft third amendment released for consultation (listed as closed on TRAI site)" }
+    ],
+    "summary": "TRAI consultation proposing further TCCCPR amendments, including a lower threshold for action on spam flagged by operators' AI systems and provisions on AI-based telemarketing, AI disclosures and consent verification. Final regulation not traced.",
+    "key_provisions": [
+      "Proposes lowering the threshold for action against senders flagged by telcos' AI detection systems",
+      "Considers rules for AI-driven telemarketing calls, disclosure that a caller is AI, and consent verification systems",
+      "Consultation listed as closed on TRAI's consultation page; final regulations not located as of 19 Nov 2026"
+    ],
+    "themes": ["sectoral-regulation", "transparency", "synthetic-media"],
+    "sectors": ["telecom"],
+    "source_url": "https://www.trai.gov.in/release-publication/consultation",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.business-standard.com/industry/news/trai-proposes-lower-threshold-for-action-against-spam-flagged-by-telcos-ai-126031301269_1.html",
+      "https://www.barandbench.com/view-point/trais-crackdown-on-spam-calls-and-ai-driven-telemarketing"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Title and date confirmed on TRAI's consultation listing; proposal content from Business Standard headline and a legal commentary. Draft text not read.",
+    "related": ["central-trai-tcccpr-amendment-2025", "central-trai-direction-ai-flagged-spam-sharing-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-trai-draft-guidelines-responsible-ai-telecom-2026",
+    "title": "Draft Guidelines on Responsible Use of Artificial Intelligence (AI) in Telecommunication Networks and Provision of Telecommunication Services",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Telecom Regulatory Authority of India (TRAI), Network, Spectrum and Licensing Division",
+    "instrument_type": "consultation",
+    "status": "consultation",
+    "binding": "non-binding",
+    "date": "2026-10-30",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-10-30", "event": "Draft guidelines released as a consultation paper" },
+      { "date": "2026-11-27", "event": "Comment deadline" }
+    ],
+    "summary": "TRAI consultation proposing governance obligations for telecom licensees deploying AI in networks and services: board-approved AI policy, a governance committee, risk classes, an AI inventory, incident reporting and consumer grievance handling. Open for comment as of 19 November 2026.",
+    "key_provisions": [
+      "Board-approved AI policy reviewed at least annually and filed with TRAI within seven working days of taking effect",
+      "AI Governance and Safety Committee led by a designated AI Governance and Safety Officer; pre-deployment approval by the officer",
+      "Three AI risk classes based on materiality (network/service significance, financial/operational effect, consumer consequences)",
+      "Inventory of all AI systems (active, inactive, decommissioned) with source, purpose and risk class; unlisted systems may not be deployed",
+      "Four incident severity levels (critical, high, moderate, low) using TEC standard 57090:2025 taxonomy; critical and high incidents reported to TRAI; central incident database",
+      "Supplier contracts must include regulatory compliance, audit rights, incident protocols and risk allocation; licensee remains accountable for third-party systems",
+      "Pre-deployment validation, conformity assessment (accuracy, robustness, explainability, fairness, drift, oversight) and impact assessment; grievance mechanism with central database of AI-related harms"
+    ],
+    "themes": ["governance", "risk-management", "incident-reporting", "accountability-liability", "sectoral-regulation"],
+    "sectors": ["telecom"],
+    "source_url": "https://www.trai.gov.in/release-publication/consultation",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.sansalegal.com/post/trai-draft-ai-guidelines-for-telecom-licensees-risk-classes-a-board-policy-and-supplier-accountabi",
+      "https://www.tribuneindia.com/news/business/trai-issues-draft-guidelines-on-responsible-ai-use-in-telecom-networks",
+      "https://www.convergence-now.com/telecom/trai-drafts-responsible-ai-guidelines-for-indias-telecom-sector-stakeholders-have-until-november-27-to-respond/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Title, release date and open status confirmed on TRAI's consultation listing; provisions summarised from a law-firm note and press, not from the draft PDF. Deadline of 27 Nov 2026 from press. Counter-comment date not found.",
+    "related": ["central-trai-recommendations-ai-big-data-telecom-2023", "central-tec-standard-ai-fairness-57050-2023", "central-meity-ai-governance-guidelines-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-dot-sanchar-saathi-preinstall-direction-2025",
+    "title": "DoT direction mandating pre-installation of the Sanchar Saathi application on mobile devices",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Department of Telecommunications (DoT), AI & Digital Intelligence Unit",
+    "instrument_type": "notification",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2025-11-28",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-10-22", "event": "Telecom Cyber Security Rules 2024 amended (Rule 8 powers on IMEI/manufacturers)" },
+      { "date": "2025-11-28", "event": "Direction issued to manufacturers and importers" },
+      { "date": "2026-02-26", "event": "90-day deadline for pre-installation on new devices; compliance report due within 120 days" }
+    ],
+    "summary": "Direction by DoT's AI & Digital Intelligence Unit under the Telecommunications Act 2023 and Telecom Cyber Security Rules 2024 requiring handset makers to pre-install the Sanchar Saathi fraud-reporting app, which feeds DoT's AI-based fraud and fake-document detection systems.",
+    "key_provisions": [
+      "Issued under Rules 8(3), 8(4) and 8(8) of the Telecom Cyber Security Rules 2024 (as amended 22 Oct 2025) and the Telecommunications Act 2023",
+      "Pre-install Sanchar Saathi on all devices manufactured or imported within 90 days; app must be visible and not disabled; push to existing devices via software update",
+      "Compliance report to DoT within 120 days; non-compliance attracts action under the Act and Rules",
+      "DoT's AI & Digital Intelligence Unit uses AI/big data on Chakshu reports and subscriber data; DoT reported in July 2026 that its Fraud Risk Indicator prevented about ₹1,800 crore of cyber fraud",
+      "Press reports of a partial walk-back on the 'cannot be disabled' requirement (Dec 2025) were not verified against an amended order"
+    ],
+    "themes": ["cybersecurity", "public-sector-use", "privacy", "sectoral-regulation"],
+    "sectors": ["telecom", "law-enforcement"],
+    "source_url": "https://www.medianama.com/2025/12/223-govt-sanchar-saathi-app-pre-installation-smartphones-privacy/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2113857",
+      "https://www.techpolicy.press/india-oversteps-and-partially-backtracks-on-plans-to-intrude-into-mobile-devices/",
+      "https://www.techtimes.com/articles/320395/20260714/indias-biometric-ai-disconnects-50-million-fraudulent-mobile-connections.htm"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Order date, issuing unit, legal basis and deadlines from MediaNama's reading of the signed order; DoT order PDF not retrieved. Reported partial rollback unverified.",
+    "related": ["central-telecommunications-act-2023", "central-telecom-cyber-security-rules-2024", "central-trai-direction-ai-flagged-spam-sharing-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-tec-standard-ai-fairness-57050-2023",
+    "title": "TEC Standard 57050:2023 – Fairness Assessment and Rating of Artificial Intelligence Systems",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Telecommunication Engineering Centre (TEC), Department of Telecommunications",
+    "instrument_type": "standard",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2023-01-01",
+    "date_precision": "year",
+    "timeline": [
+      { "date": "2023-01-01", "event": "TEC fairness assessment and rating standard published (2023)" },
+      { "date": "2025-01-01", "event": "TEC 57090:2025 (AI incident/robustness taxonomy) referenced by TRAI's October 2026 draft AI guidelines (reported)" }
+    ],
+    "summary": "Voluntary TEC standard providing a procedure to assess and rate fairness of AI systems (bias risk assessment, metric thresholds, bias testing), used as a reference in telecom AI governance texts.",
+    "key_provisions": [
+      "Three-step process: bias risk assessment, selection of fairness metrics and thresholds, and bias testing including scenario-based evaluation",
+      "Produces a fairness rating for AI systems; voluntary and applicable beyond telecom",
+      "TEC also publishes work on AI robustness; TEC 57090:2025 is cited by TRAI's 2026 draft for incident taxonomy (number per secondary source)"
+    ],
+    "themes": ["standards", "fairness-bias", "sectoral-regulation"],
+    "sectors": ["telecom", "cross-sector"],
+    "source_url": "https://tec.gov.in/ai-fairness",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://indiaai.gov.in/news/dot-agency-releases-framework-for-ai-system-assessment",
+      "https://www.emergentmind.com/topics/telecommunication-engineering-centre-tec-standard",
+      "https://tec.gov.in/pdf/Circular/TEC%20OM%20Working%20Group%20Fairness_TEC%20Website.pdf"
+    ],
+    "confidence": "low",
+    "confidence_note": "tec.gov.in could not be fetched (TLS error). Standard number and 2023 date rest on secondary and academic sources; the TEC 57090:2025 reference comes from one law-firm summary of the TRAI draft. Brief cross-reference only; BIS/TEC standards are covered by another researcher.",
+    "related": ["central-trai-draft-guidelines-responsible-ai-telecom-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-moe-cbse-ct-ai-curriculum-classes-3-8-2026",
+    "title": "Computational Thinking and Artificial Intelligence Curriculum, Classes 3-8 (CBSE, under Ministry of Education direction)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Central Board of Secondary Education (CBSE) / Ministry of Education, Department of School Education and Literacy",
+    "instrument_type": "curriculum",
+    "status": "in-force",
+    "binding": "mixed",
+    "date": "2026-04-01",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-10-30", "event": "Ministry of Education announces AI and computational thinking from Class 3 from session 2026-27; NCERT-CBSE coordination committee under NCF-SE" },
+      { "date": "2026-04-01", "event": "CBSE Circular Acad-15/2026 releases the Classes 3-8 CT&AI curriculum for session 2026-27 (circular number per secondary sources)" }
+    ],
+    "summary": "Curriculum framework making computational thinking compulsory from Class 3 and introducing AI content from Class 6 in CBSE-affiliated schools from 2026-27, developed by an expert committee under Ministry of Education guidance with NCERT inputs.",
+    "key_provisions": [
+      "Classes 3-5: 50 hours per year of CT integrated with Mathematics and 'The World Around Us'; Classes 6-8: 100 hours per year covering advanced CT, data handling and early AI",
+      "AI concepts begin in Class 6; Classes 3-5 assessment linked to core subjects, Classes 6-8 assessed through projects and competency-based methods",
+      "Framework is platform-neutral and grounded in NEP 2020 and NCF-SE 2023",
+      "Expert committee chaired by Dr Karthik Raman (IIT Madras); implementation with KVS and NVS",
+      "Applies to CBSE-affiliated schools; state boards are not bound (state mandates covered by other researchers)"
+    ],
+    "themes": ["skilling", "children", "public-sector-use"],
+    "sectors": ["education"],
+    "source_url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/CTAI_Pri_2026-27.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://news.careers360.com/students-learn-ai-computational-thinking-from-class-3-starting-2026-27-cbse-ncert-frame-curriculum",
+      "https://thestempedia.com/blog/cbse-proposes-new-ai-curriculum-in-academic-year-2026-27-for-class-3-onwards-ncert-to-review/",
+      "https://codju.com/blog/cbse-computational-thinking-ai-curriculum-2026-27/"
+    ],
+    "confidence": "high",
+    "confidence_note": "Official CBSE curriculum PDF read (hours, stages, committee). Circular number Acad-15/2026 and 1 April 2026 date come from secondary sources, not from the circular itself.",
+    "related": ["central-cbse-ai-skill-subject-classes-9-12-2019", "central-nep-2020", "central-mof-coe-ai-education-budget-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-cbse-ai-skill-subject-classes-9-12-2019",
+    "title": "CBSE Artificial Intelligence skill subject (Code 417 for Classes IX-X; Code 843 for Classes XI-XII)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Central Board of Secondary Education (CBSE)",
+    "instrument_type": "curriculum",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2019-01-01",
+    "date_precision": "year",
+    "timeline": [
+      { "date": "2019-01-01", "event": "AI introduced as an optional skill subject for Class IX from session 2019-20 (reported)" },
+      { "date": "2020-01-01", "event": "AI (843) offered at senior secondary level from 2020-21 (reported)" }
+    ],
+    "summary": "Optional AI skill subject in CBSE schools with curricula and handbooks for Classes IX-XII and subject-integration manuals; the earlier, elective layer beneath the 2026 compulsory CT&AI curriculum.",
+    "key_provisions": [
+      "Skill subject code 417 (Classes IX-X) and 843 (Classes XI-XII) with annual curriculum documents and handbooks on cbseacademic.nic.in",
+      "Integration manuals for teaching AI through Hindi, English, Mathematics, Science and Social Science",
+      "Optional for schools and students; not a central mandate"
+    ],
+    "themes": ["skilling", "children"],
+    "sectors": ["education"],
+    "source_url": "https://cbseacademic.nic.in/ai.html",
+    "source_type": "official",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "CBSE page confirms subject codes and resources, but introduction years (2019-20, 2020-21) are from memory and were not verified in this session.",
+    "related": ["central-moe-cbse-ct-ai-curriculum-classes-3-8-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-mof-coe-ai-education-budget-2025",
+    "title": "Centre of Excellence in Artificial Intelligence for Education (Union Budget 2025-26)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Finance (Budget announcement) / Ministry of Education",
+    "instrument_type": "scheme",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2025-02-01",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2023-02-01", "event": "Budget 2023-24 announces three AI CoEs (agriculture, health, sustainable cities)" },
+      { "date": "2025-02-01", "event": "Budget 2025-26 announces a fourth CoE, in AI for Education, with ₹500 crore outlay" }
+    ],
+    "summary": "Budget announcement of a ₹500 crore Centre of Excellence in AI for education, following the three sectoral AI CoEs announced in 2023. Operational status and host institution not confirmed as of November 2026.",
+    "key_provisions": [
+      "Total outlay of ₹500 crore announced in the Budget speech of 1 February 2025",
+      "Stated focus: AI research and application across school to higher education (personalised learning, assessment, content)",
+      "Follows the ₹990 crore (2023) three-CoE programme in agriculture, health and sustainable cities (figure per IndiaAI; not re-verified)",
+      "No cabinet note, host institution or launch date located as of 19 Nov 2026"
+    ],
+    "themes": ["research-funding", "skilling", "institution-building"],
+    "sectors": ["education"],
+    "source_url": "https://indiaai.gov.in/news/union-budget-2025-26-centre-allocates-500-crore-for-ai-centre-of-excellence-in-education",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://theprint.in/india/education/union-budget-govt-announces-centre-for-excellence-in-ai-for-education-5-national-centres-for-skilling/2475155/",
+      "https://www.etvbharat.com/en/!technology/union-budget-2025-govt-announces-rs-500-crore-ai-centre-of-excellence-for-education-enn25020103696"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Announcement and amount confirmed by IndiaAI (MeitY portal) and press; implementation status unknown. Budget speech text on indiabudget.gov.in not fetched.",
+    "related": ["central-moe-cbse-ct-ai-curriculum-classes-3-8-2026", "central-indiaai-mission-2024"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-aicte-year-of-ai-2025",
+    "title": "AICTE '2025 – The Year of Artificial Intelligence' programme",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "All India Council for Technical Education (AICTE)",
+    "instrument_type": "other",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2024-12-01",
+    "date_precision": "month",
+    "timeline": [
+      { "date": "2024-12-01", "event": "AICTE declares 2025 the Year of AI; institutions asked to submit AI implementation plans by 31 Dec 2024" },
+      { "date": "2025-01-29", "event": "AICTE webinar launches the programme; over 1,000 institutions take the AI Affirmation Pledge" }
+    ],
+    "summary": "AICTE programme asking approved technical institutions to adopt AI implementation plans covering curriculum, faculty training, infrastructure and industry partnerships during 2025.",
+    "key_provisions": [
+      "Target of AI integration across about 14,000 AICTE-approved institutions and 40 million learners",
+      "Institutions asked to file AI Implementation Plans with the AICTE Approval Bureau by 31 December 2024",
+      "AI Affirmation Pledge, faculty certification programmes, thematic AI hackathons, an AI Factory & Experience Centre at AICTE HQ and a closing 'AI Mahakumbh'",
+      "Secondary sources report AICTE guidance treating unacknowledged AI-generated content as plagiarism and requiring AI-detection tools; the underlying AICTE notice was not located"
+    ],
+    "themes": ["skilling", "public-sector-use"],
+    "sectors": ["education"],
+    "source_url": "https://aninews.in/news/national/general-news/aicte-hosts-webinar-on-2025-the-year-of-ai-to-shape-future-of-education-research-innovation-amp-industry20250129200057/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.shiksha.com/news/engineering-aicte-declares-2025-as-the-year-of-artificial-intelligence-to-revolutionize-indian-higher-education-blogId-185814",
+      "https://avloryn.com/blog/how-indian-universities-handle-ai"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Programme details consistent across press; aicte-india.org circular not retrieved. Claims about AICTE plagiarism/AI-detection guidance rest on a single blog and are flagged as unverified.",
+    "related": ["central-ugc-draft-generative-ai-research-integrity-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-ugc-draft-generative-ai-research-integrity-2026",
+    "title": "UGC draft norms on generative AI use in research and academic integrity (reported)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "University Grants Commission (UGC)",
+    "instrument_type": "guidelines",
+    "status": "proposed",
+    "binding": "non-binding",
+    "date": "2026-06-01",
+    "date_precision": "month",
+    "timeline": [
+      { "date": "2018-07-23", "event": "UGC (Promotion of Academic Integrity and Prevention of Plagiarism in HEIs) Regulations 2018 remain the governing text" },
+      { "date": "2026-06-01", "event": "UGC reported to be finalising generative-AI norms for research (June 2026); no official draft located" }
+    ],
+    "summary": "Reported UGC work on norms distinguishing permitted generative-AI assistance (language editing, code optimisation) from research misconduct (fabricated data, undisclosed AI-written literature reviews), with disclosure requirements and tiered penalties. No official draft or notification was found.",
+    "key_provisions": [
+      "Permitted: syntax refinement, copy-editing, restructuring author-written prose, optimising code (per reports)",
+      "Prohibited: fabricating empirical results, generating synthetic data, drafting literature reviews without independent analysis",
+      "Disclosure statement specifying tool, version and scope of use; penalties from thesis revision within six months to debarment and cancellation of doctoral registration",
+      "As of mid-2026, UGC's 2018 plagiarism regulations remain the only binding instrument; no AI-specific UGC regulation in force"
+    ],
+    "themes": ["ethics", "transparency", "skilling"],
+    "sectors": ["education"],
+    "source_url": "https://superkalam.com/current-affairs/articles/draft-rules-on-generative-ai-in-research-curbing-academic-fraud-in-higher",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://www.researchexperts.in/ugc-ai-policy-phd-thesis-2026/",
+      "https://avloryn.com/blog/how-indian-universities-handle-ai"
+    ],
+    "confidence": "low",
+    "confidence_note": "Only exam-prep and consultancy blogs describe these norms; no UGC public notice, gazette entry or ugc.gov.in document was located. Treat as unconfirmed.",
+    "related": ["central-aicte-year-of-ai-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-mod-ai-task-force-report-2018",
+    "title": "Report of the Task Force on Strategic Implementation of AI for National Security and Defence",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Defence, Department of Defence Production",
+    "instrument_type": "committee-report",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2018-06-01",
+    "date_precision": "month",
+    "timeline": [
+      { "date": "2018-02-01", "event": "Task force constituted by the Department of Defence Production" },
+      { "date": "2018-06-01", "event": "Report submitted recommending institutional structures for defence AI" }
+    ],
+    "summary": "Government-commissioned task force report that recommended the institutional architecture for military AI, leading to the Defence AI Council and Defence AI Project Agency in 2019.",
+    "key_provisions": [
+      "Recommended a Defence AI Council for policy and a Defence AI Project Agency for execution",
+      "Recommended dedicated funding and AI roadmaps for the services and defence PSUs",
+      "Report text not public in full; recommendations known through MoD statements"
+    ],
+    "themes": ["governance", "institution-building", "safety"],
+    "sectors": ["defence"],
+    "source_url": "https://www.delhipolicygroup.org/publication/policy-briefs/implementing-artificial-intelligence-in-the-indian-military.html",
+    "source_type": "secondary",
+    "secondary_sources": ["https://csdronline.com/wp-content/uploads/2026/02/CSDR_Feb-26_Indias-Approach-to-Military-AI-1.pdf"],
+    "confidence": "medium",
+    "confidence_note": "Dates and outcome consistent across think-tank sources; the task force chair (widely reported as N. Chandrasekaran, Tata Sons) was not confirmed by the sources read.",
+    "related": ["central-mod-daic-daipa-2019"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-mod-daic-daipa-2019",
+    "title": "Defence AI Council (DAIC) and Defence AI Project Agency (DAIPA)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Defence",
+    "instrument_type": "institution",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2019-01-01",
+    "date_precision": "year",
+    "timeline": [
+      { "date": "2019-01-01", "event": "DAIC and DAIPA established following the 2018 task force" },
+      { "date": "2022-07-11", "event": "75 AI products launched at the first 'AI in Defence' symposium" },
+      { "date": "2026-02-01", "event": "Secondary sources report 77 of 129 AI-based defence projects completed by 2026" }
+    ],
+    "summary": "Apex policy council and executing agency for AI in the Indian military, with earmarked funding of ₹100 crore per year for five years to DAIPA and matching sums per service.",
+    "key_provisions": [
+      "DAIC chaired by the Defence Minister with the three service chiefs, Defence Secretary, National Cyber Security Coordinator, DRDO, industry and academia; meets biannually",
+      "DAIPA headed by Secretary (Defence Production) with members from services, DPSUs, DRDO, academia and industry",
+      "₹100 crore per year for five years allocated to DAIPA; each service to earmark similar annual amounts",
+      "AI roadmap for defence PSUs finalised in 2022; 75 AI products released July 2022"
+    ],
+    "themes": ["institution-building", "governance", "public-sector-use"],
+    "sectors": ["defence"],
+    "source_url": "https://www.delhipolicygroup.org/publication/policy-briefs/implementing-artificial-intelligence-in-the-indian-military.html",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://csdronline.com/wp-content/uploads/2026/02/CSDR_Feb-26_Indias-Approach-to-Military-AI-1.pdf",
+      "https://indiaai.gov.in/article/impact-of-ai-in-the-indian-army"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Composition and funding consistent across think-tank sources; MoD/PIB primary release not retrieved. Project completion figures (77/129) are from a single secondary source.",
+    "related": ["central-mod-ai-task-force-report-2018", "central-army-land-warfare-doctrine-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-army-land-warfare-doctrine-2026",
+    "title": "Indian Army Land Warfare Doctrine 2026",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Defence / Indian Army",
+    "instrument_type": "strategy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-10-23",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-10-23", "event": "Released by the Defence Minister at the Army Commanders' Conference, New Delhi" }
+    ],
+    "summary": "Army doctrine released by the Defence Minister that places AI, autonomous systems and drones at the centre of future force development, with an AI skilling programme for officers. The doctrine text is not public.",
+    "key_provisions": [
+      "Three-level AI skill development programme for officers covering AI as a decision-making tool (per press)",
+      "Drone operations to become a secondary skill across the 1.2 million-strong force",
+      "Priorities named: AI, autonomous systems, data analytics, cyber security, secure communications, manned-unmanned teaming",
+      "Aligned with Defence Forces Vision 2047 (per press); MoD released only remarks, not the doctrine"
+    ],
+    "themes": ["safety", "skilling", "governance"],
+    "sectors": ["defence"],
+    "source_url": "https://www.janes.com/defence-intelligence-insights/defence-news/land/india-releases-land-warfare-doctrine-2026",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.tribuneindia.com/news/india/indian-army-doctrine-released-puts-ai-drones-at-centre-of-future-wars/",
+      "https://indiasworld.in/explainer-indias-new-land-warfare-doctrine/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Release date and AI emphasis consistent across Janes and Indian press; doctrine document not public, so provisions are as described by MoD remarks and press.",
+    "related": ["central-mod-daic-daipa-2019"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-cert-in-technical-guidelines-aibom-2025",
+    "title": "Technical Guidelines on SBOM, QBOM & CBOM, AIBOM and HBOM (Version 2.0)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Indian Computer Emergency Response Team (CERT-In)",
+    "instrument_type": "guidelines",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-07-09",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2024-10-01", "event": "Version 1.0 Technical Guidelines on SBOM released (October 2024, reported)" },
+      { "date": "2025-07-09", "event": "Version 2.0 adds Quantum, Cryptographic, AI and Hardware bills of materials" }
+    ],
+    "summary": "CERT-In technical guidelines introducing an AI Bill of Materials (AIBOM) listing the hardware, software, models and datasets behind AI systems, recommended for government, public sector and essential-services procurement.",
+    "key_provisions": [
+      "Section 9 defines AIBOM: components used to build, train and deploy AI models (hardware such as GPUs, model names and frameworks, training datasets)",
+      "Government, PSU and essential-services organisations engaged in AI procurement should require AIBOMs from suppliers",
+      "AI developers to integrate AIBOM data with vulnerability datasets, CERT-In vulnerability notes and threat intelligence",
+      "Advisory in nature; AIBOM later placed within audit scope by CERT-In's 2025 audit policy and 2026 AI auditing guidelines"
+    ],
+    "themes": ["cybersecurity", "procurement", "transparency", "standards"],
+    "sectors": ["cross-sector", "public-services"],
+    "source_url": "https://www.cert-in.org.in/PDF/TechnicalGuidelines-on-SBOM,QBOM&CBOM,AIBOM_and_HBOM_ver2.0.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.medianama.com/2025/07/223-cert-in-ai-bill-of-materials-guidelines/",
+      "https://www.azbpartners.com/bank/cert-ins-technical-guidelines-on-sbom-qbom-and-cbom-aibom-and-hbom/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Official PDF URL located (title states 'Version 2.0 dated 09.07.2025'); content summarised from MediaNama and AZB rather than read from the PDF. V1.0 date is from memory.",
+    "related": ["central-cert-in-cyber-security-audit-policy-guidelines-2025", "central-cert-in-ai-security-auditing-guidelines-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-cert-in-cyber-security-audit-policy-guidelines-2025",
+    "title": "Comprehensive Cyber Security Audit Policy Guidelines (Version 1.0)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Indian Computer Emergency Response Team (CERT-In)",
+    "instrument_type": "guidelines",
+    "status": "in-force",
+    "binding": "mixed",
+    "date": "2025-07-01",
+    "date_precision": "month",
+    "timeline": [
+      { "date": "2025-07-01", "event": "Guidelines v1.0 released (July 2025 per legal summaries; the brief cited September 2025)" }
+    ],
+    "summary": "CERT-In policy guidelines standardising cyber security audits by empanelled auditors across public and private sectors, extending audit scope to AI systems, SBOMs and AIBOMs.",
+    "key_provisions": [
+      "Audit scope expanded to AI systems (security, ethical alignment, transparency, data integrity, resilience to adversarial manipulation), blockchain, IoT, quantum-readiness, SBOM and AIBOM",
+      "Audits at least annually; reports signed by CERT-In-approved personnel and submitted to CERT-In within five days of completion",
+      "Auditor independence: compensation not linked to findings; no implementation-and-audit by the same firm",
+      "Binding for CERT-In empanelled auditors and for entities subject to CERT-In audit requirements; otherwise best practice"
+    ],
+    "themes": ["cybersecurity", "standards", "accountability-liability"],
+    "sectors": ["cross-sector"],
+    "source_url": "https://www.cert-in.org.in/PDF/Comprehensive_Cyber_Security_Audit_Policy_Guidelines.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://ksandk.com/data-protection-and-data-privacy/cyber-security-audit-policy-guidelines/",
+      "https://www.lawrbit.com/article/comprehensive-cyber-security-audit-policy-guidelines/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Official PDF located but not read; release month conflicts between the research brief (Sept 2025) and legal summaries (July 2025). Month precision used.",
+    "related": ["central-cert-in-technical-guidelines-aibom-2025", "central-cert-in-ai-security-auditing-guidelines-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-cert-in-blueprint-ai-assisted-cyber-threats-2026",
+    "title": "Blueprint for Defending Against AI-Assisted Cyber Threats",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Indian Computer Emergency Response Team (CERT-In)",
+    "instrument_type": "advisory",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-05-25",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-05-25", "event": "Blueprint released" }
+    ],
+    "summary": "CERT-In advisory setting out governance, detection and response measures against AI-enabled attacks, including AI asset inventories, agentic-AI boundaries, compressed patch timelines and deepfake verification procedures.",
+    "key_provisions": [
+      "Nine areas across 14 sections: AI usage policies, AI asset inventory, shadow-AI monitoring, data classification, governance of autonomous agents with operational limits and emergency shutdown",
+      "Patch timelines from 12 hours for exploited internet-facing vulnerabilities to 5 days for high-severity issues",
+      "Executive verification and authentication protocols against deepfake impersonation fraud",
+      "Maintain AIBOM alongside SBOM, QBOM and CBOM; third-party AI provider contract and provenance reviews; training-data poisoning defences",
+      "Addressed to public and private organisations with focus on government, finance, telecom, DPI, health, energy and transport"
+    ],
+    "themes": ["cybersecurity", "synthetic-media", "risk-management"],
+    "sectors": ["cross-sector", "finance", "telecom"],
+    "source_url": "https://www.medianama.com/2026/05/223-cert-in-releases-blueprint-for-defending-against-ai-assisted-cyber-threats/",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "medium",
+    "confidence_note": "Detailed MediaNama report; cert-in.org.in document URL not captured in this session.",
+    "related": ["central-cert-in-technical-guidelines-aibom-2025", "central-sebi-advisory-ai-vulnerability-detection-2026", "central-ifsca-advisory-frontier-ai-cyber-risks-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-cert-in-ai-security-auditing-guidelines-2026",
+    "title": "Artificial Intelligence (AI) Security Auditing Guidelines v1.0",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Indian Computer Emergency Response Team (CERT-In), Sub-group 03 of the Working Group on Indian Standards for Cybersecurity Auditing",
+    "instrument_type": "guidelines",
+    "status": "adopted",
+    "binding": "mixed",
+    "date": "2026-11-04",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-11-04", "event": "Version 1.0 published (107 pages)" }
+    ],
+    "summary": "CERT-In framework for security and governance audits of AI systems developed, procured or operated in India (or processing Indian data), using four risk tiers and nine audit domains, and designed to integrate with the India AI Governance Guidelines and sectoral regulators' requirements.",
+    "key_provisions": [
+      "Four risk tiers (Low, Moderate, High, Critical) scored on eight inherent-risk factors; tier determines audit depth, frequency, independence and documentation",
+      "Nine core audit domains: AI governance and accountability; data lifecycle and privacy; model risk management; ethics, bias and fairness; explainability; security and incident reporting; monitoring and drift; human oversight; third-party and supply-chain assurance",
+      "Dedicated requirements for generative, RAG, agentic, multimodal, multi-agent and cyber-physical AI (prompt injection, excessive agency, poisoning, tool misuse)",
+      "Findings classified Critical/High/Moderate/Low with remediation and external reporting obligations; five-level maturity model",
+      "Names CERT-In, MeitY, RBI, SEBI, IRDAI and TRAI as regulators whose requirements are to be incorporated in audit criteria; a 'mandatory compliance scope' applies to in-scope organisations (government, PSUs, critical sectors) while others are encouraged to adopt",
+      "References a CERT-In AI Cyber Defence Centre and AI cyber defence 'War Room'"
+    ],
+    "themes": ["cybersecurity", "governance", "fairness-bias", "transparency", "standards"],
+    "sectors": ["cross-sector", "finance", "telecom", "health"],
+    "source_url": "https://www.cert-in.org.in/PDF/AI_Security_Auditing_Guidelines.pdf",
+    "source_type": "official",
+    "secondary_sources": ["https://labs.cloudsecurityalliance.org/research/csa-research-note-certin-ai-security-auditing-guidelines-202/"],
+    "confidence": "high",
+    "confidence_note": "Official PDF downloaded and the preamble, executive summary and applicability sections read. Exact boundary of the 'mandatory compliance scope' table was only partially extracted.",
+    "related": ["central-cert-in-cyber-security-audit-policy-guidelines-2025", "central-cert-in-technical-guidelines-aibom-2025", "central-meity-ai-governance-guidelines-2025"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-mha-i4c-deepfake-biometric-bypass-advisory-2026",
+    "title": "I4C advisory on AI-generated deepfakes bypassing facial authentication and video-KYC",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Home Affairs, Indian Cyber Crime Coordination Centre (I4C)",
+    "instrument_type": "advisory",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-06-01",
+    "date_precision": "month",
+    "timeline": [
+      { "date": "2026-06-01", "event": "I4C advisory issued to banks, fintechs and digital service providers (June 2026)" },
+      { "date": "2026-10-19", "event": "I4C National Cybercrime Threat Analytics Unit flags deepfake ads impersonating the Prime Minister and chief ministers" }
+    ],
+    "summary": "MHA/I4C advisory warning financial institutions that deepfakes and synthetic identities are being used to defeat facial authentication, liveness checks, video-KYC and account recovery, and recommending layered defences.",
+    "key_provisions": [
+      "Recommends integrating deepfake detection into onboarding and video-KYC flows",
+      "Biometrics not to be treated as a standalone factor; combine with device intelligence, behavioural analytics and risk scoring",
+      "Advisory only; enforcement sits with sector regulators (RBI, SEBI, IRDAI) and the IT Act framework"
+    ],
+    "themes": ["synthetic-media", "cybersecurity", "sectoral-regulation"],
+    "sectors": ["law-enforcement", "finance"],
+    "source_url": "https://www.etvbharat.com/en/bharat/union-home-ministry-advisory-warns-of-ai-enabled-deepfake-technology-to-bypass-biometric-system-enn26061104831",
+    "source_type": "news",
+    "secondary_sources": ["https://www.sarkaritel.com/i4c-ai-deepfake-authentication-bypass-advisory/"],
+    "confidence": "low",
+    "confidence_note": "Two news reports; advisory text and exact date not located on mha.gov.in or cybercrime.gov.in.",
+    "related": ["central-uidai-face-authentication-sdk-sandbox-2026", "central-rbi-draft-model-risk-management-guidance-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-ncrb-national-automated-facial-recognition-system",
+    "title": "National Automated Facial Recognition System (NAFRS) procurement",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "National Crime Records Bureau (NCRB), Ministry of Home Affairs",
+    "instrument_type": "procurement",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2019-06-28",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2019-06-28", "event": "NCRB issues RFP for a national automated facial recognition system" },
+      { "date": "2020-06-22", "event": "Original RFP cancelled" },
+      { "date": "2020-07-01", "event": "Revised RFP issued (July 2020)" },
+      { "date": "2021-10-01", "event": "Tender revised again to add mask recognition and state FRT integration (October 2021)" }
+    ],
+    "summary": "Long-running NCRB tender for a centralised police facial-recognition system; no statute authorises it and its operational status is unclear. Included as the central law-enforcement AI procurement of record.",
+    "key_provisions": [
+      "Intended to match faces against CCTNS and other police databases for identification of suspects and missing persons",
+      "NCRB cited a 2009 Cabinet note on CCTNS as legal basis; MHA Rajya Sabha reply (April 2020) described it as a tool to facilitate better identification",
+      "Civil-society challenges (IFF, Panoptic) on absence of legal framework; no dedicated FRT law or MHA guidelines located",
+      "Current deployment status not verified as of Nov 2026"
+    ],
+    "themes": ["privacy", "public-sector-use", "procurement", "accountability-liability"],
+    "sectors": ["law-enforcement"],
+    "source_url": "https://www.mha.gov.in/sites/default/files/PR_RSUSQ1495AFRS_03042020.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://en.wikipedia.org/wiki/Automated_Facial_Recognition_System_(India)",
+      "https://panoptic.in/case-study/ncrbs-national-automated-facial-recognition-system",
+      "https://www.medianama.com/2021/10/223-ncrb-facial-recognition-tender-2021/"
+    ],
+    "confidence": "low",
+    "confidence_note": "Tender chronology well documented to 2021; nothing found on award or operation in 2022-2026. Status recorded as 'announced'.",
+    "related": ["central-mha-i4c-deepfake-biometric-bypass-advisory-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-moa-digital-agriculture-mission-2024",
+    "title": "Digital Agriculture Mission (AgriStack, Krishi Decision Support System, soil profile mapping)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Agriculture and Farmers Welfare",
+    "instrument_type": "mission",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2024-09-02",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2024-09-02", "event": "Union Cabinet approves the Digital Agriculture Mission with ₹2,817 crore outlay (date from PIB coverage of the Cabinet decision; not re-verified this session)" },
+      { "date": "2025-04-01", "event": "FY 2025-26 allocation of ₹54.972 crore" },
+      { "date": "2026-02-14", "event": "PIB reports 7.63 crore Farmer IDs and 23.5 crore plots surveyed" }
+    ],
+    "summary": "Central mission funding agricultural digital public infrastructure (farmer registry, geo-referenced village maps, crop-sown registry, Krishi DSS) that underpins the ministry's AI advisory, pest-surveillance and insurance tools.",
+    "key_provisions": [
+      "Total outlay ₹2,817 crore; ₹1,076 crore released to six states for implementation (per PIB, Feb 2026)",
+      "Target of 11 crore Farmer IDs; 7.63 crore issued and 23.5 crore plots covered by the digital crop survey across 492 districts by Rabi 2024-25",
+      "Krishi Decision Support System integrates remote sensing, weather, soil and crop data for AI-based advisories",
+      "Mission is a funding and infrastructure scheme; it contains no AI-specific governance rules"
+    ],
+    "themes": ["infrastructure", "datasets", "public-sector-use"],
+    "sectors": ["agriculture"],
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026214789901.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227914&reg=48&lang=2",
+      "https://www.biometricupdate.com/202602/india-advances-digital-agriculture-mission-with-over-84m-farmer-ids-generated"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Outlay and scale figures read from the PIB backgrounder PDF (14 Feb 2026). Cabinet approval date 2 Sept 2024 is from memory of the PIB Cabinet release and should be checked.",
+    "related": ["central-moa-national-pest-surveillance-system-2024", "central-moa-kisan-e-mitra-chatbot-2023", "central-mof-bharat-vistaar-budget-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-moa-national-pest-surveillance-system-2024",
+    "title": "National Pest Surveillance System (NPSS)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Agriculture and Farmers Welfare",
+    "instrument_type": "other",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2024-01-01",
+    "date_precision": "year",
+    "timeline": [
+      { "date": "2024-01-01", "event": "NPSS launched (2024) using AI/ML image analytics for pest identification" },
+      { "date": "2025-12-01", "event": "In use by over 10,000 extension workers; 66 crops and 432 pests covered" }
+    ],
+    "summary": "Ministry of Agriculture AI/ML platform for early pest and disease detection that issues district-level forecasts and real-time advisories to extension staff and farmers.",
+    "key_provisions": [
+      "Supports 66 crops and over 432 pest types with image-analytics identification",
+      "Provides district-level pest forecasts, pre-emptive alerts and real-time advisories to more than 10,000 extension workers (Dec 2025)",
+      "Operational programme without separate governance or data-use rules; relies on the Digital Agriculture Mission data stack"
+    ],
+    "themes": ["public-sector-use", "datasets"],
+    "sectors": ["agriculture"],
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026214789901.pdf",
+    "source_type": "official",
+    "secondary_sources": ["https://news.agropages.com/News/NewsDetail---48923.htm"],
+    "confidence": "high",
+    "confidence_note": "Figures read directly from the PIB backgrounder of 14 Feb 2026; exact launch date within 2024 not given.",
+    "related": ["central-moa-digital-agriculture-mission-2024"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-moa-kisan-e-mitra-chatbot-2023",
+    "title": "Kisan e-Mitra AI chatbot (PM-KISAN, KCC and PMFBY queries)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Agriculture and Farmers Welfare",
+    "instrument_type": "other",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2023-01-01",
+    "date_precision": "year",
+    "timeline": [
+      { "date": "2023-01-01", "event": "Kisan e-Mitra launched (2023)" },
+      { "date": "2025-12-01", "event": "Over 93 lakh queries answered; about 8,000 queries per day in 11 languages" }
+    ],
+    "summary": "Voice-enabled AI chatbot run by the agriculture ministry answering scheme queries on PM-KISAN, Kisan Credit Card and PMFBY in 11 Indian languages.",
+    "key_provisions": [
+      "Covers PM-KISAN, Kisan Credit Card and PMFBY; 11 regional languages",
+      "93 lakh+ queries answered as of December 2025",
+      "Service deployment, no policy or data-governance text attached"
+    ],
+    "themes": ["public-sector-use"],
+    "sectors": ["agriculture", "public-services"],
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026214789901.pdf",
+    "source_type": "official",
+    "secondary_sources": ["https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227914&reg=48&lang=2"],
+    "confidence": "high",
+    "confidence_note": "Read from PIB backgrounder PDF.",
+    "related": ["central-moa-digital-agriculture-mission-2024", "central-meity-bhashini-nltm-2022"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-moa-pmfby-yes-tech-cropic-ai-insurance",
+    "title": "YES-TECH and CROPIC: AI-enabled yield estimation and crop-loss assessment under PMFBY",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Agriculture and Farmers Welfare (PMFBY)",
+    "instrument_type": "other",
+    "status": "in-force",
+    "binding": "mixed",
+    "date": "2023-01-01",
+    "date_precision": "year",
+    "timeline": [
+      { "date": "2023-01-01", "event": "YES-TECH technology-based yield estimation introduced under PMFBY (year per reports)" },
+      { "date": "2024-06-01", "event": "YES-TECH extended to soybean for Kharif 2024" },
+      { "date": "2025-01-01", "event": "Adopted by nine states as of January 2025" },
+      { "date": "2025-06-04", "event": "Expression of Interest for CROPIC AI crop-photo assessment tool" }
+    ],
+    "summary": "PMFBY operational rules that give a minimum 30% weight to remote-sensing/AI yield estimates (YES-TECH) and use an AI photo-analysis tool (CROPIC) for localised calamity claims, affecting insurer payouts.",
+    "key_provisions": [
+      "YES-TECH assigns a minimum 30 percent weightage to technology-based yield assessment in claim calculation",
+      "Adopted by nine states as of January 2025 (Madhya Pradesh fully technology-based, per PIB)",
+      "CROPIC uses AI analysis of geotagged crop photographs for transparent loss assessment during localised calamities",
+      "Binding within the PMFBY scheme operational guidelines for participating states and insurers"
+    ],
+    "themes": ["public-sector-use", "sectoral-regulation", "datasets"],
+    "sectors": ["agriculture", "finance"],
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026214789901.pdf",
+    "source_type": "official",
+    "secondary_sources": ["https://agriwelfare.gov.in/Documents/EOI/EOI_CROPIC_04062025.pdf"],
+    "confidence": "medium",
+    "confidence_note": "30% weightage, state adoption and CROPIC EOI read from PIB backgrounder; YES-TECH start year is approximate.",
+    "related": ["central-moa-digital-agriculture-mission-2024"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-mof-bharat-vistaar-budget-2026",
+    "title": "Bharat-VISTAAR multilingual AI agricultural advisory tool (Union Budget 2026-27)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Finance (Budget announcement) / Ministry of Agriculture and Farmers Welfare",
+    "instrument_type": "scheme",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2026-02-01",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-02-01", "event": "Proposed in the Union Budget 2026-27 speech" }
+    ],
+    "summary": "Budget 2026-27 proposal for a multilingual AI tool integrating AgriStack portals with ICAR's package of practices to deliver farmer advisories.",
+    "key_provisions": [
+      "Virtually Integrated System to Access Agricultural Resources (VISTAAR) to integrate AgriStack and ICAR knowledge into an AI advisory interface",
+      "Multilingual delivery; builds on Kisan e-Mitra and the Digital Agriculture Mission",
+      "No outlay or implementation timeline found in sources read"
+    ],
+    "themes": ["public-sector-use", "infrastructure"],
+    "sectors": ["agriculture"],
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026214789901.pdf",
+    "source_type": "official",
+    "secondary_sources": [],
+    "confidence": "medium",
+    "confidence_note": "Read from PIB backgrounder quoting the Budget; budget speech text not fetched.",
+    "related": ["central-moa-digital-agriculture-mission-2024", "central-moa-kisan-e-mitra-chatbot-2023"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-mole-ai-future-of-work-taskforce-2024",
+    "title": "Taskforce to study the impact of AI on the future of work (Ministry of Labour and Employment)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Labour and Employment",
+    "instrument_type": "other",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2024-07-05",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2024-07-05", "event": "Labour Secretary states that the government has constituted a taskforce on AI and the future of work (CII-EFI event, Telangana)" }
+    ],
+    "summary": "Taskforce announced by the Labour Secretary in July 2024 to study AI's impact on work; no composition, terms of reference or report were found.",
+    "key_provisions": [
+      "Announced as constituted; chair, membership and timeline not published in sources found",
+      "No output located as of November 2026; superseded in practice by the Budget 2026-27 Education to Employment and Enterprises Standing Committee"
+    ],
+    "themes": ["employment-labour", "institution-building"],
+    "sectors": ["employment"],
+    "source_url": "https://inc42.com/buzz/labour-ministry-constitutes-taskforce-to-study-impact-of-ai-on-future-of-work/",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Single news report of an oral statement; no labour.gov.in order located.",
+    "related": ["central-mof-education-employment-enterprises-standing-committee-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-mof-education-employment-enterprises-standing-committee-2026",
+    "title": "High-powered Education to Employment and Enterprises Standing Committee (Union Budget 2026-27)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Finance (Budget announcement)",
+    "instrument_type": "institution",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2026-02-01",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-02-01", "event": "Announced in the Union Budget 2026-27 speech" }
+    ],
+    "summary": "Standing committee announced in Budget 2026-27 to assess how AI and emerging technologies reshape jobs and skills and to recommend measures including AI education from school level and AI-driven job matching.",
+    "key_provisions": [
+      "Mandate to assess AI's impact on jobs and skill requirements and propose workforce interventions",
+      "To recommend embedding AI education from school level and AI-enabled matching of workers to jobs and training",
+      "Linked to a target of a 10% share of global services exports by 2047",
+      "Chair, membership, host ministry and budget not announced in sources found"
+    ],
+    "themes": ["employment-labour", "skilling", "institution-building"],
+    "sectors": ["employment", "education"],
+    "source_url": "https://aninews.in/news/business/budget-2026-govt-to-set-up-high-powered-education-to-employment-panel-to-assess-ai-impact-on-jobs20260201120507/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://openthemagazine.com/india/budget-2026-govt-to-set-up-panel-to-assess-ais-impact-on-jobs",
+      "https://www.storyboard18.com/how-it-works/budget-2026-india-sets-10-global-services-target-as-govt-highlights-ai-driven-job-shifts-88597.htm"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Three press reports of the Budget speech agree; budget speech text and any subsequent constitution order not retrieved.",
+    "related": ["central-mole-ai-future-of-work-taskforce-2024"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-code-on-social-security-2020-platform-workers",
+    "title": "Code on Social Security, 2020 – gig and platform worker provisions",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Labour and Employment",
+    "instrument_type": "act",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2020-09-28",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2020-09-28", "event": "Presidential assent to the Code on Social Security, 2020" },
+      { "date": "2025-11-21", "event": "Labour codes reported brought into force (date from memory; not re-verified this session)" }
+    ],
+    "summary": "Central labour code that defines gig and platform workers and aggregators and creates a social security fund financed partly by aggregator contributions; it contains no provisions on algorithmic management or automated decision-making.",
+    "key_provisions": [
+      "Statutory definitions of 'gig worker', 'platform worker' and 'aggregator' (Section 2)",
+      "Section 114: aggregators in notified categories contribute 1-2% of annual turnover, capped at 5% of amounts paid to gig and platform workers",
+      "Aggregators must share worker data electronically for registration and maintain payment records",
+      "No obligations on algorithmic transparency, rating systems or automated deactivation; those appear only in state laws (Rajasthan 2023, Karnataka 2025) covered by other researchers"
+    ],
+    "themes": ["employment-labour", "accountability-liability"],
+    "sectors": ["employment"],
+    "source_url": "https://prsindia.org/billtrack/the-code-on-social-security-2020",
+    "source_type": "legislature",
+    "secondary_sources": [
+      "https://www.livelaw.in/articles/gig-platform-workers-code-on-social-security2020-543928",
+      "https://www.taxmann.com/post/blog/analysis-aggregator-obligations-code-on-social-security"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Provisions confirmed via PRS and legal commentary; commencement date (Nov 2025) not verified in this session, so status recorded as 'adopted' rather than 'in-force'.",
+    "related": ["central-mof-education-employment-enterprises-standing-committee-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-morth-draft-cmvr-amendment-adas-2025",
+    "title": "Draft Central Motor Vehicles (Amendment) Rules, 2025 – mandatory ADAS for M2, M3, N2, N3 vehicles (G.S.R. 184(E))",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Road Transport and Highways (MoRTH)",
+    "instrument_type": "rules",
+    "status": "draft",
+    "binding": "non-binding",
+    "date": "2025-03-20",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-03-20", "event": "Draft notification G.S.R. 184(E) published for 30-day comment (one source gives 21 April 2025 as publication date)" },
+      { "date": "2026-04-01", "event": "Proposed effective date for new models" },
+      { "date": "2026-10-01", "event": "Proposed effective date for existing models" }
+    ],
+    "summary": "Draft CMVR amendment proposing mandatory driver-assistance systems on buses and trucks; the only central transport rule touching automated vehicle functions. India has no autonomous-vehicle law and no ADAS mandate for cars.",
+    "key_provisions": [
+      "Applies to M2/M3 buses and N2/N3 trucks (some systems also N1 and quadricycles)",
+      "Mandates AEBS (AIS-162), driver drowsiness and attention warning (AIS-184), blind spot information (AIS-186), moving-off information (AIS-187) and lane departure warning (AIS-188)",
+      "Proposed dates: new models 1 April 2026; existing models 1 October 2026",
+      "Final notification not confirmed in sources read; one trade report suggests dates were pushed to October 2027 (unverified)",
+      "No SAE automation level is mandated for passenger cars; no autonomous vehicle testing framework located"
+    ],
+    "themes": ["safety", "standards", "sectoral-regulation"],
+    "sectors": ["transport"],
+    "source_url": "https://teamleaseregtech.com/updates/article/40661/draft-central-motor-vehicles-amendment-rules-2025/",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://www.motorindiaonline.in/govt-moves-to-mandate-adas-aebs-stability-systems-for-cvs/",
+      "https://www.abdynamics.com/what-does-indias-2026-heavy-vehicle-ADAS-mandate-mean-for-testing/",
+      "https://www.cartoq.com/car-news/india-mandates-adas-heavy-commercial-vehicles-october-2027/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Draft GSR number and content confirmed by multiple secondary sources; publication date conflicts (20 March vs 21 April 2025) and final notification status could not be verified (egazette not fetched).",
+    "related": [],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "kl-kerala-hc-ai-policy-district-judiciary-2025",
+    "title": "Policy Regarding Use of Artificial Intelligence Tools in District Judiciary",
+    "jurisdiction": "KL",
+    "jurisdiction_name": "Kerala",
+    "issuing_body": "High Court of Kerala",
+    "instrument_type": "policy",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2025-07-19",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-07-19", "event": "Policy issued to the district judiciary of Kerala" }
+    ],
+    "summary": "First binding High Court policy on AI in subordinate courts: prohibits AI for findings, orders or judgments, restricts tools to approved ones, requires human verification and audit records, and attaches disciplinary consequences.",
+    "key_provisions": [
+      "Judges and staff may not use AI tools to arrive at findings, reliefs, orders or judgments; generative tools such as ChatGPT and DeepSeek named as prohibited",
+      "Only approved AI tools permitted; no uploading of case facts, personal identifiers or privileged material to cloud AI services",
+      "Human verification of all AI outputs including translations; audit records of AI use; errors reported to the Principal District Court and onward to the High Court IT department",
+      "Mandatory training on legal, ethical and technical aspects of AI; violations may attract disciplinary action",
+      "Applies on personal, court-owned or third-party devices regardless of location or time"
+    ],
+    "themes": ["public-sector-use", "ethics", "accountability-liability", "privacy"],
+    "sectors": ["judiciary"],
+    "source_url": "https://images.assettype.com/theleaflet/2025-07-22/mt4bw6n7/Kerala_HC_AI_Guidelines.pdf",
+    "source_type": "court",
+    "secondary_sources": [
+      "https://www.medianama.com/2025/07/223-kerala-hc-bars-ai-tools-chatgpt-deepseek/",
+      "https://www.indicpacific.com/india-ai-regulation-101-landscape/policy-regarding-use-of-artificial-intelligence-tools-in-district-judiciary",
+      "https://ssrana.in/articles/kerala-high-courts-new-ai-guidelines-set-national-standard-for-judicial-integrity/"
+    ],
+    "confidence": "high",
+    "confidence_note": "Title, date and clauses consistent across three sources including a hosted copy of the policy PDF; hckerala.gov.in URL not captured. Brief entry only; court case law is another researcher's scope.",
+    "related": ["central-sc-draft-regulations-ai-in-courts-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-sc-draft-regulations-ai-in-courts-2026",
+    "title": "Draft Regulations for Use of Artificial Intelligence (AI) in Courts (Supreme Court AI Committee)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Supreme Court of India (AI Committee)",
+    "instrument_type": "consultation",
+    "status": "consultation",
+    "binding": "non-binding",
+    "date": "2026-06-03",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-06-03", "event": "Draft regulations released for public comment" },
+      { "date": "2026-06-20", "event": "Comment window closes; final regulations not traced as of 19 Nov 2026" }
+    ],
+    "summary": "Draft judiciary-wide AI regulations proposing an Apex Body at the Supreme Court, AI Committees and Secretariats in each High Court, an AI Register, prohibited uses and annual transparency reports, covering courts, tribunals and statutory commissions.",
+    "key_provisions": [
+      "Apex Body: two Supreme Court judges, two High Court Chief Justices, two High Court judges, a MeitY Joint Secretary and experts in cyber security, finance and technology law",
+      "Each High Court to have an AI Committee of judges and an AI Secretariat headed by a district-judge-rank officer maintaining the AI Register and incident database",
+      "Absolute prohibitions: autonomous algorithmic decisions, risk scoring, unexplainable systems, surveillance or profiling of judges, lawyers or parties, undisclosed AI-generated evidence",
+      "Permitted with prior written approval: case management, transcription, translation, legal research, chatbots for litigants, anonymisation, fraud detection",
+      "Annual technical, legal and ethical audits; annual transparency report per High Court; lawyers to disclose AI use in pleadings"
+    ],
+    "themes": ["public-sector-use", "governance", "transparency", "accountability-liability"],
+    "sectors": ["judiciary"],
+    "source_url": "https://www.medianama.com/2026/06/223-supreme-court-ai-regulations-india/",
+    "source_type": "news",
+    "secondary_sources": ["https://www.legal500.com/intelligence/india/technology/use-of-artificial-intelligence-(ai)-in-courts"],
+    "confidence": "medium",
+    "confidence_note": "Detailed MediaNama explainer plus a law-firm note; sci.gov.in notice not retrieved. Whether comments were extended or regulations finalised is unknown.",
+    "related": ["kl-kerala-hc-ai-policy-district-judiciary-2025", "central-sc-supace-suvas-ai-tools"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-sc-supace-suvas-ai-tools",
+    "title": "SUVAS and SUPACE – Supreme Court AI translation and research tools",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Supreme Court of India (AI Committee / e-Committee)",
+    "instrument_type": "institution",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2021-04-06",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2019-11-26", "event": "SUVAS (Supreme Court Vidhik Anuvaad Software) for judgment translation launched (date from memory)" },
+      { "date": "2021-04-06", "event": "SUPACE (Supreme Court Portal for Assistance in Courts Efficiency) launched (date from memory)" }
+    ],
+    "summary": "Internal Supreme Court AI tools for translating judgments into Indian languages (SUVAS) and for extracting facts and precedents to assist judges (SUPACE); operational tools rather than regulatory instruments.",
+    "key_provisions": [
+      "SUVAS: machine translation of judgments into scheduled languages, later supplemented by Bhashini-based translation",
+      "SUPACE: AI assistant for case file analysis, expressly not used for decision-making",
+      "Governed administratively by the Supreme Court's AI Committee, which authored the 2026 draft regulations"
+    ],
+    "themes": ["public-sector-use"],
+    "sectors": ["judiciary"],
+    "source_url": "https://www.legal500.com/intelligence/india/technology/use-of-artificial-intelligence-(ai)-in-courts",
+    "source_type": "secondary",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Launch dates were not verified in this session (Wikipedia page not found; search budget exhausted). Brief entry for cross-reference only.",
+    "related": ["central-sc-draft-regulations-ai-in-courts-2026", "central-meity-bhashini-nltm-2022"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-meity-bhashini-nltm-2022",
+    "title": "Digital India Bhashini (National Language Translation Mission)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "mission",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2022-07-04",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2021-02-01", "event": "National Language Translation Mission announced in Union Budget 2021-22" },
+      { "date": "2022-07-04", "event": "Bhashini launched by the Prime Minister for three years with ₹495.51 crore outlay" }
+    ],
+    "summary": "Central mission building open AI language models and APIs for 22 scheduled languages, used as digital public infrastructure by other ministries, courts and the agriculture chatbot. Owned by MeitY; recorded here as the DPI dependency for sectoral deployments.",
+    "key_provisions": [
+      "Three-year mission (from July 2022) with an outlay of ₹495.51 crore",
+      "Provides translation, speech and OCR models through a public API and the Bhashini platform",
+      "Underpins sectoral uses including judgment translation and farmer advisories"
+    ],
+    "themes": ["models", "infrastructure", "public-sector-use"],
+    "sectors": ["public-services", "cross-sector"],
+    "source_url": "https://indiaai.gov.in/missions/national-mission-on-natural-language-translation-bhashini",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://x.com/FinMinIndia/status/1751560420044029990",
+      "https://en.wikipedia.org/wiki/Bhashini"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Launch date and outlay from a Ministry of Finance post and IndiaAI; Cabinet approval note not retrieved. MeitY instruments are otherwise excluded from this file.",
+    "related": ["central-moa-kisan-e-mitra-chatbot-2023", "central-sc-supace-suvas-ai-tools", "central-indiaai-mission-2024"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-uidai-face-authentication-sdk-sandbox-2026",
+    "title": "Aadhaar Face Authentication SDK and testing sandbox (UIDAI)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Unique Identification Authority of India (UIDAI)",
+    "instrument_type": "other",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-09-09",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2025-08-10", "event": "Face authentication crosses 200 crore cumulative transactions" },
+      { "date": "2026-09-09", "event": "Face Authentication SDK and sandbox launched at Global Fintech Fest, Mumbai" },
+      { "date": "2026-09-29", "event": "Face authentication extended as a consent-based option for ePDS ration delivery (Aadhaar Samvaad, Kolkata)" }
+    ],
+    "summary": "UIDAI's AI/ML-based face authentication made available as an embeddable SDK with in-house liveness and anti-spoofing, plus a sandbox for authentication user agencies; policy basis is the Aadhaar Act 2016 and authentication regulations.",
+    "key_provisions": [
+      "SDK embeds UIDAI's AI/ML face authentication with liveness detection into Android/iOS apps of authentication user agencies",
+      "Sandbox lets partners validate consent, capture, liveness and error handling before production",
+      "Face authentication used by telecom operators for SIM verification, banks for KYC and states for ePDS; 200 crore transactions by August 2025",
+      "Press reports a December 2025 amendment to the authentication regulations putting face on par with other modalities; the amendment text was not located"
+    ],
+    "themes": ["public-sector-use", "privacy", "infrastructure"],
+    "sectors": ["public-services"],
+    "source_url": "https://www.learnthrupractice.com/upsc-pib-item/2308398/uidai-launches-aadhaar-face-authentication-sdk-sandbox-global",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://www.policyedge.in/p/uidai-adds-face-authentication-for-ration-delivery-and-eases-aadhaar-onboarding",
+      "https://www.newsonair.gov.in/aadhaar-face-authentication-crosses-200-crore-transactions-milestone"
+    ],
+    "confidence": "medium",
+    "confidence_note": "PIB release content read via a mirror site; pib.gov.in URL not captured. The reported December 2025 regulatory amendment is unverified.",
+    "related": ["central-mha-i4c-deepfake-biometric-bypass-advisory-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-mib-advisory-ai-tv-news-2026",
+    "title": "MIB advisory to private satellite TV channels on use of AI tools in programmes (assistive capacity only)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Information and Broadcasting (MIB)",
+    "instrument_type": "advisory",
+    "status": "in-force",
+    "binding": "mixed",
+    "date": "2026-10-21",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-10-21", "event": "Advisory issued under the Cable Television Networks (Regulation) Act, 1995 framework" }
+    ],
+    "summary": "MIB advisory telling private TV channels that AI tools, including generative AI, may be used only in an assistive capacity without compromising accuracy, authenticity or sensitivity of news, alongside instructions on crime coverage and visuals; violations may attract action under the Cable TV Act.",
+    "key_provisions": [
+      "AI tools 'may be limited to assistive capacity' in programme production, graphics and virtual news presentations",
+      "Human oversight expected for editorial decisions and content verification; press reports read it as barring AI anchors from independently hosting news, though the advisory does not define 'assistive'",
+      "No labelling or watermarking obligation for AI content is specified for broadcasters",
+      "Violations may invite action under the Cable Television Networks (Regulation) Act, 1995 and Programme Code",
+      "Applies to private satellite TV channels; digital news publishers were separately advised to verify and disclose synthetic media (reported in a PIB note on deepfakes)"
+    ],
+    "themes": ["synthetic-media", "content-moderation", "sectoral-regulation"],
+    "sectors": ["media"],
+    "source_url": "https://www.medianama.com/2026/10/223-government-tv-channels-ai-assistive-capacity/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://indiantelevision.com/television/mib-tells-tv-channels-to-keep-ai-in-an-assistive-role-in-news-broadcasts/",
+      "https://www.exchange4media.com/media-tv-news/mib-warns-tv-channels-against-sensational-crime-coverage-cautions-on-ai-generated-news-159339.html",
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2295500&reg=1&lang=1"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Three press reports agree on date and wording; mib.gov.in advisory PDF not retrieved. PIB page on deepfake measures returned 403 and was not read.",
+    "related": ["central-nmc-ethical-advertising-guidelines-2026", "central-meity-it-rules-synthetic-media-amendment-2026"],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-ncpcr-child-safety-guidelines-social-media-gaming-ai-2026",
+    "title": "NCPCR child safety guidelines for social media, gaming and AI platforms (in preparation)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "National Commission for Protection of Child Rights (NCPCR)",
+    "instrument_type": "guidelines",
+    "status": "proposed",
+    "binding": "non-binding",
+    "date": "2026-11-12",
+    "date_precision": "day",
+    "timeline": [
+      { "date": "2026-10-01", "event": "NCPCR says it is building an AI tool with MeitY to detect child sexual exploitation and abuse material and will issue platform guidelines (October 2026)" },
+      { "date": "2026-11-12", "event": "Meeting with Meta, Google/YouTube, X, Snapchat, Reddit, Roblox and Discord on a 'Child Safety Implementation Matrix'" },
+      { "date": "2027-01-01", "event": "Finalisation expected in early 2027 after a public draft" }
+    ],
+    "summary": "NCPCR is drafting safety-by-design guidelines for social media, gaming and AI platforms covering age assurance, default privacy, profiling limits, automated CSAM and grooming detection and anti-addictive design; a public draft is expected before finalisation in early 2027.",
+    "key_provisions": [
+      "Ten-area Child Safety Implementation Matrix: safety-by-design defaults, age assurance, private accounts and location-sharing off by default, limits on behavioural profiling for ads, automated CSAM and grooming detection (including Indian-language and code-mixed text), anti-addictive design, spending limits",
+      "Earlier statements promised stricter norms for AI-generated content and detection of adult accounts posing as minors",
+      "NCPCR is developing an AI CSEAM detection tool with MeitY",
+      "No draft published as of 19 Nov 2026; NCPCR guidelines are recommendatory under the CPCR Act 2005 unless adopted by MeitY/MIB rules"
+    ],
+    "themes": ["children", "content-moderation", "safety", "privacy"],
+    "sectors": ["media", "cross-sector"],
+    "source_url": "https://www.medianama.com/2026/11/223-india-ncpcr-child-social-media-guidelines-2027/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.medianama.com/2026/10/223-ncpcr-ai-child-safety-tool/",
+      "https://thetechtrace.substack.com/p/edition-36-ncpcr-calls-tech-companies-for-meeting-nov-12-social-media-guidelines"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Two MediaNama reports and a newsletter agree on process and timeline; no NCPCR document exists yet.",
+    "related": ["central-mib-advisory-ai-tv-news-2026", "central-dpdp-act-2023"],
+    "last_verified": "2026-11-19"
+  }
+]

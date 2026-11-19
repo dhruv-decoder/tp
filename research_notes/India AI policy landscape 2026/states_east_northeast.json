@@ -1,0 +1,1754 @@
+[
+  {
+    "last_verified": "2026-11-19",
+    "id": "or-odisha-ai-policy-2025",
+    "title": "Odisha Artificial Intelligence Policy-2025",
+    "jurisdiction": "OR",
+    "jurisdiction_name": "Odisha",
+    "issuing_body": "Electronics & Information Technology (E&IT) Department, Government of Odisha",
+    "instrument_type": "policy",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2025-06-18",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2024-10-08",
+        "event": "Initial AI strategy presentation to Chief Secretary"
+      },
+      {
+        "date": "2024-10-19",
+        "event": "Brainstorming workshop with MeitY, industry and academia on state AI strategy"
+      },
+      {
+        "date": "2025-05-28",
+        "event": "State Cabinet (20th meeting) approves the policy; Parliamentary Affairs Dept memo 3971 dated 29.05.2025"
+      },
+      {
+        "date": "2025-06-18",
+        "event": "E&IT Department Resolution No. 3227/E&IT issued; gazette publication ordered"
+      },
+      {
+        "date": "2026-03-30",
+        "event": "Operational Guidelines for the policy issued (per IMPRI; press reported roadmap 19-20 March 2026)"
+      }
+    ],
+    "summary": "State AI policy adopted by Cabinet and issued as an E&IT Department resolution. It sets five-year and 2036 targets on compute, skilling, schooling, energy and ethics, and creates an Odisha AI Mission with an AI Taskforce and an AI Cell at OCAC.",
+    "key_provisions": [
+      "Four strategy pillars: infrastructure, skills, energy, policy; in operation for 5 years from gazette notification or until superseded",
+      "Odisha AI Mission with two layers: an AI Taskforce chaired by the Principal Secretary, E&IT, and an AI Cell under OCAC (Technical Directorate of E&IT)",
+      "Compute: state data centre of 5 MW to be doubled by 2029; use of IndiaAI Compute portal and AI Kosh datasets; Odia-language LLM development prioritised",
+      "Skilling: 8,000 people per year trained in AI by 2029 (10% of national Srijan/YuvAI target); 75% of state government officials trained by 2029 and 100% by 2036",
+      "Schooling: 35% of schools to have an AI curriculum by 2029 and 90% by 2036; seven AI innovation centres in Bhubaneswar institutions by 2036",
+      "Energy: 50% renewable share for AI infrastructure by 2029-30 and 65% by 2036; ethical-use guidelines on bias, privacy, transparency and accountability to be developed",
+      "Budget 2025-26 allocated Rs 20 crore to the Odisha AI Mission (reported by IMPRI)"
+    ],
+    "themes": [
+      "governance",
+      "skilling",
+      "compute",
+      "ethics",
+      "institution-building"
+    ],
+    "sectors": [
+      "cross-sector",
+      "education",
+      "health",
+      "agriculture",
+      "public-services"
+    ],
+    "source_url": "https://dowr.odisha.gov.in/sites/default/files/2025-07/Odisha%20AI%20Policy-2025.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.impriindia.com/insights/policy-update/odisha-artificial-intelligence-policy-2025-building-an-inclusive-and-responsible-ai-ecosystem/",
+      "https://sambadenglish.com/latest-news/cabinet-nod-to-odisha-artificial-intelligence-policy-2025-9315866",
+      "https://www.taxtmi.com/news?id=45027"
+    ],
+    "confidence": "high",
+    "confidence_note": "Official resolution PDF (scanned, OCR noisy) read; resolution number 3227/E&IT and memos dated 18.06.2025 visible; cabinet date 28.05.2025 from press and the resolution's reference to Parliamentary Affairs memo of 29.05.2025. The brief's 'Sept 2025' approval date is not supported. Rs 20 crore budget figure is from IMPRI, not the PDF.",
+    "related": [
+      "or-odisha-ai-policy-operational-guidelines-2026",
+      "or-odisha-ai-mission",
+      "or-odisha-gcc-policy-2025",
+      "or-odisha-it-policy-2025"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "or-odisha-ai-policy-operational-guidelines-2026",
+    "title": "Operational Guidelines for Odisha Artificial Intelligence Policy-2025",
+    "jurisdiction": "OR",
+    "jurisdiction_name": "Odisha",
+    "issuing_body": "Electronics & Information Technology Department, Government of Odisha / OCAC",
+    "instrument_type": "guidelines",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-03-01",
+    "date_precision": "month",
+    "timeline": [
+      {
+        "date": "2026-03-19",
+        "event": "Business Standard reports operational roadmap: AI Mission, labs across institutes"
+      },
+      {
+        "date": "2026-03-30",
+        "event": "Guidelines dated 30 March 2026 per IMPRI policy update"
+      }
+    ],
+    "summary": "Implementation guidelines for the 2025 AI policy that specify the AI Mission structure, an AI Cell at OCAC, AI labs in four institutes, a hub-and-spoke Centre of Excellence and a State Open AI Hub.",
+    "key_provisions": [
+      "Two-tier Odisha AI Mission with an AI Cell at OCAC providing funding facilitation, mentorship and incubation support",
+      "AI labs at IIT Bhubaneswar, NIT Rourkela, IIIT Bhubaneswar and NISER for research and skilling",
+      "Centre of Excellence on a hub-and-spoke model linking government, academia, industry and startups, with quarterly evaluations",
+      "State Open AI Hub as a repository for open-source tools, datasets and models; micro-grants for open-source contributors and pilot funding for innovation-challenge winners",
+      "Priority sectors: agriculture, healthcare, disaster management and public service delivery; sovereign AI hub projected to create 5,000 jobs"
+    ],
+    "themes": [
+      "governance",
+      "institution-building",
+      "datasets",
+      "startups-innovation",
+      "skilling"
+    ],
+    "sectors": [
+      "cross-sector",
+      "agriculture",
+      "health",
+      "public-services"
+    ],
+    "source_url": "https://www.communicationstoday.co.in/odisha-issues-operational-guidelines-to-roll-out-ai-policy/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.business-standard.com/industry/news/odisha-rolls-out-operational-roadmap-for-ai-policy-ai-mission-labs-126031901091_1.html",
+      "https://www.impriindia.com/insights/policy-update/odisha-artificial-intelligence-policy-2025-building-an-inclusive-and-responsible-ai-ecosystem/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Official guidelines document not located online; contents from two trade/press reports and IMPRI. Date conflict: press coverage on 19-20 March 2026 versus IMPRI's '30 March 2026' date, so month precision used.",
+    "related": [
+      "or-odisha-ai-policy-2025",
+      "or-odisha-ai-mission"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "or-odisha-ai-mission",
+    "title": "Odisha AI Mission (AI Taskforce and AI Cell at OCAC)",
+    "jurisdiction": "OR",
+    "jurisdiction_name": "Odisha",
+    "issuing_body": "Electronics & Information Technology Department / Odisha Computer Application Centre (OCAC)",
+    "instrument_type": "institution",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-06-18",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-06-18",
+        "event": "Created by Odisha AI Policy-2025 resolution"
+      },
+      {
+        "date": "2026-03-01",
+        "event": "Operational guidelines detail mission structure"
+      }
+    ],
+    "summary": "Apex state mechanism for implementing the AI policy, comprising an AI Taskforce chaired by the Principal Secretary E&IT and an AI Cell housed at OCAC.",
+    "key_provisions": [
+      "AI Taskforce: senior officials, industry, academia; chaired by Principal Secretary, E&IT; tracks AI Cell KPIs",
+      "AI Cell at OCAC: assesses compute needs, standardises datasets and uploads to AI Kosh, runs skilling partnerships, reviews AI models for safety and privacy, facilitates startup funding",
+      "Three-phase roll-out: Get Ready (1-2 months), Get It Done (9-15 months), Keep It Done",
+      "Rs 20 crore allocated in Budget 2025-26 (reported)"
+    ],
+    "themes": [
+      "institution-building",
+      "governance",
+      "public-sector-use"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://dowr.odisha.gov.in/sites/default/files/2025-07/Odisha%20AI%20Policy-2025.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.impriindia.com/insights/policy-update/odisha-artificial-intelligence-policy-2025-building-an-inclusive-and-responsible-ai-ecosystem/"
+    ],
+    "confidence": "high",
+    "confidence_note": "Structure read from the official policy PDF; budget line from IMPRI.",
+    "related": [
+      "or-odisha-ai-policy-2025",
+      "or-odisha-ai-policy-operational-guidelines-2026"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "or-odisha-gcc-policy-2025",
+    "title": "Odisha Global Capability Centre (GCC) Policy 2025",
+    "jurisdiction": "OR",
+    "jurisdiction_name": "Odisha",
+    "issuing_body": "Electronics & Information Technology Department, Government of Odisha (OCAC nodal agency)",
+    "instrument_type": "policy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-11-21",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-11-21",
+        "event": "State Cabinet approves GCC Policy 2025"
+      }
+    ],
+    "summary": "Investment-promotion policy for global capability centres, framed as complementary to the Odisha IT Policy 2025; relevant to AI through GCC/AI engineering centres but contains no AI-specific chapter in press accounts.",
+    "key_provisions": [
+      "Targets: over Rs 1,000 crore investment, at least five GCC hubs and 50,000 direct and indirect jobs",
+      "Incentives: subsidised land and lease rentals, power tariff concessions, R&D and marketing support, SGST reimbursement, PF/ESI support, relocation and co-working subsidies, customised packages for mega GCCs",
+      "Geographic focus corridors: Bhubaneswar-Cuttack-Puri-Paradip and Bargarh-Jharsuguda-Sambalpur",
+      "OCAC designated nodal agency under the E&IT Department"
+    ],
+    "themes": [
+      "startups-innovation",
+      "employment-labour",
+      "infrastructure"
+    ],
+    "sectors": [
+      "startups-industry"
+    ],
+    "source_url": "https://sambadenglish.com/latest-news/odisha-govt-approves-gcc-policy-2025-to-attract-global-investments-and-create-50000-jobs-10799601/amp",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.thestatesman.com/business/odisha-approves-global-capability-centre-policy-2025-for-employment-technological-growth-1503515530.html"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Cabinet approval reported by several outlets on 21-22 Nov 2025; official policy text and incentive percentages not located.",
+    "related": [
+      "or-odisha-it-policy-2025",
+      "or-odisha-ai-policy-2025"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "or-odisha-it-policy-2025",
+    "title": "Odisha IT Policy 2025",
+    "jurisdiction": "OR",
+    "jurisdiction_name": "Odisha",
+    "issuing_body": "Electronics & Information Technology Department, Government of Odisha",
+    "instrument_type": "policy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2025-08-26",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-02-13",
+        "event": "Press reports planned incentives to attract IT projects"
+      },
+      {
+        "date": "2025-08-26",
+        "event": "Cabinet approves new IT policy and an electronics component manufacturing policy"
+      }
+    ],
+    "summary": "Sector policy for IT/ITeS investment approved alongside an electronics component policy in August 2025; the GCC Policy 2025 is described as complementary to it. Its AI-specific content could not be verified.",
+    "key_provisions": [
+      "Cabinet approval on 26 August 2025 together with an electronics component manufacturing policy (press headlines)",
+      "Serves as the base IT incentive framework to which the GCC Policy 2025 is complementary",
+      "Specific incentive rates, validity and any AI chapter not verified"
+    ],
+    "themes": [
+      "startups-innovation",
+      "infrastructure"
+    ],
+    "sectors": [
+      "startups-industry"
+    ],
+    "source_url": "https://news.google.com/rss/search?q=Odisha+cabinet+%22IT+Policy%22+OR+%22Data+Centre+Policy%22+OR+%22ESDM%22+August+2025&hl=en-IN&gl=IN&ceid=IN:en",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://sambadenglish.com/latest-news/odisha-govt-approves-gcc-policy-2025-to-attract-global-investments-and-create-50000-jobs-10799601/amp"
+    ],
+    "confidence": "low",
+    "confidence_note": "Only headlines (New Indian Express, Deccan Chronicle, 26 Aug 2025) confirm approval; policy text not accessed. Listed because the brief names it and the GCC policy references it.",
+    "related": [
+      "or-odisha-gcc-policy-2025"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "or-odisha-data-centre-policy-2022",
+    "title": "Odisha State Data Centre Policy 2022",
+    "jurisdiction": "OR",
+    "jurisdiction_name": "Odisha",
+    "issuing_body": "Electronics & Information Technology Department, Government of Odisha",
+    "instrument_type": "policy",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2022-01-01",
+    "date_precision": "year",
+    "timeline": [
+      {
+        "date": "2022-01-01",
+        "event": "Policy notified (year only)"
+      }
+    ],
+    "summary": "Data-centre investment policy predating the AI policy; not justified by AI in available descriptions but is the instrument under which AI data-centre investments announced in 2026 would be incentivised.",
+    "key_provisions": [
+      "20% capital subsidy up to Rs 25 crore; 5% interest subsidy up to Rs 25 crore",
+      "30% power bill subsidy for 5 years; 100% reimbursement of transmission and wheeling charges",
+      "100% stamp duty exemption on first transaction; validity five years from notification"
+    ],
+    "themes": [
+      "infrastructure",
+      "compute"
+    ],
+    "sectors": [
+      "startups-industry"
+    ],
+    "source_url": "https://technodigital.in/data-center-policies-india-state-by-state-guide/",
+    "source_type": "secondary",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Secondary compilation only; official notification not accessed. Included as context for 2026 AI data-centre investment announcements (HCLTech, July 2026).",
+    "related": [
+      "or-odisha-ai-policy-2025"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "or-odisha-dhe-ai-curriculum-2026",
+    "title": "Odisha Higher Education AI course integration (apprenticeship-degree curriculum)",
+    "jurisdiction": "OR",
+    "jurisdiction_name": "Odisha",
+    "issuing_body": "Department of Higher Education, Government of Odisha",
+    "instrument_type": "curriculum",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2026-08-23",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-08-23",
+        "event": "DHE plans AI courses across universities (New Indian Express)"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "AI curriculum to replace Good Citizenship course for apprenticeship-degree students (EdexLive)"
+      }
+    ],
+    "summary": "Higher Education Department moves to introduce AI courses in state universities and to replace an existing course with an AI module for apprenticeship-embedded degree students, operationalising the AI policy's education targets.",
+    "key_provisions": [
+      "AI courses to be introduced across state universities (Aug 2026 report)",
+      "AI curriculum replaces the Good Citizenship course for apprenticeship-degree students (Oct 2026 report)",
+      "Sits under the AI Policy target of 35% schools with AI curriculum by 2029 and 90% by 2036"
+    ],
+    "themes": [
+      "skilling",
+      "children"
+    ],
+    "sectors": [
+      "education"
+    ],
+    "source_url": "https://news.google.com/rss/search?q=Odisha+%22AI%22+schools+curriculum+OR+%22AI+lab%22+OR+deepfake+government+2026&hl=en-IN&gl=IN&ceid=IN:en",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Headlines only (NIE 23 Aug 2026; EdexLive 30 Oct 2026); no government order located.",
+    "related": [
+      "or-odisha-ai-policy-2025"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "wb-west-bengal-industrial-policy-2026",
+    "title": "West Bengal Industrial Policy (2026)",
+    "jurisdiction": "WB",
+    "jurisdiction_name": "West Bengal",
+    "issuing_body": "Department of Industry, Commerce & Enterprises, Government of West Bengal",
+    "instrument_type": "policy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-10-29",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-10-01",
+        "event": "Group of Ministers chaired by Industry Minister Tapas Roy approves draft"
+      },
+      {
+        "date": "2026-10-29",
+        "event": "Cabinet approves new industrial policy (BusinessLine headline)"
+      },
+      {
+        "date": "2026-11-18",
+        "event": "Industry minister says policy will drive industrial momentum (ET Government)"
+      }
+    ],
+    "summary": "New state industrial policy of the BJP government elected in May 2026, naming artificial intelligence, semiconductors and data centres as emerging focus sectors alongside MSMEs.",
+    "key_provisions": [
+      "AI, semiconductors and data centres identified as emerging priority sectors",
+      "Special incentives for companies registered in West Bengal; restoration of previously withdrawn incentive dues estimated at over Rs 10,000 crore, MSMEs prioritised",
+      "Policy operative only after Cabinet approval, reported on 29 October 2026"
+    ],
+    "themes": [
+      "startups-innovation",
+      "infrastructure",
+      "compute"
+    ],
+    "sectors": [
+      "startups-industry"
+    ],
+    "source_url": "https://knnindia.co.in/news/newsdetails/msme/west-bengal-gom-approves-draft-industrial-policy-msmes-and-ai-among-key-focus-areas",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://indianmasterminds.com/news/west-bengal-industrial-policy-msme-ai-238927/",
+      "https://news.google.com/rss/search?q=%22West+Bengal%22+%22industrial+policy%22+cabinet+approves+OR+approved+OR+unveiled+2026&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "low",
+    "confidence_note": "GoM approval verified from KNN India; Cabinet approval on 29 Oct 2026 seen only as a BusinessLine headline via Google News; policy text and official name not accessed.",
+    "related": [
+      "wb-west-bengal-ai-impact-mission-2026"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "wb-west-bengal-ai-impact-mission-2026",
+    "title": "West Bengal 'AI Impact Mission' and GCC policy (Budget 2026-27 announcement)",
+    "jurisdiction": "WB",
+    "jurisdiction_name": "West Bengal",
+    "issuing_body": "Finance Department / Department of Information Technology & Electronics, Government of West Bengal",
+    "instrument_type": "mission",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2026-06-22",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-05-04",
+        "event": "BJP wins assembly election; Suvendu Adhikari becomes Chief Minister"
+      },
+      {
+        "date": "2026-06-22",
+        "event": "Budget 2026-27: FM Swapan Dasgupta outlines an 'AI impact mission', GCC policy and Rs 5,000 crore investment-promotion framework"
+      },
+      {
+        "date": "2026-06-26",
+        "event": "FM says AI mission, GCC, startup and investment policies to be unveiled before Durga Puja"
+      }
+    ],
+    "summary": "Budget announcement by the new government of an AI mission, a GCC policy and an AI data centre, with policy documents promised within three months; no AI mission or GCC policy document had been published by 19 November 2026.",
+    "key_provisions": [
+      "'AI impact mission' announced in the 22 June 2026 budget speech (Moneycontrol headline)",
+      "GCC policy and Rs 5,000 crore investment promotion and incentive framework announced (Times of India, 3 July 2026)",
+      "Startup policy, women-entrepreneur policy and investment promotion framework promised before Durga Puja 2026",
+      "As of 19 Nov 2026 the IT&E department site lists only the IT Policy 2018, Data Centre Policy 2021 and Cable Landing Station Policy 2023"
+    ],
+    "themes": [
+      "governance",
+      "startups-innovation",
+      "institution-building"
+    ],
+    "sectors": [
+      "cross-sector",
+      "startups-industry"
+    ],
+    "source_url": "https://www.dailypioneer.com/news/slug-lite/west-bengal-govt-to-unveil-new-policies-before-durga-puja-says-finance-minister?year=2026",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://itewb.gov.in/",
+      "https://en.wikipedia.org/wiki/2026_West_Bengal_Legislative_Assembly_election",
+      "https://news.google.com/rss/search?q=%22West+Bengal%22+%22AI+mission%22+OR+%22GCC+policy%22+OR+%22startup+policy%22+2026+Dasgupta+OR+Adhikari&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "low",
+    "confidence_note": "Budget speech text not accessed; details from Daily Pioneer and headlines (Moneycontrol, TOI, Telegraph). No mission document or allocation figure for the AI mission verified.",
+    "related": [
+      "wb-west-bengal-industrial-policy-2026",
+      "wb-west-bengal-state-ai-data-centre-siliguri"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "wb-west-bengal-state-ai-data-centre-siliguri",
+    "title": "State AI Data Centre at Siliguri (GPU access programme)",
+    "jurisdiction": "WB",
+    "jurisdiction_name": "West Bengal",
+    "issuing_body": "Department of Information Technology & Electronics, Government of West Bengal",
+    "instrument_type": "institution",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2026-01-01",
+    "date_precision": "year",
+    "timeline": [
+      {
+        "date": "2026-11-19",
+        "event": "GPU-access application portal live (llmproject.wb.gov.in)"
+      }
+    ],
+    "summary": "State-owned GPU facility at Siliguri that allocates compute to government departments, start-ups/corporates and researchers through an application portal.",
+    "key_provisions": [
+      "Free GPU allocation for state government departments",
+      "Subsidised access for private entities, corporates and start-ups; charges apply for students and researchers",
+      "Supports ML, computer vision, NLP, generative AI and HPC workloads; application requires a technical proposal and evaluation"
+    ],
+    "themes": [
+      "compute",
+      "infrastructure",
+      "public-sector-use"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://llmproject.wb.gov.in",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://itewb.gov.in/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Official portal read; launch date, capacity and governing scheme document not published on the portal.",
+    "related": [
+      "wb-west-bengal-ai-impact-mission-2026"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "wb-west-bengal-school-ai-attendance-pilot-2026",
+    "title": "Facial-recognition AI attendance app pilot in government schools",
+    "jurisdiction": "WB",
+    "jurisdiction_name": "West Bengal",
+    "issuing_body": "School Education Department, Government of West Bengal",
+    "instrument_type": "other",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2026-11-10",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-11-10",
+        "event": "Department announces pilot in 100 schools after Puja vacation"
+      },
+      {
+        "date": "2027-01-01",
+        "event": "Statewide rollout targeted (subject to pilot)"
+      }
+    ],
+    "summary": "Public-sector AI deployment: a facial-recognition attendance app to be piloted in 100 government and aided schools with statewide rollout targeted for January 2027.",
+    "key_provisions": [
+      "Pilot in 100 government and government-aided schools",
+      "Teachers photograph classrooms; app matches faces to a student database to generate attendance",
+      "Statewide rollout targeted from January 2027",
+      "No published data-protection protocol; processing of minors' data engages DPDP Rules 2025 consent requirements"
+    ],
+    "themes": [
+      "public-sector-use",
+      "children",
+      "privacy",
+      "data-protection"
+    ],
+    "sectors": [
+      "education"
+    ],
+    "source_url": "https://digitallearning.eletsonline.com/2026/11/west-bengal-ai-attendance-app/",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Single trade-press source; no government order located.",
+    "related": []
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "wb-west-bengal-data-centre-policy-2021",
+    "title": "West Bengal Data Centre Policy 2021",
+    "jurisdiction": "WB",
+    "jurisdiction_name": "West Bengal",
+    "issuing_body": "Department of Information Technology & Electronics, Government of West Bengal",
+    "instrument_type": "policy",
+    "status": "lapsed",
+    "binding": "non-binding",
+    "date": "2021-09-06",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2021-09-06",
+        "event": "Policy notified"
+      },
+      {
+        "date": "2026-09-06",
+        "event": "Five-year validity expires; replacement under preparation"
+      }
+    ],
+    "summary": "Five-year data-centre policy that expired in September 2026; the new government has signalled data centres as a focus sector in its 2026 industrial policy but had not notified a successor by 19 November 2026.",
+    "key_provisions": [
+      "Essential-services status for data centres",
+      "100% stamp duty exemption; electricity duty waiver for five years",
+      "Validity five years from September 2021"
+    ],
+    "themes": [
+      "infrastructure",
+      "compute"
+    ],
+    "sectors": [
+      "startups-industry"
+    ],
+    "source_url": "https://itewb.gov.in/",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://technodigital.in/data-center-policies-india-state-by-state-guide/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Gazette notification listed on the IT&E site; incentive summary and expiry from a secondary guide.",
+    "related": [
+      "wb-west-bengal-industrial-policy-2026"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "br-bihar-ai-policy-2026",
+    "title": "Bihar Artificial Intelligence Policy 2026",
+    "jurisdiction": "BR",
+    "jurisdiction_name": "Bihar",
+    "issuing_body": "Department of Information Technology, Government of Bihar",
+    "instrument_type": "policy",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-10-28",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-02-17",
+        "event": "State signs Rs 468 crore technology MoUs at India AI Impact Summit; research park and AI centre planned"
+      },
+      {
+        "date": "2026-05-25",
+        "event": "Government announces it will bring a dedicated AI policy"
+      },
+      {
+        "date": "2026-06-24",
+        "event": "Non-financial MoUs with Google, Microsoft, CoRover (BharatGPT) and Sarvam AI for capacity building"
+      },
+      {
+        "date": "2026-10-22",
+        "event": "CM Samrat Choudhary announces target of AI training for 5 lakh youth in five years"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Cabinet approves Bihar AI Policy 2026; briefed by ACS Arvind Chaudhary"
+      }
+    ],
+    "summary": "Cabinet-approved state AI policy offering fiscal incentives to AI companies, GCCs and startups and setting a five-year AI skilling target; detailed rates are left to operational guidelines.",
+    "key_provisions": [
+      "Incentive heads: capital investment subsidy, interest subvention, cloud-usage incentive, lease rental and power tariff subsidies, ESI/EPF employment support, SGST and certification reimbursement, export and AI-model-development incentives, tailor-made packages for large units",
+      "Target of training five lakh young people in AI over five years; an annual state AI conference for five years",
+      "Priority sectors: agriculture, healthcare, education, manufacturing, urban services; land reforms and disaster management flagged",
+      "Advanced IT/AI research centre and deeptech startup lab at IIT Patna; MoUs with Google, Microsoft, CoRover and Sarvam AI",
+      "Incentive rates, eligibility thresholds and financial caps deferred to later notification"
+    ],
+    "themes": [
+      "startups-innovation",
+      "skilling",
+      "public-sector-use",
+      "governance"
+    ],
+    "sectors": [
+      "cross-sector",
+      "agriculture",
+      "health",
+      "education",
+      "startups-industry"
+    ],
+    "source_url": "https://www.uniindia.com/east-india/cabinet-bihar-ai-policy/228832",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://cio.eletsonline.com/artificial-intelligence/bihar-cabinet-approves-ai-policy-2026-incentives-ai-companies-gccs-startups-ai-governance/76513/",
+      "https://patnapress.com/bihar-cabinet-approves-artificial-intelligence-policy-2026/",
+      "https://www.thehansindia.com/news/national/bihar-govt-sets-target-of-ai-training-for-5-lakh-students-in-five-years-1134687",
+      "https://www.zeebiz.com/india/news-bihar-ai-policy-2026-5-lakh-students-to-get-ai-training-over-5-years-404388"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Cabinet approval confirmed by UNI, Elets and Patna Press (28 Oct 2026; one outlet dated 29 Oct). Policy text and outlay not published; the state IT portal could not be reached (TLS error).",
+    "related": [
+      "br-bihar-it-policy-2024"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "br-bihar-it-policy-2024",
+    "title": "Bihar Information Technology Policy 2024",
+    "jurisdiction": "BR",
+    "jurisdiction_name": "Bihar",
+    "issuing_body": "Department of Information Technology, Government of Bihar",
+    "instrument_type": "policy",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2024-01-01",
+    "date_precision": "year",
+    "timeline": [
+      {
+        "date": "2024-01-01",
+        "event": "Policy in force (year only; launched about 11 months before Dec 2024)"
+      },
+      {
+        "date": "2024-12-20",
+        "event": "Airtel, Holoware and others commit investments under the policy; Rs 4,000 crore proposals reported"
+      }
+    ],
+    "summary": "Five-year IT investment policy that lists data centres as a focus sector and was the operative instrument before the 2026 AI policy; it contains no explicit AI chapter in available descriptions.",
+    "key_provisions": [
+      "30% capital subsidy up to Rs 30 crore, or interest subvention up to Rs 40 crore",
+      "50% lease rental subsidy for five years",
+      "Data centres listed as a focus sector; AI not explicitly addressed",
+      "Over Rs 4,000 crore of investment proposals reported by Dec 2024"
+    ],
+    "themes": [
+      "startups-innovation",
+      "infrastructure"
+    ],
+    "sectors": [
+      "startups-industry"
+    ],
+    "source_url": "https://cio.eletsonline.com/news/airtel-and-holoware-commit-to-investments-in-bihar-under-it-policy-2024/73665/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://technodigital.in/data-center-policies-india-state-by-state-guide/"
+    ],
+    "confidence": "low",
+    "confidence_note": "Official text not accessed (state portal unreachable); incentive figures from two secondary sources that broadly agree.",
+    "related": [
+      "br-bihar-ai-policy-2026"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "jh-jharkhand-ai-policy-2026-draft",
+    "title": "Jharkhand Artificial Intelligence Policy, 2026 (Draft)",
+    "jurisdiction": "JH",
+    "jurisdiction_name": "Jharkhand",
+    "issuing_body": "Department of Information Technology & e-Governance, Government of Jharkhand",
+    "instrument_type": "consultation",
+    "status": "draft",
+    "binding": "non-binding",
+    "date": "2026-07-08",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-07-04",
+        "event": "Government announces draft AI policy to be unveiled in Delhi"
+      },
+      {
+        "date": "2026-07-08",
+        "event": "Draft released at two-day National Stakeholders' Consultation 2026, New Delhi; posted on jharkhand.gov.in"
+      },
+      {
+        "date": "2026-07-10",
+        "event": "MoUs worth about Rs 87,000 crore reported at the consultation"
+      }
+    ],
+    "summary": "Draft five-year state AI policy (2026-31) released for stakeholder consultation. It proposes a State AI Mission, a Jharkhand AI Cloud, a responsible-AI framework and an AI investment incentive package with a Rs 1,150 crore outlay.",
+    "key_provisions": [
+      "Proposed outlay Rs 1,150 crore over five years for AI infrastructure, Centres of Excellence, skilling and innovation support; three-phase roadmap",
+      "State AI Mission under the IT & e-Governance Department with a Governing Council (chair: Chief Minister or notified authority), Executive Committee and Mission Directorate; JAP-IT as nodal implementation agency",
+      "Jharkhand AI Cloud hosted at or integrated with the State Data Centre, interoperable with IndiaAI compute; Unified Digital Data Platform as the core data layer",
+      "Fiscal incentives: capital subsidy of 30-50% of fixed capital investment; up to 100% stamp duty exemption; power tariff reimbursement of Rs 2-3 per unit for up to 5 years; rental subsidy for 3-5 years; R&D grants",
+      "Anchor-investor strategy for 3-5 global AI firms; AI Parks/Innovation Zones starting with Ranchi; AI Investment Facilitation Cell with 30-day approval timelines",
+      "Responsible AI aligned to NITI Aayog framework; data use must be lawful, necessary and proportionate; cybersecurity via Jhar-CERT; AI assists, not replaces, clinical judgment",
+      "Vision 2050 targets cited at release: Rs 10,000 crore investment, 50+ GCCs, 1,000+ AI startups, 1 lakh+ AI jobs"
+    ],
+    "themes": [
+      "governance",
+      "compute",
+      "datasets",
+      "ethics",
+      "startups-innovation"
+    ],
+    "sectors": [
+      "cross-sector",
+      "agriculture",
+      "health",
+      "education",
+      "public-services"
+    ],
+    "source_url": "https://jharkhand.gov.in/PDepartment/ViewDoc?id=D016DO002SD00205072026052600249",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.medianama.com/2026/07/223-11-key-takeaways-jharkhand-draft-ai-policy/",
+      "https://newsonair.gov.in/jharkhand-govt-presents-roadmap-to-become-indias-leading-ai-driven-governance-hub/"
+    ],
+    "confidence": "high",
+    "confidence_note": "Official draft PDF read in full. No consultation deadline is stated in the draft or press; no evidence of cabinet approval or notification as of 19 Nov 2026.",
+    "related": [
+      "jh-jharkhand-it-data-centre-bpo-policy-2023"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "jh-jharkhand-it-data-centre-bpo-policy-2023",
+    "title": "Jharkhand IT, Data Centre and BPO Investment Promotion Policy 2023",
+    "jurisdiction": "JH",
+    "jurisdiction_name": "Jharkhand",
+    "issuing_body": "Department of Information Technology & e-Governance, Government of Jharkhand",
+    "instrument_type": "policy",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2023-01-01",
+    "date_precision": "year",
+    "timeline": [
+      {
+        "date": "2023-01-01",
+        "event": "Policy notified (year only)"
+      }
+    ],
+    "summary": "Five-year IT and data-centre incentive policy that the 2026 draft AI policy cites as part of the state's digital framework; it does not contain AI provisions.",
+    "key_provisions": [
+      "Data centre parks (25 MW+): 50% interest subsidy up to Rs 50 crore, 25% land subsidy, dual-grid power support",
+      "Data centre units: 25% capital subsidy up to Rs 10 crore, electricity duty and power tariff reimbursement",
+      "Cited in the draft AI Policy 2026 references as the existing IT investment instrument"
+    ],
+    "themes": [
+      "infrastructure",
+      "compute"
+    ],
+    "sectors": [
+      "startups-industry"
+    ],
+    "source_url": "https://technodigital.in/data-center-policies-india-state-by-state-guide/",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://jharkhand.gov.in/PDepartment/ViewDoc?id=D016DO002SD00205072026052600249"
+    ],
+    "confidence": "low",
+    "confidence_note": "Official text not accessed; existence confirmed by the draft AI policy's bibliography, incentives from a secondary guide.",
+    "related": [
+      "jh-jharkhand-ai-policy-2026-draft"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "as-assam-state-data-policy-2026",
+    "title": "Assam State Data Policy (ASDP) 2026",
+    "jurisdiction": "AS",
+    "jurisdiction_name": "Assam",
+    "issuing_body": "Department of Information Technology, Electronics & Communication, Government of Assam (Centre for Data Management nodal)",
+    "instrument_type": "policy",
+    "status": "adopted",
+    "binding": "mixed",
+    "date": "2026-05-20",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-03-24",
+        "event": "Chief Secretary says ASDP 2026 nearing finalisation, aligned to DPDP Act 2023"
+      },
+      {
+        "date": "2026-05-20",
+        "event": "Cabinet approves notification and implementation of ASDP 2026, superseding ASDP 2022"
+      }
+    ],
+    "summary": "Cabinet-approved state data policy that replaces the 2022 policy, creates a Centre for Data Management as nodal agency and mandates inter-departmental data sharing to build a unified repository for analytics and AI.",
+    "key_provisions": [
+      "Supersedes the Assam State Data Policy 2022",
+      "Centre for Data Management (CDM) as nodal agency to implement a unified, state-wide data repository for analytics and AI",
+      "Mandatory systematic data sharing across all government departments; priority datasets accessible to departments and citizens",
+      "State data catalogue to be operationalised within three years",
+      "Aligned with the Digital Personal Data Protection Act 2023; data treated as a sovereign resource"
+    ],
+    "themes": [
+      "datasets",
+      "data-protection",
+      "governance",
+      "public-sector-use"
+    ],
+    "sectors": [
+      "cross-sector",
+      "public-services"
+    ],
+    "source_url": "https://assamtribune.com/assam/assam-cabinet-clears-state-data-policy-2026-ahead-of-assembly-session-1611853",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.sentinelassam.com/topheadlines/assam-cabinet-approves-new-state-data-policy-2026-sets-up-centre-for-data-management-for-unified-ai-ready-database",
+      "https://egov.eletsonline.com/2026/03/ai-first-assam-reimagining-governance-for-a-digital-decade/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Two regional dailies agree on content; cabinet date reported as Wednesday 20 May 2026 (one summary gave 21 May). Notified text not located; the state IT portal domain did not resolve.",
+    "related": [
+      "as-assam-ai-it-policy-2025-proposed",
+      "as-assam-steering-committee-ai-adoption"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "as-assam-ai-it-policy-2025-proposed",
+    "title": "Assam AI-IT Policy 2025 (proposed)",
+    "jurisdiction": "AS",
+    "jurisdiction_name": "Assam",
+    "issuing_body": "Department of Information Technology, Government of Assam",
+    "instrument_type": "policy",
+    "status": "proposed",
+    "binding": "non-binding",
+    "date": "2025-06-09",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-06-09",
+        "event": "Principal Secretary IT says the AI-IT Policy 2025 is being finalised"
+      },
+      {
+        "date": "2026-11-19",
+        "event": "No cabinet approval or notification found"
+      }
+    ],
+    "summary": "Proposed combined AI and IT policy announced in 2025 as being finalised; no approval or notification could be found through November 2026. Assam therefore has no dedicated AI policy; its closest instruments are the State Data Policy 2026 and the Steering Committee on AI Adoption.",
+    "key_provisions": [
+      "Stated pillars: AI-driven government services, workforce development, AI/IT business ecosystem",
+      "Proposed incentives: cloud computing and connectivity subsidies for startups, tax benefits, infrastructure assistance, state AI learning portal",
+      "Status unchanged in public record since mid-2025"
+    ],
+    "themes": [
+      "governance",
+      "startups-innovation",
+      "skilling"
+    ],
+    "sectors": [
+      "cross-sector",
+      "startups-industry"
+    ],
+    "source_url": "https://egov.eletsonline.com/2025/06/ai-powered-assam-transforming-governance-workforce-and-business-ecosystem-2/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://the420.in/assam-google-ai-governance-mou-2025-centre-of-excellence/"
+    ],
+    "confidence": "low",
+    "confidence_note": "Only an interview with the Principal Secretary (June 2025) and MoU coverage; no official draft or approval found.",
+    "related": [
+      "as-assam-state-data-policy-2026"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "as-assam-steering-committee-ai-adoption",
+    "title": "Assam Steering Committee on AI Adoption",
+    "jurisdiction": "AS",
+    "jurisdiction_name": "Assam",
+    "issuing_body": "Government of Assam (Chief Secretary-level)",
+    "instrument_type": "institution",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-05-20",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-05-20",
+        "event": "Committee's identification of 343 AI project ideas reported alongside ASDP 2026 approval"
+      }
+    ],
+    "summary": "Government steering committee that has catalogued AI use-cases across departments to drive adoption, operating alongside the 2026 data policy.",
+    "key_provisions": [
+      "343 AI project ideas identified across 11 thematic clusters and more than 50 departments",
+      "Focus on citizen services and grievance systems",
+      "Assam positioned as a 'testing bed' for IndiaAI Mission outcomes (Agentic AI, Sewa Setu 2.0, eOffice expansion)"
+    ],
+    "themes": [
+      "public-sector-use",
+      "governance",
+      "institution-building"
+    ],
+    "sectors": [
+      "public-services"
+    ],
+    "source_url": "https://assamtribune.com/assam/assam-cabinet-clears-state-data-policy-2026-ahead-of-assembly-session-1611853",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://egov.eletsonline.com/2026/03/ai-first-assam-reimagining-governance-for-a-digital-decade/"
+    ],
+    "confidence": "low",
+    "confidence_note": "Single news mention of the committee and its numbers; constitution order not located.",
+    "related": [
+      "as-assam-state-data-policy-2026"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "ar-arunachal-ai-centre-of-excellence-nit-2026",
+    "title": "Arunachal Pradesh AI Centre of Excellence at NIT Arunachal Pradesh (SCITeG-NIT MoU)",
+    "jurisdiction": "AR",
+    "jurisdiction_name": "Arunachal Pradesh",
+    "issuing_body": "State Council for IT and e-Governance (SCITeG), Department of IT & Communication, Government of Arunachal Pradesh",
+    "instrument_type": "institution",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-06-08",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-06-08",
+        "event": "MoU signed between SCITeG and NIT Arunachal Pradesh"
+      }
+    ],
+    "summary": "State-backed AI Centre of Excellence to be hosted at NIT Arunachal Pradesh with financial and technical support from the IndiaAI Mission; Arunachal has no dedicated AI policy.",
+    "key_provisions": [
+      "Signed by NIT Director Prof. M.V. Aware and SCITeG Director-cum-Member Secretary Neelam Yapin Tana",
+      "Hub for research, skilling, innovation and startup support in AI for government, academia and industry",
+      "Funding and technical support from the IndiaAI Mission (MeitY)",
+      "Framed under the 'Digital Arunachal' vision; no state AI policy referenced"
+    ],
+    "themes": [
+      "institution-building",
+      "research-funding",
+      "skilling"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://arunachal24.in/arunachal-pradesh-signs-mou-with-nit-for-ai-centre-of-excellence/",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Single regional outlet; official SCITeG/IT department notice not located.",
+    "related": [
+      "ar-arunachal-ai-ml-skilling-programme-2026"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "ar-arunachal-ai-ml-skilling-programme-2026",
+    "title": "Arunachal Pradesh AI and Machine Learning Skilling Programme",
+    "jurisdiction": "AR",
+    "jurisdiction_name": "Arunachal Pradesh",
+    "issuing_body": "Department of Information Technology & Communication, Government of Arunachal Pradesh",
+    "instrument_type": "scheme",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2025-12-09",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-12-09",
+        "event": "Programme announced; MoU with Ranchovation Labs (IIT Delhi Technology Innovation Hub)"
+      },
+      {
+        "date": "2026-01-12",
+        "event": "First cohort begins in Itanagar"
+      },
+      {
+        "date": "2026-09-01",
+        "event": "First AI boot camp and hackathon at IIT Guwahati (month approx.)"
+      }
+    ],
+    "summary": "Fully state-funded AI/ML skilling programme for college students and recent graduates, delivered with an IIT Delhi-backed partner, plus an AI Explorer bootcamp for school students in classes 6-12.",
+    "key_provisions": [
+      "Free 5-6 week course (2 hours daily) in Itanagar covering AI/ML fundamentals, Python, data analysis and projects",
+      "Five-day AI Explorer Bootcamp for school students of classes 6-12",
+      "Fully funded by the state government; registration deadline 4 January 2026 for first cohort"
+    ],
+    "themes": [
+      "skilling",
+      "children"
+    ],
+    "sectors": [
+      "education"
+    ],
+    "source_url": "https://www.freepressjournal.in/education/arunachal-pradesh-introduces-ai-skill-programme-to-boost-youth-employability",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.sentinelassam.com/breakingnews/arunachal-pradesh-govt-launches-ai-and-machine-learning-skilling-programme"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Two outlets agree; no government order located.",
+    "related": [
+      "ar-arunachal-ai-centre-of-excellence-nit-2026"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "ar-arunachal-genai-monthly-development-reports-2025",
+    "title": "Generative-AI analysis of Monthly Development Reports (AI in governance)",
+    "jurisdiction": "AR",
+    "jurisdiction_name": "Arunachal Pradesh",
+    "issuing_body": "Chief Minister's Office / Planning, Government of Arunachal Pradesh",
+    "instrument_type": "other",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2025-02-26",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-02-26",
+        "event": "State reports integration of a generative-AI system to analyse 67 departments' Monthly Development Reports"
+      }
+    ],
+    "summary": "Public-sector AI use case in which a generative AI system analyses monthly development reports from 67 departments to flag delays and trends for the Chief Minister; the closest thing to an AI-in-governance instrument in the state.",
+    "key_provisions": [
+      "Covers Monthly Development Reports of 67 departments",
+      "System identifies trends, flags delays and highlights progress for decision-making",
+      "No government order, procurement details or safeguards published"
+    ],
+    "themes": [
+      "public-sector-use",
+      "governance"
+    ],
+    "sectors": [
+      "public-services"
+    ],
+    "source_url": "https://arunachal24.in/arunachal-pradesh-becomes-first-state-in-ne-to-integrate-ai-into-governance/",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Single regional source; no official document.",
+    "related": []
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "mn-manipur-ai-centre-of-excellence",
+    "title": "Manipur AI Centre of Excellence (Department of IT)",
+    "jurisdiction": "MN",
+    "jurisdiction_name": "Manipur",
+    "issuing_body": "Department of Information Technology, Government of Manipur",
+    "instrument_type": "institution",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-09-25",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-09-25",
+        "event": "DIT lists AI CoE targets among its initiatives"
+      }
+    ],
+    "summary": "State AI Centre of Excellence with startup and prototype targets, reported by the Department of IT alongside the World Bank-funded MIND project; Manipur has no dedicated AI policy.",
+    "key_provisions": [
+      "Targets: support 24 AI start-ups, develop 30 AI prototypes or products, create 500 jobs",
+      "Delivered with MSITS, CCML, IIIT Society Manipur and HCLTech partners",
+      "Part of a DIT portfolio that includes an AI-enabled Tier-III State Data Centre under the MIND project"
+    ],
+    "themes": [
+      "institution-building",
+      "startups-innovation",
+      "skilling"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://www.imphaltimes.com/news/digital-push-manipur-rolls-out-ai-e-governance-and-cybersecurity-initiatives/",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Single news report of a DIT briefing; sanction order, funding and location not located.",
+    "related": [
+      "mn-manipur-mind-project-ai-data-centre",
+      "mn-manipur-bhashini-mou-2026"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "mn-manipur-mind-project-ai-data-centre",
+    "title": "Manipur Infotech eNabled Development (MIND) Project: AI-enabled Tier-III State Data Centre and cyber security units",
+    "jurisdiction": "MN",
+    "jurisdiction_name": "Manipur",
+    "issuing_body": "Department of Information Technology, Government of Manipur (World Bank-supported)",
+    "instrument_type": "scheme",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-03-15",
+    "date_precision": "month",
+    "timeline": [
+      {
+        "date": "2026-03-15",
+        "event": "Press describes MIND project components including AI-enabled Tier-III SDC"
+      },
+      {
+        "date": "2026-09-25",
+        "event": "DIT reiterates components"
+      }
+    ],
+    "summary": "World Bank-supported state IT programme whose components include an AI-enabled Tier-III State Data Centre, a Cyber Security Operations Centre, a state CIRT and a cyber security lab.",
+    "key_provisions": [
+      "AI-enabled Tier-III State Data Centre",
+      "Proposed Manipur Cyber Security Operations Centre and Manipur Computer Incident Response Team",
+      "Cyber Security Lab; IT Building-II (Rs 120 crore, PM-DevINE) under construction"
+    ],
+    "themes": [
+      "infrastructure",
+      "cybersecurity",
+      "compute"
+    ],
+    "sectors": [
+      "public-services"
+    ],
+    "source_url": "https://www.imphaltimes.com/news/digital-push-manipur-rolls-out-ai-e-governance-and-cybersecurity-initiatives/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.thesangaiexpress.com/Encyc/2026/3/15/dr-moirangthem-indrakumar-singh-over-the-last-two-years-manipur-has-begun-to-quietly-re-engineer-parts-of-its-.html"
+    ],
+    "confidence": "low",
+    "confidence_note": "Two regional outlets; project appraisal document and budget not accessed.",
+    "related": [
+      "mn-manipur-ai-centre-of-excellence"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "mn-manipur-bhashini-mou-2026",
+    "title": "MoU between Digital India BHASHINI Division and Government of Manipur on multilingual AI",
+    "jurisdiction": "MN",
+    "jurisdiction_name": "Manipur",
+    "issuing_body": "Department of Information Technology, Government of Manipur, with Digital India BHASHINI Division (MeitY)",
+    "instrument_type": "other",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-10-14",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-10-14",
+        "event": "MoU signed at BHASHINI Rajyam Workshop, Imphal, in the presence of CM Y. Khemchand Singh"
+      },
+      {
+        "date": "2026-10-15",
+        "event": "PIB release"
+      }
+    ],
+    "summary": "Government-to-government MoU to deploy BHASHINI multilingual AI for Manipuri-language digital services.",
+    "key_provisions": [
+      "Real-time English-to-Manipuri translation demonstrated for public services",
+      "Framework for integrating BHASHINI language AI into state portals and citizen services",
+      "Part of a 2026 push that also includes a Microsoft skilling partnership announced 5 Aug 2026 with a stated 'privacy-first' approach"
+    ],
+    "themes": [
+      "public-sector-use",
+      "models"
+    ],
+    "sectors": [
+      "public-services"
+    ],
+    "source_url": "https://apacnewsnetwork.com/2026/10/manipur-govt-signs-mou-with-bhashini-to-boost-multilingual-ai-and-digital-services/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://assamtribune.com/north-east/manipur-vows-privacy-first-approach-to-digital-governance-ai-adoption-1615230"
+    ],
+    "confidence": "medium",
+    "confidence_note": "PIB release exists (15 Oct 2026) but PIB pages returned 403; content from APAC News Network.",
+    "related": [
+      "mn-manipur-ai-centre-of-excellence"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "ml-meghalaya-it-policy-2-draft",
+    "title": "Meghalaya IT & ITeS Policy 2.0 (under drafting; AI and GCC focus)",
+    "jurisdiction": "ML",
+    "jurisdiction_name": "Meghalaya",
+    "issuing_body": "Information Technology & Communication Department, Government of Meghalaya",
+    "instrument_type": "policy",
+    "status": "proposed",
+    "binding": "non-binding",
+    "date": "2026-09-30",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-12-03",
+        "event": "Regional AI Impact Conference, Shillong (IndiaAI + Meghalaya); MoUs for Data & AI Lab and with MATH T-Hub; MeghDEE launch"
+      },
+      {
+        "date": "2026-09-30",
+        "event": "IT Secretary Pravin Bakshi says a second IT/ITeS policy with AI and GCC focus is being drafted"
+      },
+      {
+        "date": "2026-11-17",
+        "event": "CM announces 'AI Valley' vision and 125 AI jobs at first AI Job Fair"
+      }
+    ],
+    "summary": "Second-generation IT policy being drafted with artificial intelligence and global capability centres as priority areas; no draft published and no dedicated AI policy exists.",
+    "key_provisions": [
+      "AI development named as a priority area of the new policy",
+      "Customised incentives beyond existing policy for investments above Rs 100 crore",
+      "Linked infrastructure: Shillong Technology Park Phase II (Rs 121 crore, inaugurated Sept 2026) and an AI Centre of Excellence",
+      "No timeline for consultation or cabinet approval given"
+    ],
+    "themes": [
+      "startups-innovation",
+      "skilling",
+      "infrastructure"
+    ],
+    "sectors": [
+      "startups-industry"
+    ],
+    "source_url": "https://theprint.in/economy/meghalaya-drafting-new-it-policy-with-focus-on-ai-gccs-state-it-secy/3058336/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.indiatodayne.in/amp/meghalaya/story/meghalaya-plans-it-policy-20-with-focus-on-ai-global-capability-centres-1457657-2026-10-01",
+      "https://www.indiatodayne.in/meghalaya/story/meghalaya-cm-envisions-state-as-indias-next-ai-valley-announces-125-ai-jobs-1476492-2026-11-17",
+      "https://www.newsonair.gov.in/wp-content/uploads/2025/11/shillonbg.pdf"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Status from an on-record statement by the IT Secretary (PTI via ThePrint); no document exists yet.",
+    "related": [
+      "ml-meghalaya-ai-centre-of-excellence-shillong"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "ml-meghalaya-ai-centre-of-excellence-shillong",
+    "title": "Meghalaya AI Centre of Excellence, Shillong Technology Park-II (Umsawli)",
+    "jurisdiction": "ML",
+    "jurisdiction_name": "Meghalaya",
+    "issuing_body": "Information Technology & Communication Department, Government of Meghalaya, with MeitY/IndiaAI funding",
+    "instrument_type": "institution",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2026-09-30",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-08-26",
+        "event": "State proposes Rs 20 crore AI centre, awaiting IndiaAI Mission approval (India Today NE)"
+      },
+      {
+        "date": "2026-09-30",
+        "event": "IT Secretary says Rs 18 crore sanctioned by Union ministry; centre to open within two months"
+      }
+    ],
+    "summary": "Centrally funded AI Centre of Excellence of about 10,000 sq ft at Shillong Tech Park-II, focused on healthcare, education and governance use-cases.",
+    "key_provisions": [
+      "Rs 18 crore sanctioned by the Union ministry (Sept 2026 statement); earlier reported as a Rs 20 crore proposal awaiting IndiaAI approval",
+      "About 10,000 sq ft at Shillong Technology Park-II, Umsawli",
+      "Focus areas: healthcare, education, governance",
+      "Expected operational within two months of 30 Sept 2026 (not confirmed as opened by 19 Nov 2026)"
+    ],
+    "themes": [
+      "institution-building",
+      "research-funding"
+    ],
+    "sectors": [
+      "health",
+      "education",
+      "public-services"
+    ],
+    "source_url": "https://theprint.in/economy/meghalaya-drafting-new-it-policy-with-focus-on-ai-gccs-state-it-secy/3058336/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=Meghalaya+%22AI%22+policy+OR+%22IT+policy%22+OR+%22Centre+of+Excellence%22+Sangma&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "low",
+    "confidence_note": "Funding figure conflicts between reports (Rs 18 crore sanctioned vs Rs 20 crore proposed); sanction letter not located.",
+    "related": [
+      "ml-meghalaya-it-policy-2-draft"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "mz-mizoram-ai-tools-precautionary-guidelines-2026",
+    "title": "Precautionary Guidelines regarding the use of AI Tools and Engagement with AI Service Providers by Government Departments",
+    "jurisdiction": "MZ",
+    "jurisdiction_name": "Mizoram",
+    "issuing_body": "Department of Information & Communication Technology, Government of Mizoram",
+    "instrument_type": "guidelines",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2026-09-17",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-09-17",
+        "event": "Guidelines issued to all government departments and posted on the DICT website"
+      }
+    ],
+    "summary": "Administrative guidelines to all Mizoram government departments on safe use of AI tools and on engaging AI vendors, covering confidential data, procurement, vendor vetting, training and audit; Mizoram's only AI-specific instrument.",
+    "key_provisions": [
+      "Restricts sharing of sensitive or confidential government information with external AI platforms",
+      "Prohibits processing of classified or restricted data through external AI systems",
+      "Requires vetting and departmental approval before engaging AI service providers; formal procurement procedure for AI tools",
+      "Staff awareness and training on AI-tool usage; periodic monitoring and reporting of AI-tool use within departments"
+    ],
+    "themes": [
+      "public-sector-use",
+      "procurement",
+      "data-protection",
+      "cybersecurity",
+      "governance"
+    ],
+    "sectors": [
+      "public-services"
+    ],
+    "source_url": "https://dict.mizoram.gov.in/post/precautionary-guidelines-regarding-the-use-of-ai-tools-and-engagement-with-ai-service-providers-by-government-departments",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://dict.mizoram.gov.in/uploads/attachments/2026/09/7952e33c88ea90d45d2b351cc826ffd7/posts-289-precautionary-guidelines-regarding-the-use-of-ai-tools-and-engagement-with-ai-service-providers-by-government-departments.pdf"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Official DICT page and PDF located; the PDF is a scanned image that could not be machine-read, so provisions are taken from the DICT page summary and the memo number is unverified.",
+    "related": []
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "nl-nagaland-ai-governance-readiness-roadmap-2026",
+    "title": "Nagaland AI readiness assessment and 24-month AI-in-governance roadmap (Nagaland Science Mission with AIMA)",
+    "jurisdiction": "NL",
+    "jurisdiction_name": "Nagaland",
+    "issuing_body": "Nagaland Science Mission, Department of Science & Technology, Government of Nagaland",
+    "instrument_type": "other",
+    "status": "proposed",
+    "binding": "non-binding",
+    "date": "2026-03-11",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-03-11",
+        "event": "Workshop in Kohima with officers of 40+ departments launches readiness assessment and roadmap exercise"
+      },
+      {
+        "date": "2026-04-30",
+        "event": "DP&AR/ATI hold first AI-based Capacity Building Plan workshop (65 officers, 35 departments)"
+      }
+    ],
+    "summary": "Government exercise, run with the All India Management Association, to assess Nagaland's readiness for AI in public administration and chart a 24-month implementation roadmap; no AI policy or roadmap document has been published.",
+    "key_provisions": [
+      "Readiness assessment for AI/ML adoption across 40+ departments",
+      "24-month roadmap for AI implementation in governance to be developed",
+      "Partner: All India Management Association; led by Nagaland Science Mission (Deputy Mission Director Kekuneil Ltu)"
+    ],
+    "themes": [
+      "governance",
+      "public-sector-use",
+      "skilling"
+    ],
+    "sectors": [
+      "public-services"
+    ],
+    "source_url": "https://www.easternmirrornagaland.com/workshop-explores-artificial-intelligence-roadmap-for-governance-in-nagaland",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://nagalandpost.com/nagaland-holds-first-ai-based-capacity-building-plan-workshop/",
+      "https://ipr.nagaland.gov.in/workshop-on-use-of-artificial-intelligence-ai-technology-in-celebration-of-janjatiya-garima-utsav-2026-held"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Two regional dailies plus a state DIPR page confirm activity; no roadmap document published as of Nov 2026.",
+    "related": [
+      "nl-nagaland-budget-2026-27-ai-schemes"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "nl-nagaland-budget-2026-27-ai-schemes",
+    "title": "Nagaland Budget 2026-27 AI schemes: Innovation Hub & State Data Centre AI platforms; AI and ML Lab Development",
+    "jurisdiction": "NL",
+    "jurisdiction_name": "Nagaland",
+    "issuing_body": "Information Technology & Communication Department and Technical Education Department, Government of Nagaland",
+    "instrument_type": "scheme",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-01-01",
+    "date_precision": "year",
+    "timeline": [
+      {
+        "date": "2026-01-01",
+        "event": "Schemes introduced in Budget 2026-27 (year precision)"
+      }
+    ],
+    "summary": "Two budget lines for 2026-27 that fund AI-enabled governance platforms at the Chumoukedima innovation hub/state data centre and AI/ML laboratories in state polytechnics.",
+    "key_provisions": [
+      "Nagaland Innovation Hub and State Data Centre with AI-enabled governance platforms at Chumoukedima: Rs 11.86 crore (IT&C Department)",
+      "AI and ML Lab Development at state polytechnics: Rs 38.58 crore (Technical Education Department)",
+      "No standalone AI policy or strategy document accompanies the schemes; they sit under the budget's digital-transformation agenda"
+    ],
+    "themes": [
+      "infrastructure",
+      "skilling",
+      "public-sector-use"
+    ],
+    "sectors": [
+      "public-services",
+      "education"
+    ],
+    "source_url": "https://impriinsights.in/nagaland-department-wise-schemes-update-2026/",
+    "source_type": "secondary",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Single secondary compilation; budget documents not accessed (state IT&C domain did not resolve).",
+    "related": [
+      "nl-nagaland-ai-governance-readiness-roadmap-2026"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "sk-sikkim-ai-policy-2025-draft",
+    "title": "Sikkim AI Policy 2025 (Draft) - A Framework for Responsible and Sustainable Digital Transformation",
+    "jurisdiction": "SK",
+    "jurisdiction_name": "Sikkim",
+    "issuing_body": "Department of Information Technology, Government of Sikkim",
+    "instrument_type": "policy",
+    "status": "draft",
+    "binding": "non-binding",
+    "date": "2026-03-13",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-03-13",
+        "event": "Draft PDF published on sikkim.gov.in (file timestamp)"
+      },
+      {
+        "date": "2026-05-08",
+        "event": "IT Department and NIELIT Gangtok sign MoU for an AI Centre of Excellence"
+      },
+      {
+        "date": "2026-11-19",
+        "event": "Still listed as 'Draft Sikkim Artificial Intelligence Policy 2025' on the department page"
+      }
+    ],
+    "summary": "Draft state AI policy framed as a governance framework for responsible AI use across departments, with an AI Centre of Excellence, an AI Ethics Committee, a shared high-performance AI computing facility and data-sovereignty rules for the Himalayan context.",
+    "key_provisions": [
+      "Scope: all employees, contractors and vendors working with AI systems in the state, and all data used by or produced by AI systems; adherence to ISO/IEC 42001 management-system standard",
+      "AI Centre of Excellence with a Chief AI Officer, empowered to approve AI standards, audit AI systems and stop or suspend high-risk AI projects",
+      "AI Ethics Committee (academic-led working committee) to issue sector guidelines; companies using government-published data must file compliance reports",
+      "Government AI procurement guidelines favouring explainable AI; mandatory training of operating staff on when human review is required",
+      "High-Performance AI Computing (HPAIC) shared facility; Open Data Policy and data exchange platform; data-provider certification",
+      "State data sovereignty over natural-resource, indigenous-community and strategic data; free, prior and informed consent for indigenous data; cultural-sensitivity review",
+      "Priority use-cases: landslide/flood early warning, drone-based healthcare delivery, endangered-language tools; deepfake detection and digital forensics noted under AI security"
+    ],
+    "themes": [
+      "ethics",
+      "governance",
+      "procurement",
+      "data-protection",
+      "compute"
+    ],
+    "sectors": [
+      "cross-sector",
+      "public-services",
+      "health",
+      "education"
+    ],
+    "source_url": "https://www.sikkim.gov.in/uploads/DeptUploads/Draft_AI_Policy_2025_20260313.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://sikkim.gov.in/departments/information-technology-department"
+    ],
+    "confidence": "high",
+    "confidence_note": "Official draft PDF read. Status conflict: the preamble says the Government 'hereby adopts' the policy, but the department page lists it as a draft and no cabinet approval or notification was found; treated as draft. No consultation deadline, budget or validity period stated.",
+    "related": [
+      "sk-sikkim-ai-centre-of-excellence-nielit-2026",
+      "sk-sikkim-state-data-policy-2025"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "sk-sikkim-ai-centre-of-excellence-nielit-2026",
+    "title": "Sikkim AI Centre of Excellence (IT Department-NIELIT Gangtok MoU)",
+    "jurisdiction": "SK",
+    "jurisdiction_name": "Sikkim",
+    "issuing_body": "Department of Information Technology, Government of Sikkim, with NIELIT Gangtok (MeitY)",
+    "instrument_type": "institution",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-05-08",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-05-08",
+        "event": "MoU signed; PIB release issued"
+      },
+      {
+        "date": "2026-05-27",
+        "event": "IndiaAI-Digital India workshop on AI held in Gangtok"
+      }
+    ],
+    "summary": "MoU establishing an AI Centre of Excellence in Sikkim with NIELIT Gangtok, implementing the CoE proposed in the draft AI policy.",
+    "key_provisions": [
+      "Parties: Department of IT, Government of Sikkim and NIELIT Gangtok",
+      "Implements the AI CoE envisaged in the draft Sikkim AI Policy 2025",
+      "Follow-on activities: Google collaboration on AI in higher education (Oct 2026); AI-FunZone personalised learning in 71 government schools (Sept 2026)"
+    ],
+    "themes": [
+      "institution-building",
+      "skilling"
+    ],
+    "sectors": [
+      "cross-sector",
+      "education"
+    ],
+    "source_url": "https://news.google.com/rss/search?q=Sikkim+NIELIT+%22Centre+of+Excellence%22+AI+MoU&hl=en-IN&gl=IN&ceid=IN:en",
+    "source_type": "press-release",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "PIB release of 8 May 2026 confirmed by title only (PIB pages returned 403); funding, location and objectives not verified.",
+    "related": [
+      "sk-sikkim-ai-policy-2025-draft"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "sk-sikkim-state-data-policy-2025",
+    "title": "Sikkim State Data Policy 2025",
+    "jurisdiction": "SK",
+    "jurisdiction_name": "Sikkim",
+    "issuing_body": "Department of Information Technology, Government of Sikkim",
+    "instrument_type": "policy",
+    "status": "adopted",
+    "binding": "mixed",
+    "date": "2025-01-01",
+    "date_precision": "year",
+    "timeline": [
+      {
+        "date": "2025-01-01",
+        "event": "Policy and implementation compliance plan published (year precision)"
+      }
+    ],
+    "summary": "State data policy with an implementation compliance plan, listed by the IT Department alongside the draft AI, blockchain and cyber-security policies; the AI draft relies on it for open data and data-sharing.",
+    "key_provisions": [
+      "Published with an implementation compliance plan",
+      "Companion instruments listed by the department: Draft Sikkim Blockchain Policy 2025, Draft Sikkim Cyber Security Policy 2026, IT, Electronics and Telecommunication Policy 2021",
+      "Sikkim operates an Open Government Data portal since 10 June 2016"
+    ],
+    "themes": [
+      "datasets",
+      "data-protection",
+      "governance"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://sikkim.gov.in/departments/information-technology-department",
+    "source_type": "official",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Listed on the official department page; document not read, date not shown.",
+    "related": [
+      "sk-sikkim-ai-policy-2025-draft"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "sk-sikkim-ai-funzone-schools-2026",
+    "title": "AI-FunZone personalised learning programme in 71 government schools",
+    "jurisdiction": "SK",
+    "jurisdiction_name": "Sikkim",
+    "issuing_body": "Education Department, Government of Sikkim",
+    "instrument_type": "curriculum",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2026-09-21",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-09-21",
+        "event": "Launch reported in 71 government schools"
+      }
+    ],
+    "summary": "AI-powered personalised learning programme deployed in 71 government schools.",
+    "key_provisions": [
+      "71 government schools covered at launch",
+      "AI-driven personalised learning content",
+      "Programme name 'AI-FunZone' (Telegraph India, Jagran Josh)"
+    ],
+    "themes": [
+      "children",
+      "skilling",
+      "public-sector-use"
+    ],
+    "sectors": [
+      "education"
+    ],
+    "source_url": "https://news.google.com/rss/search?q=Sikkim+%22AI+policy%22+OR+%22artificial+intelligence%22+government&hl=en-IN&gl=IN&ceid=IN:en",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Headlines only; implementing partner, cost and order not verified.",
+    "related": [
+      "sk-sikkim-ai-policy-2025-draft"
+    ]
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "tr-tripura-ai-policy-announced-2026",
+    "title": "Tripura State AI Policy (announced; under preparation)",
+    "jurisdiction": "TR",
+    "jurisdiction_name": "Tripura",
+    "issuing_body": "Directorate of Information Technology / Tripura Institution for Transformation, Government of Tripura",
+    "instrument_type": "policy",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2026-02-26",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-02-26",
+        "event": "CM Manik Saha announces forthcoming AI policy at launch of India's first State Innovation Mission (AIM/NITI Aayog) and TNEST"
+      },
+      {
+        "date": "2026-11-19",
+        "event": "DIT policies page lists no AI policy"
+      }
+    ],
+    "summary": "Chief Minister's announcement that Tripura will adopt a state AI policy with Atal Innovation Mission/NITI Aayog assistance, alongside an AI Centre of Excellence and AI-based city management for Agartala; no draft had been published by 19 November 2026.",
+    "key_provisions": [
+      "Policy to be prepared with AIM/NITI Aayog support; conceptualised by Tripura Institution for Transformation with IIM Calcutta, IIT Delhi, IIM Bangalore and T-Hub",
+      "Tripura AI Centre of Excellence being set up with MeitY assistance",
+      "AI-based city management for Agartala (traffic, billing); Tripura IT and Data Economic Zone proposed",
+      "State Innovation Mission with TNEST as execution arm and innovation centres in all eight districts"
+    ],
+    "themes": [
+      "governance",
+      "institution-building",
+      "startups-innovation"
+    ],
+    "sectors": [
+      "cross-sector",
+      "public-services"
+    ],
+    "source_url": "https://eastmojo.com/tripura/2026/02/26/tripura-to-roll-out-ai-policy-establish-centre-of-excellence-cm/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.aninews.in/news/national/general-news/tripura-to-introduce-indias-first-state-ai-policy-announced-tripura-cm-manik-saha-at-state-innovation-mission-launch20260227064026/",
+      "https://dit.tripura.gov.in/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Announcement confirmed by multiple outlets and a PIB release on the SIM launch; no draft, cabinet decision or notification found through Nov 2026. The 'India's first' claim is inaccurate (Tamil Nadu 2020, Odisha 2025).",
+    "related": []
+  },
+  {
+    "last_verified": "2026-11-19",
+    "id": "in-mdoner-steering-committee-ai-north-east",
+    "title": "MDoNER Steering Committee for AI in the North East and AI integration roadmap (applies to NE states)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Development of North Eastern Region (MDoNER)",
+    "instrument_type": "institution",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2025-07-02",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-07-02",
+        "event": "Joint Secretary MDoNER, chair of the Steering Committee for AI in North East, says a roadmap for AI integration across NE states is being prepared"
+      },
+      {
+        "date": "2025-12-03",
+        "event": "IndiaAI/MeitY Regional AI Impact Conference, Shillong"
+      },
+      {
+        "date": "2025-12-19",
+        "event": "Regional AI Impact Conference, Bhubaneswar"
+      }
+    ],
+    "summary": "Central steering committee under MDoNER preparing a roadmap for AI integration across the eight North-Eastern states; no roadmap document, scheme or budget line has been published. Included as the only NE-wide AI instrument found; it applies to AS, AR, MN, ML, MZ, NL, SK, TR.",
+    "key_provisions": [
+      "Chaired by Angshuman Day, IFoS, Joint Secretary, MDoNER",
+      "Mandate: roadmap for AI integration across sectors in NE states (stated July 2025)",
+      "NVIDIA expressed interest in an 'AI Factory' in the North East at the same seminar",
+      "No NEC plenary decision or DoNER scheme on AI located; DoNER allocation 2026-27 is Rs 6,812.30 crore overall"
+    ],
+    "themes": [
+      "governance",
+      "institution-building",
+      "infrastructure"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://www.pratidintime.com/top-stories/ai-digital-transformation-in-north-east-india-spotlighted-at-seminar-by-share-9459115",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://news.webindia123.com/news/Articles/India/20250702/4333974.html",
+      "https://www.newsonair.gov.in/wp-content/uploads/2025/11/shillonbg.pdf"
+    ],
+    "confidence": "low",
+    "confidence_note": "Committee known only from officials' remarks at a non-government seminar; constitution order and roadmap not found. PIB page on the 73rd NEC plenary could not be fetched.",
+    "related": [
+      "ml-meghalaya-it-policy-2-draft",
+      "or-odisha-ai-policy-2025"
+    ]
+  }
+]
