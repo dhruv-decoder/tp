@@ -158,7 +158,7 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
                 onSelect={setSelected}
                 hovered={hovered}
                 onHover={setHovered}
-                className="mx-auto max-w-[760px]"
+                className="mx-auto max-w-[660px]"
               />
             ) : (
               <div className="py-6">
