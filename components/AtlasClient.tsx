@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { motion } from "motion/react";
 import { IndiaMap, type MapTip } from "./IndiaMap";
-import { TileMap } from "./TileMap";
+import { StateWindow } from "./StateWindow";
 import type { Jurisdiction } from "@/lib/types";
 import type { PolicyLite } from "@/lib/data";
 import { formatDate, levelFor } from "@/lib/data";
 import { FAMILIES, FAMILY_SHORT, statusGroup, type Family } from "@/lib/taxonomy";
-import { StatusPill, FamilyDot, ConfidenceMark } from "./ui";
+import { StatusPill, FamilyDot } from "./ui";
 
 interface Props {
   policies: PolicyLite[];
@@ -21,15 +22,13 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
   const [hovered, setHovered] = useState<string | null>(null);
   const [year, setYear] = useState<number>(years[1]);
   const [playing, setPlaying] = useState(false);
-  const [mode, setMode] = useState<"geo" | "tiles">("geo");
   const [fam, setFam] = useState<Family | "all">("all");
   const timer = useRef<number | null>(null);
 
   const jByCode = useMemo(() => new Map(jurisdictions.map((j) => [j.code, j])), [jurisdictions]);
 
   const filtered = useMemo(
-    () =>
-      policies.filter((p) => Number(p.date.slice(0, 4)) <= year && (fam === "all" || p.family === fam)),
+    () => policies.filter((p) => Number(p.date.slice(0, 4)) <= year && (fam === "all" || p.family === fam)),
     [policies, year, fam],
   );
 
@@ -52,7 +51,7 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
       tips[j.code] = {
         name: j.name,
         total: n,
-        line: l ? `${l.title} · ${formatDate(l.date, l.date_precision)}` : "No instrument found",
+        line: l ? `Latest: ${l.title} · ${formatDate(l.date, l.date_precision)}` : "No instrument found",
       };
     }
     return { levels, tips, counts };
@@ -75,7 +74,7 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
     };
   }, [playing, years]);
 
-  // escape to release
+  // escape closes the window
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       if (e.key === "Escape") setSelected(null);
@@ -84,115 +83,139 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  const statesWithAny = jurisdictions.filter((j) => j.code !== "IN" && (counts[j.code] ?? 0) > 0).length;
+  // lock page scroll while the window is open
+  useEffect(() => {
+    if (!selected) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [selected]);
+
+  const states = jurisdictions.filter((j) => j.code !== "IN");
+  const statesWithAny = states.filter((j) => (counts[j.code] ?? 0) > 0).length;
   const unionCount = counts["IN"] ?? 0;
   const stateTotal = filtered.filter((p) => p.jurisdiction !== "IN").length;
   const active = filtered.filter((p) => statusGroup(p.status) === "active").length;
-  const pending = filtered.filter((p) => statusGroup(p.status) === "pending").length;
 
-  const sel = selected ? jByCode.get(selected) : null;
+  const ranked = useMemo(
+    () =>
+      states
+        .map((j) => ({ j, n: counts[j.code] ?? 0 }))
+        .filter((r) => r.n > 0)
+        .sort((a, b) => b.n - a.n || a.j.name.localeCompare(b.j.name)),
+    [states, counts],
+  );
+  const rankMax = ranked[0]?.n ?? 1;
+  const latest = useMemo(() => filtered.filter((p) => p.jurisdiction !== "IN").slice(0, 6), [filtered]);
+
+  const sel = selected ? jByCode.get(selected) ?? null : null;
   const selPolicies = useMemo(
     () => (selected ? filtered.filter((p) => p.jurisdiction === selected) : []),
     [filtered, selected],
   );
-  const latest = useMemo(() => filtered.slice(0, 7), [filtered]);
 
   return (
-    <section className="mx-auto max-w-[1440px] px-4 sm:px-6">
-      <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_400px]">
-        {/* ---------- map column ---------- */}
-        <div className="min-w-0">
-          <div className="flex flex-wrap items-center gap-2 border-b border-line pb-3">
-            <div className="flex overflow-hidden rounded-[6px] border border-line text-[12.5px]">
-              <button
-                type="button"
-                onClick={() => setMode("geo")}
-                className={`px-3 py-1 ${mode === "geo" ? "bg-ink text-bg" : "text-ink-2 hover:bg-sunken"}`}
-                aria-pressed={mode === "geo"}
-              >
-                Map
-              </button>
-              <button
-                type="button"
-                onClick={() => setMode("tiles")}
-                className={`px-3 py-1 ${mode === "tiles" ? "bg-ink text-bg" : "text-ink-2 hover:bg-sunken"}`}
-                aria-pressed={mode === "tiles"}
-              >
-                Tiles
-              </button>
-            </div>
-            <div className="ml-1 flex flex-wrap gap-1.5">
-              <button type="button" className="chip" data-on={fam === "all"} onClick={() => setFam("all")}>
-                All
-              </button>
-              {FAMILIES.map((f) => (
-                <button
-                  key={f}
-                  type="button"
-                  className={`chip fam-${f}`}
-                  data-on={fam === f}
-                  onClick={() => setFam(fam === f ? "all" : f)}
-                >
-                  <span className="dot" style={{ background: "var(--fam)" }} aria-hidden />
-                  {FAMILY_SHORT[f]}
-                </button>
+    <>
+      <section className="mx-auto max-w-[1200px] px-4 sm:px-6">
+        {/* headline numbers */}
+        <div className="grid grid-cols-2 gap-px overflow-hidden rounded-[12px] border border-line bg-line sm:grid-cols-4">
+          <Big value={stateTotal} label="State & UT instruments" />
+          <Big value={`${statesWithAny}/${states.length}`} label="States & UTs with at least one" />
+          <Big value={unionCount} label="Union instruments" onClick={() => setSelected("IN")} cta="Open" />
+          <Big value={active} label="In force or adopted" />
+        </div>
+
+        {/* controls */}
+        <div className="mt-5 flex flex-wrap items-center gap-2">
+          <label className="relative">
+            <span className="sr-only">Go to a state</span>
+            <select
+              className="h-8 appearance-none rounded-[8px] border border-line bg-elev pl-3 pr-8 text-[13px] text-ink"
+              value=""
+              onChange={(e) => e.target.value && setSelected(e.target.value)}
+            >
+              <option value="">Go to a state…</option>
+              <option value="IN">Union (national)</option>
+              {states
+                .slice()
+                .sort((a, b) => a.name.localeCompare(b.name))
+                .map((j) => (
+                  <option key={j.code} value={j.code}>
+                    {j.name} ({counts[j.code] ?? 0})
+                  </option>
+                ))}
+            </select>
+            <svg
+              className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-ink-3"
+              width="10"
+              height="10"
+              viewBox="0 0 10 10"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              aria-hidden
+            >
+              <path d="M2 3.5 5 6.5 8 3.5" />
+            </svg>
+          </label>
+          <span className="mx-1 hidden h-5 w-px bg-line sm:block" />
+          <button type="button" className="chip" data-on={fam === "all"} onClick={() => setFam("all")}>
+            All types
+          </button>
+          {FAMILIES.map((f) => (
+            <button
+              key={f}
+              type="button"
+              className={`chip fam-${f}`}
+              data-on={fam === f}
+              onClick={() => setFam(fam === f ? "all" : f)}
+            >
+              <span className="dot" style={{ background: "var(--fam)" }} aria-hidden />
+              {FAMILY_SHORT[f]}
+            </button>
+          ))}
+        </div>
+
+        {/* map */}
+        <div className="relative mt-4 rounded-[12px] border border-line bg-elev px-4 pb-4 pt-6 sm:px-8">
+          <motion.p
+            className="pointer-events-none absolute left-1/2 top-4 z-[1] -translate-x-1/2 rounded-full bg-ink px-3.5 py-1.5 text-[12.5px] text-bg shadow-[var(--shadow-1)]"
+            initial={{ opacity: 0, y: -6 }}
+            animate={{ opacity: hovered ? 0 : 1, y: 0 }}
+            transition={{ duration: 0.25 }}
+          >
+            Click a state to see its top policies
+          </motion.p>
+
+          <IndiaMap
+            levels={levels}
+            tips={tips}
+            selected={selected === "IN" ? null : selected}
+            onSelect={setSelected}
+            hovered={hovered}
+            onHover={setHovered}
+            className="mx-auto max-w-[640px]"
+          />
+
+          {/* legend */}
+          <div className="pointer-events-none absolute bottom-24 left-6 hidden sm:block">
+            <div className="eyebrow mb-1.5">Instruments</div>
+            <div className="flex items-center gap-1">
+              <span className="h-3 w-5 rounded-[2px]" style={{ background: "var(--map-empty)" }} />
+              {[1, 2, 3, 4, 5, 6].map((l) => (
+                <span key={l} className="h-3 w-5 rounded-[2px]" style={{ background: `var(--seq-${l})` }} />
               ))}
             </div>
-            {selected && (
-              <button
-                type="button"
-                onClick={() => setSelected(null)}
-                className="ml-auto rounded-[6px] border border-line px-2.5 py-1 text-[12.5px] text-ink-2 hover:bg-sunken"
-              >
-                Release · Esc
-              </button>
-            )}
-          </div>
-
-          <div className="relative mt-3">
-            {mode === "geo" ? (
-              <IndiaMap
-                levels={levels}
-                tips={tips}
-                selected={selected}
-                onSelect={setSelected}
-                hovered={hovered}
-                onHover={setHovered}
-                className="mx-auto max-w-[660px]"
-              />
-            ) : (
-              <div className="py-6">
-                <TileMap
-                  jurisdictions={jurisdictions}
-                  levels={levels}
-                  tips={tips}
-                  selected={selected}
-                  onSelect={setSelected}
-                  onHover={setHovered}
-                />
-              </div>
-            )}
-
-            {/* legend */}
-            <div className="pointer-events-none absolute bottom-2 left-0 hidden items-end gap-3 sm:flex">
-              <div>
-                <div className="eyebrow mb-1.5">Instruments</div>
-                <div className="flex items-center gap-1">
-                  <span className="h-3 w-5 rounded-[2px]" style={{ background: "var(--map-empty)" }} />
-                  {[1, 2, 3, 4, 5, 6].map((l) => (
-                    <span key={l} className="h-3 w-5 rounded-[2px]" style={{ background: `var(--seq-${l})` }} />
-                  ))}
-                </div>
-                <div className="mt-1 flex justify-between font-mono text-[10px] text-ink-3">
-                  <span>none</span>
-                  <span>more</span>
-                </div>
-              </div>
+            <div className="mt-1 flex justify-between font-mono text-[10px] text-ink-3">
+              <span>none</span>
+              <span>more</span>
             </div>
           </div>
 
           {/* time scrub */}
-          <div className="mt-4 flex items-center gap-4 border-t border-line pt-4">
+          <div className="mt-2 flex items-center gap-4 border-t border-line pt-4">
             <button
               type="button"
               onClick={() => {
@@ -215,7 +238,6 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
             </button>
             <div className="min-w-0 flex-1">
               <input
-                id="year-scrub"
                 type="range"
                 className="scrub"
                 min={years[0]}
@@ -239,123 +261,105 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
             </div>
           </div>
         </div>
+      </section>
 
-        {/* ---------- panel ---------- */}
-        <aside className="min-w-0 lg:sticky lg:top-[72px] lg:max-h-[calc(100vh-88px)] lg:overflow-y-auto lg:border-l lg:border-line lg:pl-8">
-          {sel ? (
-            <div key={sel.code}>
-              <div className="eyebrow">{sel.type === "ut" ? "Union territory" : "State"} · {sel.region}</div>
-              <h2 className="mt-1 font-serif text-[28px] leading-tight text-ink">{sel.name}</h2>
-              <div className="mt-3 grid grid-cols-3 gap-3 border-y border-line py-3">
-                <Mini label="Instruments" value={selPolicies.length} />
-                <Mini label="Active" value={selPolicies.filter((p) => statusGroup(p.status) === "active").length} />
-                <Mini label="Draft / proposed" value={selPolicies.filter((p) => statusGroup(p.status) === "pending").length} />
-              </div>
-              {selPolicies.length === 0 ? (
-                <p className="mt-4 text-[13.5px] text-ink-2">
-                  No AI-specific instrument found for {sel.name}
-                  {year < years[1] ? ` up to ${year}` : ""}. If you know of one, see{" "}
-                  <Link href="/method#contribute" className="text-accent">how to report it</Link>.
-                </p>
-              ) : (
-                <ol className="mt-2 divide-y divide-line">
-                  {selPolicies.map((p) => (
-                    <li key={p.id} className="py-3">
-                      <Link href={`/policy/${p.id}`} className="group block no-underline">
-                        <div className="flex items-start gap-2">
-                          <FamilyDot family={p.family} />
-                          <div className="min-w-0 flex-1">
-                            <div className="text-[14px] font-medium leading-snug text-ink group-hover:text-accent">
-                              {p.title}
-                            </div>
-                            <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-[12px] text-ink-3">
-                              <span className="font-mono tnum">{formatDate(p.date, p.date_precision)}</span>
-                              <span>·</span>
-                              <span className="truncate">{p.issuing_body}</span>
-                            </div>
-                            <div className="mt-1.5 flex items-center gap-2">
-                              <StatusPill status={p.status} />
-                              <ConfidenceMark level={p.confidence} withLabel={false} />
-                            </div>
-                          </div>
-                        </div>
-                      </Link>
-                    </li>
-                  ))}
-                </ol>
-              )}
-              <Link
-                href={`/jurisdiction/${sel.code}`}
-                className="mt-4 inline-flex items-center gap-1 text-[13.5px] text-accent hover:underline"
-              >
-                Full dossier for {sel.name} →
-              </Link>
-            </div>
-          ) : (
-            <div>
-              <div className="eyebrow">As of {year}{fam !== "all" ? ` · ${FAMILY_SHORT[fam]} only` : ""}</div>
-              <div className="mt-3 grid grid-cols-2 gap-x-4 gap-y-5 border-b border-line pb-5">
-                <Big value={unionCount} label="Union instruments" />
-                <Big value={stateTotal} label="State & UT instruments" />
-                <Big value={`${statesWithAny}/${jurisdictions.length - 1}`} label="States & UTs with at least one" />
-                <Big value={active} label="Active" hint={`${pending} draft or proposed`} />
-              </div>
-              <div className="mt-5">
-                <div className="flex items-baseline justify-between">
-                  <div className="eyebrow">Most recent</div>
-                  <Link href="/timeline" className="text-[12.5px] text-accent hover:underline">
-                    Timeline →
-                  </Link>
-                </div>
-                <ol className="mt-1 divide-y divide-line">
-                  {latest.map((p) => (
-                    <li key={p.id} className="py-2.5">
-                      <Link href={`/policy/${p.id}`} className="group block no-underline">
-                        <div className="flex items-start gap-2">
-                          <FamilyDot family={p.family} />
-                          <div className="min-w-0 flex-1">
-                            <div className="text-[13.5px] font-medium leading-snug text-ink group-hover:text-accent">
-                              {p.title}
-                            </div>
-                            <div className="mt-0.5 flex items-center gap-2 text-[12px] text-ink-3">
-                              <span className="font-mono tnum">{formatDate(p.date, p.date_precision)}</span>
-                              <span>·</span>
-                              <span>{p.jurisdiction_name}</span>
-                            </div>
-                          </div>
-                          <StatusPill status={p.status} />
-                        </div>
-                      </Link>
-                    </li>
-                  ))}
-                </ol>
-              </div>
-              <p className="mt-5 text-[12.5px] leading-relaxed text-ink-3">
-                Click a state to isolate it. Drag the year to see adoption over time. Switch to tiles to give small states equal weight.
-              </p>
-            </div>
-          )}
-        </aside>
+      {/* below the map: who is most active, what happened last */}
+      <section className="mx-auto mt-12 grid max-w-[1200px] gap-10 px-4 sm:px-6 lg:grid-cols-2">
+        <div>
+          <div className="eyebrow">States by number of instruments</div>
+          <ol className="mt-3 grid gap-x-6 sm:grid-cols-2">
+            {ranked.slice(0, 16).map(({ j, n }) => (
+              <li key={j.code}>
+                <button
+                  type="button"
+                  onClick={() => setSelected(j.code)}
+                  onMouseEnter={() => setHovered(j.code)}
+                  onMouseLeave={() => setHovered(null)}
+                  className="group flex w-full items-center gap-3 border-b border-line py-2 text-left"
+                >
+                  <span className="w-[118px] flex-none truncate text-[13.5px] text-ink group-hover:text-accent">
+                    {j.name}
+                  </span>
+                  <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-sunken">
+                    <span
+                      className="block h-full rounded-full bg-accent transition-[width] duration-500"
+                      style={{ width: `${(n / rankMax) * 100}%` }}
+                    />
+                  </span>
+                  <span className="w-6 flex-none text-right font-mono text-[12px] text-ink-2 tnum">{n}</span>
+                </button>
+              </li>
+            ))}
+          </ol>
+        </div>
+        <div>
+          <div className="flex items-baseline justify-between">
+            <div className="eyebrow">Latest state activity</div>
+            <Link href="/timeline" className="text-[12.5px] text-accent hover:underline">
+              Timeline →
+            </Link>
+          </div>
+          <ol className="mt-2 divide-y divide-line">
+            {latest.map((p) => (
+              <li key={p.id} className="py-2.5">
+                <Link href={`/policy/${p.id}`} className="group block no-underline">
+                  <div className="flex items-start gap-2">
+                    <FamilyDot family={p.family} />
+                    <div className="min-w-0 flex-1">
+                      <div className="text-[13.5px] font-medium leading-snug text-ink group-hover:text-accent">
+                        {p.title}
+                      </div>
+                      <div className="mt-0.5 flex items-center gap-2 text-[12px] text-ink-3">
+                        <span className="font-mono tnum">{formatDate(p.date, p.date_precision)}</span>
+                        <span>·</span>
+                        <span>{p.jurisdiction_name}</span>
+                      </div>
+                    </div>
+                    <StatusPill status={p.status} />
+                  </div>
+                </Link>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </section>
+
+      <StateWindow
+        jurisdiction={sel}
+        policies={selPolicies}
+        year={year}
+        latestYear={years[1]}
+        onClose={() => setSelected(null)}
+      />
+    </>
+  );
+}
+
+function Big({
+  label,
+  value,
+  onClick,
+  cta,
+}: {
+  label: string;
+  value: number | string;
+  onClick?: () => void;
+  cta?: string;
+}) {
+  const body = (
+    <>
+      <div className="font-serif text-[30px] leading-none tnum text-ink">{value}</div>
+      <div className="mt-1.5 flex items-center gap-2 text-[12.5px] text-ink-2">
+        {label}
+        {cta && <span className="text-accent">{cta} →</span>}
       </div>
-    </section>
+    </>
   );
-}
-
-function Mini({ label, value }: { label: string; value: number | string }) {
-  return (
-    <div>
-      <div className="font-serif text-[22px] leading-none tnum text-ink">{value}</div>
-      <div className="mt-1 text-[11.5px] text-ink-3">{label}</div>
-    </div>
-  );
-}
-
-function Big({ label, value, hint }: { label: string; value: number | string; hint?: string }) {
-  return (
-    <div>
-      <div className="font-serif text-[34px] leading-none tnum text-ink">{value}</div>
-      <div className="mt-1.5 text-[12.5px] text-ink-2">{label}</div>
-      {hint && <div className="text-[11.5px] text-ink-3">{hint}</div>}
-    </div>
+  return onClick ? (
+    <button type="button" onClick={onClick} className="bg-elev px-5 py-4 text-left hover:bg-sunken">
+      {body}
+    </button>
+  ) : (
+    <div className="bg-elev px-5 py-4">{body}</div>
   );
 }

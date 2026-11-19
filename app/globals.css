@@ -455,15 +455,23 @@ input[type="range"].scrub::-moz-range-thumb {
   scrollbar-color: var(--line-strong) transparent;
 }
 
-/* tile map */
-.tile {
-  background: var(--map-empty);
-  transition: opacity 300ms ease, transform 300ms ease, background 240ms ease;
+/* state briefing window */
+.brief-card {
+  position: relative;
+  transition: border-color 180ms ease, background 180ms ease, transform 180ms ease;
 }
-.tile[data-level="1"] { background: var(--seq-1); }
-.tile[data-level="2"] { background: var(--seq-2); }
-.tile[data-level="3"] { background: var(--seq-3); }
-.tile[data-level="4"] { background: var(--seq-4); }
-.tile[data-level="5"] { background: var(--seq-5); }
-.tile[data-level="6"] { background: var(--seq-6); }
-.tile:hover { filter: brightness(0.93); }
+.brief-card::before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 12px;
+  bottom: 12px;
+  width: 3px;
+  border-radius: 0 3px 3px 0;
+  background: var(--fam);
+}
+.brief-card:hover {
+  border-color: var(--line-strong);
+  background: var(--bg-elev);
+  transform: translateX(2px);
+}

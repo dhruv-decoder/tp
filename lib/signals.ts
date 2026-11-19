@@ -66,7 +66,7 @@ export async function fetchSignals(): Promise<{ signals: Signal[]; errors: strin
     FEEDS.map(async (f) => {
       try {
         const res = await fetch(f.url, {
-          headers: { "User-Agent": "Mozilla/5.0 (compatible; IndiaAIPolicyAtlas/1.0; +https://github.com/dt-safl/india-ai-policy-atlas)" },
+          headers: { "User-Agent": "Mozilla/5.0 (compatible; IndiaAIPolicyAtlas/1.0; +https://github.com/dhruv-decoder/tp)" },
           signal: AbortSignal.timeout(12000),
         });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);

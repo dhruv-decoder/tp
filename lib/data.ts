@@ -173,3 +173,25 @@ export function hostOf(url: string) {
     return url;
   }
 }
+
+const FAMILY_WEIGHT: Record<Family, number> = {
+  law: 3,
+  policy: 3,
+  institution: 2,
+  judicial: 2,
+  guidance: 1.5,
+  deliberation: 1,
+  international: 1,
+};
+const STATUS_WEIGHT = { active: 3, pending: 1.5, litigation: 1.5, inactive: 0 } as const;
+const CONFIDENCE_WEIGHT = { high: 2, medium: 1, low: 0 } as const;
+
+/**
+ * "Top" order used by the state briefing window: in force or adopted first, then binding
+ * law and core policy over guidance, then better-sourced, then newer. Weights are deliberately
+ * simple so a reader can predict the order.
+ */
+export function briefingScore(p: Pick<PolicyLite, "status" | "family" | "confidence" | "date">) {
+  const recency = Math.max(0, Math.min(1, (yearOf(p.date) - SCRUB_START) / 8));
+  return STATUS_WEIGHT[statusGroup(p.status)] + FAMILY_WEIGHT[p.family] + CONFIDENCE_WEIGHT[p.confidence] + recency;
+}

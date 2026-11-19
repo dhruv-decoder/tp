@@ -11,18 +11,18 @@ export default function AtlasPage() {
   const years = yearRange();
   const byFamily = countBy(POLICIES, (p) => familyOf(p.instrument_type));
   const pending = POLICIES.filter((p) => statusGroup(p.status) === "pending").slice(0, 8);
-  
+
   return (
     <>
-      <section className="mx-auto max-w-[1440px] px-4 pb-6 pt-10 sm:px-6">
+      <section className="mx-auto max-w-[1200px] px-4 pb-6 pt-10 sm:px-6">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <div className="max-w-[62ch]">
             <h1 className="font-serif text-[34px] font-medium leading-[1.1] text-ink sm:text-[44px]">
               Where India regulates AI, and how firmly.
             </h1>
             <p className="mt-3 text-[15.5px] leading-relaxed text-ink-2">
-              {POLICIES.length} instruments across the Union and {JURISDICTIONS.length - 1} states and union territories,
-              each linked to its primary source and labelled with how sure we are.
+              {POLICIES.length} AI policy instruments from the Union and {JURISDICTIONS.length - 1} states and union territories.
+              Each one links to its source and says how sure we are.
             </p>
           </div>
         </div>
@@ -30,7 +30,7 @@ export default function AtlasPage() {
 
       <AtlasClient policies={lite} jurisdictions={JURISDICTIONS} years={years} />
 
-      <section className="mx-auto mt-16 grid max-w-[1440px] gap-10 px-4 sm:px-6 lg:grid-cols-3">
+      <section className="mx-auto mt-16 grid max-w-[1200px] gap-10 px-4 sm:px-6 lg:grid-cols-3">
         <div>
           <div className="eyebrow">By instrument family</div>
           <FamilyBars counts={FAMILIES.map((f) => ({ family: f, n: byFamily[f] ?? 0 }))} total={POLICIES.length} />

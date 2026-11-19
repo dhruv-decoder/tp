@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "How instruments are selected, sourced, dated and labelled; how to use the data and report corrections.",
 };
 
-const REPO = "https://github.com/dt-safl/india-ai-policy-atlas";
+const REPO = "https://github.com/dhruv-decoder/tp";
 
 export default function MethodPage() {
   const conf = countBy(POLICIES, (p) => p.confidence);

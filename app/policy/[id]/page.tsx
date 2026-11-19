@@ -125,7 +125,7 @@ export default async function PolicyPage({ params }: { params: Promise<{ id: str
             <p className="mt-3 text-[12.5px] text-ink-3">
               Spotted an error?{" "}
               <a
-                href={`https://github.com/dt-safl/india-ai-policy-atlas/issues/new?title=${encodeURIComponent(`Correction: ${p.title}`)}&body=${encodeURIComponent(`Entry: ${p.id}\n\nWhat is wrong:\n\nSource:\n`)}`}
+                href={`https://github.com/dhruv-decoder/tp/issues/new?title=${encodeURIComponent(`Correction: ${p.title}`)}&body=${encodeURIComponent(`Entry: ${p.id}\n\nWhat is wrong:\n\nSource:\n`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent hover:underline"
