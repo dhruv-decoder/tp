@@ -10,7 +10,7 @@ In plain words: what the tool does, the steps taken to build it, and why each ch
 4. **Clean states and dates.** One spelling per state, and dates that say whether they are exact to the day, the month or only the year.
 5. **Status and binding force.** Draft vs adopted vs in force, and binding vs advisory, so a press announcement is not mistaken for a law.
 6. **Time slider.** Watch the map fill in from 2018 to 2026.
-7. **Ready to cite and reuse.** CSV for the whole dataset or one state, JSON API, a page per policy with its source.
+7. **Ready to cite and reuse.** CSV for the whole dataset, one state or a filtered list; a page per policy with its source and a citation.
 8. **Stays current with a human check.** A daily scan of official feeds drafts new candidates; a person approves them through a pull request.
 
 ## The steps, roughly in order
@@ -24,11 +24,12 @@ In plain words: what the tool does, the steps taken to build it, and why each ch
 | 5. Expand to all states and the Union | Same method, run region by region with AI research help | The method worked; leaving states blank would hide that they have little or nothing |
 | 6. Build the merge pipeline | `scripts/merge-research.mjs`: normalise, check, dedupe, override, lint | One repeatable command from raw research to clean dataset |
 | 7. Review flagged duplicates and weak records | `data/overrides.json`, confidence forced to low for news-search links | The tool should not look more certain than the evidence |
-| 8. Build the website | Next.js on Vercel: map, explore table, timeline, matrix, compare, method | Free hosting, fast, one codebase for data and site |
+| 8. Build the website | Next.js on Vercel: map, policy list, timeline, compare, news feed | Free hosting, fast, one codebase for data and site |
 | 9. Add the daily scan | `scripts/scan-sources.mjs` + GitHub Action; Claude drafts, a human approves | The brief asks for a pipeline, and policy keeps moving |
 | 10. Recency sweep | Added May to Nov 2026 items, re-merged, resolved duplicates | The first pass was thin on recent months |
 | 11. Redesign the home page | Removed the tile map and side panel; added the state window with top 5 and a "Go to a state" menu | The side panel was hard to read; the window answers "what has my state done?" in one click |
-| 12. Docs and CSV | README, this file, rationale, AI-use note, `data/policies.csv` | Required deliverables, and so a reader can follow the reasoning |
+| 12. Cut the clutter | Removed the Method and Matrix pages, version tags and filler text; rebuilt the Policies page as a readable list; raised text contrast in both themes | Fewer pages and less text make it easier to focus |
+| 13. Docs and CSV | README, this file, rationale, AI-use note, `data/policies.csv` | Required deliverables, and so a reader can follow the reasoning |
 
 ## My ideas, and where they ended up
 

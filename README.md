@@ -7,8 +7,6 @@ Each record links to its source and carries a label saying how sure we are.
 - **Code:** https://github.com/dhruv-decoder/tp
 - **Dataset (CSV):** [`data/policies.csv`](data/policies.csv), also live at https://india-ai-policy-atlas.vercel.app/api/policies.csv
 
-Built for the Secure AI Futures Lab work test "AI-related policy activity across Indian states".
-
 ---
 
 ## Read these first
@@ -25,14 +23,13 @@ Built for the Secure AI Futures Lab work test "AI-related policy activity across
 
 ## What you can do on the site
 
-1. **Atlas (home).** A map of India shaded by the number of instruments. Click a state, or pick it from "Go to a state", and a window opens with its top 5 instruments, one after another. "See all" opens the full state page.
-2. **Filter by type and year.** Chips filter by family (law, court, policy, guidance, consultation, institution, international). The slider and play button show how the map filled in from 2018 to now.
-3. **State page** (`/jurisdiction/KA`). Every instrument for one state, with counts and a CSV download for that state.
-4. **Policy page** (`/policy/<id>`). Summary, key provisions, timeline, source link, confidence note, related instruments, "report a correction".
-5. **Explore.** A searchable, filterable table of all 312 records.
-6. **Timeline, Matrix, Compare.** Instruments over time; state × type grid; two states side by side.
-7. **Signals.** Live feed of new items from official sources (PIB, RBI, SEBI, TRAI and indexed government domains) that mention AI and may need adding.
-8. **Method.** What counts, how status and confidence are assigned, and the dataset changelog.
+1. **Map (home).** India shaded by number of policies. Click a state, or pick it from "Go to a state", and a window opens with its top 5 policies, one after another. "See all" opens the full state page. "Union (national)" does the same for central policies.
+2. **Filter by type and year.** Chips filter by type (law, court, policy, guidance, consultation, institution, international). The slider and play button show how the map filled in from 2018 to now.
+3. **State page** (`/jurisdiction/KA`). Every policy for one state, grouped by type, with a CSV download for that state.
+4. **Policy page** (`/policy/<id>`). Summary, key provisions, timeline, sources, what was verified, related policies, a citation to copy.
+5. **Policies.** Search box, three main filters (state, type, status) and more on demand. Results grouped by year, 30 at a time, downloadable as CSV.
+6. **Timeline and Compare.** Policies over time; two or three states side by side.
+7. **News feed.** New items from official sources (PIB, RBI, SEBI, TRAI and Google News limited to government sites) that mention AI and may need adding.
 
 ---
 
@@ -75,7 +72,8 @@ Deploy: `vercel --prod` (project `india-ai-policy-atlas`).
 | `scripts/export-csv.mjs` | Writes `data/policies.csv` |
 | `.github/workflows/daily-scan.yml` | Runs the scan daily and opens a pull request with candidates |
 | `app/page.tsx`, `components/AtlasClient.tsx` | Home page: map, filters, year slider |
-| `components/StateWindow.tsx` | The state window with the top 5 instruments |
+| `components/StateWindow.tsx` | The state window with the top 5 policies |
+| `components/ExploreClient.tsx` | The Policies page: search, filters, list |
 | `components/IndiaMap.tsx`, `lib/geo.ts` | Map drawing (d3-geo, Survey of India boundaries) |
 | `lib/data.ts` | Data loading, counts, and `briefingScore` (how "top 5" is chosen) |
 | `lib/taxonomy.ts` | Families, status groups, confidence labels |
@@ -126,4 +124,5 @@ The brief's minimum fields are all present: state (`jurisdiction_name`), title, 
 - **Duplicate detection is word-overlap on titles**, plus manual review of flagged pairs. It can miss duplicates that are named very differently.
 - **"Top 5" ranking is a simple, visible rule** (status, then type, then confidence, then recency). It is a reading aid, not a judgement of importance.
 - **Links rot.** `check-links.mjs` reports broken sources weekly; fixes are manual.
-- **Git history is short** (about 10 commits). Much of the data work happened in research sessions and landed in a few large commits.
+- **No hand-labelled accuracy check yet.** The first plan included labelling a random sample of about 40 records to measure precision. That was not done.
+- **Git history is short** (about 12 commits). Much of the data work happened in research sessions and landed in a few large commits.
