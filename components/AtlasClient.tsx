@@ -95,15 +95,6 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
 
   const states = jurisdictions.filter((j) => j.code !== "IN");
 
-  const ranked = useMemo(
-    () =>
-      states
-        .map((j) => ({ j, n: counts[j.code] ?? 0 }))
-        .filter((r) => r.n > 0)
-        .sort((a, b) => b.n - a.n || a.j.name.localeCompare(b.j.name)),
-    [states, counts],
-  );
-  const rankMax = ranked[0]?.n ?? 1;
   const latest = useMemo(() => filtered.filter((p) => p.jurisdiction !== "IN").slice(0, 6), [filtered]);
 
   const sel = selected ? jByCode.get(selected) ?? null : null;
@@ -258,35 +249,8 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
         </div>
       </section>
 
-      {/* below the map: who is most active, what happened last */}
-      <section className="mx-auto mt-12 grid max-w-[1200px] gap-10 px-4 sm:px-6 lg:grid-cols-2">
-        <div>
-          <div className="eyebrow">Most policies</div>
-          <ol className="mt-3 grid gap-x-6 sm:grid-cols-2">
-            {ranked.slice(0, 16).map(({ j, n }) => (
-              <li key={j.code}>
-                <button
-                  type="button"
-                  onClick={() => setSelected(j.code)}
-                  onMouseEnter={() => setHovered(j.code)}
-                  onMouseLeave={() => setHovered(null)}
-                  className="group flex w-full items-center gap-3 border-b border-line py-2 text-left"
-                >
-                  <span className="w-[118px] flex-none truncate text-[13.5px] text-ink group-hover:text-accent">
-                    {j.name}
-                  </span>
-                  <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-sunken">
-                    <span
-                      className="block h-full rounded-full bg-accent transition-[width] duration-500"
-                      style={{ width: `${(n / rankMax) * 100}%` }}
-                    />
-                  </span>
-                  <span className="w-6 flex-none text-right font-mono text-[12px] text-ink-2 tnum">{n}</span>
-                </button>
-              </li>
-            ))}
-          </ol>
-        </div>
+      {/* below the map: latest activity */}
+      <section className="mx-auto mt-12 max-w-[1200px] px-4 sm:px-6">
         <div>
           <div className="flex items-baseline justify-between">
             <div className="eyebrow">Latest</div>
