@@ -23,7 +23,7 @@ const LABEL_MIN_W = 34;
 
 export function IndiaMap({ levels, tips, selected, onSelect, hovered, onHover, className }: Props) {
   const wrap = useRef<HTMLDivElement>(null);
-  const [tip, setTip] = useState<{ code: string; x: number; y: number } | null>(null);
+  const [tip, setTip] = useState<{ code: string; x: number; y: number; w: number } | null>(null);
 
   const transform = useMemo(() => {
     if (!selected) return { k: 1, tx: 0, ty: 0 };
@@ -41,7 +41,7 @@ export function IndiaMap({ levels, tips, selected, onSelect, hovered, onHover, c
   function move(e: React.MouseEvent, code: string) {
     const r = wrap.current?.getBoundingClientRect();
     if (!r) return;
-    setTip({ code, x: e.clientX - r.left, y: e.clientY - r.top });
+    setTip({ code, x: e.clientX - r.left, y: e.clientY - r.top, w: r.width });
   }
 
   const tipData = tip ? tips[tip.code] : null;
@@ -126,7 +126,7 @@ export function IndiaMap({ levels, tips, selected, onSelect, hovered, onHover, c
         <div
           className="pointer-events-none absolute z-10 w-max max-w-[260px] rounded-[6px] border border-line bg-elev px-3 py-2 shadow-[var(--shadow-2)]"
           style={{
-            left: Math.min(tip.x + 14, (wrap.current?.clientWidth ?? 400) - 270),
+            left: Math.max(0, Math.min(tip.x + 14, tip.w - 270)),
             top: tip.y + 14,
           }}
         >

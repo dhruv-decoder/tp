@@ -1,6 +1,6 @@
 # India AI policy developments, 1 May 2026 – 19 November 2026 (recency sweep)
 
-Researcher notes. Companion JSON: `recent_2026.json` (44 entries). Date of verification: 2026-11-19.
+Researcher notes. Companion JSON: `recent_2026.json` (43 entries). Date of verification: 2026-11-19.
 
 Method note: WebSearch budget was exhausted early in the session; discovery was done through Google News RSS and Bing News RSS feeds and direct fetches of MediaNama, IFF, SFLC, ThePrint, Rediff, Hans India, Free Press Journal, Digital Goa and others. Several publishers (The Hindu, Times of India, BusinessLine, Economic Times, Hindustan Times, NDTV Profit, CNBC-TV18, Financial Express, New Indian Express) refused fetches, and pib.gov.in, meity.gov.in and trai.gov.in pages returned 403/404, so some entries rest on reputable press rather than the primary PDF. The WebFetch session limit was hit before a final verification pass, so items marked "unverified" below were not re-checked.
 

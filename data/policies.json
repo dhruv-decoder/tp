@@ -1,10 +1,10 @@
 [
   {
     "id": "ga-ai-policy-2026",
-    "title": "Goa AI Policy 2026 (AI and Deep-Tech Policy)",
+    "title": "Goa Artificial Intelligence Policy 2026 (2026-29)",
     "jurisdiction": "GA",
     "jurisdiction_name": "Goa",
-    "issuing_body": "Department of Information Technology, Electronics and Communications, Government of Goa",
+    "issuing_body": "Government of Goa (Department of Information Technology, Electronics and Communications)",
     "instrument_type": "policy",
     "status": "adopted",
     "binding": "non-binding",
@@ -28,37 +28,51 @@
         "event": "Minister says policy is in final stage, under review"
       },
       {
+        "date": "2026-10-22",
+        "event": "Policy launched at Goa AI Tech Conclave 2026; state hackathon announced"
+      },
+      {
+        "date": "2026-11-18",
+        "event": "Cabinet approves the policy and five schemes, sanctioning Rs 10 crore for 2026-27"
+      },
+      {
         "date": "2026-11-18",
         "event": "Cabinet approves AI Policy 2026; Rs 50 crore earmarked for skilling; five schemes sanctioned at Rs 10 crore"
       }
     ],
-    "summary": "Goa's first state AI policy, approved by cabinet on 18 November 2026 after an eight-month draft process, covering skilling, startups and infrastructure.",
+    "summary": "A three-year state AI policy approved by the Goa cabinet with five schemes covering AI training, Konkani-language AI research, a language-technology research centre, startups and MSME adoption, with 60 percent of resources directed to skilling.",
     "key_provisions": [
-      "Rs 50 crore earmarked for AI skilling (reported)",
-      "Five schemes under the policy sanctioned with Rs 10 crore (reported)",
-      "Draft provisions: AI curriculum and learning labs in educational institutions, educator training, multilingual study material, AI Kosh and AI Readiness Index",
-      "Startup capital support and 'AI with a human touch' principle; builds on GoaOnline (9.1 lakh users)"
+      "Policy period 2026-2029; five schemes approved 18 November 2026 with Rs 10 crore sanctioned for 2026-27",
+      "Schemes: AI training across education levels; Konkani AI and Research Excellence Scheme; AI Research Centre of Excellence for Language Technology; Udyam AI Scheme for startups; AI adoption support for MSMEs",
+      "Resource split: 60 percent skilling and capacity building, 20 percent startup support, 20 percent AI infrastructure",
+      "Advisory council chaired by the Chief Minister to oversee implementation",
+      "Rs 50 crore earmarked for skilling (The Goan); target of 50,000 certified AI professionals (Urban Acres)"
     ],
     "themes": [
       "skilling",
       "startups-innovation",
+      "models",
+      "research-funding",
       "infrastructure",
       "governance"
     ],
     "sectors": [
-      "cross-sector",
       "education",
-      "startups-industry"
+      "startups-industry",
+      "cross-sector"
     ],
-    "source_url": "https://www.devdiscourse.com/article/technology/3837152-goa-gears-up-for-ai-transformation-with-upcoming-policy",
+    "source_url": "https://digitalgoa.com/goa-cabinet-approves-ai-policy-2026-focus-on-skilling-konkani-ai-startups-and-research/",
     "source_type": "news",
     "secondary_sources": [
+      "https://www.thegoan.net/goa-news/cabinet-approves-ai-policy-2026-rs-50-crore-earmarked-for-skilling/157278.html",
+      "https://www.msn.com/en-in/money/economy/goa-cabinet-approves-five-schemes-under-ai-policy-sanctions-rs-10cr/ar-AA2hIaeW",
       "https://theprint.in/india/goa-govt-to-roll-out-ai-deep-tech-policy-in-100-days-minister/2878304/",
       "https://news.google.com/rss/search?q=Goa+AI+policy+draft+Khaunte&hl=en-IN&gl=IN&ceid=IN:en",
-      "https://en.wikipedia.org/wiki/Goa_AI_Mission_2027"
+      "https://en.wikipedia.org/wiki/Goa_AI_Mission_2027",
+      "https://www.devdiscourse.com/article/technology/3837152-goa-gears-up-for-ai-transformation-with-upcoming-policy"
     ],
     "confidence": "medium",
-    "confidence_note": "Cabinet approval on 18 Nov 2026 confirmed only via headlines from The Goan, Times of India and O Heraldo (Google News); policy text and gazette not located. Draft dates from TOI/ET headlines and Wikipedia.",
+    "confidence_note": "Launch and approval dates and scheme list from Digital Goa, The Goan and TOI; the Rs 50 crore and 50,000-professional figures appear in single outlets each. Policy PDF on goa.gov.in not retrieved.",
     "related": [
       "ga-ai-mission-2027"
     ],
@@ -113,6 +127,157 @@
     "confidence_note": "Three outlets report the launch; ₹35 crore figure from one source; no GO retrieved.",
     "related": [
       "ka-ai-policy-announcement-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "ml-ai-valley-initiative-2026",
+    "title": "Meghalaya 'AI Valley' initiative and AI Job Fair",
+    "jurisdiction": "ML",
+    "jurisdiction_name": "Meghalaya",
+    "issuing_body": "Government of Meghalaya",
+    "instrument_type": "other",
+    "status": "announced",
+    "binding": "non-binding",
+    "date": "2026-11-17",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-11-17",
+        "event": "CM Conrad Sangma announces AI Valley ambition and 125 AI jobs at state's first AI Job Fair in Shillong"
+      }
+    ],
+    "summary": "Meghalaya's Chief Minister announced an aim to position Shillong as India's next AI hub, launching an initial 125 AI job opportunities at the state's first AI Job Fair. No policy document or budget was announced.",
+    "key_provisions": [
+      "125 AI job openings announced at the inaugural AI Job Fair, Shillong, 17 November 2026",
+      "Call for tech professionals from the Northeast to return to the state",
+      "No policy text, mission order or budget published"
+    ],
+    "themes": [
+      "skilling",
+      "employment-labour",
+      "startups-innovation"
+    ],
+    "sectors": [
+      "employment"
+    ],
+    "source_url": "https://www.bing.com/news/search?q=Meghalaya+AI+Valley+Conrad+Sangma+November+2026&format=rss",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Three regional outlets (The Hawk, Northeast Live, Meghalayan Express) report the announcement; it is an initiative, not an instrument, and is recorded so the map reflects Meghalaya's status.",
+    "related": [],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-sebi-ai-guidelines-capital-markets-announced-2026",
+    "title": "SEBI guidelines on responsible AI use in capital markets (announced)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Securities and Exchange Board of India (SEBI)",
+    "instrument_type": "guidelines",
+    "status": "announced",
+    "binding": "binding",
+    "date": "2026-11-16",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2024-12-01",
+        "event": "SEBI amends regulations making regulated entities solely responsible for AI tool outputs"
+      },
+      {
+        "date": "2025-06-20",
+        "event": "Consultation paper on responsible AI/ML use (comments to 11 July 2025)"
+      },
+      {
+        "date": "2026-11-16",
+        "event": "Chairman Tuhin Kanta Pandey says detailed guidelines on disclosure, human oversight and accountability will issue soon"
+      }
+    ],
+    "summary": "SEBI's chairman announced forthcoming detailed guidelines requiring regulated entities to disclose AI use to clients, keep competent and accountable human oversight for critical decisions, and remain responsible for AI outputs.",
+    "key_provisions": [
+      "Firms to inform clients when AI is used in operations affecting them",
+      "Human-in-the-loop for critical decisions; oversight must be competent, empowered and accountable",
+      "Regulated entities remain responsible for outputs of AI tools",
+      "No release date given; builds on the June 2025 consultation paper"
+    ],
+    "themes": [
+      "transparency",
+      "accountability-liability",
+      "sectoral-regulation"
+    ],
+    "sectors": [
+      "finance"
+    ],
+    "source_url": "https://www.medianama.com/2026/11/223-sebi-ai-disclosure-human-oversight-rules/",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "medium",
+    "confidence_note": "Based on the chairman's public remarks at India International Trade Fair as reported by MediaNama; no draft text exists yet.",
+    "related": [],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-dpdp-rules-consent-manager-commencement-2026",
+    "title": "DPDP Rules 2025: commencement of consent-manager provisions and registration portal (14 November 2026)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "rules",
+    "status": "in-force",
+    "binding": "binding",
+    "date": "2026-11-14",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-11-14",
+        "event": "DPDP Rules 2025 notified; Rules 1, 2 and 17-21 commence"
+      },
+      {
+        "date": "2026-08-28",
+        "event": "Consent-manager registration framework reported opening (fintechbiznews)"
+      },
+      {
+        "date": "2026-11-13",
+        "event": "MeitY launches online consent-manager registration portal"
+      },
+      {
+        "date": "2026-11-14",
+        "event": "Consent-manager provisions commence; Data Protection Board still has no chairperson or members"
+      },
+      {
+        "date": "2027-05-14",
+        "event": "Remaining substantive obligations scheduled to commence"
+      }
+    ],
+    "summary": "The second phase of the DPDP Rules 2025 commenced on 14 November 2026 with registration of Consent Managers opening through a MeitY portal. The Data Protection Board of India, which must evaluate applications, had no appointed chairperson or members as of that date.",
+    "key_provisions": [
+      "Indian companies with minimum net worth of Rs 2 crore may apply for registration as Consent Managers",
+      "Applications evaluated by the Data Protection Board of India",
+      "Portal launched 13 November 2026; provisions effective 14 November 2026, twelve months after notification of the Rules",
+      "DPB appointments 'had not been finalised' as of 14 November 2026 (ministry official to Hindustan Times)",
+      "Third phase (most data-fiduciary obligations) commences 14 May 2027"
+    ],
+    "themes": [
+      "data-protection",
+      "privacy",
+      "institution-building"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://www.bing.com/news/search?q=DPDP+consent+manager+registration+November+14+2026+Data+Protection+Board+members&format=rss",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.india-briefing.com/news/india-dpdp-compliance-timeline-enforcement-2026-27-44740.html/",
+      "https://www.bing.com/news/search?q=MeitY+consent+manager+registration+portal+launched+DPDP&format=rss"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Portal launch, Rs 2 crore threshold and unstaffed DPB reported by Moneycontrol, BusinessLine, Hindustan Times, OpenGov Asia and others (13-15 Nov 2026); MeitY notification not retrieved.",
+    "related": [
+      "central-dpdp-act-2023",
+      "central-dpdp-rules-2025",
+      "up-ai-stack-msi-rfp-2026"
     ],
     "last_verified": "2026-11-19"
   },
@@ -177,7 +342,7 @@
     "title": "Andhra Pradesh Robotics and Physical AI Policy 2026-36",
     "jurisdiction": "AP",
     "jurisdiction_name": "Andhra Pradesh",
-    "issuing_body": "ITE&C Department, Government of Andhra Pradesh (Cabinet; G.O. Ms. No. 86 reported)",
+    "issuing_body": "Government of Andhra Pradesh (Cabinet; Industries / ITE&C Departments)",
     "instrument_type": "policy",
     "status": "adopted",
     "binding": "non-binding",
@@ -186,37 +351,54 @@
     "timeline": [
       {
         "date": "2026-11-10",
+        "event": "Cabinet clears policy frameworks for AI, electronics and renewable energy, including AVGC-XR Policy 2026-31"
+      },
+      {
+        "date": "2026-11-10",
         "event": "Cabinet chaired by CM N. Chandrababu Naidu approves the policy with the AVGC-XR Policy 2026-31 and semiconductor policy amendments"
       },
       {
         "date": "2026-11-16",
+        "event": "Government approval of Robotics and Physical AI Policy 2026-36 reported"
+      },
+      {
+        "date": "2026-11-16",
         "event": "G.O. Ms. No. 86 issued (per one secondary source)"
+      },
+      {
+        "date": "2026-11-18",
+        "event": "Policy released together with Semiconductor and Display Fab Policy 4.0 and AVGC-XR Policy"
       }
     ],
-    "summary": "Ten-year, manufacturing-led policy to build a robotics and physical-AI value chain in Andhra Pradesh; the state's first instrument with 'AI' in its title. Incentive schedules awaited.",
+    "summary": "A ten-year Andhra Pradesh policy to build a manufacturing-led robotics and physical-AI ecosystem, anchored by a 300-acre Robotics and Advanced Technology Park at Gudipalli, with incentives for components, platforms, R&D and talent.",
     "key_provisions": [
       "Policy period 2026-2036",
-      "Covers six segments: components (actuators, sensors, controllers, chipsets), robot platforms, system integration, R&D, talent, industry adoption",
-      "Targets robotics manufacturers, AI developers and deployers of intelligent industrial equipment",
-      "Incentives and eligibility to be notified through follow-on GOs",
-      "Approved alongside the AVGC-XR Policy 2026-31"
+      "300-acre Robotics and Advanced Technology Park at Gudipalli, Sri Sathya Sai district",
+      "Investment potential about Rs 3,536 crore; 18,750 jobs targeted in Phase I (2027)",
+      "Focus on domestic production of servo motors, encoders and reducers plus platforms, R&D and talent",
+      "Approved alongside Semiconductor and Display Fab Policy 4.0 (incentives capped at 50 percent of eligible fixed capital investment) and AVGC-XR Policy 2026-31"
     ],
     "themes": [
       "startups-innovation",
       "infrastructure",
-      "skilling"
+      "skilling",
+      "research-funding"
     ],
     "sectors": [
       "startups-industry"
     ],
-    "source_url": "https://cio.eletsonline.com/artificial-intelligence/andhra-pradesh-physical-ai-policy/76839/",
+    "source_url": "https://www.thehansindia.com/news/cities/amaravati/ap-takes-aim-at-global-race-for-chips-robots-ai-1143082",
     "source_type": "news",
     "secondary_sources": [
+      "https://www.thehindu.com/news/national/andhra-pradesh/ap-govt-approves-robotics-and-physical-ai-policy-202636-aimed-at-total-ecosystem-for-state/article71708466.ece",
+      "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-cabinet-clears-policy-frameworks-to-attract-investments-in-ai-electronics-renewable-energy/article71686342.ece",
+      "https://www.m9.news/politics/ap-cabinet-decisions-2026-ai-industrial-projects/",
       "https://www.telugupeople.com/news/news.asp?newsId=109428",
-      "https://kpiasacademy.com/andhra-pradesh-robotics-physical-ai-policy-2026/"
+      "https://kpiasacademy.com/andhra-pradesh-robotics-physical-ai-policy-2026/",
+      "https://cio.eletsonline.com/artificial-intelligence/andhra-pradesh-physical-ai-policy/76839/"
     ],
     "confidence": "medium",
-    "confidence_note": "Cabinet approval reported by two outlets; GO number from a single coaching-site summary; policy text not published at time of check.",
+    "confidence_note": "Hans India article read in full; The Hindu pieces seen as headlines only. GO number not captured.",
     "related": [
       "ap-it-gcc-policy-4-0-2024-29"
     ],
@@ -268,6 +450,88 @@
     "last_verified": "2026-11-19"
   },
   {
+    "id": "dl-delhi-hc-personality-rights-ai-deepfakes-2026",
+    "title": "Delhi High Court personality-rights orders against AI deepfakes (May-November 2026)",
+    "jurisdiction": "DL",
+    "jurisdiction_name": "Delhi",
+    "issuing_body": "High Court of Delhi",
+    "instrument_type": "court-ruling",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2026-11-05",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-05-01",
+        "event": "Aman Gupta: interim protection against AI-generated deepfakes (May 2026)"
+      },
+      {
+        "date": "2026-07-09",
+        "event": "Ravi Kishan: restraint on AI deepfakes and unauthorised exploitation"
+      },
+      {
+        "date": "2026-08-01",
+        "event": "Janhvi and Khushi Kapoor: 552 of 6,884 URLs ordered removed, blanket takedown refused; Alakh Pandey: parody distinguished from commercial exploitation"
+      },
+      {
+        "date": "2026-09-01",
+        "event": "Meenakshi Chaudhary: relief limited to sexually explicit content; Bombay HC grants Shruti Haasan relief"
+      },
+      {
+        "date": "2026-09-22",
+        "event": "Justice Bhambhani states opposition to blanket personality-rights injunctions; amici appointed"
+      },
+      {
+        "date": "2026-09-30",
+        "event": "Court doubts whether minor Aaradhya Bachchan holds personality rights"
+      },
+      {
+        "date": "2026-10-01",
+        "event": "Kriti Sanon interim order against sexual deepfakes, impersonation and synthetic voice models"
+      },
+      {
+        "date": "2026-11-05",
+        "event": "Amitabh Bachchan v. Rajat Nagi: permanent injunction including John Doe defendants"
+      }
+    ],
+    "summary": "A series of Delhi High Court orders in 2026 recognised that personality and publicity rights protect name, image, voice and likeness against AI deepfakes, while refusing blanket injunctions and distinguishing satire from vulgar or commercial misuse. The Bachchan decree of 5 November 2026 set out the validity and identifiability test for infringement.",
+    "key_provisions": [
+      "Personality rights protect name, image, voice, likeness and other indicia against AI and deepfake misuse (Devi Prasad Shetty v. Medicine Me, 2026:DHC:8897)",
+      "Courts consistently order removal of sexually explicit AI content but refuse blanket injunctions; claimants must show monetisation, not mere popularity (Bhambhani J)",
+      "Raghav Chadha: six vulgar AI posts ordered removed; political satire left online",
+      "Shashi Tharoor: X directed to remove AI deepfake video; voice and speaking style protected",
+      "Amitabh Bachchan v. Rajat Nagi (5 Nov 2026, Kaurav J): permanent injunction; two-step test of validity and identifiability",
+      "Amici curiae appointed to address scope of personality rights; detailed hearings scheduled October 2026"
+    ],
+    "themes": [
+      "synthetic-media",
+      "privacy",
+      "copyright-ip",
+      "accountability-liability"
+    ],
+    "sectors": [
+      "media",
+      "judiciary"
+    ],
+    "source_url": "https://www.medianama.com/2026/11/223-amitabh-bachchan-permanent-injunction-personality-rights/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.medianama.com/2026/09/223-personality-rights-indian-courts/",
+      "https://www.medianama.com/2026/09/223-delhi-hc-define-personality-rights/",
+      "https://www.medianama.com/2026/09/223-delhi-hc-aaradhya-bachchan-personality-rights/",
+      "https://www.medianama.com/2026/11/223-delhi-hc-interim-kriti-sanons-personality/",
+      "https://www.scconline.com/blog/post/2026/07/09/delhi-high-court-protects-ravi-kishans-personality-rights-restrains-ai-generated-deepfakes/",
+      "https://www.verdictum.in/delhi-high-court/dr-devi-prasad-shetty-and-another-v-medicine-me-and-others-2026dhc8897-1623616",
+      "https://www.livelawbiz.com/personality-rights/delhi-high-court-orders-takedown-of-six-vulgar-ai-generated-posts-against-raghav-chadha-declines-to-block-rest-as-political-satire-539469"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Case facts from MediaNama, SCC Online, Verdictum and LiveLaw Biz; exact dates of several interim orders are approximate (month). Jurisdiction coded DL because the issuing court is the Delhi High Court, though the rulings are relied on nationally.",
+    "related": [
+      "central-centre-deepfake-digital-arrest-offences-bill-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
     "id": "central-cert-in-ai-security-auditing-guidelines-2026",
     "title": "Artificial Intelligence (AI) Security Auditing Guidelines v1.0",
     "jurisdiction": "IN",
@@ -280,8 +544,20 @@
     "date_precision": "day",
     "timeline": [
       {
+        "date": "2026-09-21",
+        "event": "MeitY says it will tighten AI incident reporting norms, timeframe and content"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "CERT-In warns AI agents accessed sensitive data at Indian organisations during testing"
+      },
+      {
         "date": "2026-11-04",
         "event": "Version 1.0 published (107 pages)"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "AI Security Auditing Guidelines released"
       }
     ],
     "summary": "CERT-In framework for security and governance audits of AI systems developed, procured or operated in India (or processing Indian data), using four risk tiers and nine audit domains, and designed to integrate with the India AI Governance Guidelines and sectoral regulators' requirements.",
@@ -298,7 +574,8 @@
       "governance",
       "fairness-bias",
       "transparency",
-      "standards"
+      "standards",
+      "risk-management"
     ],
     "sectors": [
       "cross-sector",
@@ -309,14 +586,131 @@
     "source_url": "https://www.cert-in.org.in/PDF/AI_Security_Auditing_Guidelines.pdf",
     "source_type": "official",
     "secondary_sources": [
-      "https://labs.cloudsecurityalliance.org/research/csa-research-note-certin-ai-security-auditing-guidelines-202/"
+      "https://labs.cloudsecurityalliance.org/research/csa-research-note-certin-ai-security-auditing-guidelines-202/",
+      "https://www.medianama.com/2026/11/223-lowdown-cert-in-ai-security-auditing-guidelines/",
+      "https://www.medianama.com/2026/11/223-interview-cert-in-chief-ai-agents-prompt-injection/",
+      "https://www.medianama.com/2026/09/223-india-tighter-ai-incident-reporting-rules/",
+      "https://www.medianama.com/wp-content/uploads/2026/11/CIGU-2026-0004.pdf"
     ],
     "confidence": "high",
     "confidence_note": "Official PDF downloaded and the preamble, executive summary and applicability sections read. Exact boundary of the 'mandatory compliance scope' table was only partially extracted.",
     "related": [
       "central-cert-in-cyber-security-audit-policy-guidelines-2025",
       "central-cert-in-technical-guidelines-aibom-2025",
-      "central-meity-ai-governance-guidelines-2025"
+      "central-meity-ai-governance-guidelines-2025",
+      "central-cert-in-blueprint-ai-assisted-cyber-threats-2026",
+      "central-meity-ai-incident-reporting-norms-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-indiaai-foundation-models-release-2026",
+    "title": "IndiaAI Mission sovereign foundation models: July 2026 status and November 2026 model releases",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "IndiaAI Mission, MeitY",
+    "instrument_type": "mission",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2026-11-03",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-04-04",
+        "event": "MediaNama reports only Rs 400 crore of the Rs 10,372 crore outlay released"
+      },
+      {
+        "date": "2026-06-25",
+        "event": "Government may take minority stake in Sarvam; Sarvam compute subsidy Rs 98.68 crore"
+      },
+      {
+        "date": "2026-07-22",
+        "event": "Lok Sabha reply: 20 sovereign models (12 LLMs, 8 SLMs), 93.18 lakh GPU hours, 237 projects, 15 providers"
+      },
+      {
+        "date": "2026-11-03",
+        "event": "IndiaAI releases EKA-1 (Soket Labs) and Dhir 2B and Dhir 5B (ZenteiQ)"
+      },
+      {
+        "date": "2026-11-11",
+        "event": "MediaNama reports government likely to push indigenous model use in critical sectors"
+      }
+    ],
+    "summary": "Milestones of the IndiaAI Mission foundation-model pillar in the window: a parliamentary status report in July 2026 and the public release of three indigenous models in November 2026.",
+    "key_provisions": [
+      "20 sovereign model proposals supported: 12 large language models and 8 small language models (Lok Sabha, 22 July 2026)",
+      "93.18 lakh GPU hours allocated; 237 projects approved; 15 compute service providers empanelled",
+      "686 fellowships across 178 institutions; 27 India Data and AI Labs operational, 188 more planned; 58 AI Centres of Excellence approved",
+      "EKA-1, Dhir 2B and Dhir 5B released 3 November 2026 with multilingual and on-device deployment options",
+      "Mission outlay Rs 10,372 crore over five years (approved March 2024)"
+    ],
+    "themes": [
+      "models",
+      "compute",
+      "research-funding",
+      "public-sector-use"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://indiantelevision.com/regulators/indiaai-mission-backs-20-homegrown-ai-models-allocates-93-lakh-gpu-hours",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2227612",
+      "https://www.bing.com/news/search?q=IndiaAI+indigenous+foundation+models+released+November+2026+PIB&format=rss",
+      "https://www.medianama.com/2026/06/223-govt-minority-stake-sarvam-indiaai-mission/",
+      "https://www.medianama.com/2026/04/223-indiaai-mission-400-crore-over-rs-10000-crore-5-year-outlay-released/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "July numbers are from a Lok Sabha reply as reported by indiantelevision.com (PIB page returned 403). November release confirmed by The Week, ET and Financial Express headlines; PIB URL not captured.",
+    "related": [
+      "central-indiaai-compute-rfe-10000-aicu-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-trai-complaint-redressal-fourth-amendment-2026",
+    "title": "Telecom Consumers Complaint Redressal (Fourth Amendment) Regulations, 2026",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Telecom Regulatory Authority of India (TRAI)",
+    "instrument_type": "amendment",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2026-11-03",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-11-02",
+        "event": "ET and YourStory report 24/7 AI complaint support with daily human access and penalties up to Rs 20 lakh"
+      },
+      {
+        "date": "2026-11-03",
+        "event": "tele.net reports issuance of the Fourth Amendment Regulations"
+      }
+    ],
+    "summary": "TRAI amended complaint-redressal regulations to require round-the-clock AI-assisted complaint support with daily access to human agents and faster appeals, with financial disincentives for lapses.",
+    "key_provisions": [
+      "AI-based complaint support to be available 24/7 with daily access to human assistance",
+      "Expedited appeal process for consumers",
+      "Penalty of up to Rs 20 lakh per quarter per licensed service area for complaint-redressal lapses (ET, 2 Nov 2026)"
+    ],
+    "themes": [
+      "sectoral-regulation",
+      "public-sector-use"
+    ],
+    "sectors": [
+      "telecom"
+    ],
+    "source_url": "https://www.bing.com/news/search?q=TRAI+AI+guidelines+telecom+counter-comments+penalty+20+lakh+AI+safety+committee&format=rss",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=TRAI+draft+AI+guidelines+telecom+%22counter+comments%22+OR+%22counter-comments%22"
+    ],
+    "confidence": "low",
+    "confidence_note": "Headlines from tele.net, ET and YourStory only; regulation text not retrieved.",
+    "related": [
+      "central-trai-draft-guidelines-responsible-ai-telecom-2026"
     ],
     "last_verified": "2026-11-19"
   },
@@ -379,26 +773,38 @@
   },
   {
     "id": "central-trai-draft-guidelines-responsible-ai-telecom-2026",
-    "title": "Draft Guidelines on Responsible Use of Artificial Intelligence (AI) in Telecommunication Networks and Provision of Telecommunication Services",
+    "title": "TRAI draft Guidelines on Responsible Use of AI in Telecommunication Networks and Provision of Telecommunication Services",
     "jurisdiction": "IN",
     "jurisdiction_name": "Union",
-    "issuing_body": "Telecom Regulatory Authority of India (TRAI), Network, Spectrum and Licensing Division",
-    "instrument_type": "consultation",
+    "issuing_body": "Telecom Regulatory Authority of India (TRAI)",
+    "instrument_type": "guidelines",
     "status": "consultation",
-    "binding": "non-binding",
+    "binding": "binding",
     "date": "2026-10-30",
     "date_precision": "day",
     "timeline": [
+      {
+        "date": "2026-01-21",
+        "event": "TRAI chairman says AI regulation should be risk-based"
+      },
+      {
+        "date": "2026-10-30",
+        "event": "Draft guidelines released for comment"
+      },
       {
         "date": "2026-10-30",
         "event": "Draft guidelines released as a consultation paper"
       },
       {
         "date": "2026-11-27",
+        "event": "Deadline for stakeholder comments"
+      },
+      {
+        "date": "2026-11-27",
         "event": "Comment deadline"
       }
     ],
-    "summary": "TRAI consultation proposing governance obligations for telecom licensees deploying AI in networks and services: board-approved AI policy, a governance committee, risk classes, an AI inventory, incident reporting and consumer grievance handling. Open for comment as of 19 November 2026.",
+    "summary": "Draft TRAI guidelines requiring telecom service providers to adopt board-approved AI policies, set up internal AI oversight committees, report serious AI incidents and take responsibility for AI failures in networks and services.",
     "key_provisions": [
       "Board-approved AI policy reviewed at least annually and filed with TRAI within seven working days of taking effect",
       "AI Governance and Safety Committee led by a designated AI Governance and Safety Officer; pre-deployment approval by the officer",
@@ -409,27 +815,92 @@
       "Pre-deployment validation, conformity assessment (accuracy, robustness, explainability, fairness, drift, oversight) and impact assessment; grievance mechanism with central database of AI-related harms"
     ],
     "themes": [
-      "governance",
+      "sectoral-regulation",
       "risk-management",
       "incident-reporting",
       "accountability-liability",
-      "sectoral-regulation"
+      "governance"
     ],
     "sectors": [
       "telecom"
     ],
-    "source_url": "https://www.trai.gov.in/release-publication/consultation",
-    "source_type": "official",
+    "source_url": "https://www.bing.com/news/search?q=TRAI+draft+guidelines+responsible+use+AI+telecom+networks&format=rss",
+    "source_type": "news",
     "secondary_sources": [
+      "https://news.google.com/rss/search?q=TRAI+OR+CCI+OR+IRDAI+artificial+intelligence+guidelines+2026",
+      "https://www.trai.gov.in/",
       "https://www.sansalegal.com/post/trai-draft-ai-guidelines-for-telecom-licensees-risk-classes-a-board-policy-and-supplier-accountabi",
       "https://www.tribuneindia.com/news/business/trai-issues-draft-guidelines-on-responsible-ai-use-in-telecom-networks",
-      "https://www.convergence-now.com/telecom/trai-drafts-responsible-ai-guidelines-for-indias-telecom-sector-stakeholders-have-until-november-27-to-respond/"
+      "https://www.convergence-now.com/telecom/trai-drafts-responsible-ai-guidelines-for-indias-telecom-sector-stakeholders-have-until-november-27-to-respond/",
+      "https://www.trai.gov.in/release-publication/consultation"
     ],
     "confidence": "medium",
-    "confidence_note": "Title, release date and open status confirmed on TRAI's consultation listing; provisions summarised from a law-firm note and press, not from the draft PDF. Deadline of 27 Nov 2026 from press. Counter-comment date not found.",
+    "confidence_note": "Release date, title, deadline and headline obligations consistent across ET, TOI, Rediff, NDTV Profit, The Hindu, Tribune and ETV Bharat (30 Oct - 5 Nov 2026). TRAI press release PDF not retrieved; counter-comment date and any penalty provisions unverified.",
     "related": [
+      "central-trai-tcccpr-amendment-ai-spam-2026",
+      "central-trai-complaint-redressal-fourth-amendment-2026",
       "central-trai-recommendations-ai-big-data-telecom-2023",
       "central-meity-ai-governance-guidelines-2025"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "up-ai-stack-msi-rfp-2026",
+    "title": "UP AI Stack: Request for Proposal for Master System Integrator (Centre for e-Governance, UP)",
+    "jurisdiction": "UP",
+    "jurisdiction_name": "Uttar Pradesh",
+    "issuing_body": "Centre for e-Governance, Government of Uttar Pradesh",
+    "instrument_type": "procurement",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2026-10-29",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2022-07-21",
+        "event": "UP Family ID scheme established by government order"
+      },
+      {
+        "date": "2026-10-29",
+        "event": "RFP for Master System Integrator published"
+      },
+      {
+        "date": "2026-11-18",
+        "event": "IFF analysis raises data-protection concerns"
+      },
+      {
+        "date": "2026-12-07",
+        "event": "Bid deadline"
+      }
+    ],
+    "summary": "A state procurement for a single shared AI platform to be used by every UP department, with the Family ID as the linking key across departmental records, including police, education, health, revenue and a citizen-facing 'AI Mitra'.",
+    "key_provisions": [
+      "Family ID (about 4 crore families, 15.62 crore people) specified as the linking key in the data layer",
+      "Twelve initial applications across Urban Development, Police, Education, Health (ASHA workers), Revenue and citizen services",
+      "Components include a data lakehouse, agent memory and logs; retention periods not defined in the RFP",
+      "No data protection impact assessment required; no independent review body; residents not notified when records are linked or searched (IFF)",
+      "Bids due 7 December 2026"
+    ],
+    "themes": [
+      "procurement",
+      "public-sector-use",
+      "privacy",
+      "data-protection"
+    ],
+    "sectors": [
+      "public-services",
+      "law-enforcement",
+      "health",
+      "education"
+    ],
+    "source_url": "https://internetfreedom.in/uttar-pradesh-is-buying-one-ai-platform-for-every-department-keyed-to-the-family-id/",
+    "source_type": "secondary",
+    "secondary_sources": [],
+    "confidence": "medium",
+    "confidence_note": "RFP details from IFF's reading of the tender; RFP document on the UP e-procurement portal not retrieved; contract value not stated.",
+    "related": [
+      "up-ai-mission-2026",
+      "central-dpdp-rules-consent-manager-commencement-2026"
     ],
     "last_verified": "2026-11-19"
   },
@@ -503,6 +974,18 @@
         "event": "State signs Rs 468 crore technology MoUs at India AI Impact Summit; research park and AI centre planned"
       },
       {
+        "date": "2026-05-06",
+        "event": "Cabinet approves AI training for MLAs, MLCs and officials"
+      },
+      {
+        "date": "2026-05-23",
+        "event": "CM Samrat Choudhary says AI policy launch is imminent"
+      },
+      {
+        "date": "2026-05-24",
+        "event": "Bihar AI Summit 2026 held"
+      },
+      {
         "date": "2026-05-25",
         "event": "Government announces it will bring a dedicated AI policy"
       },
@@ -511,12 +994,24 @@
         "event": "Non-financial MoUs with Google, Microsoft, CoRover (BharatGPT) and Sarvam AI for capacity building"
       },
       {
+        "date": "2026-07-03",
+        "event": "Bihar GCC Policy 2026 unveiled at Bengaluru IT industry meet"
+      },
+      {
         "date": "2026-10-22",
         "event": "CM Samrat Choudhary announces target of AI training for 5 lakh youth in five years"
       },
       {
         "date": "2026-10-28",
         "event": "Cabinet approves Bihar AI Policy 2026; briefed by ACS Arvind Chaudhary"
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Cabinet approves AI Policy 2026 with incentives for AI companies, GCCs and startups"
+      },
+      {
+        "date": "2026-11-10",
+        "event": "Cabinet launches startup and AI schemes"
       }
     ],
     "summary": "Cabinet-approved state AI policy offering fiscal incentives to AI companies, GCCs and startups and setting a five-year AI skilling target; detailed rates are left to operational guidelines.",
@@ -538,7 +1033,8 @@
       "agriculture",
       "health",
       "education",
-      "startups-industry"
+      "startups-industry",
+      "public-services"
     ],
     "source_url": "https://www.uniindia.com/east-india/cabinet-bihar-ai-policy/228832",
     "source_type": "news",
@@ -546,12 +1042,92 @@
       "https://cio.eletsonline.com/artificial-intelligence/bihar-cabinet-approves-ai-policy-2026-incentives-ai-companies-gccs-startups-ai-governance/76513/",
       "https://patnapress.com/bihar-cabinet-approves-artificial-intelligence-policy-2026/",
       "https://www.thehansindia.com/news/national/bihar-govt-sets-target-of-ai-training-for-5-lakh-students-in-five-years-1134687",
-      "https://www.zeebiz.com/india/news-bihar-ai-policy-2026-5-lakh-students-to-get-ai-training-over-5-years-404388"
+      "https://www.zeebiz.com/india/news-bihar-ai-policy-2026-5-lakh-students-to-get-ai-training-over-5-years-404388",
+      "https://www.newindianexpress.com/states/bihar/2026/May/06/bihar-cabinet-approves-ai-training-for-legislators-and-officials-clears-multiple-key-proposals",
+      "https://www.hindustantimes.com/cities/patna-news/cm-appeals-diaspora-to-invest-in-bihar-says-ai-policy-launch-soon-101779543652033.html",
+      "https://www.moneycontrol.com/city/bihar-cabinet-approves-da-hike-for-employees-pensioners-launches-startup-and-ai-schemes-article-14076443.html",
+      "https://www.dqindia.com/government-policy/bihar-gcc-policy-2026-bengaluru-tech-investment-12134547",
+      "https://www.msn.com/en-in/news/other/govt-to-study-feasibility-of-subterranean-road-network-in-patna-ai-policy-gets-cabinet-nod/ar-AA2ggt3r"
     ],
     "confidence": "medium",
     "confidence_note": "Cabinet approval confirmed by UNI, Elets and Patna Press (28 Oct 2026; one outlet dated 29 Oct). Policy text and outlay not published; the state IT portal could not be reached (TLS error).",
     "related": [
       "br-bihar-it-policy-2024"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "mh-ai-policy-2026",
+    "title": "Maharashtra Artificial Intelligence Policy 2026 and implementation committees",
+    "jurisdiction": "MH",
+    "jurisdiction_name": "Maharashtra",
+    "issuing_body": "Government of Maharashtra (Information Technology Department)",
+    "instrument_type": "policy",
+    "status": "in-force",
+    "binding": "non-binding",
+    "date": "2026-10-27",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-04-29",
+        "event": "State cabinet approves AI Policy 2026 targeting Rs 10,000 crore investment and 1.5 lakh jobs by 2031"
+      },
+      {
+        "date": "2026-04-29",
+        "event": "Cabinet chaired by CM Fadnavis approves AI Policy 2026"
+      },
+      {
+        "date": "2026-05-27",
+        "event": "Policy announced publicly (News on AIR)"
+      },
+      {
+        "date": "2026-05-27",
+        "event": "News On AIR carries state announcement of policy details"
+      },
+      {
+        "date": "2026-10-27",
+        "event": "Government sets up three tiers of committees to oversee the policy and approve incentives"
+      }
+    ],
+    "summary": "Maharashtra's AI Policy 2026, approved by cabinet in April 2026, creates a State AI Mission and targets Rs 10,000 crore of investment and 1.5 lakh jobs by 2031. In October 2026 the state constituted a three-tier committee structure to implement it and sanction incentives.",
+    "key_provisions": [
+      "Six AI Centres of Excellence (health, agriculture, education, urban development, Marathi language/culture, finance-revenue) and five AI Innovation Cities",
+      "2,000 GPUs offered to departments on a Compute-as-a-Service basis",
+      "2 lakh youth/professionals to be trained; Maharashtra Centre for Advanced AI Training (MCAT) to be set up",
+      "5,000 MSMEs eligible for financial assistance (20% subsidy on AI implementation cost); 12 AI incubators; Rs 500 crore AI Startup Venture Fund with Rs 250 crore state contribution",
+      "State AI Data Exchange linked to the central AI fund framework; datasets in Marathi, dialects and tribal languages; Maha AI Tools Hub",
+      "Maharashtra AI Mission to be created on the lines of IndiaAI Mission; dedicated ethical-AI framework"
+    ],
+    "themes": [
+      "startups-innovation",
+      "public-sector-use",
+      "skilling",
+      "governance",
+      "compute",
+      "datasets"
+    ],
+    "sectors": [
+      "startups-industry",
+      "public-services",
+      "cross-sector"
+    ],
+    "source_url": "https://www.deccanchronicle.com/artificial-intelligence/maharashtra-govt-sets-up-3-tier-panels-to-oversee-ai-policy-approve-incentives-1999640",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://money.rediff.com/news/market/maharashtra-forms-3-tier-panels-for-ai-policy-incentives/57034120261028",
+      "https://www.freepressjournal.in/mumbai/maharashtra-approves-ai-policy-2026-targeting-10000-cr-investment-and-1.5-lakh-jobs-by-2031",
+      "https://www.thehindubusinessline.com/news/maharashtra-announces-ai-policy-2026-with-10000-crore-investment/article70920765.ece",
+      "https://psuwatch.com/newsupdates/maharashtra-cabinet-approves-ai-policy-2026",
+      "https://indianinfrastructure.com/2026/04/30/maharashtra-approves-ai-policy-with-rs-100-billion-investment-target/",
+      "https://www.sentinelassam.com/more-news/science-and-technology/maha-cabinet-unveils-ai-policy-2026-to-attract-10000-crore-investment-create-15-lakh-jobs-and-boost-green-energy",
+      "https://www.newsonair.gov.in/maharashtra-announces-ai-policy-2026-to-boost-industry-governance-and-public-services/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Cabinet approval and targets widely reported; the October Government Resolution and committee composition are from Deccan Chronicle and Rediff and the GR itself was not retrieved. Policy outlay figure not confirmed.",
+    "related": [
+      "mh-maharashtra-ai-mission-2026",
+      "mh-mahaagri-ai-policy-2025",
+      "mh-data-centre-policy-draft-2026"
     ],
     "last_verified": "2026-11-19"
   },
@@ -743,11 +1319,116 @@
     "last_verified": "2026-11-19"
   },
   {
+    "id": "central-indiaai-compute-rfe-10000-aicu-2026",
+    "title": "C-DAC Request for Empanelment of AI Service Providers for up to 10,000 AI Compute Units (IndiaAI Mission)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Centre for Development of Advanced Computing (C-DAC), MeitY",
+    "instrument_type": "procurement",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2026-10-13",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-07-22",
+        "event": "Lok Sabha reply: 15 compute providers empanelled, 93.18 lakh GPU hours allocated"
+      },
+      {
+        "date": "2026-10-13",
+        "event": "RFE for AI Service Providers to supply up to 10,000 AI Compute Units reported"
+      }
+    ],
+    "summary": "A new empanelment round under the IndiaAI compute pillar seeking providers of up to 10,000 AI compute units (GPUs, TPUs, accelerators) hosted in Indian data centres in clusters of 512 or more.",
+    "key_provisions": [
+      "Up to 10,000 AI Compute Units defined as GPUs, TPUs, accelerators and similar hardware for AI workloads",
+      "Units to be organised in clusters of 4,000, 1,000 or 512 with at least 512 units at a single Indian data centre",
+      "Capacity to be distributed across multiple locations in India",
+      "Minister stated the first tender is for 5,000 units",
+      "Issued by C-DAC as implementing agency for the IndiaAI Mission compute pillar"
+    ],
+    "themes": [
+      "compute",
+      "procurement",
+      "infrastructure"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://www.medianama.com/wp-content/uploads/2026/10/meity-AI-Service-Providers-ASP-for-Provisioning-of.pdf",
+    "source_type": "official",
+    "secondary_sources": [
+      "https://www.medianama.com/2026/10/223-meity-ai-compute-providers-gpus-indiaai-mission/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "RFE PDF mirrored by MediaNama; exact issue date and bid deadline not captured (article dated 13 October 2026).",
+    "related": [
+      "central-indiaai-foundation-models-release-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-sebi-intermediaries-second-amendment-regulations-2026",
+    "title": "SEBI (Intermediaries) Second Amendment Regulations, 2026 (advertisement code covering AI avatars)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Securities and Exchange Board of India (SEBI)",
+    "instrument_type": "amendment",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2026-10-09",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-06-24",
+        "event": "Draft ad code proposes treating finfluencers and AI avatars as celebrities"
+      },
+      {
+        "date": "2026-09-24",
+        "event": "SEBI board approves final advertisement code"
+      },
+      {
+        "date": "2026-10-09",
+        "event": "Published in the Gazette of India"
+      },
+      {
+        "date": "2027-04-07",
+        "event": "Effective 180 days after gazette publication (approximate)"
+      }
+    ],
+    "summary": "Amendment to SEBI intermediary regulations setting a uniform advertisement code. Advertisements featuring celebrities, influencers or virtual influencers (AI-generated avatars with human characteristics) require prior approval from the intermediary's supervisory body.",
+    "key_provisions": [
+      "Virtual influencers defined as computer-generated people or avatars with realistic human characteristics and treated like celebrities",
+      "Prior approval of celebrity, influencer and AI-avatar advertisements by the supervisory body, which must decide within four working days",
+      "All advertisements to carry firm name, SEBI registration number, logo and prescribed disclaimers",
+      "Effective 180 days from gazette (about April 2027)",
+      "Overlap noted with MeitY synthetic-media labelling under IT Rules for AI-generated advertisements"
+    ],
+    "themes": [
+      "synthetic-media",
+      "transparency",
+      "sectoral-regulation"
+    ],
+    "sectors": [
+      "finance",
+      "media"
+    ],
+    "source_url": "https://www.medianama.com/2026/10/223-sebis-final-ad-code-influencer-ai-avatar/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.medianama.com/2026/06/223-lowdown-sebi-treat-finfluencers-ai-avatars-celebrities-under-new-ad-code/"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Gazette date and provisions from MediaNama's lowdown of the notified regulations; egazette copy not retrieved.",
+    "related": [],
+    "last_verified": "2026-11-19"
+  },
+  {
     "id": "up-ai-mission-2026",
-    "title": "Uttar Pradesh AI Mission (UP-AIM)",
+    "title": "Uttar Pradesh Artificial Intelligence Mission (UP-AIM)",
     "jurisdiction": "UP",
     "jurisdiction_name": "Uttar Pradesh",
-    "issuing_body": "IT and Electronics Department, Government of Uttar Pradesh",
+    "issuing_body": "Government of Uttar Pradesh (IT and Electronics Department)",
     "instrument_type": "mission",
     "status": "adopted",
     "binding": "non-binding",
@@ -755,37 +1436,63 @@
     "date_precision": "day",
     "timeline": [
       {
+        "date": "2026-07-23",
+        "event": "State Data Governance Committee constituted"
+      },
+      {
+        "date": "2026-10-09",
+        "event": "Cabinet approves UP AI Mission and Startup Procurement Scheme 2026"
+      },
+      {
         "date": "2026-10-09",
         "event": "Cabinet approves establishment of UP-AIM as a society under the IT and Electronics Department"
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Government Order issued for the Mission"
+      },
+      {
+        "date": "2026-10-29",
+        "event": "UP AI Stack RFP for Master System Integrator published"
+      },
+      {
+        "date": "2026-11-19",
+        "event": "Cabinet clears Rs 281 crore Deep Tech U-Hub"
       }
     ],
-    "summary": "Cabinet-approved state AI mission structured as an independent society to build a UP AI Stack, deploy departmental AI use cases and train AI talent at scale.",
+    "summary": "UP-AIM is a state society under the IT and Electronics Department with a seven-pillar programme covering a shared UP AI Stack, talent, research, startups, compute and trust mechanisms, targeting 100 AI startups and five lakh trained youth across all 75 districts.",
     "key_provisions": [
-      "UP AI Stack: AI-ready data ecosystem, AI operating framework, departmental AI applications, secure data exchange platform, GPU-based compute facility",
-      "100+ AI use cases to be developed, 25-30 scaled state-wide",
-      "At least 100 AI startups supported; 5 lakh AI-fluent youth; 50,000 'forward deployed' AI professionals",
-      "75 district AI innovation centres",
-      "Governance: Apex Body, Governing Body, Executive Committee and a CEO; Master System Integrator to build and operate the stack"
+      "Independent society with Apex Body, Governing Body, Executive Committee and a CEO",
+      "Targets: at least 100 AI startups; five lakh AI-fluent youth; 50,000 forward-deployed AI professionals; AI innovation centres in all 75 districts; 100+ use cases with 25-30 scaled",
+      "Seven pillars: UP AI Stack, talent, research centres, startups, computing infrastructure, trust and assurance, district reach",
+      "Master System Integrator to build and operate the UP AI Stack",
+      "Startup Procurement Scheme 2026 approved alongside to let departments buy from startups",
+      "Government Order 21 October 2026"
     ],
     "themes": [
       "public-sector-use",
-      "institution-building",
-      "compute",
       "skilling",
+      "startups-innovation",
+      "compute",
+      "institution-building",
       "datasets"
     ],
     "sectors": [
       "public-services",
+      "startups-industry",
       "cross-sector"
     ],
     "source_url": "https://www.freepressjournal.in/uttar-pradesh/uttar-pradesh-yogi-adityanath-cabinet-approves-ai-mission-to-support-100-startups-and-train-5-lakh-youth",
     "source_type": "news",
     "secondary_sources": [
+      "https://internetfreedom.in/uttar-pradesh-is-buying-one-ai-platform-for-every-department-keyed-to-the-family-id/",
+      "https://government.economictimes.indiatimes.com/news/digital-india/up-cabinet-clears-ai-mission-targets-100-startups-and-skilling-of-5-lakh-youth/134847228",
       "https://news.google.com/rss/search?q=Maharashtra+%22AI+Mission%22+OR+%22Data+Centre+Policy%22+2026+cabinet&hl=en-IN&gl=IN&ceid=IN:en"
     ],
     "confidence": "medium",
-    "confidence_note": "Cabinet decision on 9 Oct 2026 reported by FPJ, ET Government and Indian Masterminds; outlay not stated in any report; cabinet note not located.",
+    "confidence_note": "Cabinet decision from Free Press Journal and ET Government; GO date from IFF. Budget not disclosed in sources.",
     "related": [
+      "up-ai-stack-msi-rfp-2026",
       "up-data-centre-policy-2026",
       "up-startup-policy-2026",
       "up-ai-city-lucknow",
@@ -951,6 +1658,58 @@
       "central-dpdp-act-2023",
       "central-dpdp-rules-2025"
     ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "kl-department-of-it-ai-future-tech-2026",
+    "title": "Kerala IT Department renamed Department of IT, AI and Future Tech",
+    "jurisdiction": "KL",
+    "jurisdiction_name": "Kerala",
+    "issuing_body": "Government of Kerala",
+    "instrument_type": "institution",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-10-03",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-10-03",
+        "event": "IT Department renamed to signal AI and future-technology focus"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "Cabinet approves Kerala Data Policy 2026"
+      },
+      {
+        "date": "2026-11-15",
+        "event": "Digital Square project: computers in all lower primary schools and AI learning for high school students under 100-day plan"
+      }
+    ],
+    "summary": "Kerala renamed its IT Department as the Department of IT, AI and Future Tech and, two weeks later, approved a Data Policy 2026 allowing paid access to government data, alongside school AI-learning commitments.",
+    "key_provisions": [
+      "Department renamed 3 October 2026",
+      "Data Policy 2026 approved 16 October 2026 enabling private firms to access government data commercially",
+      "AI learning for high-school students included in the government's 100-day plan (November 2026)",
+      "Earlier AI-camera traffic project stalled over Rs 60 crore arrears (September 2026)"
+    ],
+    "themes": [
+      "institution-building",
+      "datasets",
+      "public-sector-use",
+      "skilling"
+    ],
+    "sectors": [
+      "public-services",
+      "education"
+    ],
+    "source_url": "https://www.newindianexpress.com/states/kerala/2026/Oct/04/keralam-it-dept-now-dept-of-it-ai-future-tech",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.bing.com/news/search?q=Kerala+government+AI+policy+2026&format=rss"
+    ],
+    "confidence": "low",
+    "confidence_note": "Headlines and snippets only (NIE, Mathrubhumi, Education Times); the Mathrubhumi Data Policy page returned 404 and no government order was retrieved.",
+    "related": [],
     "last_verified": "2026-11-19"
   },
   {
@@ -1349,6 +2108,154 @@
     "last_verified": "2026-11-19"
   },
   {
+    "id": "central-meity-ai-incident-reporting-norms-2026",
+    "title": "MeitY plan to tighten AI incident reporting norms and build a national AI incident database",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY)",
+    "instrument_type": "other",
+    "status": "proposed",
+    "binding": "non-binding",
+    "date": "2026-09-21",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2025-11-05",
+        "event": "India AI Governance Guidelines recommend a voluntary national AI incident database"
+      },
+      {
+        "date": "2026-09-21",
+        "event": "MeitY tells Economic Times it will tighten norms, timeframe and content of AI incident reporting"
+      },
+      {
+        "date": "2026-11-04",
+        "event": "CERT-In AI Security Auditing Guidelines set six-hour reporting for AI security incidents"
+      }
+    ],
+    "summary": "MeitY stated it is tightening the timeframe, content and scope of mandatory AI incident reporting beyond the six-hour cyber-incident rule, and is considering a confidential national AI incident database for broader harms such as bias and autonomous failures. No draft text has been released.",
+    "key_provisions": [
+      "Existing rule: AI/ML-related cyber incidents reportable to CERT-In within six hours under the 2022 Cyber Security Directions",
+      "MeitY quote: 'We will have to tighten the norms, timeframe and content of the reporting, we are already doing that'",
+      "Scope under consideration: AI malfunctions and harms beyond cyberattacks (data breaches, bias, transparency failures, autonomous failures)",
+      "National AI incident database with voluntary, confidential reporting proposed",
+      "No consultation timeline announced"
+    ],
+    "themes": [
+      "incident-reporting",
+      "safety",
+      "governance"
+    ],
+    "sectors": [
+      "cross-sector"
+    ],
+    "source_url": "https://www.medianama.com/2026/09/223-india-tighter-ai-incident-reporting-rules/",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Based on an Economic Times report summarised by MediaNama; no official document.",
+    "related": [
+      "central-cert-in-ai-security-auditing-guidelines-2026",
+      "central-meity-ai-governance-guidelines-2025"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "tr-school-ai-courses-2026",
+    "title": "Tripura free AI courses for Classes VI-XII with national certification",
+    "jurisdiction": "TR",
+    "jurisdiction_name": "Tripura",
+    "issuing_body": "Government of Tripura (Education Department)",
+    "instrument_type": "curriculum",
+    "status": "adopted",
+    "binding": "non-binding",
+    "date": "2026-09-19",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-03-02",
+        "event": "Tripura announces plan for a state AI policy (Construction World)"
+      },
+      {
+        "date": "2026-09-19",
+        "event": "Free AI courses launched for Classes VI-XII with national certification (Telegraph)"
+      },
+      {
+        "date": "2026-10-01",
+        "event": "CM launches Seva First Innovation Challenge 2026 and Mukhyamantri Yuva Jogajog Yojana"
+      }
+    ],
+    "summary": "Tripura launched free AI courses for school students in Classes VI to XII leading to national certification, following a March 2026 announcement that the state would adopt an AI policy.",
+    "key_provisions": [
+      "Free AI courses for Classes VI-XII",
+      "Students to earn national certification on completion",
+      "State AI policy announced in March 2026; adoption status in the window not confirmed"
+    ],
+    "themes": [
+      "skilling",
+      "children"
+    ],
+    "sectors": [
+      "education"
+    ],
+    "source_url": "https://news.google.com/rss/search?q=Meghalaya+OR+Manipur+OR+Mizoram+OR+Nagaland+OR+Tripura+OR+Sikkim+OR+%22Arunachal%22+OR+Jammu+OR+Ladakh+OR+Puducherry+OR+Chandigarh+OR+Andaman+%22artificial+intelligence%22+policy+2026",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Telegraph India headline only; course order and whether the March 2026 state AI policy was adopted not verified.",
+    "related": [],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-trai-tcccpr-amendment-ai-spam-2026",
+    "title": "TRAI amendment to Telecom Commercial Communications Customer Preference Regulations, 2018 (AI-based spam detection)",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Telecom Regulatory Authority of India (TRAI)",
+    "instrument_type": "amendment",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2026-09-18",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-03-14",
+        "event": "TRAI proposes third amendment to spam regulations"
+      },
+      {
+        "date": "2026-09-18",
+        "event": "Final amendment reported, covering AI detection, robocalls and consumer appeals"
+      },
+      {
+        "date": "2026-09-21",
+        "event": "tele.net reports TRAI amends TCCCPR 2018"
+      }
+    ],
+    "summary": "TRAI finalised an amendment to the 2018 commercial-communications regulations that, per press reports, addresses AI-based detection of spam, robocalls and consumer appeal processes.",
+    "key_provisions": [
+      "Finalises the amendment proposed in March 2026",
+      "Reported to cover AI-based unsolicited-communication detection and robocall controls",
+      "Reported to add a consumer appeals mechanism"
+    ],
+    "themes": [
+      "sectoral-regulation",
+      "content-moderation"
+    ],
+    "sectors": [
+      "telecom"
+    ],
+    "source_url": "https://news.google.com/rss/search?q=TRAI+OR+CCI+OR+IRDAI+artificial+intelligence+guidelines+2026",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=TRAI+draft+AI+guidelines+telecom+%22counter+comments%22+OR+%22counter-comments%22"
+    ],
+    "confidence": "low",
+    "confidence_note": "Based on headlines from The Policy Edge (18 Sep 2026) and tele.net (21 Sep 2026) only; regulation text not retrieved and AI content of the amendment unverified.",
+    "related": [
+      "central-trai-draft-guidelines-responsible-ai-telecom-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
     "id": "mz-mizoram-ai-tools-precautionary-guidelines-2026",
     "title": "Precautionary Guidelines regarding the use of AI Tools and Engagement with AI Service Providers by Government Departments",
     "jurisdiction": "MZ",
@@ -1564,6 +2471,14 @@
       {
         "date": "2026-09-01",
         "event": "Cabinet (chaired by CM D.K. Shivakumar, Mangaluru) approves the policy; reported 21 September 2026"
+      },
+      {
+        "date": "2026-09-19",
+        "event": "Cabinet approves Rs 1,300 crore data centre policy (ThePrint)"
+      },
+      {
+        "date": "2026-09-21",
+        "event": "MediaNama explainer on the policy"
       }
     ],
     "summary": "Successor to the 2022-27 data centre policy, explicitly justified by AI compute demand; targets 1 GW of IT capacity by 2031 with sustainability metrics and incentives for zones outside Bengaluru.",
@@ -1580,7 +2495,8 @@
       "infrastructure"
     ],
     "sectors": [
-      "cross-sector"
+      "cross-sector",
+      "startups-industry"
     ],
     "source_url": "https://www.medianama.com/2026/09/223-karnataka-sustainable-data-centre-policy/",
     "source_type": "news",
@@ -1885,21 +2801,35 @@
     "date_precision": "day",
     "timeline": [
       {
+        "date": "2026-01-15",
+        "event": "Previous government signs Rs 10,000 crore MoU with Sarvam AI for a sovereign AI park"
+      },
+      {
+        "date": "2026-08-05",
+        "event": "TVK-led government's revised Budget 2026-27 announces Arivagam, billed as India's first AI and innovation city"
+      },
+      {
         "date": "2026-08-06",
         "event": "Announced in Revised Budget 2026-27 by Finance Minister N. Marie Wilson (outlets variously date the speech 5-7 August)"
+      },
+      {
+        "date": "2026-08-25",
+        "event": "BusinessLine reports plan to reorganise key state AI agencies"
       }
     ],
     "summary": "Budget announcement of a dedicated AI and innovation city with an AI university, skill centre, semiconductor test lab and incubators; only a feasibility study is funded so far.",
     "key_provisions": [
-      "₹5 crore allocated for a feasibility study",
-      "Components: AI university, international skill development centre, semiconductor hardware testing lab, multi-domain incubators",
-      "Framed as part of a $1.5 trillion economy target by 2036"
+      "Arivagam announced in the revised Budget 2026-27 presented 5 August 2026",
+      "Part of a Rs 4,000 crore industrial plan for AI, space and sea sectors (New Indian Express)",
+      "Budget also includes AI skilling programmes and laptop distribution",
+      "Reorganisation of existing AI agencies reported 25 August 2026 (details not retrieved)"
     ],
     "themes": [
       "infrastructure",
       "research-funding",
       "skilling",
-      "institution-building"
+      "institution-building",
+      "startups-innovation"
     ],
     "sectors": [
       "startups-industry"
@@ -1907,13 +2837,16 @@
     "source_url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/artificial-intelligence-rules-government-thought-process-1976971",
     "source_type": "news",
     "secondary_sources": [
-      "https://aifront-page.com/tamil-nadu-budget-2026-ai-arivagam-deep-tech-ai-skilling/"
+      "https://aifront-page.com/tamil-nadu-budget-2026-ai-arivagam-deep-tech-ai-skilling/",
+      "https://news.google.com/rss/search?q=%22Tamil+Nadu%22+Arivagam+AI+city+budget+2026",
+      "https://www.medianama.com/2026/01/223-tamil-nadu-sarvam-ai-sovereign-ai-park/"
     ],
     "confidence": "medium",
     "confidence_note": "Two reports of the budget speech agree on ₹5 crore and components; budget document not retrieved.",
     "related": [
       "tn-ai-industry-development-programme-2026",
-      "tn-ai-mission-2024"
+      "tn-ai-mission-2024",
+      "tn-safe-ethical-ai-policy-2020"
     ],
     "last_verified": "2026-11-19"
   },
@@ -2155,6 +3088,70 @@
     "related": [
       "ct-ai-digital-governance-roadmap-2026",
       "ct-ai-data-centre-park-2025"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-centre-deepfake-digital-arrest-offences-bill-2026",
+    "title": "Proposed central bill to make AI deepfakes and 'digital arrest' standalone criminal offences",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Union Government (Solicitor General submission to the Supreme Court); Ministry of Home Affairs",
+    "instrument_type": "bill",
+    "status": "proposed",
+    "binding": "binding",
+    "date": "2026-07-28",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-02-01",
+        "event": "Deepfake Prevention and Criminalisation Bill (private member) introduced (reported)"
+      },
+      {
+        "date": "2026-07-28",
+        "event": "Supreme Court asks whether digital arrest should be a standalone offence; SG says a bill is likely in the ongoing session"
+      },
+      {
+        "date": "2026-08-05",
+        "event": "Government reply in Parliament cites existing IT Act, BNS and IT Rules 2026 provisions for deepfakes"
+      },
+      {
+        "date": "2026-11-11",
+        "event": "Supreme Court asks WhatsApp to propose measures against digital-arrest scams"
+      },
+      {
+        "date": "2026-11-19",
+        "event": "No bill introduced per PRS bill track"
+      }
+    ],
+    "summary": "In the Supreme Court's digital-arrest proceedings the Centre indicated it would bring legislation defining AI deepfakes and digital arrest as separate criminal offences with stringent penalties. No bill had been introduced by 19 November 2026.",
+    "key_provisions": [
+      "Court suggested formally defining digital arrest in penal law with stringent penalties and asset-seizure provisions",
+      "Solicitor General indicated a bill covering deepfakes and digital arrest was likely during the monsoon session",
+      "Existing framework cited by government: IT Act ss. 43, 66, 66C, 66D, 66E, 67A, 69A, 79; BNS ss. 111, 319, 336, 353; IT Amendment Rules 2026",
+      "PRS bill track lists no AI or deepfake bill introduced in 2026"
+    ],
+    "themes": [
+      "synthetic-media",
+      "accountability-liability",
+      "cybersecurity"
+    ],
+    "sectors": [
+      "law-enforcement",
+      "cross-sector"
+    ],
+    "source_url": "https://www.india.com/news/india/digital-arrest-ai-deepfakes-may-soon-become-separate-criminal-offences-in-india-new-bill-likely-in-parliament-8486959/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://www.bing.com/news/search?q=deepfake+%22digital+arrest%22+separate+offence+new+law+Centre+Supreme+Court+2026&format=rss",
+      "https://www.medianama.com/2026/08/223-parliament-deepfake-complaint-data-govt-laws/",
+      "https://www.medianama.com/2026/11/223-supreme-court-whatsapp-digital-arrest/",
+      "https://prsindia.org/billtrack"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Court exchange reported by The Hindu, TOI, Rediff and Zee Business (28-29 Jul 2026); no bill text exists.",
+    "related": [
+      "dl-delhi-hc-personality-rights-ai-deepfakes-2026"
     ],
     "last_verified": "2026-11-19"
   },
@@ -2454,11 +3451,19 @@
         "event": "Data Centre Policy 2021 lapses (month approximate)"
       },
       {
+        "date": "2026-07-06",
+        "event": "Cabinet approves Data Centre Policy 2026 and Startup Policy 2026"
+      },
+      {
         "date": "2026-07-07",
         "event": "Cabinet approves Data Centre Policy 2026 (one outlet reports 11 July)"
+      },
+      {
+        "date": "2026-10-15",
+        "event": "Startup Policy 2026 rolled out with AI, quantum and deep-tech focus"
       }
     ],
-    "summary": "Successor data-centre policy targeting 2 GW of new, AI-ready capacity and over Rs 2 lakh crore of investment.",
+    "summary": "A state data-centre policy framed as AI-ready, targeting Rs 2 lakh crore of investment and 2 GW of new capacity, approved alongside a Startup Policy 2026 that raises seed funding to Rs 15 lakh.",
     "key_provisions": [
       "Target of 2 GW new data-centre capacity",
       "Investment target above Rs 2 lakh crore",
@@ -2467,17 +3472,21 @@
     ],
     "themes": [
       "compute",
-      "infrastructure"
+      "infrastructure",
+      "startups-innovation"
     ],
     "sectors": [
       "cross-sector",
-      "energy"
+      "energy",
+      "startups-industry"
     ],
     "source_url": "https://www.convergence-now.com/policy-regulation/cm-yogi-approves-startup-data-centre-policy-to-boost-innovation-%E2%82%B92-lakh-cr-investment/",
     "source_type": "news",
     "secondary_sources": [
       "https://news.google.com/rss/search?q=%22Uttar+Pradesh+Startup+Policy+2026%22+OR+%22Data+Centre+Policy+2026%22+UP+cabinet&hl=en-IN&gl=IN&ceid=IN:en",
-      "https://edunovations.com/currentaffairs/national/uttar_pradesh/ai-ready-data-center-policy-2026/"
+      "https://edunovations.com/currentaffairs/national/uttar_pradesh/ai-ready-data-center-policy-2026/",
+      "https://www.bing.com/news/search?q=Uttar+Pradesh+cabinet+AI+mission+October+2026+5+lakh+youth&format=rss",
+      "https://www.cnbctv18.com/india/uttar-pradesh-approves-ai-ready-data-center-policy-2026-eyes-rs-2-lakh-crore-investment-19939824.htm"
     ],
     "confidence": "medium",
     "confidence_note": "ET Government, TOI and DQ India date the cabinet 7 July 2026; Convergence Now says 11 July. Incentive schedule not published in retrievable sources.",
@@ -2675,12 +3684,20 @@
     "date_precision": "day",
     "timeline": [
       {
+        "date": "2025-08-13",
+        "event": "FREE-AI committee report released with seven sutras and 26 recommendations"
+      },
+      {
         "date": "2026-06-24",
         "event": "Draft guidance released for public comment"
       },
       {
         "date": "2026-07-24",
         "event": "Comment window closes (via 'Connect 2 Regulate' or email to Operational Risk Group, Department of Regulation)"
+      },
+      {
+        "date": "2026-07-24",
+        "event": "Comment window closes"
       }
     ],
     "summary": "Draft RBI guidance proposing lifecycle governance requirements for all models used by regulated entities, expressly including third-party models and models using AI/ML. Final version not traced as of 19 November 2026.",
@@ -2707,12 +3724,18 @@
     "secondary_sources": [
       "https://community.nasscom.in/communities/public-policy/analysis-rbis-draft-guidance-regulatory-principles-model-risk-management",
       "https://vinodkothari.com/2026/06/rbi-draft-model-risk-management-guidelines-2026/",
-      "https://www.lexology.com/library/detail.aspx?g=3ca3573e-7f9b-4ba3-9aff-97c7073b20bf"
+      "https://www.lexology.com/library/detail.aspx?g=3ca3573e-7f9b-4ba3-9aff-97c7073b20bf",
+      "https://inc42.com/buzz/project-kill-switch-can-rbi-protect-banks-nbfcs-from-rogue-ai-actors/",
+      "https://www.livemint.com/opinion/online-views/financial-institutions-ai-governance-banking-reserve-bank-of-india-rbi-artificial-intelligence-11784551392066.html",
+      "https://www.financialexpress.com/opinion/model-risk-valves-for-the-high-bar/4321435/",
+      "https://cybersigmacs.com/blog/rbi-ai-guidelines-model-risk-management-2026/",
+      "https://www.rediff.com/business/report/rbi-proposes-ai-risk-management-framework/20260625.htm"
     ],
     "confidence": "high",
     "confidence_note": "RBI press release read (date, scope, deadline). Detailed requirements (tiering, third-party clauses) taken from law-firm and industry summaries of the draft. No final guidance located as of 19 Nov 2026; status remains consultation (closed).",
     "related": [
       "central-rbi-free-ai-committee-report-2025",
+      "central-rbi-frontier-ai-cyber-risk-review-2026",
       "central-mha-i4c-deepfake-biometric-bypass-advisory-2026"
     ],
     "last_verified": "2026-11-19"
@@ -3039,6 +4062,52 @@
     "last_verified": "2026-11-19"
   },
   {
+    "id": "central-rbi-frontier-ai-cyber-risk-review-2026",
+    "title": "RBI direction to banks to assess frontier-AI cyber risks by end-June 2026",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Reserve Bank of India (RBI)",
+    "instrument_type": "advisory",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2026-06-09",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-04-23",
+        "event": "Finance Minister reviews risks from Anthropic's Mythos model with RBI and bank chiefs"
+      },
+      {
+        "date": "2026-06-09",
+        "event": "RBI asks banks to assess cybersecurity risks from frontier AI models by June-end (Moneycontrol)"
+      }
+    ],
+    "summary": "Following the Finance Ministry review of frontier-model cyber risks, RBI reportedly required banks to complete assessments of their exposure to AI-enabled attacks by the end of June 2026.",
+    "key_provisions": [
+      "Banks to assess cybersecurity risks posed by frontier AI models by end-June 2026",
+      "Issued in the same period as SEBI (5 May) and IRDAI (19 May) directives on frontier-AI cyber readiness",
+      "Instrument type (letter, advisory or circular) not confirmed"
+    ],
+    "themes": [
+      "cybersecurity",
+      "sectoral-regulation",
+      "risk-management"
+    ],
+    "sectors": [
+      "finance"
+    ],
+    "source_url": "https://www.bing.com/news/search?q=RBI+draft+model+risk+management+AI+banks+June+2026+comments&format=rss",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "low",
+    "confidence_note": "Single Moneycontrol headline (9 June 2026) seen via a news feed; article body and RBI document not retrieved.",
+    "related": [
+      "central-rbi-draft-model-risk-management-guidance-2026",
+      "central-irdai-ai-cyber-readiness-directive-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
     "id": "ar-arunachal-ai-centre-of-excellence-nit-2026",
     "title": "Arunachal Pradesh AI Centre of Excellence at NIT Arunachal Pradesh (SCITeG-NIT MoU)",
     "jurisdiction": "AR",
@@ -3141,12 +4210,20 @@
     "date_precision": "day",
     "timeline": [
       {
+        "date": "2025-11-01",
+        "event": "Supreme Court Centre for Research and Planning white paper warns of AI hallucinations"
+      },
+      {
+        "date": "2026-05-07",
+        "event": "Supreme Court directs BCI to form expert committee on AI in courts"
+      },
+      {
         "date": "2026-06-03",
         "event": "Preliminary draft released for public comment"
       },
       {
         "date": "2026-06-03",
-        "event": "Draft regulations released for public comment"
+        "event": "Draft Regulations released for public and stakeholder comment"
       },
       {
         "date": "2026-06-20",
@@ -3154,7 +4231,15 @@
       },
       {
         "date": "2026-06-20",
+        "event": "Comment deadline"
+      },
+      {
+        "date": "2026-06-20",
         "event": "Comment window closes; final regulations not traced as of 19 Nov 2026"
+      },
+      {
+        "date": "2026-07-29",
+        "event": "Nasscom comments seek definitions of high-risk terms and oppose audit as source-code disclosure"
       },
       {
         "date": "2026-08-13",
@@ -3175,7 +4260,8 @@
       "governance",
       "transparency",
       "accountability-liability",
-      "data-protection"
+      "data-protection",
+      "risk-management"
     ],
     "sectors": [
       "judiciary"
@@ -3187,7 +4273,12 @@
       "https://www.scobserver.in/journal/order-in-the-digital-court-artificial-intelligence-regulations-supreme-court/amp/",
       "https://www.mondaq.com/india/technology/1815706/human-primacy-in-the-age-of-algorithms-the-supreme-courts-draft-ai-regulations-for-courts-2026",
       "https://www.legal500.com/intelligence/india/technology/use-of-artificial-intelligence-(ai)-in-courts",
-      "https://www.medianama.com/2026/06/223-supreme-court-ai-regulations-india/"
+      "https://www.medianama.com/2026/07/223-supreme-court-ai-regulations-nasscom-comments/",
+      "https://www.thehindubusinessline.com/news/draft-sc-rules-prohibit-use-of-ai-for-judicial-outcomes-assessing-bail-eligibility/article71062263.ece",
+      "https://www.hindustantimes.com/india-news/what-supreme-court-s-proposed-regulations-for-ai-use-in-courts-mean-101780890368846.html",
+      "https://www.newindianexpress.com/india/2026/Jun/04/sc-releases-draft-regulations-on-use-of-ai-in-courts-seeks-comments-from-stakeholders-public-2",
+      "https://www.medianama.com/2026/06/223-supreme-court-ai-regulations-india/",
+      "https://www.rediff.com/news/report/sc-releases-draft-regulations-on-use-of-ai-in-courts/20260604.htm"
     ],
     "confidence": "medium",
     "confidence_note": "Draft widely reported (SCC Online, Business Standard, SC Observer); sci.gov.in URL not captured. Whether a final version has been adopted after the June 2026 consultation could not be confirmed.",
@@ -3195,6 +4286,7 @@
       "central-kerala-hc-ai-policy-district-judiciary-2025",
       "central-sc-pooja-ramesh-singh-ai-hallucination-2026",
       "central-sc-ai-surveillance-plea-declined-2026",
+      "central-sc-bci-ai-expert-committee-direction-2026",
       "kl-kerala-hc-ai-policy-district-judiciary-2025",
       "central-sc-supace-suvas-ai-tools",
       "central-bsa-2023"
@@ -3357,10 +4449,10 @@
   },
   {
     "id": "central-cert-in-blueprint-ai-assisted-cyber-threats-2026",
-    "title": "Blueprint for Defending Against AI-Assisted Cyber Threats",
+    "title": "CERT-In Blueprint for Defending Against AI-Assisted Cyber Threats (CIGU-2026-0002)",
     "jurisdiction": "IN",
     "jurisdiction_name": "Union",
-    "issuing_body": "Indian Computer Emergency Response Team (CERT-In)",
+    "issuing_body": "Indian Computer Emergency Response Team (CERT-In), MeitY",
     "instrument_type": "advisory",
     "status": "adopted",
     "binding": "non-binding",
@@ -3368,34 +4460,50 @@
     "date_precision": "day",
     "timeline": [
       {
+        "date": "2026-04-26",
+        "event": "CERT-In warning on frontier-AI (Mythos) cyber risks (reported)"
+      },
+      {
+        "date": "2026-05-25",
+        "event": "Blueprint CIGU-2026-0002 released"
+      },
+      {
         "date": "2026-05-25",
         "event": "Blueprint released"
       }
     ],
-    "summary": "CERT-In advisory setting out governance, detection and response measures against AI-enabled attacks, including AI asset inventories, agentic-AI boundaries, compressed patch timelines and deepfake verification procedures.",
+    "summary": "Cross-sector advisory on defending against AI-accelerated attacks. It sets patching timelines, requires AI usage policies and AI asset inventories, introduces an AI Bill of Materials, and reiterates six-hour incident reporting.",
     "key_provisions": [
-      "Nine areas across 14 sections: AI usage policies, AI asset inventory, shadow-AI monitoring, data classification, governance of autonomous agents with operational limits and emergency shutdown",
-      "Patch timelines from 12 hours for exploited internet-facing vulnerabilities to 5 days for high-severity issues",
-      "Executive verification and authentication protocols against deepfake impersonation fraud",
-      "Maintain AIBOM alongside SBOM, QBOM and CBOM; third-party AI provider contract and provenance reviews; training-data poisoning defences",
-      "Addressed to public and private organisations with focus on government, finance, telecom, DPI, health, energy and transport"
+      "Known exploited vulnerabilities on internet-facing systems to be contained or patched within 12 hours where feasible; critical externally exposed within 1 day; high severity within 5 days",
+      "Organisations to define AI usage policies, maintain AI asset inventories, monitor shadow AI and classify data processed by AI",
+      "AI Bill of Materials (AIBOM) to be maintained alongside SBOM, QBOM and CBOM",
+      "Autonomous AI systems to have operational boundaries and emergency shutdown mechanisms",
+      "Deepfake preparedness: executive verification procedures and impersonation monitoring",
+      "Cyber incidents to be reported to CERT-In within six hours (per 2022 Directions)"
     ],
     "themes": [
       "cybersecurity",
+      "safety",
+      "incident-reporting",
       "synthetic-media",
       "risk-management"
     ],
     "sectors": [
       "cross-sector",
       "finance",
-      "telecom"
+      "telecom",
+      "health",
+      "energy"
     ],
     "source_url": "https://www.medianama.com/2026/05/223-cert-in-releases-blueprint-for-defending-against-ai-assisted-cyber-threats/",
     "source_type": "news",
-    "secondary_sources": [],
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=CERT-In+AI+security+guidelines+2026+OR+%22AI+bill+of+materials%22+India"
+    ],
     "confidence": "medium",
-    "confidence_note": "Detailed MediaNama report; cert-in.org.in document URL not captured in this session.",
+    "confidence_note": "Document number, date and contents from MediaNama's reading of the CERT-In document; cert-in.org.in copy not retrieved.",
     "related": [
+      "central-cert-in-ai-security-auditing-guidelines-2026",
       "central-cert-in-technical-guidelines-aibom-2025",
       "central-sebi-advisory-ai-vulnerability-detection-2026",
       "central-ifsca-advisory-frontier-ai-cyber-risks-2026"
@@ -3495,6 +4603,51 @@
     "confidence_note": "Single news mention of the committee and its numbers; constitution order not located.",
     "related": [
       "as-assam-state-data-policy-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "central-irdai-ai-cyber-readiness-directive-2026",
+    "title": "IRDAI directive to insurers on readiness against frontier-AI cyber threats",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Insurance Regulatory and Development Authority of India (IRDAI)",
+    "instrument_type": "advisory",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2026-05-19",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-05-19",
+        "event": "IRDAI directs all insurers to review cyber posture against frontier AI threats"
+      },
+      {
+        "date": "2026-05-22",
+        "event": "Deadline for action-taken reports"
+      }
+    ],
+    "summary": "IRDAI required all insurers to immediately review their cybersecurity posture against frontier-AI-driven threats and submit an action-taken report within three days.",
+    "key_provisions": [
+      "All IRDAI-regulated insurers covered",
+      "Immediate review of cybersecurity posture and exposure to frontier AI-driven threats",
+      "Report to detail preventive, detection and response mechanisms and legacy IT vulnerabilities",
+      "Action-taken report due 22 May 2026"
+    ],
+    "themes": [
+      "cybersecurity",
+      "sectoral-regulation"
+    ],
+    "sectors": [
+      "finance"
+    ],
+    "source_url": "https://www.medianama.com/2026/05/223-irdai-cybersecurity-warning-ai-threats/",
+    "source_type": "news",
+    "secondary_sources": [],
+    "confidence": "medium",
+    "confidence_note": "Single detailed news source; instrument type (circular vs letter) not confirmed; irdai.gov.in document not retrieved.",
+    "related": [
+      "central-rbi-frontier-ai-cyber-risk-review-2026"
     ],
     "last_verified": "2026-11-19"
   },
@@ -3675,6 +4828,59 @@
     "last_verified": "2026-11-19"
   },
   {
+    "id": "central-sc-bci-ai-expert-committee-direction-2026",
+    "title": "Supreme Court order directing Bar Council of India to constitute expert committee on AI in court proceedings",
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "issuing_body": "Supreme Court of India (Justices P.S. Narasimha and Alok Aradhe)",
+    "instrument_type": "court-ruling",
+    "status": "adopted",
+    "binding": "binding",
+    "date": "2026-05-07",
+    "date_precision": "day",
+    "timeline": [
+      {
+        "date": "2026-05-07",
+        "event": "Order in Andhra Pradesh property matter where trial court cited four non-existent AI-generated judgments; BCI to form expert committee"
+      },
+      {
+        "date": "2026-05-26",
+        "event": "Next listed hearing"
+      },
+      {
+        "date": "2026-07-02",
+        "event": "Same bench decides Pooja Ramesh Singh v. J&K Bank, directing BCI disciplinary norms"
+      }
+    ],
+    "summary": "In a civil appeal where a trial court relied on four fabricated AI-generated precedents, the Supreme Court directed the Bar Council of India to constitute an expert committee on the use of AI in court proceedings and called for a sovereign legal large language model and India-specific legal database.",
+    "key_provisions": [
+      "BCI directed to constitute an expert committee on AI use in court proceedings and report to the Court",
+      "Court stated it is not seeking to ban AI but to establish accountability mechanisms",
+      "Court called for a sovereign large language model and an India-specific legal database",
+      "Trial court in Andhra Pradesh had cited four non-existent judgments generated by AI",
+      "Hearing continued on 26 May 2026"
+    ],
+    "themes": [
+      "accountability-liability",
+      "public-sector-use",
+      "ethics"
+    ],
+    "sectors": [
+      "judiciary"
+    ],
+    "source_url": "https://www.medianama.com/2026/05/223-supreme-court-seeks-ai-panel-over-fake-judgments/",
+    "source_type": "news",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=Bar+Council+of+India+AI+guidelines+advocates+2026+hallucination"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Reported by MediaNama and Indian Express (6-7 May 2026). Case title and order text not retrieved; whether BCI constituted the committee is unverified.",
+    "related": [
+      "central-sc-draft-ai-regulations-courts-2026"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
     "id": "central-sebi-advisory-ai-vulnerability-detection-2026",
     "title": "Advisory on emerging advanced Artificial Intelligence (AI) tools for vulnerability detection (and constitution of the cyber-suraksha.ai task force)",
     "jurisdiction": "IN",
@@ -3851,64 +5057,6 @@
     "confidence_note": "Mission named in cabinet coverage; no GR constituting it, no CEO or budget located as of Nov 2026.",
     "related": [
       "mh-ai-policy-2026"
-    ],
-    "last_verified": "2026-11-19"
-  },
-  {
-    "id": "mh-ai-policy-2026",
-    "title": "Maharashtra Artificial Intelligence Policy 2026",
-    "jurisdiction": "MH",
-    "jurisdiction_name": "Maharashtra",
-    "issuing_body": "Government of Maharashtra (Cabinet; IT/Industries portfolio)",
-    "instrument_type": "policy",
-    "status": "adopted",
-    "binding": "non-binding",
-    "date": "2026-04-29",
-    "date_precision": "day",
-    "timeline": [
-      {
-        "date": "2026-04-29",
-        "event": "Cabinet chaired by CM Fadnavis approves AI Policy 2026"
-      },
-      {
-        "date": "2026-05-27",
-        "event": "News On AIR carries state announcement of policy details"
-      }
-    ],
-    "summary": "Cabinet-approved state AI policy targeting Rs 10,000 crore of investment and 1.5 lakh jobs by 2031 through compute, data, skilling, MSME adoption and incubation measures, with a Maharashtra AI Mission and an ethical-AI framework.",
-    "key_provisions": [
-      "Six AI Centres of Excellence (health, agriculture, education, urban development, Marathi language/culture, finance-revenue) and five AI Innovation Cities",
-      "2,000 GPUs offered to departments on a Compute-as-a-Service basis",
-      "2 lakh youth/professionals to be trained; Maharashtra Centre for Advanced AI Training (MCAT) to be set up",
-      "5,000 MSMEs eligible for financial assistance (20% subsidy on AI implementation cost); 12 AI incubators; Rs 500 crore AI Startup Venture Fund with Rs 250 crore state contribution",
-      "State AI Data Exchange linked to the central AI fund framework; datasets in Marathi, dialects and tribal languages; Maha AI Tools Hub",
-      "Maharashtra AI Mission to be created on the lines of IndiaAI Mission; dedicated ethical-AI framework"
-    ],
-    "themes": [
-      "compute",
-      "skilling",
-      "startups-innovation",
-      "datasets",
-      "ethics"
-    ],
-    "sectors": [
-      "cross-sector",
-      "public-services",
-      "startups-industry"
-    ],
-    "source_url": "https://www.newsonair.gov.in/maharashtra-announces-ai-policy-2026-to-boost-industry-governance-and-public-services/",
-    "source_type": "press-release",
-    "secondary_sources": [
-      "https://psuwatch.com/newsupdates/maharashtra-cabinet-approves-ai-policy-2026",
-      "https://indianinfrastructure.com/2026/04/30/maharashtra-approves-ai-policy-with-rs-100-billion-investment-target/",
-      "https://www.sentinelassam.com/more-news/science-and-technology/maha-cabinet-unveils-ai-policy-2026-to-attract-10000-crore-investment-create-15-lakh-jobs-and-boost-green-energy"
-    ],
-    "confidence": "medium",
-    "confidence_note": "Cabinet approval on 29 April 2026 reported consistently by state broadcaster and several outlets; the Government Resolution / policy text was not located online.",
-    "related": [
-      "mh-maharashtra-ai-mission-2026",
-      "mh-mahaagri-ai-policy-2025",
-      "mh-data-centre-policy-draft-2026"
     ],
     "last_verified": "2026-11-19"
   },
@@ -6699,7 +7847,8 @@
     "related": [
       "central-dpdp-act-2023",
       "central-data-protection-board-of-india",
-      "central-dpdp-removal-of-difficulties-order-2026"
+      "central-dpdp-removal-of-difficulties-order-2026",
+      "central-dpdp-rules-consent-manager-commencement-2026"
     ],
     "last_verified": "2026-11-19"
   },
@@ -6777,9 +7926,10 @@
       "central-psa-white-paper-techno-legal-ai-governance",
       "central-meity-ai-law-consultation-paper-2026",
       "central-bis-litd30-ai-standards",
-      "central-rbi-free-ai-committee-report-2025",
+      "central-cert-in-ai-security-auditing-guidelines-2026",
+      "central-meity-ai-incident-reporting-norms-2026",
       "central-trai-draft-guidelines-responsible-ai-telecom-2026",
-      "central-cert-in-ai-security-auditing-guidelines-2026"
+      "central-rbi-free-ai-committee-report-2025"
     ],
     "last_verified": "2026-11-19"
   },
@@ -10144,8 +11294,8 @@
       "tn-safe-ethical-ai-policy-2020",
       "tn-ai-vision-company-2026",
       "tn-ai-it-policy-note-2026-27",
-      "tn-sovereign-ai-park-2026",
       "tn-arivagam-ai-innovation-city-2026",
+      "tn-sovereign-ai-park-2026",
       "tn-tamil-llm-2026"
     ],
     "last_verified": "2026-11-19"
@@ -11490,6 +12640,7 @@
       "central-dpdp-removal-of-difficulties-order-2026",
       "central-meity-depa-ai-training-2026",
       "central-standing-committee-cit-27th-report-ai-2026",
+      "central-dpdp-rules-consent-manager-commencement-2026",
       "central-ncpcr-child-safety-guidelines-social-media-gaming-ai-2026"
     ],
     "last_verified": "2026-11-19"
@@ -12836,7 +13987,8 @@
     "related": [
       "tn-ai-mission-2024",
       "tn-ai-it-policy-note-2026-27",
-      "tn-data-policy-2022"
+      "tn-data-policy-2022",
+      "tn-arivagam-ai-innovation-city-2026"
     ],
     "last_verified": "2026-11-19"
   },

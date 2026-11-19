@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import type { PolicyLite } from "@/lib/data";
 import { formatDate } from "@/lib/data";
 import { FAMILIES, FAMILY_SHORT, FAMILY_LABEL, statusGroup, type Family } from "@/lib/taxonomy";
@@ -47,7 +47,10 @@ export function TimelineClient({ policies, years }: Props) {
   const H = LANES.length * laneH + 40;
   const t0 = new Date(`${years[0]}-01-01`).getTime();
   const t1 = new Date(`${years[1]}-12-31`).getTime();
-  const x = (d: string) => padL + 10 + (Math.max(0, new Date(d).getTime() - t0) / (t1 - t0)) * (W - padL - padR - 10);
+  const x = useCallback(
+    (d: string) => padL + 10 + (Math.max(0, new Date(d).getTime() - t0) / (t1 - t0)) * (W - padL - padR - 10),
+    [t0, t1],
+  );
 
   const dots = useMemo(() => {
     // simple collision avoidance: stack dots vertically within a lane when x overlaps

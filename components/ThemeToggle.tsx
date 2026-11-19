@@ -10,6 +10,7 @@ export function ThemeToggle() {
   useEffect(() => {
     try {
       const t = localStorage.getItem("theme");
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- reading a per-viewer preference after hydration
       if (t === "dark" || t === "light") setMode(t);
     } catch {}
   }, []);

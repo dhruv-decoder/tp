@@ -1,5 +1,17 @@
 central-meity-subcommittee-report-ai-governance-2025: banned marketing word in text
 central-standing-committee-cit-27th-report-ai-2026: banned marketing word in text
+central-irdai-ai-working-group-2026: source was a Google News query; confidence forced to low
+central-trai-tcccpr-amendment-ai-spam-2026: source was a Google News query; confidence forced to low
+central-trai-complaint-redressal-fourth-amendment-2026: source was a Google News query; confidence forced to low
+central-digital-india-act-status-2026: source was a Google News query; confidence forced to low
+central-cbse-ncert-ct-ai-curriculum-2026: source was a Google News query; confidence forced to low
+cg-ai-mission-2026: banned marketing word in text
+ap-robotics-physical-ai-policy-2026-36: banned marketing word in text
+ka-ai-university-2026: source was a Google News query; confidence forced to low
+tn-arivagam-ai-innovation-city-2026: source was a Google News query; confidence forced to low
+sk-ai-centre-of-excellence-nielit-2026: source was a Google News query; confidence forced to low
+tr-school-ai-courses-2026: source was a Google News query; confidence forced to low
+gj-data-centre-policy-2026: source was a Google News query; confidence forced to low
 central-nha-sahi-strategy-ai-healthcare-2026: banned marketing word in text
 or-odisha-it-policy-2025: source was a Google News query; confidence forced to low
 or-odisha-dhe-ai-curriculum-2026: source was a Google News query; confidence forced to low
@@ -26,9 +38,15 @@ REVIEW possible duplicate: "Responsible AI for All: Approach Document for India,
 MERGED "Defence AI Council (DAIC) and Defence AI Project Agency (DAIPA)" (central-mod-daic-daipa-2019) into "Defence AI Council (DAIC) and Defence AI Project Agency (DAIPA)" (central-mod-defence-ai-council-daipa-2019) sim=1.00
 REVIEW possible duplicate: "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2025 (22 October 2025)" (central-it-rules-amendment-oct-2025) ~ "Draft IT (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2025 on Synthetically Generated Information" (central-it-rules-sgi-draft-amendment-2025) sim=0.59
 REVIEW possible duplicate: "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2026" (central-it-rules-sgi-amendment-2026) ~ "Draft Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Second Amendment Rules, 2026" (central-it-rules-second-amendment-draft-2026) sim=0.85
-MERGED "Draft Regulations for Use of Artificial Intelligence (AI) in Courts (Supreme Court AI Committee)" (central-sc-draft-regulations-ai-in-courts-2026) into "Supreme Court of India: Draft Regulations for Use of Artificial Intelligence (AI) in Courts, 2026" (central-sc-draft-ai-regulations-courts-2026) sim=0.75
+REVIEW possible duplicate: "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2026" (central-it-rules-sgi-amendment-2026) ~ "Draft IT (Intermediary Guidelines and Digital Media Ethics Code) Second Amendment Rules, 2026" (central-meity-it-rules-second-amendment-draft-2026) sim=0.64
+REVIEW possible duplicate: "Draft Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Second Amendment Rules, 2026" (central-it-rules-second-amendment-draft-2026) ~ "Draft IT (Intermediary Guidelines and Digital Media Ethics Code) Second Amendment Rules, 2026" (central-meity-it-rules-second-amendment-draft-2026) sim=0.79
+MERGED "Draft Regulations for Use of Artificial Intelligence (AI) in Courts, 2026 (Supreme Court of India)" (central-sc-draft-regulations-ai-in-courts-2026) into "Supreme Court of India: Draft Regulations for Use of Artificial Intelligence (AI) in Courts, 2026" (central-sc-draft-ai-regulations-courts-2026) sim=1.00
 REVIEW possible duplicate: "TEC Standard 57050:2023 - Fairness Assessment and Rating of Artificial Intelligence Systems" (central-tec-ai-fairness-standard-2023) ~ "TEC Standard 57050:2023 – Fairness Assessment and Rating of Artificial Intelligence Systems" (central-tec-standard-ai-fairness-57050-2023) sim=1.00
+MERGED "Draft Guidance on Regulatory Principles for Model Risk Management, 2026" (central-rbi-draft-model-risk-management-guidance-2026) into "RBI Draft Guidance on Regulatory Principles for Model Risk Management" (central-rbi-draft-guidance-model-risk-management-2026) sim=0.78
+REVIEW possible duplicate: "Jharkhand Artificial Intelligence Policy, 2026 (draft, 2026-31)" (jh-draft-ai-policy-2026) ~ "Jharkhand Artificial Intelligence Policy, 2026 (Draft)" (jh-jharkhand-ai-policy-2026-draft) sim=0.86
+REVIEW possible duplicate: "Uttar Pradesh Data Centre Policy 2026" (up-data-centre-policy-2026) ~ "Uttar Pradesh Startup Policy 2026" (up-startup-policy-2026) sim=0.57
+MERGED "Bihar Artificial Intelligence Policy 2026" (br-bihar-ai-policy-2026) into "Bihar Artificial Intelligence Policy 2026" (br-ai-policy-2026) sim=1.00
+REVIEW possible duplicate: "Sikkim AI Centre of Excellence (DIT Sikkim - NIELIT Gangtok MoU)" (sk-ai-centre-of-excellence-nielit-2026) ~ "Sikkim AI Centre of Excellence (IT Department-NIELIT Gangtok MoU)" (sk-sikkim-ai-centre-of-excellence-nielit-2026) sim=0.70
 REVIEW possible duplicate: "Karnataka Platform Based Gig Workers (Social Security and Welfare) Ordinance, 2025" (ka-gig-workers-ordinance-2025) ~ "Karnataka Platform Based Gig Workers (Social Security and Welfare) Act, 2025" (ka-gig-workers-act-2025) sim=0.82
 REVIEW possible duplicate: "Karnataka Platform Based Gig Workers (Social Security and Welfare) Ordinance, 2025" (ka-gig-workers-ordinance-2025) ~ "Karnataka Platform Based Gig Workers (Social Security and Welfare) Rules, 2025 (draft)" (ka-gig-workers-rules-2025) sim=0.75
 REVIEW possible duplicate: "Karnataka Platform Based Gig Workers (Social Security and Welfare) Act, 2025" (ka-gig-workers-act-2025) ~ "Karnataka Platform Based Gig Workers (Social Security and Welfare) Rules, 2025 (draft)" (ka-gig-workers-rules-2025) sim=0.75
-REVIEW possible duplicate: "Uttar Pradesh Data Centre Policy 2026" (up-data-centre-policy-2026) ~ "Uttar Pradesh Startup Policy 2026" (up-startup-policy-2026) sim=0.57
