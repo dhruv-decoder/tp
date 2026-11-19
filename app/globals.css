@@ -455,6 +455,16 @@ input[type="range"].scrub::-moz-range-thumb {
   scrollbar-color: var(--line-strong) transparent;
 }
 
+/* map shaded in the selected type's colour; level 6 leans toward ink so it stays darkest in light and lightest in dark */
+.fam-map {
+  --seq-1: color-mix(in oklab, var(--fam) 18%, var(--map-empty));
+  --seq-2: color-mix(in oklab, var(--fam) 34%, var(--map-empty));
+  --seq-3: color-mix(in oklab, var(--fam) 52%, var(--map-empty));
+  --seq-4: color-mix(in oklab, var(--fam) 72%, var(--map-empty));
+  --seq-5: var(--fam);
+  --seq-6: color-mix(in oklab, var(--fam) 70%, var(--ink));
+}
+
 /* state briefing window */
 .brief-card {
   position: relative;

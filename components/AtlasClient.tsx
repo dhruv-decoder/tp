@@ -165,7 +165,9 @@ export function AtlasClient({ policies, jurisdictions, years }: Props) {
         </div>
 
         {/* map */}
-        <div className="relative mt-4 rounded-[12px] border border-line bg-elev px-4 pb-4 pt-6 sm:px-8">
+        <div
+          className={`relative mt-4 rounded-[12px] border border-line bg-elev px-4 pb-4 pt-6 sm:px-8 ${fam !== "all" ? `fam-${fam} fam-map` : ""}`}
+        >
           <motion.p
             className="pointer-events-none absolute left-1/2 top-4 z-[1] -translate-x-1/2 rounded-full bg-ink px-3.5 py-1.5 text-[12.5px] text-bg shadow-[var(--shadow-1)]"
             initial={{ opacity: 0, y: -6 }}
