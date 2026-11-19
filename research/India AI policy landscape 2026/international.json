@@ -1,0 +1,1782 @@
+[
+  {
+    "id": "intl-ai-impact-summit-new-delhi-declaration-2026",
+    "title": "New Delhi Declaration on AI Impact",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY) / India AI Impact Summit (AI Summit series)",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2026-02-21",
+    "timeline": [
+      {
+        "date": "2025-02-11",
+        "event": "India announced as host of the next AI summit at the Paris AI Action Summit"
+      },
+      {
+        "date": "2026-02-16",
+        "event": "India AI Impact Summit opens at Bharat Mandapam, New Delhi"
+      },
+      {
+        "date": "2026-02-19",
+        "event": "Prime Minister inaugurates leaders' segment"
+      },
+      {
+        "date": "2026-02-21",
+        "event": "Summit concludes; New Delhi Declaration adopted with 85-88 endorsements including the US and China"
+      },
+      {
+        "date": "2026-02-24",
+        "event": "Three more countries join; PIB reports 91 signatories"
+      },
+      {
+        "date": "2026-05-23",
+        "event": "Bangladesh reported as 89th country signatory"
+      },
+      {
+        "date": "2026-07-09",
+        "event": "Switzerland confirmed as host of next summit in Geneva, June 2027; UAE to host 2028"
+      }
+    ],
+    "summary": "Non-binding outcome declaration of the fourth AI summit in the Bletchley-Seoul-Paris series, hosted by India. It organises commitments around seven thematic 'chakras' on access to AI resources, trusted AI, science, skilling and energy-efficient AI.",
+    "key_provisions": [
+      "Endorsed by 85-88 countries and organisations at adoption on 21 Feb 2026 and 91 by 24 Feb 2026, including both the United States and China; later counts (89 countries by May 2026) use a different base",
+      "Seven pillars: democratising AI resources; growth and social good via a 'Global AI Impact Commons'; secure and trusted AI via a 'Trusted AI Commons'; an International Network of AI for Science Institutions; social empowerment; human capital; resilience and energy efficiency",
+      "Frames AI governance around 'impact' and inclusion rather than frontier risk; contains no verification or reporting mechanism",
+      "Summit-linked pledges: IndiaAI compute to grow from 38,000 GPUs by a further 20,000; private investment pledges reported at over USD 200-250 billion (Reliance USD 110bn, Adani USD 100bn, Google USD 15bn Visakhapatnam hub)",
+      "Follow-on summits: Geneva, June 2027 (Switzerland) and UAE, 2028"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "compute",
+      "skilling",
+      "infrastructure"
+    ],
+    "source_url": "https://www.pib.gov.in/",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://en.wikipedia.org/wiki/AI_Impact_Summit",
+      "https://www.drishtiias.com/daily-updates/daily-news-analysis/new-delhi-declaration-on-ai-impact",
+      "https://www.orfonline.org/expert-speak/from-dialogue-to-deployment-strategic-outcomes-of-the-india-ai-impact-summit-2026",
+      "https://iapp.org/news/a/notes-from-the-ai-governance-center-outcomes-of-the-india-ai-impact-summit",
+      "https://news.google.com/rss/search?q=%22AI+Impact+Summit%22+%22New+Delhi+Declaration%22&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "medium",
+    "confidence_note": "PIB press releases of 21 and 24 Feb 2026 confirmed by headline only (PIB release pages and impact.indiaai.gov.in could not be fetched); content of the seven pillars taken from Drishti IAS, ORF and IAPP summaries. Signatory counts conflict across sources (85/86/88/91/89). Official declaration URL not located; PIB home page given as placeholder.",
+    "related": [
+      "intl-ai-impact-summit-outcome-frameworks-2026",
+      "intl-pax-silica-declaration-2026",
+      "intl-paris-statement-inclusive-sustainable-ai-2025",
+      "intl-unesco-ethics-recommendation-india-ram-2026"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-ai-impact-summit-outcome-frameworks-2026",
+    "title": "India AI Impact Summit working-group outcome documents",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY) / India AI Impact Summit working groups",
+    "instrument_type": "framework",
+    "status": "adopted",
+    "date": "2026-02-20",
+    "timeline": [
+      {
+        "date": "2025-11-01",
+        "event": "Seven thematic working groups and five expert engagement groups convened (date approximate)"
+      },
+      {
+        "date": "2026-02-20",
+        "event": "Outcome documents released during the summit"
+      }
+    ],
+    "summary": "Set of plurilateral frameworks and guidance documents produced by the summit's seven working groups and released alongside the New Delhi Declaration; each attracted a subset of country endorsements.",
+    "key_provisions": [
+      "Guidance Note on AI Governance reported endorsed by 22 countries",
+      "Charter for Democratic Diffusion of AI reported with 22 signatories",
+      "Equitable AI Transitions Playbook and Skilling/Reskilling Principles reported endorsed by 24 countries",
+      "Framework for Trusted AI Commons (shared tools and benchmarks), AI and Child Safety frameworks, a 'New Deal for Data' accountability model, an Alliance for Advancing Inclusion Through AI and a Network of AI for Science Institutions",
+      "Industry track: 'New Delhi Frontier AI Impact Commitments' by 13 frontier AI companies to publish adoption statistics and strengthen multilingual and low-resource language evaluation"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "children",
+      "skilling",
+      "datasets"
+    ],
+    "source_url": "https://www.pib.gov.in/",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://www.orfonline.org/expert-speak/from-dialogue-to-deployment-strategic-outcomes-of-the-india-ai-impact-summit-2026"
+    ],
+    "confidence": "low",
+    "confidence_note": "Document names and endorsement counts come from a single secondary source (ORF, 30 Mar 2026). Official texts not located; whether each is a government-endorsed instrument or a working-group paper is unverified.",
+    "related": [
+      "intl-ai-impact-summit-new-delhi-declaration-2026"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-pax-silica-declaration-2026",
+    "title": "Pax Silica Declaration (India accession)",
+    "issuing_body": "Ministry of External Affairs / Ministry of Electronics and Information Technology (MeitY) with the United States-led Pax Silica coalition",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2026-02-20",
+    "timeline": [
+      {
+        "date": "2026-02-20",
+        "event": "India signs the Pax Silica declaration at the India AI Impact Summit"
+      }
+    ],
+    "summary": "India joined a United States-led plurilateral declaration on securing the supply chains that underpin AI, covering semiconductors, critical minerals and AI infrastructure.",
+    "key_provisions": [
+      "India reported as one of 24 members at the time of joining",
+      "Commitments to cooperate on 'secure technology supply chains powering AI' and on critical minerals for semiconductors",
+      "Signed in New Delhi during the AI Impact Summit on 20 Feb 2026 (PIB headline 'India Joins Pax Silica at India AI Impact Summit 2026')"
+    ],
+    "themes": [
+      "international",
+      "infrastructure",
+      "export-trade",
+      "cybersecurity"
+    ],
+    "sectors": [
+      "cross-sector",
+      "startups-industry"
+    ],
+    "source_url": "https://www.pib.gov.in/",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=India+%22Pax+Silica%22+joins&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "medium",
+    "confidence_note": "PIB release confirmed by headline (20 Feb 2026) and multiple press reports (Economic Times, Business Standard, Indian Express, Bloomberg). Declaration text and membership list not read.",
+    "related": [
+      "intl-ai-impact-summit-new-delhi-declaration-2026",
+      "intl-us-india-trust-initiative-2025"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-bletchley-declaration-2023",
+    "title": "Bletchley Declaration by Countries Attending the AI Safety Summit",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY) / UK-hosted AI Safety Summit",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2023-11-01",
+    "timeline": [
+      {
+        "date": "2023-11-01",
+        "event": "Declaration published at Bletchley Park with 28 countries and the EU"
+      },
+      {
+        "date": "2024-10-23",
+        "event": "New Zealand joins"
+      }
+    ],
+    "summary": "First multilateral declaration on frontier AI safety. India signed as one of 28 countries plus the EU.",
+    "key_provisions": [
+      "Recognises frontier AI risks, particularly in cybersecurity and biotechnology, and commits to international cooperation",
+      "Commits signatories to risk-based policies and to seek transparency and accountability from private actors developing frontier AI",
+      "Supports an internationally inclusive network of scientific research on frontier AI safety",
+      "Commits to continue the summit series (Seoul 2024, Paris 2025, New Delhi 2026)"
+    ],
+    "themes": [
+      "international",
+      "safety",
+      "risk-management"
+    ],
+    "source_url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023",
+    "confidence": "high",
+    "confidence_note": "Official gov.uk text read; India appears in the signatory list.",
+    "related": [
+      "intl-seoul-ministerial-statement-2024",
+      "intl-paris-statement-inclusive-sustainable-ai-2025",
+      "intl-ai-impact-summit-new-delhi-declaration-2026"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "secondary_sources": [],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-seoul-ministerial-statement-2024",
+    "title": "Seoul Ministerial Statement for Advancing AI Safety, Innovation and Inclusivity",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY) / AI Seoul Summit (Republic of Korea and UK)",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2024-05-22",
+    "timeline": [
+      {
+        "date": "2024-05-21",
+        "event": "Seoul Declaration adopted by 10 countries and the EU at leaders' session; India not a party"
+      },
+      {
+        "date": "2024-05-22",
+        "event": "Ministerial Statement endorsed by 27 countries and the EU including India"
+      }
+    ],
+    "summary": "Ministerial-level outcome of the AI Seoul Summit endorsed by India; India was not among the eleven parties to the leaders' Seoul Declaration the previous day.",
+    "key_provisions": [
+      "Plan to share best practices and evaluation datasets through AI safety institutes 'or other relevant institutions' and collaborate on safety testing guidelines",
+      "Commits to identify thresholds at which frontier AI model risk 'would be severe absent appropriate mitigations'",
+      "Encourages developers to consider environmental footprint, including energy and resource consumption",
+      "Commits to AI education, capacity-building and digital literacy",
+      "India not listed among the 11 signatories of the Seoul Declaration (leaders' track)"
+    ],
+    "themes": [
+      "international",
+      "safety",
+      "risk-management",
+      "institution-building"
+    ],
+    "source_url": "https://www.gov.uk/government/publications/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024/seoul-ministerial-statement-for-advancing-ai-safety-innovation-and-inclusivity-ai-seoul-summit-2024",
+    "secondary_sources": [
+      "https://www.gov.uk/government/publications/seoul-declaration-for-safe-innovative-and-inclusive-ai-ai-seoul-summit-2024/seoul-declaration-for-safe-innovative-and-inclusive-ai-by-participants-attending-the-leaders-session-ai-seoul-summit-21-may-2024"
+    ],
+    "confidence": "high",
+    "confidence_note": "Both gov.uk texts read: India listed in the Ministerial Statement preamble, absent from the Seoul Declaration. Domestic follow-through: IndiaAI Safety Institute announced Jan 2025.",
+    "related": [
+      "intl-bletchley-declaration-2023",
+      "intl-international-network-ai-safety-institutes-2024"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-paris-statement-inclusive-sustainable-ai-2025",
+    "title": "Statement on Inclusive and Sustainable Artificial Intelligence for People and the Planet",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY) / AI Action Summit, Paris (France; India co-chair)",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2025-02-11",
+    "timeline": [
+      {
+        "date": "2025-02-10",
+        "event": "AI Action Summit opens in Paris; India co-chairs"
+      },
+      {
+        "date": "2025-02-11",
+        "event": "Statement signed by 63 countries, the African Union Commission and the EU; US and UK decline"
+      }
+    ],
+    "summary": "Leaders' statement of the Paris AI Action Summit, signed by India as summit co-chair. Shifts the summit series from frontier safety to access, sustainability and labour-market impact.",
+    "key_provisions": [
+      "Six priorities: narrowing digital divides, trustworthy and ethical AI, innovation without market concentration, positive labour-market outcomes, environmental sustainability, and international governance coordination",
+      "India listed as signatory (26th of 63 countries); United States and United Kingdom did not sign",
+      "India is a founding member of the Public Interest AI Platform and Incubator (with Chile, Finland, France, Germany, Kenya, Morocco, Nigeria, Slovenia, Switzerland)",
+      "India announced as host of the next summit (held Feb 2026)"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "ethics",
+      "employment-labour"
+    ],
+    "source_url": "https://www.elysee.fr/en/emmanuel-macron/2025/02/11/statement-on-inclusive-and-sustainable-artificial-intelligence-for-people-and-the-planet",
+    "confidence": "high",
+    "confidence_note": "Official Elysee text read, India in signatory list. India's co-chair role is well documented but not re-verified on a fetched page.",
+    "related": [
+      "intl-ai-impact-summit-new-delhi-declaration-2026",
+      "intl-india-france-ai-declaration-roadmap-2025"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "secondary_sources": [],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-gpai-new-delhi-ministerial-declaration-2023",
+    "title": "GPAI New Delhi Ministerial Declaration",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY) / Global Partnership on Artificial Intelligence (GPAI)",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2023-12-13",
+    "timeline": [
+      {
+        "date": "2022-11-21",
+        "event": "India assumes GPAI incoming Council chair at Tokyo ministerial"
+      },
+      {
+        "date": "2023-12-12",
+        "event": "Prime Minister inaugurates GPAI Summit, New Delhi"
+      },
+      {
+        "date": "2023-12-13",
+        "event": "Ministerial Declaration adopted by GPAI members"
+      },
+      {
+        "date": "2024-07-03",
+        "event": "Global IndiaAI Summit, New Delhi, held under India's GPAI lead chairmanship (date approximate)"
+      }
+    ],
+    "summary": "Ministerial declaration adopted at the GPAI Summit hosted by India in New Delhi under its chairmanship, emphasising inclusive access to AI resources and collaborative governance.",
+    "key_provisions": [
+      "Adopted 13 Dec 2023 by GPAI member governments at the India-hosted summit",
+      "Press summaries record commitments to equitable access to AI resources, including compute, for the Global South",
+      "Press described a 'middle path' between promotion and regulation of AI (Indian Express, 14 Dec 2023)",
+      "India-led GPAI project on AI for sustainable agriculture referenced (from general knowledge)",
+      "India served as GPAI Lead Chair in 2024 before GPAI's integration with the OECD"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "compute",
+      "research-funding"
+    ],
+    "sectors": [
+      "cross-sector",
+      "agriculture"
+    ],
+    "source_url": "https://oecd.ai/en/ai-principles",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=GPAI+%22New+Delhi%22+ministerial+declaration+December+2023&hl=en-IN&gl=IN&ceid=IN:en",
+      "https://en.wikipedia.org/wiki/Global_Partnership_on_Artificial_Intelligence"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Adoption date and hosting confirmed by The Hindu, Indian Express and PM India headlines (13 Dec 2023). Declaration text not read: gpai.ai now redirects to oecd.ai and the document page could not be located; oecd.ai AI Principles page used as forum URL placeholder. Specific commitments are from press summaries and general knowledge.",
+    "related": [
+      "intl-gpai-oecd-integrated-partnership-2024"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-gpai-oecd-integrated-partnership-2024",
+    "title": "Global Partnership on AI (GPAI) membership and OECD integrated partnership",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY) / GPAI-OECD",
+    "instrument_type": "institution",
+    "status": "in-force",
+    "date": "2024-07-01",
+    "date_precision": "month",
+    "timeline": [
+      {
+        "date": "2020-06-15",
+        "event": "GPAI launched with 15 founding members including India"
+      },
+      {
+        "date": "2023-12-13",
+        "event": "India hosts GPAI Summit, New Delhi"
+      },
+      {
+        "date": "2024-07-01",
+        "event": "GPAI and OECD AI work merge into an integrated partnership under the GPAI brand (month approximate)"
+      }
+    ],
+    "summary": "India is a founding member of GPAI, a multistakeholder initiative hosted by the OECD. In mid-2024 GPAI and the OECD's AI work were merged into a single integrated partnership that brings OECD members and GPAI members together; India remains a member without adhering to the OECD AI Principles.",
+    "key_provisions": [
+      "Founding membership since 15 June 2020; India chaired the GPAI Council in 2023 and hosted the 2023 summit",
+      "OECD: 'The GPAI initiative and OECD member countries' work on AI joined forces under the GPAI brand to create an integrated partnership'",
+      "India is not an adherent to the OECD Recommendation on AI (OECD lists China, India, Indonesia, Russia, Saudi Arabia and South Africa as G20 members that have not adhered)",
+      "Wikipedia records 29 member countries plus the EU with further invitations pending (as of Oct 2026)"
+    ],
+    "themes": [
+      "international",
+      "institution-building",
+      "governance"
+    ],
+    "source_url": "https://oecd.ai/en/ai-principles",
+    "secondary_sources": [
+      "https://en.wikipedia.org/wiki/Global_Partnership_on_Artificial_Intelligence"
+    ],
+    "confidence": "medium",
+    "confidence_note": "OECD statement on the integrated partnership read on oecd.ai; the dedicated GPAI page (oecd.ai/en/gpai) returned 404 and the oecd.org programme page 403. Exact date of the integrated partnership and India's current Steering Committee role unverified.",
+    "related": [
+      "intl-gpai-new-delhi-ministerial-declaration-2023",
+      "intl-oecd-ai-principles-india-status"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-oecd-ai-principles-india-status",
+    "title": "OECD Recommendation of the Council on Artificial Intelligence (India non-adherent)",
+    "issuing_body": "Organisation for Economic Co-operation and Development (India: Ministry of Electronics and Information Technology, no adherence)",
+    "instrument_type": "other",
+    "status": "in-force",
+    "date": "2019-05-22",
+    "timeline": [
+      {
+        "date": "2019-05-22",
+        "event": "OECD AI Principles adopted"
+      },
+      {
+        "date": "2019-06-29",
+        "event": "G20 Osaka AI Principles, drawn from the OECD Principles, endorsed by India as G20 member"
+      },
+      {
+        "date": "2024-05-03",
+        "event": "OECD Principles revised"
+      }
+    ],
+    "summary": "The OECD AI Principles are the reference text for the G20 AI Principles that India has endorsed through G20 declarations, but India has not formally adhered to the OECD Recommendation itself.",
+    "key_provisions": [
+      "Adherents are the 38 OECD members, the EU and non-members Argentina, Brazil, Egypt, Malta, Peru, Romania, Singapore and Ukraine; India is not listed",
+      "OECD page notes G20 members China, India, Indonesia, Russia, Saudi Arabia and South Africa are not adherents",
+      "India reaffirmed the G20 AI Principles (2019) in para 61 of the G20 New Delhi Leaders' Declaration (Sept 2023)",
+      "Principles revised May 2024 to address general-purpose and generative AI"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "ethics"
+    ],
+    "source_url": "https://oecd.ai/en/ai-principles",
+    "confidence": "high",
+    "confidence_note": "oecd.ai adherents list read; India absent and explicitly named as a non-adhering G20 member.",
+    "related": [
+      "intl-g20-new-delhi-leaders-declaration-ai-2023",
+      "intl-gpai-oecd-integrated-partnership-2024"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "secondary_sources": [],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-g20-new-delhi-leaders-declaration-ai-2023",
+    "title": "G20 New Delhi Leaders' Declaration (AI paragraphs)",
+    "issuing_body": "Ministry of External Affairs (G20 Secretariat, India Presidency) / G20",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2023-09-09",
+    "timeline": [
+      {
+        "date": "2023-08-19",
+        "event": "G20 Digital Economy Ministers' Meeting, Bengaluru"
+      },
+      {
+        "date": "2023-09-09",
+        "event": "Leaders' Declaration adopted by consensus in New Delhi"
+      }
+    ],
+    "summary": "Consensus leaders' declaration of India's G20 presidency. Paragraph 61 sets out the G20's position on AI, reaffirming the 2019 G20 AI Principles and a pro-innovation governance approach.",
+    "key_provisions": [
+      "Para 61: commits to 'leverage AI for the public good by solving challenges in a responsible, inclusive and human-centric manner'",
+      "Para 61(i): 'Reaffirm our commitment to G20 AI Principles (2019)' and share information on approaches to using AI in the digital economy",
+      "Para 61(ii): 'pursue a pro-innovation regulatory/governance approach that maximizes the benefits and takes into account the risks associated with the use of AI'",
+      "Para 61(iii): promote responsible AI for achieving the SDGs",
+      "Lists transparency and explainability, fairness, accountability, regulation, safety, human oversight, ethics, biases, privacy and data protection as issues to address"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "ethics"
+    ],
+    "source_url": "https://www.g7g20-documents.org/database/document/2023-g20-india-leaders-leaders-language-g20-new-delhi-leaders-declaration",
+    "source_type": "secondary",
+    "secondary_sources": [
+      "https://www.g20.in/content/dam/gtwenty/gtwenty_new/document/G20-New-Delhi-Leaders-Declaration.pdf",
+      "https://en.wikipedia.org/wiki/2023_G20_New_Delhi_summit"
+    ],
+    "confidence": "high",
+    "confidence_note": "Paragraph 61 text read from the University of Toronto G7/G20 Documents Database (verbatim archive). The official g20.in PDF URL is given but g20.in refused connections and mea.gov.in's copy returned 404 at verification.",
+    "related": [
+      "intl-oecd-ai-principles-india-status",
+      "intl-g20-rio-leaders-declaration-ai-2024",
+      "intl-g20-johannesburg-leaders-declaration-ai-2025"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-g20-rio-leaders-declaration-ai-2024",
+    "title": "G20 Rio de Janeiro Leaders' Declaration (AI paragraphs)",
+    "issuing_body": "Ministry of External Affairs / G20 (Brazil Presidency)",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2024-11-18",
+    "timeline": [
+      {
+        "date": "2024-09-13",
+        "event": "G20 Digital Economy Ministers' Maceio Declaration on AI for inclusive sustainable development (date approximate)"
+      },
+      {
+        "date": "2024-11-18",
+        "event": "Rio Leaders' Declaration adopted; India joins consensus"
+      }
+    ],
+    "summary": "Leaders' declaration of Brazil's G20 presidency endorsed by India; its digital paragraphs carry forward the New Delhi AI language and welcome the Maceio digital ministers' declaration on AI for inclusive sustainable development.",
+    "key_provisions": [
+      "India endorsed as a G20 member (consensus text)",
+      "Reported to reaffirm the G20 AI Principles and support UN-anchored international AI governance following the Global Digital Compact (general knowledge)",
+      "Welcomes the G20 Digital Economy Ministerial Declaration (Maceio) on AI for inclusive sustainable development (general knowledge)"
+    ],
+    "themes": [
+      "international",
+      "governance"
+    ],
+    "source_url": "https://www.g7g20-documents.org/database/document/2024-g20-brazil-leaders-leaders-language-g20-rio-de-janeiro-leaders-declaration",
+    "source_type": "secondary",
+    "confidence": "low",
+    "confidence_note": "Declaration text could not be fetched (database returned search page only; g20.org 403). AI content described from general knowledge; India's endorsement follows from consensus adoption.",
+    "related": [
+      "intl-g20-new-delhi-leaders-declaration-ai-2023",
+      "intl-g20-johannesburg-leaders-declaration-ai-2025"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "sectors": [
+      "cross-sector"
+    ],
+    "secondary_sources": [],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-g20-johannesburg-leaders-declaration-ai-2025",
+    "title": "G20 Johannesburg Leaders' Declaration (AI paragraphs)",
+    "issuing_body": "Ministry of External Affairs / G20 (South Africa Presidency)",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2025-11-22",
+    "timeline": [
+      {
+        "date": "2025-11-22",
+        "event": "122-point Leaders' Declaration tabled and adopted on day one; United States absent; Argentina declines to subscribe"
+      },
+      {
+        "date": "2025-11-23",
+        "event": "PM Modi proposes a 'global AI compact' for human-centric AI at the summit"
+      }
+    ],
+    "summary": "Leaders' declaration of South Africa's G20 presidency adopted without the United States; India participated and endorsed. PM Modi used the summit to propose a global compact on human-centric AI.",
+    "key_provisions": [
+      "Adopted 22 Nov 2025 as a 122-point statement; Argentina the only member declining to subscribe",
+      "PM Modi proposed a 'global AI compact' on human-centric technology (New Indian Express, 23 Nov 2025)",
+      "South African presidency ran a Task Force on AI, Data Governance and Innovation for Sustainable Development (general knowledge)",
+      "Atlantic Council assessed the G20 as 'moving forward on global AI governance' with the US 'left out' (2 Dec 2025)"
+    ],
+    "themes": [
+      "international",
+      "governance"
+    ],
+    "source_url": "https://g20.org/",
+    "secondary_sources": [
+      "https://en.wikipedia.org/wiki/2025_G20_Johannesburg_summit",
+      "https://news.google.com/rss/search?q=G20+Johannesburg+leaders+declaration+%22artificial+intelligence%22+India+2025&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "low",
+    "confidence_note": "Adoption facts from Wikipedia and press headlines; declaration PDF on g20.org returned 403 so AI paragraph wording is unverified. Forum home page used as URL.",
+    "related": [
+      "intl-g20-rio-leaders-declaration-ai-2024",
+      "intl-g20-new-delhi-leaders-declaration-ai-2023"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-unesco-ethics-recommendation-india-ram-2026",
+    "title": "UNESCO Recommendation on the Ethics of AI and India AI Readiness Assessment Report",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY, IndiaAI Mission) / UNESCO",
+    "instrument_type": "committee-report",
+    "status": "adopted",
+    "date": "2026-02-16",
+    "timeline": [
+      {
+        "date": "2021-11-23",
+        "event": "UNESCO Recommendation on the Ethics of AI adopted by all member states including India"
+      },
+      {
+        "date": "2024-08-01",
+        "event": "UNESCO-MeitY Readiness Assessment Methodology (RAM) exercise begins (month approximate; 18-month process)"
+      },
+      {
+        "date": "2025-01-16",
+        "event": "RAM stakeholder consultation, Bengaluru"
+      },
+      {
+        "date": "2025-04-15",
+        "event": "RAM consultation, Hyderabad"
+      },
+      {
+        "date": "2025-06-06",
+        "event": "Fifth RAM consultation (PIB)"
+      },
+      {
+        "date": "2026-02-16",
+        "event": "India AI Readiness Assessment Report launched at the India AI Impact Summit"
+      }
+    ],
+    "summary": "India is bound politically by the 2021 UNESCO Recommendation on the Ethics of AI and completed UNESCO's Readiness Assessment Methodology with MeitY; the resulting country report was launched on 16 Feb 2026.",
+    "key_provisions": [
+      "Report launched 16 Feb 2026 by UNESCO and MeitY at the India AI Impact Summit; implementing partner Ikigai Law; supported by the Patrick J. McGovern Foundation",
+      "18-month process with five regional consultations (Delhi, Bengaluru, Hyderabad, Guwahati) and over 600 stakeholders",
+      "Recommends evidence-based governance and risk review, ethical AI guidelines for developers, workforce preparation with ethics integration, environmental sustainability of AI infrastructure and diversity in AI R&D",
+      "Finds India holds about 16% of global AI talent and has filed over 86,000 AI patents since 2010; flags gaps in legal analysis and inclusive AI transition planning",
+      "States that public trust in AI depends on 'a rights-based approach aligned with constitutional principles and international ethical standards'"
+    ],
+    "themes": [
+      "international",
+      "ethics",
+      "governance",
+      "skilling"
+    ],
+    "source_url": "https://www.unesco.org/en/articles/unesco-meity-launch-india-ai-readiness-assessment-report-india-ai-impact-summit-2026",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=UNESCO+readiness+assessment+methodology+India+AI+MeitY&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "high",
+    "confidence_note": "UNESCO article read. Report PDF itself not downloaded. Domestic follow-through: recommendations align with MeitY's India AI Governance Guidelines (Nov 2025).",
+    "related": [
+      "intl-ai-impact-summit-new-delhi-declaration-2026"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-un-global-digital-compact-2024",
+    "title": "Global Digital Compact (annex to the Pact for the Future, UNGA resolution 79/1)",
+    "issuing_body": "Ministry of External Affairs / United Nations General Assembly",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2024-09-22",
+    "timeline": [
+      {
+        "date": "2024-09-22",
+        "event": "Pact for the Future with Global Digital Compact adopted at the Summit of the Future after Russia's deferral motion is rejected"
+      },
+      {
+        "date": "2025-08-26",
+        "event": "UNGA resolution 79/325 operationalises the Compact's AI panel and dialogue (date from general knowledge)"
+      }
+    ],
+    "summary": "UN framework on digital cooperation adopted by consensus with India's participation. Its fifth objective commits states to enhance international governance of AI, creating the Independent International Scientific Panel on AI and the Global Dialogue on AI Governance.",
+    "key_provisions": [
+      "Objective 5: 'enhance international governance of artificial intelligence and interoperable data governance approaches for the benefit of humanity'",
+      "Establishes an Independent International Scientific Panel on AI and a Global Dialogue on AI Governance (implemented via UNGA 79/325 in 2025)",
+      "Calls for a global fund for AI capacity-building (general knowledge)",
+      "Adopted as part of UNGA resolution 79/1; Russia's amendment to defer was rejected"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "datasets"
+    ],
+    "source_url": "https://www.un.org/global-digital-compact/en",
+    "secondary_sources": [
+      "https://en.wikipedia.org/wiki/Global_Digital_Compact"
+    ],
+    "confidence": "medium",
+    "confidence_note": "UN page returned 403; adoption facts confirmed via Wikipedia. Operative wording of the AI commitments partly from general knowledge. India's statements at adoption not located.",
+    "related": [
+      "intl-un-scientific-panel-global-dialogue-ai-2025",
+      "intl-unga-resolution-78-265-ai-2024"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-unga-resolution-78-265-ai-2024",
+    "title": "UNGA Resolution 78/265: Seizing the opportunities of safe, secure and trustworthy AI systems for sustainable development",
+    "issuing_body": "Ministry of External Affairs / United Nations General Assembly",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2024-03-21",
+    "timeline": [
+      {
+        "date": "2024-03-21",
+        "event": "Adopted without a vote (A/78/L.49), United States lead sponsor"
+      }
+    ],
+    "summary": "First UNGA resolution dedicated to AI, adopted by consensus with India joining; it promotes safe, secure and trustworthy AI for the 2030 Agenda and bridging AI divides.",
+    "key_provisions": [
+      "Adopted without a vote on 21 March 2024; US-led after engagement with over 120 countries",
+      "Resolves to bridge AI and digital divides between and within countries",
+      "Promotes 'safe, secure and trustworthy AI systems to accelerate progress towards the full realization of the 2030 Agenda'",
+      "India's co-sponsorship status not confirmed (not mentioned in UN press summary)"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "safety"
+    ],
+    "source_url": "https://press.un.org/en/2024/ga12588.doc.htm",
+    "source_type": "press-release",
+    "confidence": "medium",
+    "confidence_note": "UN press release read; consensus adoption confirmed. Whether India formally co-sponsored could not be verified (docs.un.org 403).",
+    "related": [
+      "intl-unga-resolution-78-311-ai-capacity-2024",
+      "intl-un-global-digital-compact-2024"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "sectors": [
+      "cross-sector"
+    ],
+    "secondary_sources": [],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-unga-resolution-78-311-ai-capacity-2024",
+    "title": "UNGA Resolution 78/311: Enhancing international cooperation on capacity-building of artificial intelligence",
+    "issuing_body": "Ministry of External Affairs / United Nations General Assembly",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2024-07-01",
+    "timeline": [
+      {
+        "date": "2024-07-01",
+        "event": "Adopted by consensus, China lead sponsor with US support"
+      }
+    ],
+    "summary": "China-led consensus resolution on AI capacity-building for developing countries, adopted with India joining consensus.",
+    "key_provisions": [
+      "Adopted by consensus on 1 July 2024 (press reports 2 July) with US support",
+      "Calls for international cooperation and capacity-building so developing countries can access AI benefits",
+      "Complements the US-led March 2024 resolution",
+      "India's co-sponsorship not confirmed"
+    ],
+    "themes": [
+      "international",
+      "skilling",
+      "governance"
+    ],
+    "source_url": "https://docs.un.org/en/A/RES/78/311",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=General+Assembly+adopts+resolution+%22capacity-building%22+%22artificial+intelligence%22+China+July+2024+co-sponsors&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Adoption confirmed only via press headlines (SCMP, Global Times, 2 Jul 2024); UN document server 403. Resolution number from general knowledge.",
+    "related": [
+      "intl-unga-resolution-78-265-ai-2024"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-un-scientific-panel-global-dialogue-ai-2025",
+    "title": "UN Independent International Scientific Panel on AI and Global Dialogue on AI Governance (UNGA resolution 79/325)",
+    "issuing_body": "Ministry of External Affairs / Ministry of Electronics and Information Technology (MeitY) / United Nations General Assembly",
+    "instrument_type": "institution",
+    "status": "in-force",
+    "date": "2025-08-26",
+    "timeline": [
+      {
+        "date": "2025-08-26",
+        "event": "UNGA resolution 79/325 establishes the Panel and the Dialogue (date from general knowledge)"
+      },
+      {
+        "date": "2026-02-13",
+        "event": "40 Panel members appointed"
+      },
+      {
+        "date": "2026-02-24",
+        "event": "PIB announces appointment of Prof. B. Ravindran (IIT Madras) to the Panel"
+      },
+      {
+        "date": "2026-07-01",
+        "event": "Panel releases preliminary report"
+      },
+      {
+        "date": "2026-07-06",
+        "event": "First Global Dialogue on AI Governance, Geneva (6-7 July), Indian delegation led by Union Minister Kirti Vardhan Singh"
+      }
+    ],
+    "summary": "UN mechanisms created under the Global Digital Compact: a 40-member scientific panel and an inter-governmental dialogue on AI governance. India participates as a member state and has a national on the panel.",
+    "key_provisions": [
+      "Panel of 40 experts appointed 13 Feb 2026; includes Prof. B. Ravindran, IIT Madras (PIB, 24 Feb 2026)",
+      "Panel's preliminary report on AI opportunities, risks and impacts released July 2026 ahead of the Dialogue",
+      "First Global Dialogue held in Geneva 6-7 July 2026 alongside ITU AI for Good; second session planned for New York in 2027 (general knowledge)",
+      "India's delegation led by Union Minister Kirti Vardhan Singh (News On AIR, 5 Jul 2026)"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "institution-building",
+      "research-funding"
+    ],
+    "source_url": "https://www.un.org/global-digital-compact/en",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=%22Scientific+Panel+on+AI%22+members+appointed+United+Nations&hl=en-IN&gl=IN&ceid=IN:en",
+      "https://news.google.com/rss/search?q=Ravindran+%22Scientific+Panel%22+AI+United+Nations+PIB+IIT+Madras&hl=en-IN&gl=IN&ceid=IN:en",
+      "https://news.google.com/rss/search?q=%22Global+Dialogue+on+AI+Governance%22+Geneva+July+2026&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Appointment, PIB release and Geneva dialogue confirmed via multiple headlines (PIB, UN News, UNESCO, News On AIR). Resolution date and 2027 schedule from general knowledge; UN pages returned 403.",
+    "related": [
+      "intl-un-global-digital-compact-2024"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-quad-ai-engage-and-cet-principles-2023",
+    "title": "Quad AI-ENGAGE initiative and Quad Principles on Critical and Emerging Technology Standards",
+    "issuing_body": "Ministry of External Affairs / Quad (Australia, India, Japan, United States)",
+    "instrument_type": "framework",
+    "status": "adopted",
+    "date": "2023-05-20",
+    "timeline": [
+      {
+        "date": "2023-05-20",
+        "event": "Quad Leaders' Summit, Hiroshima: Quad Principles on Critical and Emerging Technology Standards and International Standards Cooperation Network released; AI-ENGAGE announced"
+      },
+      {
+        "date": "2024-09-21",
+        "event": "Wilmington Declaration: inaugural USD 7.5 million+ in AI-ENGAGE joint research funding; Quad BioExplore Initiative announced"
+      }
+    ],
+    "summary": "Quad commitments on AI through an agriculture research initiative (AI-ENGAGE) and principles for standards development in critical and emerging technologies, endorsed by India.",
+    "key_provisions": [
+      "Quad Principles on Critical and Emerging Technology Standards support 'industry-led, consensus-based multi-stakeholder approaches' to standards (20 May 2023)",
+      "AI-ENGAGE (Advancing Innovations for Empowering NextGen Agriculture) funds joint research using AI, robotics and sensing for farmers across the Indo-Pacific",
+      "Wilmington Declaration announces 'an inaugural $7.5+ million in funding opportunities for joint research' under AI-ENGAGE",
+      "Quad BioExplore Initiative: funded mechanism for 'joint AI-driven exploration of diverse non-human biological data'",
+      "Forthcoming Quad Principles for Research and Development Collaborations in Critical and Emerging Technologies"
+    ],
+    "themes": [
+      "international",
+      "standards",
+      "research-funding"
+    ],
+    "sectors": [
+      "cross-sector",
+      "agriculture"
+    ],
+    "source_url": "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2024/09/21/the-wilmington-declaration-joint-statement-from-the-leaders-of-australia-india-japan-and-the-united-states/",
+    "secondary_sources": [
+      "https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/05/20/quad-leaders-joint-statement/"
+    ],
+    "confidence": "high",
+    "confidence_note": "Both archived White House texts read. The 2023 statement itself does not name AI-ENGAGE; the 2024 text says it was 'announced at last year's Summit' (via a fact sheet). MEA copies not fetched.",
+    "related": [
+      "intl-quad-manila-joint-press-release-2026"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-quad-manila-joint-press-release-2026",
+    "title": "Quad Leaders' Summit Joint Press Release, Manila (Super Intelligence Accelerator)",
+    "issuing_body": "Ministry of External Affairs / Quad (Australia, India, Japan, United States)",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2026-11-17",
+    "timeline": [
+      {
+        "date": "2026-11-17",
+        "event": "Quad Leaders' Summit in Manila issues joint press release"
+      }
+    ],
+    "summary": "Latest Quad leaders' outcome document. It launches a 'Super Intelligence (SI) Accelerator' for trusted AI deployment across the Indo-Pacific, with a footnote that for Australia, India and Japan the US term 'Super Intelligence' means artificial intelligence.",
+    "key_provisions": [
+      "Launches a 'Super Intelligence (SI) Accelerator' to 'coordinate and fund efforts to support trusted Super Intelligence (SI) access, deployment, and technical assistance across the Indo-Pacific'",
+      "Commits to 'investments in and deployment of trusted Super Intelligence (SI)' as a growth driver",
+      "Footnote: 'In Australia, India, and Japan, \"Super Intelligence\" refers to \"artificial intelligence\"'",
+      "Press reports USD 85 million behind the AI initiatives and a Quad business forum in 2027 (unverified in the release text)",
+      "Also announces maritime surveillance and cybersecurity initiatives"
+    ],
+    "themes": [
+      "international",
+      "infrastructure",
+      "cybersecurity"
+    ],
+    "source_url": "https://www.pm.gov.au/media/quad-leaders-summit-joint-press-release",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=Quad+Manila+summit+joint+statement+%22artificial+intelligence%22+November+2026&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "high",
+    "confidence_note": "Australian PM's official copy of the joint release read; MEA copy not fetched. Funding figure comes from press only.",
+    "related": [
+      "intl-quad-ai-engage-and-cet-principles-2023"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-us-india-trust-initiative-2025",
+    "title": "U.S.-India TRUST Initiative (Transforming the Relationship Utilizing Strategic Technology) and AI Infrastructure Roadmap",
+    "issuing_body": "Ministry of External Affairs / Prime Minister's Office with the United States (Joint Leaders' Statement)",
+    "instrument_type": "framework",
+    "status": "adopted",
+    "date": "2025-02-13",
+    "timeline": [
+      {
+        "date": "2023-01-31",
+        "event": "US-India initiative on Critical and Emerging Technology (iCET) launched by National Security Advisers"
+      },
+      {
+        "date": "2025-02-13",
+        "event": "Joint Leaders' Statement launches TRUST and commits to an AI infrastructure roadmap by end-2025"
+      },
+      {
+        "date": "2026-01-30",
+        "event": "Hyderabad conference on TRUST in AI and cybersecurity (US Embassy)"
+      },
+      {
+        "date": "2026-02-20",
+        "event": "India joins Pax Silica at the AI Impact Summit"
+      },
+      {
+        "date": "2026-09-12",
+        "event": "Undersea-cable security cooperation announced under TRUST"
+      }
+    ],
+    "summary": "Bilateral technology framework succeeding iCET. TRUST covers AI, semiconductors, quantum, biotechnology, energy and space and commits both governments to a roadmap for financing and building large-scale US-origin AI infrastructure in India.",
+    "key_provisions": [
+      "TRUST aims to 'catalyze government-to-government, academia and private sector collaboration to promote application of critical and emerging technologies' (para 15)",
+      "Commits to a 'U.S.-India Roadmap on Accelerating AI Infrastructure' by end-2025, 'identifying constraints to financing, building, powering, and connecting large-scale U.S.-origin AI infrastructure' (para 16)",
+      "Roadmap to include industry partnerships on next-generation data centres, compute and AI model development",
+      "INDUS Innovation bridge modelled on INDUS-X for space, energy and emerging technology (para 17)",
+      "Follow-through 2026: Hyderabad TRUST conference on AI and cybersecurity (Jan 2026); undersea-cable security cooperation (Sept 2026)"
+    ],
+    "themes": [
+      "international",
+      "compute",
+      "infrastructure",
+      "cybersecurity"
+    ],
+    "source_url": "https://www.whitehouse.gov/briefings-statements/2025/02/united-states-india-joint-leaders-statement/",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=%22TRUST%22+initiative+US+India+%22AI+infrastructure%22+roadmap+2026&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "high",
+    "confidence_note": "White House text read. Whether the AI infrastructure roadmap was formally published by end-2025 could not be confirmed (only a Carnegie policy roadmap of Apr 2025 and follow-up events found). iCET launch date from general knowledge.",
+    "related": [
+      "intl-pax-silica-declaration-2026",
+      "intl-quad-ai-engage-and-cet-principles-2023"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-eu-india-trade-technology-council-ai-2023",
+    "title": "EU-India Trade and Technology Council (Working Group 1 on strategic technologies, digital governance and AI)",
+    "issuing_body": "Ministry of External Affairs / Ministry of Electronics and Information Technology (MeitY) with the European Commission",
+    "instrument_type": "institution",
+    "status": "in-force",
+    "date": "2023-05-16",
+    "timeline": [
+      {
+        "date": "2022-04-25",
+        "event": "TTC announced by PM Modi and Commission President von der Leyen (date approximate)"
+      },
+      {
+        "date": "2023-05-16",
+        "event": "First ministerial meeting, Brussels"
+      },
+      {
+        "date": "2025-02-28",
+        "event": "Second ministerial meeting during College of Commissioners' visit to New Delhi"
+      },
+      {
+        "date": "2026-01-27",
+        "event": "EU-India summit concludes free trade agreement with technology-policy alignment (date approximate)"
+      },
+      {
+        "date": "2026-07-16",
+        "event": "Third ministerial meeting advances cooperation across three working groups; Horizon Europe association talks opened"
+      }
+    ],
+    "summary": "Ministerial coordination body on trade and technology; Working Group 1 covers trustworthy AI, large language model research, digital public infrastructure, semiconductors and high-performance computing.",
+    "key_provisions": [
+      "Three working groups: strategic technologies/digital governance/connectivity; green and clean energy; trade, investment and resilient value chains",
+      "AI work stream covers trustworthy AI, joint research on large language models and AI standards, and high-performance computing (general knowledge)",
+      "Third ministerial (16 Jul 2026) reported progress on AI, semiconductors and supply-chain resilience (DD India, ANI, ET Government)",
+      "EU and India opened talks on India's association to Horizon Europe (Jul 2026)"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "models",
+      "standards"
+    ],
+    "source_url": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/india_en",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=%22EU-India%22+%22Trade+and+Technology+Council%22+%22artificial+intelligence%22&hl=en-IN&gl=IN&ceid=IN:en",
+      "https://news.google.com/rss/search?q=%22Trade+and+Technology+Council%22+India+EU+third+ministerial+July+2026+AI&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "low",
+    "confidence_note": "Both EC TTC pages tried returned 404; dates of the 2023 and 2025 ministerials and the AI work-stream content are from general knowledge; 2026 ministerial confirmed only by headlines. EU trade policy India page given as forum URL.",
+    "related": [],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-uk-india-technology-security-initiative-2024",
+    "title": "UK-India Technology Security Initiative (TSI)",
+    "issuing_body": "National Security Council Secretariat (India) with the UK Government",
+    "instrument_type": "framework",
+    "status": "in-force",
+    "date": "2024-07-24",
+    "timeline": [
+      {
+        "date": "2024-07-24",
+        "event": "TSI launched in New Delhi by the two National Security Advisers (gov.uk factsheet dated 25 July 2024)"
+      },
+      {
+        "date": "2025-07-24",
+        "event": "UK-India Vision 2035 adopted with technology and AI chapter (date approximate)"
+      },
+      {
+        "date": "2026-02-20",
+        "event": "UK AI showcase at the India AI Impact Summit (gov.uk)"
+      }
+    ],
+    "summary": "NSA-led bilateral framework covering seven technology areas including AI; it structures UK-India dialogue on AI safety, responsible AI and research collaboration.",
+    "key_provisions": [
+      "Covers 'telecoms, critical minerals, artificial intelligence (AI), quantum, health/bio technology, advanced materials and semiconductors'",
+      "'The respective National Security Advisers will take it forward' with an annual TSI dialogue",
+      "AI pillar understood to cover responsible and safe AI cooperation and links between the two countries' AI safety bodies (general knowledge)",
+      "UK-India Vision 2035 (July 2025) carries the technology partnership forward"
+    ],
+    "themes": [
+      "international",
+      "safety",
+      "research-funding"
+    ],
+    "source_url": "https://www.gov.uk/government/publications/uk-india-technology-security-initiative-factsheet",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=%22Vision+2035%22+UK+India+%22artificial+intelligence%22+OR+%22AI+Safety+Institute%22+UK+India+cooperation+2025&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "medium",
+    "confidence_note": "gov.uk factsheet landing page read (lists pillars and NSA role) but the AI pillar text was not in the fetched excerpt. Launch date: NSAs met 24 July 2024; UK publication dated 25 July 2024.",
+    "related": [],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-india-france-ai-declaration-roadmap-2025",
+    "title": "India-France Declaration on Artificial Intelligence and Innovation Roadmap 2030",
+    "issuing_body": "Ministry of External Affairs / Prime Minister's Office with the French Republic",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2025-02-12",
+    "timeline": [
+      {
+        "date": "2025-02-12",
+        "event": "India-France Declaration on AI adopted in Paris during the AI Action Summit (date from general knowledge)"
+      },
+      {
+        "date": "2026-02-17",
+        "event": "India-France Joint Statement elevates ties to 'Special Global Strategic Partnership' during President Macron's visit for the AI Impact Summit"
+      },
+      {
+        "date": "2026-06-15",
+        "event": "India-France Innovation Roadmap 2030 adopted during PM Modi's visit to France (13 outcomes)"
+      }
+    ],
+    "summary": "Bilateral AI roadmap agreed at the Paris summit and carried forward through the 2026 Special Global Strategic Partnership and the Innovation Roadmap 2030, including joint AI research centres and trustworthy-AI cooperation.",
+    "key_provisions": [
+      "Feb 2025: joint roadmap for 'safe' and trustworthy AI linked to the Paris summit (press, 20 Feb 2025)",
+      "17 Feb 2026 Joint Statement: Special Global Strategic Partnership with pacts on defence, critical minerals and innovation (PIB, DD News)",
+      "June 2026 Innovation Roadmap 2030: 13 outcomes reported to include AI research centres, trustworthy AI, an Indo-French AI centre, compute cooperation and startup programmes",
+      "2026 designated India-France Year of Innovation"
+    ],
+    "themes": [
+      "international",
+      "research-funding",
+      "startups-innovation",
+      "compute"
+    ],
+    "source_url": "https://www.mea.gov.in/bilateral-documents.htm",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=%22India-France%22+declaration+%22artificial+intelligence%22+roadmap+2025+Modi+Macron&hl=en-IN&gl=IN&ceid=IN:en",
+      "https://news.google.com/rss/search?q=%22India-France%22+%22Innovation+Roadmap+2030%22+OR+%22Special+Global+Strategic+Partnership%22+AI&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "low",
+    "confidence_note": "Existence and dates confirmed by PIB and PM India headlines; no document text read (MEA/PMIndia pages blocked). AI-specific items in the Roadmap 2030 come from a small-model summary of headlines and should be re-checked against the MEA text.",
+    "related": [
+      "intl-paris-statement-inclusive-sustainable-ai-2025"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-india-japan-ai-joint-statement-2026",
+    "title": "India-Japan Joint Statement on cooperation in the field of Artificial Intelligence",
+    "issuing_body": "Ministry of External Affairs / Prime Minister's Office with Japan (16th India-Japan Annual Summit)",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2026-07-02",
+    "timeline": [
+      {
+        "date": "2025-08-29",
+        "event": "Modi-Ishiba summit adopts Digital Partnership 2.0 (date from general knowledge)"
+      },
+      {
+        "date": "2026-07-02",
+        "event": "Modi-Takaichi summit: dedicated Joint Statement on AI cooperation among 16 outcomes"
+      }
+    ],
+    "summary": "Stand-alone bilateral AI statement adopted at the 16th India-Japan Annual Summit, committing both governments to cooperation across the AI technology stack and to a safe, secure and human-centric AI ecosystem.",
+    "key_provisions": [
+      "Issued 2 Jul 2026 as one of 16 summit outcomes (PIB/PM India title confirmed)",
+      "Cooperation 'across the full tech stack' and agreement on a 'safe, secure, human-centric AI ecosystem' (ANI)",
+      "Reported coverage of governance, innovation and talent, including Japan inviting 500 skilled Indian workers by 2030 (Mainichi)",
+      "Both countries are members of the Hiroshima AI Process Friends Group (linkage inferred)"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "skilling",
+      "models"
+    ],
+    "source_url": "https://www.pib.gov.in/",
+    "source_type": "press-release",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=%22India-Japan+Joint+Statement%22+%22Artificial+Intelligence%22+cooperation+Takaichi&hl=en-IN&gl=IN&ceid=IN:en",
+      "https://news.google.com/rss/search?q=Modi+Takaichi+joint+statement+%22artificial+intelligence%22+India+Japan+July+2026&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Title and date confirmed by PIB and PM India headlines plus Reuters, DD News, Livemint; statement text not read (PIB/PMIndia/MOFA pages blocked). PIB home page given as placeholder URL.",
+    "related": [
+      "intl-hiroshima-ai-process-friends-group-2024"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-brics-rio-ai-governance-statement-2025",
+    "title": "BRICS Leaders' Statement on the Global Governance of Artificial Intelligence (Rio de Janeiro)",
+    "issuing_body": "Ministry of External Affairs / BRICS",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2025-07-06",
+    "timeline": [
+      {
+        "date": "2024-10-23",
+        "event": "Kazan Declaration includes AI paragraphs supporting UN-centred AI governance (general knowledge)"
+      },
+      {
+        "date": "2025-07-06",
+        "event": "17th BRICS Summit, Rio: leaders adopt statement on global AI governance (reported 6-7 July)"
+      },
+      {
+        "date": "2025-07-07",
+        "event": "India announced as 2026 BRICS chair"
+      }
+    ],
+    "summary": "BRICS leaders' statement endorsed by India calling for UN-led international AI governance and inclusive, rights-respecting AI development.",
+    "key_provisions": [
+      "Calls for the United Nations to lead the formulation of international AI governance frameworks",
+      "States AI development and application 'must be inclusive, sustainable, and respect human rights'",
+      "Warns inadequate governance could widen inequalities between developed and developing countries",
+      "Addresses the digital divide and fair access to AI resources for the Global South",
+      "Kazan (2024) predecessor paragraphs supported a BRICS AI study group (general knowledge)"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "datasets"
+    ],
+    "source_url": "https://brics.br/en",
+    "secondary_sources": [
+      "https://en.wikipedia.org/wiki/17th_BRICS_summit"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Content summarised from Wikipedia; official brics.br document URL not located so the forum home page is given. Statement reportedly also addressed data sovereignty and compensation for data use (general knowledge, unverified).",
+    "related": [
+      "intl-brics-new-delhi-declaration-2026"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-brics-new-delhi-declaration-2026",
+    "title": "BRICS New Delhi Declaration (18th BRICS Summit)",
+    "issuing_body": "Ministry of External Affairs (BRICS India Chairship 2026) / BRICS",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2026-09-12",
+    "timeline": [
+      {
+        "date": "2026-01-01",
+        "event": "India assumes BRICS chairship"
+      },
+      {
+        "date": "2026-09-12",
+        "event": "18th BRICS Summit opens at Bharat Mandapam, New Delhi; 140-paragraph New Delhi Declaration adopted by consensus"
+      },
+      {
+        "date": "2026-09-13",
+        "event": "Summit concludes"
+      }
+    ],
+    "summary": "Consensus leaders' declaration of the India-hosted BRICS summit. Among its technology provisions it endorses cooperation on AI, calls for wider access to AI resources and backs new BRICS innovation mechanisms.",
+    "key_provisions": [
+      "Adopted by 10 members (Brazil, China, Egypt, Ethiopia, India, Indonesia, Iran, Russia, South Africa, UAE) with partner countries attending; 140 paragraphs, described as the longest BRICS document",
+      "Calls for 'stronger international cooperation, wider access to AI resources' (The Hindu, 12 Sept 2026) and places AI within cooperation on growth, health, energy and development (ANI)",
+      "Endorses a BRICS Incubator Network, a Startup Innovation Fund, a digital public infrastructure repository and cooperation on AI, quantum and research networks",
+      "Chinese state media read the declaration as giving the Global South a greater role in AI rule-making (China Daily, 13 Sept 2026)"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "startups-innovation",
+      "infrastructure"
+    ],
+    "source_url": "https://brics2026.gov.in/",
+    "secondary_sources": [
+      "https://en.wikipedia.org/wiki/18th_BRICS_summit",
+      "https://news.google.com/rss/search?q=BRICS+%22New+Delhi+Declaration%22+2026+%22artificial+intelligence%22&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Dates, venue and structure confirmed via Wikipedia and PM India/The Hindu/ANI headlines; declaration text not read (brics2026.gov.in and pmindia.gov.in returned 403). AI paragraph wording unverified.",
+    "related": [
+      "intl-brics-rio-ai-governance-statement-2025",
+      "intl-ai-impact-summit-new-delhi-declaration-2026"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-hiroshima-ai-process-friends-group-2024",
+    "title": "Hiroshima AI Process Friends Group (India membership)",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY) / G7 Hiroshima AI Process (Japan-led)",
+    "instrument_type": "other",
+    "status": "in-force",
+    "date": "2024-05-02",
+    "timeline": [
+      {
+        "date": "2023-05-19",
+        "event": "G7 Hiroshima Summit launches the Hiroshima AI Process"
+      },
+      {
+        "date": "2023-12-01",
+        "event": "G7 Digital and Tech Ministers agree the Comprehensive Policy Framework including Guiding Principles and Code of Conduct for advanced AI (month approximate)"
+      },
+      {
+        "date": "2024-05-02",
+        "event": "Friends Group launched at the OECD Ministerial Council Meeting (date approximate); India among members"
+      },
+      {
+        "date": "2025-02-07",
+        "event": "OECD launches Hiroshima AI Process Reporting Framework (date approximate)"
+      }
+    ],
+    "summary": "Voluntary group of countries supporting the G7's Hiroshima AI Process Guiding Principles and Code of Conduct for organisations developing advanced AI systems. India is a member.",
+    "key_provisions": [
+      "India listed among Friends Group members; membership reached 82 as of August 2026",
+      "Group is 'a voluntary framework of countries supporting the spirit of the Hiroshima AI Process, toward globally promoting safe, secure, and trustworthy AI'",
+      "Underlying instruments: International Guiding Principles and International Code of Conduct for Organizations Developing Advanced AI Systems (G7, 2023)",
+      "OECD reporting framework lets companies report on Code of Conduct implementation (2025)"
+    ],
+    "themes": [
+      "international",
+      "safety",
+      "transparency"
+    ],
+    "source_url": "https://www.soumu.go.jp/hiroshimaaiprocess/en/supporters.html",
+    "confidence": "high",
+    "confidence_note": "Japanese MIC supporters page read; India listed, 82 members as of Aug 2026. Launch date (2 May 2024) from general knowledge.",
+    "related": [
+      "intl-india-japan-ai-joint-statement-2026"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "secondary_sources": [],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-international-network-ai-safety-institutes-2024",
+    "title": "International Network of AI Safety Institutes (India not a member)",
+    "issuing_body": "Ministry of Electronics and Information Technology (MeitY, IndiaAI Safety Institute) / International Network of AI Safety Institutes",
+    "instrument_type": "institution",
+    "status": "in-force",
+    "date": "2024-11-20",
+    "timeline": [
+      {
+        "date": "2024-05-21",
+        "event": "Seoul Statement of Intent on AI safety science foreshadows the network"
+      },
+      {
+        "date": "2024-11-20",
+        "event": "Network launched in San Francisco with Australia, Canada, EU, France, Japan, Kenya, Republic of Korea, Singapore, UK and US (general knowledge)"
+      },
+      {
+        "date": "2025-01-30",
+        "event": "India announces IndiaAI Safety Institute under the IndiaAI Mission (date approximate)"
+      }
+    ],
+    "summary": "Network of government AI safety and evaluation bodies launched in November 2024. India was not a founding member and no evidence was found that it has since joined, although it set up its own IndiaAI Safety Institute in 2025.",
+    "key_provisions": [
+      "Ten founding members (Australia, Canada, EU, France, Japan, Kenya, Republic of Korea, Singapore, UK, US); India absent",
+      "IndiaAI Safety Institute operates 'virtually across institutions' as a hub-and-spoke model (The Hindu, 7 Feb 2025)",
+      "Network reportedly renamed in 2025 to reflect measurement, evaluation and science (press; exact name unverified)",
+      "India's Seoul Ministerial Statement commitment to cooperate through safety institutes remains the relevant hook"
+    ],
+    "themes": [
+      "international",
+      "safety",
+      "institution-building"
+    ],
+    "source_url": "https://www.nist.gov/aisi",
+    "secondary_sources": [
+      "https://news.google.com/rss/search?q=%22AI+Safety+Institute%22+India+%22international+network%22+joins&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "low",
+    "confidence_note": "NIST network page returned 404; membership list from general knowledge. India's non-membership rests on absence of any report of joining through Nov 2026.",
+    "related": [
+      "intl-seoul-ministerial-statement-2024"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-coe-framework-convention-ai-2024",
+    "title": "Council of Europe Framework Convention on AI and Human Rights, Democracy and the Rule of Law (CETS 225) - India not a signatory",
+    "issuing_body": "Council of Europe (India: Ministry of External Affairs, no participation)",
+    "instrument_type": "other",
+    "status": "adopted",
+    "date": "2024-09-05",
+    "binding": "binding",
+    "timeline": [
+      {
+        "date": "2024-05-17",
+        "event": "Convention adopted by the Committee of Ministers"
+      },
+      {
+        "date": "2024-09-05",
+        "event": "Opened for signature in Vilnius"
+      }
+    ],
+    "summary": "The only binding international treaty on AI. India is neither a Council of Europe member nor an observer to the drafting committee and has not signed.",
+    "key_provisions": [
+      "Open to non-European states; signatories include Canada, Japan, Israel, the US, the UK, the EU, Switzerland, Norway, Ukraine, Moldova, Georgia, Uruguay and others",
+      "India not among signatories or drafting participants",
+      "Enters into force after five ratifications including three CoE members",
+      "Treaty obligations would be binding on parties, unlike every other instrument in this catalogue"
+    ],
+    "themes": [
+      "international",
+      "governance",
+      "accountability-liability"
+    ],
+    "source_url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+    "secondary_sources": [
+      "https://en.wikipedia.org/wiki/Framework_Convention_on_Artificial_Intelligence"
+    ],
+    "confidence": "medium",
+    "confidence_note": "coe.int treaty office returned 403; signatory list from Wikipedia. India's absence is consistent with general knowledge.",
+    "related": [],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "date_precision": "day",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-reaim-military-ai-declarations-2023-2026",
+    "title": "REAIM Call to Action (2023), Blueprint for Action (2024) and A Coruna Pathways to Action (2026) - India non-endorsement",
+    "issuing_body": "Ministry of External Affairs / Ministry of Defence (India: participant, non-endorser) / REAIM summits (Netherlands, Republic of Korea, Spain)",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2026-02-01",
+    "date_precision": "month",
+    "timeline": [
+      {
+        "date": "2023-02-16",
+        "event": "REAIM The Hague: Call to Action; India attends but does not endorse"
+      },
+      {
+        "date": "2024-09-10",
+        "event": "REAIM Seoul: Blueprint for Action endorsed by about 60 states; China declines; India not among endorsers (not independently verified)"
+      },
+      {
+        "date": "2026-02-01",
+        "event": "REAIM A Coruna, Spain: 'Pathways to Action' adopted by 43 states; US and China opt out; India not listed (month approximate)"
+      }
+    ],
+    "summary": "Series of voluntary declarations on responsible military use of AI. India has not endorsed any of the three outcome documents.",
+    "key_provisions": [
+      "Carnegie (Aug 2024): India did not endorse the REAIM 2023 Call to Action",
+      "REAIM 2026 'Declaracion de A Coruna: Camino para la accion' adopted by 43 states (including Pakistan, Japan, Republic of Korea, UK, France, Germany, Singapore); India absent from the list; document 'open to future endorsements'",
+      "US and China opted out of the 2026 declaration (Reuters, 6 Feb 2026)",
+      "India's stated preference is for the CCW Group of Governmental Experts as the forum for military AI/LAWS"
+    ],
+    "themes": [
+      "international",
+      "safety",
+      "governance"
+    ],
+    "sectors": [
+      "defence"
+    ],
+    "source_url": "https://reaim2026.es/",
+    "secondary_sources": [
+      "https://carnegieendowment.org/research/2024/08/understanding-the-global-debate-on-lethal-autonomous-weapons-systems-an-indian-perspective",
+      "https://news.google.com/rss/search?q=REAIM+2025+summit+Spain+declaration+endorsed+countries&hl=en-IN&gl=IN&ceid=IN:en"
+    ],
+    "confidence": "medium",
+    "confidence_note": "2026 endorser list read on the Spanish summit site (India absent); 2023 non-endorsement from Carnegie. 2024 Blueprint non-endorsement is asserted by the brief and consistent with pattern but no endorser list was fetched. Exact 2026 summit dates not confirmed.",
+    "related": [
+      "intl-us-political-declaration-military-ai-2023",
+      "intl-un-laws-resolutions-india-position-2023"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "source_type": "official",
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-us-political-declaration-military-ai-2023",
+    "title": "Political Declaration on Responsible Military Use of Artificial Intelligence and Autonomy (India non-endorser)",
+    "issuing_body": "United States Department of State (India: Ministry of External Affairs / Ministry of Defence, not endorsed)",
+    "instrument_type": "declaration",
+    "status": "adopted",
+    "date": "2023-02-16",
+    "timeline": [
+      {
+        "date": "2023-02-16",
+        "event": "Declaration launched at REAIM The Hague"
+      },
+      {
+        "date": "2023-11-09",
+        "event": "Revised text released; endorsements grow to about 50 states (general knowledge)"
+      }
+    ],
+    "summary": "US-led set of non-binding principles for military AI (human accountability, legal review, bias mitigation, safeguards). India has not endorsed.",
+    "key_provisions": [
+      "Carnegie (Aug 2024) records India among states that did not endorse the Declaration",
+      "Endorsers numbered around 58 by 2024 (general knowledge); India absent",
+      "Declaration measures: legal reviews, senior-level oversight of high-consequence applications, auditable methodologies, bias minimisation",
+      "India instead stresses the CCW GGE's eleven guiding principles"
+    ],
+    "themes": [
+      "international",
+      "safety",
+      "accountability-liability"
+    ],
+    "sectors": [
+      "defence"
+    ],
+    "source_url": "https://www.state.gov/political-declaration-on-responsible-military-use-of-artificial-intelligence-and-autonomy-2/",
+    "secondary_sources": [
+      "https://carnegieendowment.org/research/2024/08/understanding-the-global-debate-on-lethal-autonomous-weapons-systems-an-indian-perspective"
+    ],
+    "confidence": "medium",
+    "confidence_note": "State Department pages returned 403; India's non-endorsement from Carnegie (Aug 2024). No later evidence of India endorsing found.",
+    "related": [
+      "intl-reaim-military-ai-declarations-2023-2026"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-un-laws-resolutions-india-position-2023",
+    "title": "UNGA resolution 78/241 on lethal autonomous weapons systems and India's CCW GGE position",
+    "issuing_body": "Ministry of External Affairs (Disarmament and International Security Affairs Division) / UN General Assembly First Committee and CCW Group of Governmental Experts",
+    "instrument_type": "other",
+    "status": "adopted",
+    "date": "2023-12-22",
+    "timeline": [
+      {
+        "date": "2019-11-15",
+        "event": "CCW GGE eleven guiding principles on LAWS endorsed (India supports)"
+      },
+      {
+        "date": "2023-12-22",
+        "event": "UNGA 78/241 adopted 152-4; India votes against with Belarus, Mali and Russia"
+      },
+      {
+        "date": "2024-12-02",
+        "event": "UNGA 79/62 on LAWS adopted; India's vote not verified"
+      }
+    ],
+    "summary": "India voted against the first UNGA resolution on lethal autonomous weapons, arguing the CCW GGE is the appropriate forum, and favours a politically binding instrument built on the GGE's guiding principles over a new treaty.",
+    "key_provisions": [
+      "78/241 adopted 152 in favour to 4 against (Belarus, India, Mali, Russian Federation)",
+      "India's explanation: the CCW GGE is the appropriate forum; parallel UNGA work risks 'duplication of efforts and resources'",
+      "India values the CCW because it includes major militaries and consensus decision-making with binding potential",
+      "India prefers a politically binding instrument based on the GGE's eleven guiding principles rather than an immediately legally binding treaty"
+    ],
+    "themes": [
+      "international",
+      "safety",
+      "governance"
+    ],
+    "sectors": [
+      "defence"
+    ],
+    "source_url": "https://carnegieendowment.org/research/2024/08/understanding-the-global-debate-on-lethal-autonomous-weapons-systems-an-indian-perspective",
+    "source_type": "secondary",
+    "confidence": "medium",
+    "confidence_note": "Vote and rationale from a Carnegie research paper (Aug 2024) citing UN records; UN voting records (docs.un.org, reachingcriticalwill.org) returned 403. Votes on 79/62 (Dec 2024) and the Dec 2025 resolution unverified.",
+    "related": [
+      "intl-reaim-military-ai-declarations-2023-2026",
+      "intl-us-political-declaration-military-ai-2023"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "secondary_sources": [],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-iso-iec-jtc1-sc42-bis-participation",
+    "title": "ISO/IEC JTC 1/SC 42 Artificial Intelligence (BIS participation)",
+    "issuing_body": "Bureau of Indian Standards (BIS, LITD 30 mirror committee) / ISO/IEC JTC 1",
+    "instrument_type": "standard",
+    "status": "in-force",
+    "date": "2017-10-01",
+    "date_precision": "year",
+    "timeline": [
+      {
+        "date": "2017-10-01",
+        "event": "SC 42 established (year)"
+      },
+      {
+        "date": "2023-12-18",
+        "event": "ISO/IEC 42001 AI management system standard published (general knowledge)"
+      }
+    ],
+    "summary": "India participates through BIS in the ISO/IEC subcommittee that develops international AI standards (terminology, trustworthiness, risk management, ISO/IEC 42001), mirrored domestically by BIS committee LITD 30.",
+    "key_provisions": [
+      "BIS is understood to be a participating (P) member of SC 42 with a national mirror committee (LITD 30) that adopts SC 42 standards as Indian Standards (general knowledge)",
+      "SC 42 outputs include ISO/IEC 42001 (AI management systems), ISO/IEC 23894 (AI risk management) and ISO/IEC 22989 (concepts and terminology)",
+      "Quad Principles on CET standards and the TTC standards work stream reference this process"
+    ],
+    "themes": [
+      "international",
+      "standards"
+    ],
+    "source_url": "https://www.iso.org/committee/6794475.html",
+    "confidence": "low",
+    "confidence_note": "iso.org participation page returned 403; P-member status and LITD 30 role from general knowledge only.",
+    "related": [
+      "intl-itu-wtsa-24-new-delhi-2024"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "source_type": "official",
+    "sectors": [
+      "cross-sector"
+    ],
+    "secondary_sources": [],
+    "last_verified": "2026-11-19"
+  },
+  {
+    "id": "intl-itu-wtsa-24-new-delhi-2024",
+    "title": "ITU World Telecommunication Standardization Assembly 2024 (WTSA-24), New Delhi",
+    "issuing_body": "Department of Telecommunications (DoT) / International Telecommunication Union",
+    "instrument_type": "other",
+    "status": "adopted",
+    "date": "2024-10-15",
+    "timeline": [
+      {
+        "date": "2024-10-14",
+        "event": "Global Standards Symposium, New Delhi (general knowledge)"
+      },
+      {
+        "date": "2024-10-15",
+        "event": "WTSA-24 opens in New Delhi, first time hosted in India/Asia-Pacific"
+      },
+      {
+        "date": "2024-10-24",
+        "event": "WTSA-24 closes; Resolutions and Opinion adopted"
+      },
+      {
+        "date": "2026-07-06",
+        "event": "ITU AI for Good Global Summit, Geneva, co-located with the first UN Global Dialogue on AI Governance"
+      }
+    ],
+    "summary": "India hosted the ITU standardisation assembly that sets the ITU-T work programme for 2025-2028, including resolutions touching AI standardisation; India also participates in ITU's AI for Good platform.",
+    "key_provisions": [
+      "WTSA-24 held 15-24 October 2024 in New Delhi, hosted by India",
+      "Outcomes published as WTSA-24 Resolutions, Opinions and A-series Recommendations in the Proceedings",
+      "AI-related resolutions were adopted or revised (specifics unverified)",
+      "India's AI for Good participation continued at the Geneva 2026 summit alongside the UN Global Dialogue"
+    ],
+    "themes": [
+      "international",
+      "standards"
+    ],
+    "sectors": [
+      "telecom"
+    ],
+    "source_url": "https://www.itu.int/wtsa/2024/",
+    "confidence": "medium",
+    "confidence_note": "ITU page confirmed dates and host; AI resolution content not in the fetched excerpt and is unverified.",
+    "related": [
+      "intl-iso-iec-jtc1-sc42-bis-participation",
+      "intl-un-scientific-panel-global-dialogue-ai-2025"
+    ],
+    "jurisdiction": "IN",
+    "jurisdiction_name": "Union",
+    "binding": "non-binding",
+    "date_precision": "day",
+    "source_type": "official",
+    "secondary_sources": [],
+    "last_verified": "2026-11-19"
+  }
+]

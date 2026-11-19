@@ -1,5 +1,7 @@
 central-meity-subcommittee-report-ai-governance-2025: banned marketing word in text
 central-standing-committee-cit-27th-report-ai-2026: banned marketing word in text
+intl-g20-new-delhi-leaders-declaration-ai-2023: banned marketing word in text
+intl-india-japan-ai-joint-statement-2026: banned marketing word in text
 central-irdai-ai-working-group-2026: source was a Google News query; confidence forced to low
 central-trai-tcccpr-amendment-ai-spam-2026: source was a Google News query; confidence forced to low
 central-trai-complaint-redressal-fourth-amendment-2026: source was a Google News query; confidence forced to low
@@ -35,6 +37,7 @@ MERGED "MeitY Advisory to Intermediaries on Deepfakes and Misinformation (26 Dec
 REVIEW possible duplicate: "MeitY advisory on deployment of under-testing AI models (1 March 2024)" (central-meity-advisory-ai-models-2024-03-01) ~ "MeitY Advisory on Deployment of AI Models and Deepfakes (1 March 2024, revised 15 March 2024)" (central-meity-ai-model-advisory-2024) sim=0.58
 REVIEW possible duplicate: "Revised MeitY advisory on AI models and synthetic content (15 March 2024)" (central-meity-advisory-ai-models-2024-03-15) ~ "MeitY Advisory on Deployment of AI Models and Deepfakes (1 March 2024, revised 15 March 2024)" (central-meity-ai-model-advisory-2024) sim=0.67
 REVIEW possible duplicate: "Responsible AI for All: Approach Document for India, Part 1 – Principles for Responsible AI" (central-niti-responsible-ai-part1-2021) ~ "Responsible AI for All: Approach Document for India, Part 2 – Operationalizing Principles for Responsible AI" (central-niti-responsible-ai-part2-2021) sim=0.89
+REVIEW possible duplicate: "New Delhi Declaration on AI Impact (India AI Impact Summit 2026)" (central-india-ai-impact-summit-new-delhi-declaration-2026) ~ "New Delhi Declaration on AI Impact" (intl-ai-impact-summit-new-delhi-declaration-2026) sim=0.63
 MERGED "Defence AI Council (DAIC) and Defence AI Project Agency (DAIPA)" (central-mod-daic-daipa-2019) into "Defence AI Council (DAIC) and Defence AI Project Agency (DAIPA)" (central-mod-defence-ai-council-daipa-2019) sim=1.00
 REVIEW possible duplicate: "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2025 (22 October 2025)" (central-it-rules-amendment-oct-2025) ~ "Draft IT (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2025 on Synthetically Generated Information" (central-it-rules-sgi-draft-amendment-2025) sim=0.59
 REVIEW possible duplicate: "Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2026" (central-it-rules-sgi-amendment-2026) ~ "Draft Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Second Amendment Rules, 2026" (central-it-rules-second-amendment-draft-2026) sim=0.85
