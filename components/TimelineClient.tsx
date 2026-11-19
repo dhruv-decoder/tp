@@ -104,7 +104,7 @@ export function TimelineClient({ policies, years }: Props) {
       {/* histogram */}
       <div className="mt-6">
         <div className="eyebrow">Instruments per year</div>
-        <div className="mt-2 flex items-end gap-1.5 sm:gap-2" style={{ height: 140 }}>
+        <div className="mt-2 flex items-end gap-1.5 sm:gap-2" style={{ height: 190 }}>
           {yearList.map((y) => {
             const row = hist[y];
             const total = Object.values(row).reduce((a, b) => a + b, 0);

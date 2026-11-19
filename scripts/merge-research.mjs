@@ -16,7 +16,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const APP = path.resolve(__dirname, "..");
 const RESEARCH = process.argv[2]
   ? path.resolve(process.argv[2])
-  : path.resolve(APP, "..", "research_notes", "India AI policy landscape 2026");
+  : path.resolve(APP, "research", "India AI policy landscape 2026");
 const OUT = path.join(APP, "data", "policies.json");
 const OVERRIDES = path.join(APP, "data", "overrides.json");
 

@@ -448,3 +448,16 @@ input[type="range"].scrub::-moz-range-thumb {
   scrollbar-width: thin;
   scrollbar-color: var(--line-strong) transparent;
 }
+
+/* tile map */
+.tile {
+  background: var(--map-empty);
+  transition: opacity 300ms ease, transform 300ms ease, background 240ms ease;
+}
+.tile[data-level="1"] { background: var(--seq-1); }
+.tile[data-level="2"] { background: var(--seq-2); }
+.tile[data-level="3"] { background: var(--seq-3); }
+.tile[data-level="4"] { background: var(--seq-4); }
+.tile[data-level="5"] { background: var(--seq-5); }
+.tile[data-level="6"] { background: var(--seq-6); }
+.tile:hover { filter: brightness(0.93); }

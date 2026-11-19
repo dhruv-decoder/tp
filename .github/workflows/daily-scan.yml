@@ -19,12 +19,10 @@ jobs:
           node-version: 22
       - name: Scan official feeds and draft candidate entries
         id: scan
-        working-directory: app
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/scan-sources.mjs --days 3 --max 40
       - name: Validate dataset
-        working-directory: app
         run: node scripts/validate-data.mjs
       - name: Open review PR when there are new candidates
         if: steps.scan.outputs.new != '0'
@@ -50,9 +48,8 @@ jobs:
         with:
           node-version: 22
       - name: Check primary source links
-        working-directory: app
         run: node scripts/check-links.mjs
       - uses: actions/upload-artifact@v4
         with:
           name: link-report
-          path: app/data/link-report.json
+          path: data/link-report.json

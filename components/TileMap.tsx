@@ -40,7 +40,7 @@ export function TileMap({ jurisdictions, levels, tips, selected, onSelect, onHov
             aria-pressed={isSel}
             aria-label={`${j.name}: ${t?.total ?? 0} instruments`}
             title={`${j.name} · ${t?.total ?? 0}`}
-            className="state-path relative aspect-square rounded-[4px] border-0 p-0 text-left transition-[opacity,transform] duration-300"
+            className="tile relative aspect-square cursor-pointer rounded-[4px] border-0 p-0 text-left"
             data-level={lvl || undefined}
             data-selected={isSel || undefined}
             style={{
@@ -49,7 +49,6 @@ export function TileMap({ jurisdictions, levels, tips, selected, onSelect, onHov
               opacity: dim ? 0.18 : 1,
               transform: isSel ? "scale(1.08)" : undefined,
               boxShadow: isSel ? "0 0 0 2px var(--ink)" : undefined,
-              stroke: "none",
             }}
           >
             <span

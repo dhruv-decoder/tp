@@ -21,7 +21,7 @@ const MAX = Number(args.max ?? 40);
 const MODEL = process.env.ATLAS_MODEL ?? "claude-sonnet-5";
 
 const policies = JSON.parse(fs.readFileSync(path.join(APP, "data", "policies.json"), "utf8"));
-const schema = fs.readFileSync(path.join(APP, "..", "research_notes", "India AI policy landscape 2026", "SCHEMA.md"), "utf8");
+const schema = fs.readFileSync(path.join(APP, "research", "India AI policy landscape 2026", "SCHEMA.md"), "utf8");
 const candidatesPath = path.join(APP, "data", "candidates.json");
 const previous = fs.existsSync(candidatesPath) ? JSON.parse(fs.readFileSync(candidatesPath, "utf8")) : { items: [] };
 const seenLinks = new Set([...previous.items.map((c) => c.link), ...policies.flatMap((p) => [p.source_url, ...p.secondary_sources])]);
