@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "data:merge": "node scripts/merge-research.mjs && node scripts/export-csv.mjs",
+    "data:validate": "node scripts/validate-data.mjs",
+    "data:csv": "node scripts/export-csv.mjs",
+    "scan": "node scripts/scan-sources.mjs"
   },
   "dependencies": {
     "@types/d3-geo": "^3.1.1",
